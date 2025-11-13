@@ -1,0 +1,14 @@
+#-gui
+-sv
+-v93
+-debug
+-nospecify 
+-timescale 1ns/1ps
+-define GATE_LEVEL
+#-f ../sourcecode/dut_src_list_glv.txt
+-f ../sourcecode/tb/tb_riscv_glv_src_list.txt
+
+# Optionally add a tcl script to run upon Xcelium invocation
+-input ../scripts/simulation.tcl
+
+

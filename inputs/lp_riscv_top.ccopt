@@ -1,0 +1,63 @@
+# To get a list of all properties:
+# get_db -category cts * 
+
+# Define Clock Trees and Skew Groups
+
+foreach clk_name $design(clock_list) \
+        clk_port $design(clock_port_list) \
+        clk_period $design(clock_period_list) {
+            create_clock_tree -name $clk_name -source $clk_port -no_skew_group
+            create_skew_group -name $clk_name -sources $clk_port -auto_sinks
+            set_db clock_tree:$clk_name .cts_source_driver $tech(CCOPT_DRIVING_PIN)
+            set_db port:$clk_port .cts_clock_period $clk_period
+        }
+
+# To define specific CTS members:
+# Add pins to a skew group
+#   update_skew_group -skew_group $skew_group -add_sinks $pins
+# Or define Stop Pins
+#   set_db pin:$pin .cts_sink_type stop
+# Define an Ignore Pin
+#   set_db pin:$pin .cts_sink_type ignore
+# Define an Exclude Pin
+#   set_db pin:$pin .cts_sink_type exclude
+
+# SDC Style Constraints
+set_db cts_target_max_transition_time $design(CLOCK_MAX_TRANSITION)
+set_db cts_max_fanout  $design(CLOCK_MAX_FANOUT)
+set_db cts_target_max_capacitance $design(CLOCK_MAX_CAPACITANCE)
+# set_db cts_target_insertion_delay   0
+# set_db cts_target_skew 0.2
+
+
+# Library Cells
+set_db cts_buffer_cells $tech(CLOCK_BUFFERS)
+set_db cts_clock_gating_cells $tech(CLOCK_GATES)
+set_db cts_inverter_cells  $tech(CLOCK_INVERTERS)
+set_db cts_logic_cells $tech(CLOCK_LOGIC)
+set_db cts_delay_cells $tech(CLOCK_DELAYS)
+
+# Define Non-Default Clock Routing Rules
+# --------------------------------------
+# create_route_rule -name CTS_2S2W   \
+#           -spacing_multiplier "M7:M8 2" \
+#           -width_multiplier   "M7:M8 2" \
+#           -min_cut            "VIA6:VIA8 2"
+# create_route_type -name clk_top  -route_rule CTS_2S2W \
+#           -top_preferred_layer M8 -bottom_preferred_layer M7 \
+#           -shield_net VSS
+# create_route_type -name clk_trunk  -route_rule CTS_2S2W \
+#           -top_preferred_layer M8 -bottom_preferred_layer M7 \
+#           -shield_net VSS
+# set_db cts_route_type_top   clk_top
+# set_db cts_route_type_trunk clk_trunk
+# set_db cts_route_type_leaf  clk_leaf
+
+# Allow CTS to resize dont_touch cells (such as clock gates and muxes)
+#set_db cts_allow_resize_of_dont_touch_cells     true
+
+
+check_clock_tree_convergence
+
+
+

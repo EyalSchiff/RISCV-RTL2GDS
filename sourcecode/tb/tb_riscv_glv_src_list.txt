@@ -1,0 +1,18 @@
+// Add standard cells, IOs, Memories
+// ---------------------------------
+-f ../libraries/libraries.TSMC65_IO.f
+-f ../libraries/libraries.ARM65LP_SC.f
+//
+// SRAM Wrappers and dummies
+// -------------------------
+../sourcecode/rtl/soc/sp_ram_m16_be_simple.sv
+../sourcecode/rtl/soc/sp_ram_m32_be_simple.sv
+../sourcecode/rtl/soc/sram_sp_hde_m16_simple.v
+../sourcecode/rtl/soc/sram_sp_hde_m32_simple.v
+//
+// Toplevel RTL
+// ------------
+../export/post_synth/lp_riscv_top.v
+../sourcecode/tb/tb_lp_riscv_mem_pkg.v
++MEMLOAD="PRELOAD"
+../sourcecode/tb/tb_lp_riscv.v 

@@ -1,0 +1,64 @@
+// Add standard cells, IOs, Memories
+// ---------------------------------
+-f ../libraries/libraries.TSMC65_IO.f
+
+//
+// List of files for PULP
+// ----------------------
++incdir+../sourcecode/rtl/riscv-master/include/
+../sourcecode/rtl/riscv-master/include/riscv_defines.sv
+../sourcecode/rtl/riscv-master/alu_div.sv
+../sourcecode/rtl/riscv-master/alu.sv
+../sourcecode/rtl/soc/components/cluster_clock_gating.sv
+../sourcecode/rtl/riscv-master/compressed_decoder.sv
+../sourcecode/rtl/riscv-master/controller.sv
+../sourcecode/rtl/riscv-master/cs_registers.sv
+../sourcecode/rtl/riscv-master/debug_unit.sv
+../sourcecode/rtl/riscv-master/decoder.sv
+../sourcecode/rtl/riscv-master/exc_controller.sv
+../sourcecode/rtl/riscv-master/ex_stage.sv
+../sourcecode/rtl/riscv-master/hwloop_controller.sv
+../sourcecode/rtl/riscv-master/hwloop_regs.sv
+../sourcecode/rtl/riscv-master/id_stage.sv
+../sourcecode/rtl/riscv-master/if_stage.sv
+../sourcecode/rtl/riscv-master/load_store_unit.sv
+../sourcecode/rtl/riscv-master/mult.sv
+../sourcecode/rtl/riscv-master/prefetch_buffer.sv
+../sourcecode/rtl/riscv-master/prefetch_L0_buffer.sv
+../sourcecode/rtl/riscv-master/register_file_ff.sv
+../sourcecode/rtl/riscv-master/riscv_core.sv
+../sourcecode/rtl/riscv-master/include/riscv_tracer_defines.sv
+../sourcecode/rtl/riscv-master/riscv_tracer.sv
+//
+// SRAM Wrappers and dummies
+// -------------------------
+// Note for DVD Exercise:
+// In order to simplify the exercise, we are not using the behavioral models 
+// of your compiled SRAMs for simulation. Therefore, we use the "_simple" files
+// instead of the "_wrap" files, as detailed below.
+// For synthesis, you will use the "_wrap" files and the compiled .libs
+../sourcecode/rtl/soc/sram_sp_16384x32_m16_be_simple.v
+../sourcecode/rtl/soc/sram_sp_16384x32_m32_be_simple.v
+../sourcecode/rtl/soc/sram_sp_8192x32_m32_be_simple.v
+../sourcecode/rtl/soc/sram_sp_8192x32_m16_be_simple.v
+../sourcecode/rtl/soc/sram_sp_8192x32_m8_be_simple.v
+../sourcecode/rtl/soc/sram_sp_32768x32_m32_be_simple.v
+../sourcecode/rtl/soc/sp_ram_m8_be_simple.sv
+../sourcecode/rtl/soc/sp_ram_m16_be_simple.sv
+../sourcecode/rtl/soc/sp_ram_m32_be_simple.sv
+../sourcecode/rtl/soc/sram_sp_instr_wrap.v
+../sourcecode/rtl/soc/sram_sp_data_wrap.v
+
+//
+// Toplevel RTL
+// ------------
+../sourcecode/rtl/soc/lp_riscv.v
+../sourcecode/rtl/soc/ioring.v 
+../sourcecode/rtl/soc/lp_riscv_top.v
+-- `endif
+//
+// Testbench files
+// ---------------
+../sourcecode/tb/tb_lp_riscv_mem_pkg.v
++MEMLOAD="PRELOAD"
+../sourcecode/tb/tb_lp_riscv.v 

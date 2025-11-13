@@ -1,0 +1,10 @@
+#!/bin/bash
+#export RISCV_GCC_BIN="/projects/83612/gnu-mcu-eclipse/7.2.0-2-20180111-2230/bin/"
+#export RISCV_PULP_LIBS="../libs"
+#export RISCV_PULP_SW_UTILS="../sw_utils"
+#export RISCV_PULP_SW_APPS_REF="../ref"
+#set RISCV_GCC_BIN="/projects/83612/gnu-mcu-eclipse/7.2.0-2-20180111-2230/bin/"
+RISCV_GCC_BIN="/data/project/tsmc65/shared/toolchain/gnu-mcu-eclipse/7.2.0-2-20180111-2230/bin"
+RISCV_PULP_LIBS="../libs"
+RISCV_PULP_SW_UTILS="../sw_utils"
+RISCV_PULP_SW_APPS_REF="../ref" 
