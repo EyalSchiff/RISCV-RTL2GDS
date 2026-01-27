@@ -1,0 +1,269 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+Options:	-stylus 
+Date:		Tue Jan 20 17:46:39 2026
+Host:		ip-10-70-142-243.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+OS:		Rocky Linux 8.10 (Green Obsidian)
+
+License:
+		[17:46:39.004081] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+
+		invs	Innovus Implementation System	25.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+
+
+Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_83880_4941e8fd-82a5-41b0-8239-a29c9f7e4e71_ip-10-70-142-243.il-central-1.compute.internal_schiffe_jvTAbu.
+
+The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[INFO] Loading PVS 24.12 fill procedures
+Info: Process UID = 83880 / 4941e8fd-82a5-41b0-8239-a29c9f7e4e71 / XRau9zAOXg
+
+**INFO:  MMMC transition support version v31-84 
+
+@innovus 1> set design(TOPLEVEL) "lp_riscv_top"
+lp_riscv_top
+@innovus 2> set runtype "pnr"
+
+pnr
+@innovus 3> set debug_file "debug.txt"
+debug.txt
+@innovus 4> source ../scripts/procedures.tcl -quiet
+@innovus 5> enics_start_stage "start"
+enics_start_stage "start"
+*****************************************
+*****************************************
+**   ENICSINFO: Starting stage start   **
+*****************************************
+*****************************************
+ENICSINFO: Current time is: 20/01/2026 17:48
+ENICSINFO: This session is running on Hostname : ip-10-70-142-243.il-central-1.compute.internal
+ENICSINFO: The log file is innovus.log and the command file is innovus.cmd
+ENICSINFO: ----------------------------------
+@innovus 6> source ../inputs/$design(TOPLEVEL).defines -quiet
+source ../inputs/$design(TOPLEVEL).defines -quiet
+@innovus 7> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+**WARN: (IMPDB-6501):	"set_db design_process_node" will be obsoleted in future release. Remove it from the script to avoid the interruption of running the script in future.
+##  Process: 65            (User Set)               
+##     Node: (not set)                           
+
+##  Check design process and node:  
+##  Design tech node is not set.
+
+Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'high'.
+	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+@innovus 8> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+@innovus 9> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+@innovus 10> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+
+@innovus 11> set_library_unit -time 1ns -cap 1pf
+@innovus 12> set var_list {runtype}
+runtype
+@innovus 13> set dic_list {paths tech tech_files design}
+set dic_list {paths tech tech_files design}
+enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+paths tech tech_files design
+@innovus 14> enics_print_debug_data w $debug_file "after everything was loaded"  [1G$var_list $dic_list
+@innovus 15> enics_start_stage "init_design"
+enics_start_stage "init_design"
+***********************************************
+***********************************************
+**   ENICSINFO: Starting stage init_design   **
+***********************************************
+***********************************************
+ENICSINFO: Current time is: 20/01/2026 17:50
+ENICSINFO: ----------------------------------
+@innovus 16> set_db init_ground_nets $design(all_ground_nets)
+set_db init_ground_nets $design(all_ground_nets)
+1 gnd
+@innovus 17> set_db init_power_nets $design(all_power_nets)set_db init_power_nets $design(all_power_nets)
+
+1 {vdd vddio}
+@innovus 18> enics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+enics_message "Reading MMMC File" medium
+read_mmmc $design(mmmc_view_file) 
+enics_message "Suppressing the following messages that are reported [1G due to the LIB definitions:" 
+ENICSINFO: Suppressing the following messages that are reported due to the LIB definitions:
+@innovus 19> enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+ENICSINFO: TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 IMPTS-282
+@innovus 20> set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+@innovus 21> enics_message "Reading MMMC File" medium
+
+ENICSINFO: Reading MMMC File
+----------------------------
+@innovus 22> read_mmmc $design(mmmc_view_file) 
+#@ Begin verbose source (pre): 
+@file 1: #  Version:1.0 MMMC View Definition File
+@file 2: # Do Not Remove Above Line
+@file 3:
+@file 4: ############# MMMC Hierarchy ########################################################################################
+@file 5: #                                                                                                                   #
+@file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+@file 7: #                       |--> Analysis View  |                                                                       #
+@file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+@file 9: #                                           |--> Delay Corner |                                                     #
+@file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+@file 11: #####################################################################################################################
+@file 12:
+@file 13: # Constraint Modes #
+@file 14: # ---------------- #
+@@file 15: create_constraint_mode \
+	-name functional_mode \
+	-sdc_files $design(functional_sdc)
+@file 18:
+@file 19: # RC Corners #
+@file 20: # ---------- #
+@file 21: if {$runtype=="synthesis"} {...
+@file 24: } else {
+@@file 25: set_message -suppress -id ENCEXT-6202 ;
+@file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+@file 26: }
+@file 27:
+@@file 28: create_rc_corner \
+	-name bc_rc_corner \
+	-temperature $tech(TEMPERATURE_BC) \
+    -qrc_tech $tech_files(QRCTECH_FILE_BC)
+@file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+@file 33:
+@@file 34: create_rc_corner \
+	-name tc_rc_corner \
+	-temperature $tech(TEMPERATURE_TC) \
+	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+@file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+@file 39:
+@@file 40: create_rc_corner \
+	-name wc_rc_corner \
+	-temperature $tech(TEMPERATURE_WC) \
+    -qrc_tech $tech_files(QRCTECH_FILE_WC)
+@file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+@file 45:
+@file 46: # Library Sets #
+@file 47: # ------------ #
+@@file 48: create_library_set \
+	-name bc_libset \
+	-timing $tech_files(ALL_BC_LIBS)  
+**ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+**ERROR: (IMPSE-110):	File '/data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc' line 48: errors out.
+#@ End verbose source /data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+
+    while executing
+"create_library_set \
+	-name bc_libset \
+	-timing $tech_files(ALL_BC_LIBS)  "
+    (file "/data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc" line 48)
+    invoked from within
+"::se_source_orig /data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel [concat ::se_source_orig $args]"
+    invoked from within
+"if { !$encrypted && !$no_encoding && $encodingName != ""  } {
+                  set st [uplevel [concat ::se_source_orig " -encoding " $encodingName "..."
+    invoked from within
+"if {[::SE::source_verbose_file_state $file_name] == 1} {
+              ::SE::source_verbose_start $file_name
+              if { !$encrypted && !$no_en..."
+    invoked from within
+"if {$useTclVerbose} {
+          # use tcl internal method
+          set st ""
+          if {[::SE::source_verbose_file_state $file_name] == 1} {
+     ..."
+    invoked from within
+"if {$largeFile == 1} {
+    if {$enableVerbose == 0 && [::SE::isEchoFile] == 1} {
+      $putCmd "Sourcing $file_name"
+    }
+    set st [uplevel [concat..."
+    (procedure "source" line 197)
+    invoked from within
+"source /data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 {source /data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc}"
+
+
+@innovus 23> enics_message "Suppressing the following messages that are reported due to the LEF definitions:" 
+enics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+set_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS) 
+enics_message "Suppressing the following messages that are reported [1G due to the LEF definitions:" 
+ENICSINFO: Suppressing the following messages that are reported due to the LEF definitions:
+@innovus 24> enics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+ENICSINFO: ENCEXT-6202 IMPLF-200 LEFPARS-2001 LEFPARS-2065 LEFPARS-2076 IMPLF-58 IMPFP-3961 IMPSR-4302
+@innovus 25> set_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS) 
+@innovus 26> enics_message "Reading LEF abstracts"
+enics_message "Reading LEF abstracts"
+read_physical -lef $tech_files(ALL_LEFS)
+ENICSINFO: Reading LEF abstracts
+@innovus 27> read_physical -lef $tech_files(ALL_LEFS)
+**ERROR: (IMPIMEX-10):	Specified file cannot be found: ../mem_gen/SP_16384X32/M32/sp_hde_16384_m32.lef.
+0
+@innovus 28> enics_message "Reading the Post Synthesis netlist at $design(postsyn_netlist)" medium
+
+ENICSINFO: Reading the Post Synthesis netlist at /data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v
+-----------------------------------------------------------------------------------------------------------------------------------------
+@innovus 29> read_netlist $design(postsyn_netlist)
+read_netlist $design(postsyn_netlist)
+**ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+The MMMC init sequence looks like this: 
+read_mmmc top.mmmc 
+read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+read_power_intent -1801 top.1801   #only for MSV designs 
+init_design 
+
+Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+read_libs all.lib 
+read_netlist top.v 
+read_sdc top.sdc 
+init_design 
+
+See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+Common UI User Guide for more details.
+
+
+@innovus 30> 
+
+@innovus 30> nics_message 
+nics_message 
+invalid command name "nics_message"
+invalid command name "nics_message"
+@innovus 31> # Import and initialize design
+# Import and initialize design
+@innovus 32> enics_message "Running init_design command" mediumenics_message "Running init_design command" medium
+
+ENICSINFO: Running init_design command
+--------------------------------------
+@innovus 33> init_design
+init_design
+**ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+The MMMC init sequence looks like this: 
+read_mmmc top.mmmc 
+read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+read_power_intent -1801 top.1801   #only for MSV designs 
+init_design 
+
+Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+read_libs all.lib 
+read_netlist top.v 
+read_sdc top.sdc 
+init_design 
+
+See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+Common UI User Guide for more details.
+
+
+@innovus 34> 

@@ -1,0 +1,1236 @@
+[01/21 09:21:21      0s] 
+[01/21 09:21:21      0s] Cadence Innovus(TM) Implementation System.
+[01/21 09:21:21      0s] Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+[01/21 09:21:21      0s] 
+[01/21 09:21:21      0s] Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+[01/21 09:21:21      0s] Options:	-stylus 
+[01/21 09:21:21      0s] Date:		Wed Jan 21 09:21:21 2026
+[01/21 09:21:21      0s] Host:		ip-10-70-160-95.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+[01/21 09:21:21      0s] OS:		Rocky Linux 8.10 (Green Obsidian)
+[01/21 09:21:21      0s] 
+[01/21 09:21:21      0s] License:
+[01/21 09:21:21      0s] 		[09:21:21.003961] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+[01/21 09:21:21      0s] 
+[01/21 09:21:21      0s] 		invs	Innovus Implementation System	25.1	checkout succeeded
+[01/21 09:21:21      0s] 		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[01/21 09:21:39     13s] Memory management switch to non-aggressive memory release mode.
+[01/21 09:21:39     13s] 
+[01/21 09:21:39     13s] OS Mmap count monitoring thread starts. Limit of OS Mmap count is 65530
+[01/21 09:21:39     13s] 
+[01/21 09:21:39     13s] 
+[01/21 09:21:39     13s] 
+[01/21 09:21:45     15s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v25.11-s102_1 (64bit) 08/27/2025 13:03 (Linux 4.18.0-305.el8.x86_64)
+[01/21 09:21:51     18s] @(#)CDS: NanoRoute 25.11-s102_1 NR250730-0928/25_11-UB (database version 18.20.674) {superthreading v2.20}
+[01/21 09:21:51     18s] @(#)CDS: AAE 25.11-s028 (64bit) 08/27/2025 (Linux 4.18.0-305.el8.x86_64)
+[01/21 09:21:51     18s] @(#)CDS: CTE 25.11-s034_1 () Aug 18 2025 08:55:47 ( )
+[01/21 09:21:51     18s] @(#)CDS: SYNTECH 25.11-s013_1 () Jul 30 2025 05:18:51 ( )
+[01/21 09:21:51     18s] @(#)CDS: CPE v25.11-s029
+[01/21 09:21:51     18s] @(#)CDS: IQuantus/TQuantus 24.1.0-s290 (64bit) Sun Jul 20 21:40:56 PDT 2025 (Linux 4.18.0-305.el8.x86_64)
+[01/21 09:21:51     18s] @(#)CDS: OA 22.62-p010 Tue Jun 10 08:32:29 2025
+[01/21 09:21:51     18s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[01/21 09:21:51     18s] @(#)CDS: RCDB 11.15.0
+[01/21 09:21:51     18s] @(#)CDS: STYLUS 25.10-b003_1 (03/20/2025 14:55 PDT)
+[01/21 09:21:51     18s] @(#)CDS: IntegrityPlanner-25.11-186 (25.11) (2025-07-16 18:29:01+0800)
+[01/21 09:21:51     18s] @(#)CDS: SYNTHESIS_ENGINE 25.11-s095
+[01/21 09:21:51     18s] @(#)CDS: TCDB v25.10-b001
+[01/21 09:21:51     18s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_41379_e2b20057-00d0-476b-b9fd-700a55298cc2_ip-10-70-160-95.il-central-1.compute.internal_schiffe_vOpCYu.
+
+[01/21 09:21:51     18s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_41379_e2b20057-00d0-476b-b9fd-700a55298cc2_ip-10-70-160-95.il-central-1.compute.internal_schiffe_vOpCYu.
+[01/21 09:21:51     18s] 
+[01/21 09:21:51     18s] The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[01/21 09:21:54     19s] [INFO] Loading PVS 24.12 fill procedures
+[01/21 09:21:56     20s] Info: Process UID = 41379 / e2b20057-00d0-476b-b9fd-700a55298cc2 / lS5FL9uL9z
+[01/21 09:21:59     23s] 
+[01/21 09:21:59     23s] **INFO:  MMMC transition support version v31-84 
+[01/21 09:21:59     23s] 
+[01/21 09:22:03     27s] @innovus 1> set design(TOPLEVEL) "lp_riscv_top"
+set design(TOPLEVEL) "lp_riscv_top"
+[01/21 09:22:32     27s] lp_riscv_top
+[01/21 09:22:32     27s] @innovus 2> 
+
+[01/21 09:22:33     27s] @innovus 2> set runtype "pnr"
+set runtype "pnr"
+[01/21 09:22:39     28s] pnr
+[01/21 09:22:39     28s] @innovus 3> set debug_file "debug.txt"
+debug.txt
+[01/21 09:22:45     28s] @innovus 4> source ../scripts/procedures.tcl -quiet
+@innovus 5> 
+
+[01/21 09:22:54     28s] @innovus 5> source ../inputs/$design(TOPLEVEL).defines -quiet
+@innovus 6> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+**WARN: (IMPDB-6501):	"set_db design_process_node" will be obsoleted in future release. Remove it from the script to avoid the interruption of running the script in future.
+[01/21 09:23:12     28s] ##  Process: 65            (User Set)               
+[01/21 09:23:12     28s] ##     Node: (not set)                           
+[01/21 09:23:12     28s] 
+[01/21 09:23:12     28s] ##  Check design process and node:  
+[01/21 09:23:12     28s] ##  Design tech node is not set.
+[01/21 09:23:12     28s] 
+[01/21 09:23:12     28s] Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[01/21 09:23:12     28s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[01/21 09:23:12     28s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[01/21 09:23:12     28s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'high'.
+[01/21 09:23:12     28s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+[01/21 09:23:12     28s] @innovus 7> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+LOGY.tcl -quiet
+[01/21 09:25:30     32s] @innovus 8> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+@innovus 9>     source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+@innovus 10> set_library_unit -time 1ns -cap 1pf
+@innovus 11> enics_start_stage "init_design"
+***********************************************
+[01/21 09:32:45     42s] ***********************************************
+[01/21 09:32:45     42s] **   ENICSINFO: Starting stage init_design   **
+[01/21 09:32:45     42s] ***********************************************
+[01/21 09:32:45     42s] ***********************************************
+[01/21 09:32:45     42s] ENICSINFO: Current time is: 21/01/2026 09:32
+[01/21 09:32:45     42s] ENICSINFO: ----------------------------------
+[01/21 09:32:45     42s] @innovus 12> puts $design(all_ground_nets)
+
+[01/21 09:34:09     44s] gnd
+[01/21 09:34:09     44s] @innovus 13> puts $design(all_power_nets)
+
+[01/21 09:34:21     44s] vdd vddio
+[01/21 09:34:21     44s] @innovus 14> set_db init_ground_nets $design(all_ground_nets)
+set_db init_ground_nets $design(all_ground_nets)
+[01/21 09:34:37     44s] 1 gnd
+[01/21 09:34:37     44s] @innovus 15> sset_db init_power_nets $design(all_power_nets)
+et_db init_power_nets $design(all_power_nets)
+[01/21 09:34:37     44s] 1 {vdd vddio}
+[01/21 09:34:37     44s] @innovus 16> enics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+that are rep [1Gorted due to the LIB definitions:" 
+[01/21 09:35:03     45s] ENICSINFO: Suppressing the following messages that are reported due to the LIB definitions:
+[01/21 09:35:03     45s] @innovus 17> enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+
+[01/21 09:35:03     45s] ENICSINFO: TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 IMPTS-282
+[01/21 09:35:03     45s] @innovus 18> set_message -suppress -id $tech(LIB_SUPPRESS_MESSset_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+AGES_INNOVUS) [1G 
+[01/21 09:35:03     45s] @innovus 19> enics_message "Reading MMMC File" menics_message "Reading MMMC File" medium
+read_mmmc $design(mmmc_view_file) 
+edium
+[01/21 09:35:03     45s] 
+[01/21 09:35:03     45s] ENICSINFO: Reading MMMC File
+[01/21 09:35:03     45s] ----------------------------
+[01/21 09:35:03     45s] @innovus 20> read_mmmc $design(mmmc_view_file) 
+[01/21 09:35:03     45s] #@ Begin verbose source (pre): 
+[01/21 09:35:03     45s] @file 1: #  Version:1.0 MMMC View Definition File
+[01/21 09:35:03     45s] @file 2: # Do Not Remove Above Line
+[01/21 09:35:03     45s] @file 3:
+[01/21 09:35:03     45s] @file 4: ############# MMMC Hierarchy ########################################################################################
+[01/21 09:35:03     45s] @file 5: #                                                                                                                   #
+[01/21 09:35:03     45s] @file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+[01/21 09:35:03     45s] @file 7: #                       |--> Analysis View  |                                                                       #
+[01/21 09:35:03     45s] @file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+[01/21 09:35:03     45s] @file 9: #                                           |--> Delay Corner |                                                     #
+[01/21 09:35:03     45s] @file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+[01/21 09:35:03     45s] @file 11: #####################################################################################################################
+[01/21 09:35:03     45s] @file 12:
+[01/21 09:35:03     45s] @file 13: # Constraint Modes #
+[01/21 09:35:03     45s] @file 14: # ---------------- #
+[01/21 09:35:03     45s] @@file 15: create_constraint_mode \
+[01/21 09:35:03     45s] 	-name functional_mode \
+[01/21 09:35:03     45s] 	-sdc_files $design(functional_sdc)
+[01/21 09:35:03     45s] @file 18:
+[01/21 09:35:03     45s] @file 19: # RC Corners #
+[01/21 09:35:03     45s] @file 20: # ---------- #
+[01/21 09:35:03     45s] @file 21: if {$runtype=="synthesis"} {...
+[01/21 09:35:03     45s] @file 24: } else {
+[01/21 09:35:03     45s] @@file 25: set_message -suppress -id ENCEXT-6202 ;
+[01/21 09:35:03     45s] @file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+[01/21 09:35:03     45s] @file 26: }
+[01/21 09:35:03     45s] @file 27:
+[01/21 09:35:03     45s] @@file 28: create_rc_corner \
+[01/21 09:35:03     45s] 	-name bc_rc_corner \
+[01/21 09:35:03     45s] 	-temperature $tech(TEMPERATURE_BC) \
+[01/21 09:35:03     45s]     -qrc_tech $tech_files(QRCTECH_FILE_BC)
+[01/21 09:35:03     45s] @file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+[01/21 09:35:03     45s] @file 33:
+[01/21 09:35:03     45s] @@file 34: create_rc_corner \
+[01/21 09:35:03     45s] 	-name tc_rc_corner \
+[01/21 09:35:03     45s] 	-temperature $tech(TEMPERATURE_TC) \
+[01/21 09:35:03     45s] 	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+[01/21 09:35:03     45s] @file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+[01/21 09:35:03     45s] @file 39:
+[01/21 09:35:03     45s] @@file 40: create_rc_corner \
+[01/21 09:35:03     45s] 	-name wc_rc_corner \
+[01/21 09:35:03     45s] 	-temperature $tech(TEMPERATURE_WC) \
+[01/21 09:35:03     45s]     -qrc_tech $tech_files(QRCTECH_FILE_WC)
+[01/21 09:35:03     45s] @file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+[01/21 09:35:03     45s] @file 45:
+[01/21 09:35:03     45s] @file 46: # Library Sets #
+[01/21 09:35:03     45s] @file 47: # ------------ #
+[01/21 09:35:03     45s] @@file 48: create_library_set \
+[01/21 09:35:03     45s] 	-name bc_libset \
+[01/21 09:35:03     45s] 	-timing $tech_files(ALL_BC_LIBS)  
+[01/21 09:35:03     45s] **ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+[01/21 09:35:03     45s] **ERROR: (IMPSE-110):	File '/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc' line 48: errors out.
+[01/21 09:35:03     45s] #@ End verbose source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+[01/21 09:35:03     45s] 
+[01/21 09:35:03     45s]     while executing
+[01/21 09:35:03     45s] "create_library_set \
+[01/21 09:35:03     45s] 	-name bc_libset \
+[01/21 09:35:03     45s] 	-timing $tech_files(ALL_BC_LIBS)  "
+[01/21 09:35:03     45s]     (file "/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc" line 48)
+[01/21 09:35:03     45s]     invoked from within
+[01/21 09:35:03     45s] "::se_source_orig /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 09:35:03     45s]     ("uplevel" body line 1)
+[01/21 09:35:03     45s]     invoked from within
+[01/21 09:35:03     45s] "uplevel [concat ::se_source_orig $args]"
+[01/21 09:35:03     45s]     invoked from within
+[01/21 09:35:03     45s] "if { !$encrypted && !$no_encoding && $encodingName != ""  } {
+[01/21 09:35:03     45s]                   set st [uplevel [concat ::se_source_orig " -encoding " $encodingName "..."
+[01/21 09:35:03     45s]     invoked from within
+[01/21 09:35:03     45s] "if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 09:35:03     45s]               ::SE::source_verbose_start $file_name
+[01/21 09:35:03     45s]               if { !$encrypted && !$no_en..."
+[01/21 09:35:03     45s]     invoked from within
+[01/21 09:35:03     45s] "if {$useTclVerbose} {
+[01/21 09:35:03     45s]           # use tcl internal method
+[01/21 09:35:03     45s]           set st ""
+[01/21 09:35:03     45s]           if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 09:35:03     45s]      ..."
+[01/21 09:35:03     45s]     invoked from within
+[01/21 09:35:03     45s] "if {$largeFile == 1} {
+[01/21 09:35:03     45s]     if {$enableVerbose == 0 && [::SE::isEchoFile] == 1} {
+[01/21 09:35:03     45s]       $putCmd "Sourcing $file_name"
+[01/21 09:35:03     45s]     }
+[01/21 09:35:03     45s]     set st [uplevel [concat..."
+[01/21 09:35:03     45s]     (procedure "source" line 197)
+[01/21 09:35:03     45s]     invoked from within
+[01/21 09:35:03     45s] "source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 09:35:03     45s]     ("uplevel" body line 1)
+[01/21 09:35:03     45s]     invoked from within
+[01/21 09:35:03     45s] "uplevel #0 {source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc}"
+[01/21 09:35:03     45s] 
+[01/21 09:35:03     45s] 
+[01/21 09:35:03     45s] @innovus 21> enics_message "Suppressing the following messages that are reported due to the LEF definitions:" 
+that are rep [1Gorted due to the LEF definitions:" 
+[01/21 09:35:35     46s] ENICSINFO: Suppressing the following messages that are reported due to the LEF definitions:
+[01/21 09:35:35     46s] @innovus 22> enenics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+
+[01/21 09:35:35     46s] ENICSINFO: ENCEXT-6202 IMPLF-200 LEFPARS-2001 LEFPARS-2065 LEFPARS-2076 IMPLF-58 IMPFP-3961 IMPSR-4302
+[01/21 09:35:35     46s] @innovus 23> set_message -suppress -id $tech(LEF_SUPPRESS_MESSset_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS) 
+AGES_INNOVUS) [1G 
+[01/21 09:35:35     46s] @innovus 24> enics_message "Reading LEF abstractenics_message "Reading LEF abstracts"
+read_physical -lef $tech_files(ALL_LEFS)
+s"
+[01/21 09:35:35     46s] ENICSINFO: Reading LEF abstracts
+[01/21 09:35:35     46s] @innovus 25> read_physical -lef $tech_files(ALL_LEFS)
+[01/21 09:35:35     46s] **ERROR: (IMPIMEX-10):	Specified file cannot be found: ../mem_gen/SP_16384X32/M32/sp_hde_16384_m32.lef.
+[01/21 09:35:35     46s] 0
+[01/21 09:35:35     46s] @innovus 26> $design(postsyn_netlist)
+
+[01/21 10:06:59     88s] invalid command name "/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v"
+[01/21 10:06:59     88s] invalid command name "/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v"
+[01/21 10:06:59     88s] @innovus 27> puts $design(postsyn_netlist)
+/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v
+[01/21 10:07:56     90s] @innovus 28> $design(postsyn_netlist)
+
+[01/21 10:16:21    102s] invalid command name "/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v"
+[01/21 10:16:21    102s] invalid command name "/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v"
+[01/21 10:16:21    102s] @innovus 29> puts  $design(postsyn_netlist)
+/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v
+[01/21 10:16:43    102s] @innovus 30> https://vscode.dev/github/DVD2026/hw6/blob/315207001/scripts/innovus.tcl#L62-L63
+
+[01/21 10:17:17    103s] invalid command name "https://vscode.dev/github/DVD2026/hw6/blob/315207001/scripts/innovus.tcl#L62-L63"
+[01/21 10:17:17    103s] invalid command name "https://vscode.dev/github/DVD2026/hw6/blob/315207001/scripts/innovus.tcl#L62-L63"
+[01/21 10:17:17    103s] @innovus 31> read_netlist $design(postsyn_netlist)
+
+[01/21 10:17:44    104s] **ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+[01/21 10:17:44    104s] The MMMC init sequence looks like this: 
+[01/21 10:17:44    104s] read_mmmc top.mmmc 
+[01/21 10:17:44    104s] read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+[01/21 10:17:44    104s] read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+[01/21 10:17:44    104s] read_power_intent -1801 top.1801   #only for MSV designs 
+[01/21 10:17:44    104s] init_design 
+[01/21 10:17:44    104s] 
+[01/21 10:17:44    104s] Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+[01/21 10:17:44    104s] read_libs all.lib 
+[01/21 10:17:44    104s] read_netlist top.v 
+[01/21 10:17:44    104s] read_sdc top.sdc 
+[01/21 10:17:44    104s] init_design 
+[01/21 10:17:44    104s] 
+[01/21 10:17:44    104s] See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+[01/21 10:17:44    104s] Common UI User Guide for more details.
+[01/21 10:17:44    104s] 
+[01/21 10:17:44    104s] 
+[01/21 10:17:44    104s] @innovus 32> gui_select -point {0.09200 0.07000}
+[01/21 10:17:53    104s] @innovus 33> gui_select -point {0.06700 0.10200}
+[01/21 10:18:02    104s] @innovus 34> **ERROR: (IMPSYT-7300):	No object selected. Please select at least one object.
+[01/21 10:18:08    105s] gui_select -point {0.09200 0.09200}
+[01/21 10:18:08    105s] @innovus 35> read_netlist $design(postsyn_netlist)
+
+[01/21 10:22:54    111s] **ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+[01/21 10:22:54    111s] The MMMC init sequence looks like this: 
+[01/21 10:22:54    111s] read_mmmc top.mmmc 
+[01/21 10:22:54    111s] read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+[01/21 10:22:54    111s] read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+[01/21 10:22:54    111s] read_power_intent -1801 top.1801   #only for MSV designs 
+[01/21 10:22:54    111s] init_design 
+[01/21 10:22:54    111s] 
+[01/21 10:22:54    111s] Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+[01/21 10:22:54    111s] read_libs all.lib 
+[01/21 10:22:54    111s] read_netlist top.v 
+[01/21 10:22:54    111s] read_sdc top.sdc 
+[01/21 10:22:54    111s] init_design 
+[01/21 10:22:54    111s] 
+[01/21 10:22:54    111s] See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+[01/21 10:22:54    111s] Common UI User Guide for more details.
+[01/21 10:22:54    111s] 
+[01/21 10:22:54    111s] 
+[01/21 10:22:54    111s] @innovus 36> nics_message "Running init_design command" medium
+nics_message "Running init_design command" medium
+[01/21 10:24:13    113s] invalid command name "nics_message"
+[01/21 10:24:13    113s] invalid command name "nics_message"
+[01/21 10:24:13    113s] @innovus 37> init_designinit_design
+
+[01/21 10:24:14    113s] **ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+[01/21 10:24:14    113s] The MMMC init sequence looks like this: 
+[01/21 10:24:14    113s] read_mmmc top.mmmc 
+[01/21 10:24:14    113s] read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+[01/21 10:24:14    113s] read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+[01/21 10:24:14    113s] read_power_intent -1801 top.1801   #only for MSV designs 
+[01/21 10:24:14    113s] init_design 
+[01/21 10:24:14    113s] 
+[01/21 10:24:14    113s] Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+[01/21 10:24:14    113s] read_libs all.lib 
+[01/21 10:24:14    113s] read_netlist top.v 
+[01/21 10:24:14    113s] read_sdc top.sdc 
+[01/21 10:24:14    113s] init_design 
+[01/21 10:24:14    113s] 
+[01/21 10:24:14    113s] See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+[01/21 10:24:14    113s] Common UI User Guide for more details.
+[01/21 10:24:14    113s] 
+[01/21 10:24:14    113s] 
+[01/21 10:24:14    113s] @innovus 38> read_mmmc inputs/lp_riscv_top.mmmc
+
+[01/21 10:24:39    114s] **ERROR: (TCLCMD-1146):	Mmmc file 'inputs/lp_riscv_top.mmmc' not found.
+[01/21 10:24:39    114s] 1
+[01/21 10:24:39    114s] 1
+[01/21 10:24:39    114s] @innovus 39> read_mmmc inputs/lp_riscv_top.mmmc
+
+[01/21 10:25:39    115s] **ERROR: (TCLCMD-1146):	Mmmc file 'inputs/lp_riscv_top.mmmc' not found.
+[01/21 10:25:39    115s] 1
+[01/21 10:25:39    115s] 1
+[01/21 10:25:39    115s] @innovus 40> read_physical -lef $tech_files(ALL_LEFS)
+
+[01/21 10:27:26    118s] **ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+[01/21 10:27:26    118s] The MMMC init sequence looks like this: 
+[01/21 10:27:26    118s] read_mmmc top.mmmc 
+[01/21 10:27:26    118s] read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+[01/21 10:27:26    118s] read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+[01/21 10:27:26    118s] read_power_intent -1801 top.1801   #only for MSV designs 
+[01/21 10:27:26    118s] init_design 
+[01/21 10:27:26    118s] 
+[01/21 10:27:26    118s] Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+[01/21 10:27:26    118s] read_libs all.lib 
+[01/21 10:27:26    118s] read_netlist top.v 
+[01/21 10:27:26    118s] read_sdc top.sdc 
+[01/21 10:27:26    118s] init_design 
+[01/21 10:27:26    118s] 
+[01/21 10:27:26    118s] See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+[01/21 10:27:26    118s] Common UI User Guide for more details.
+[01/21 10:27:26    118s] 
+[01/21 10:27:26    118s] 
+[01/21 10:27:26    118s] @innovus 41> read_physical -lef $tech_files(ALL_LEFS)
+
+[01/21 10:28:46    119s] **ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+[01/21 10:28:46    119s] The MMMC init sequence looks like this: 
+[01/21 10:28:46    119s] read_mmmc top.mmmc 
+[01/21 10:28:46    119s] read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+[01/21 10:28:46    119s] read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+[01/21 10:28:46    119s] read_power_intent -1801 top.1801   #only for MSV designs 
+[01/21 10:28:46    119s] init_design 
+[01/21 10:28:46    119s] 
+[01/21 10:28:46    119s] Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+[01/21 10:28:46    119s] read_libs all.lib 
+[01/21 10:28:46    119s] read_netlist top.v 
+[01/21 10:28:46    119s] read_sdc top.sdc 
+[01/21 10:28:46    119s] init_design 
+[01/21 10:28:46    119s] 
+[01/21 10:28:46    119s] See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+[01/21 10:28:46    119s] Common UI User Guide for more details.
+[01/21 10:28:46    119s] 
+[01/21 10:28:46    119s] 
+[01/21 10:28:46    119s] @innovus 42> read_physical -lef $tech_files(ALL_LEFS)
+
+[01/21 10:28:50    119s] **ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+[01/21 10:28:50    119s] The MMMC init sequence looks like this: 
+[01/21 10:28:50    119s] read_mmmc top.mmmc 
+[01/21 10:28:50    119s] read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+[01/21 10:28:50    119s] read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+[01/21 10:28:50    119s] read_power_intent -1801 top.1801   #only for MSV designs 
+[01/21 10:28:50    119s] init_design 
+[01/21 10:28:50    119s] 
+[01/21 10:28:50    119s] Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+[01/21 10:28:50    119s] read_libs all.lib 
+[01/21 10:28:50    119s] read_netlist top.v 
+[01/21 10:28:50    119s] read_sdc top.sdc 
+[01/21 10:28:50    119s] init_design 
+[01/21 10:28:50    119s] 
+[01/21 10:28:50    119s] See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+[01/21 10:28:50    119s] Common UI User Guide for more details.
+[01/21 10:28:50    119s] 
+[01/21 10:28:50    119s] 
+[01/21 10:28:50    119s] @innovus 43> read_netlist export/lp_riscv_top.postsyn.v
+**ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+[01/21 10:29:13    120s] The MMMC init sequence looks like this: 
+[01/21 10:29:13    120s] read_mmmc top.mmmc 
+[01/21 10:29:13    120s] read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+[01/21 10:29:13    120s] read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+[01/21 10:29:13    120s] read_power_intent -1801 top.1801   #only for MSV designs 
+[01/21 10:29:13    120s] init_design 
+[01/21 10:29:13    120s] 
+[01/21 10:29:13    120s] Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+[01/21 10:29:13    120s] read_libs all.lib 
+[01/21 10:29:13    120s] read_netlist top.v 
+[01/21 10:29:13    120s] read_sdc top.sdc 
+[01/21 10:29:13    120s] init_design 
+[01/21 10:29:13    120s] 
+[01/21 10:29:13    120s] See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+[01/21 10:29:13    120s] Common UI User Guide for more details.
+[01/21 10:29:13    120s] 
+[01/21 10:29:13    120s] 
+[01/21 10:29:13    120s] @innovus 44> read_mmmc $design(mmmc_view_file) 
+read_mmmc $design(mmmc_view_file) 
+[01/21 10:30:56    122s] #@ Begin verbose source (pre): 
+[01/21 10:30:56    122s] @file 1: #  Version:1.0 MMMC View Definition File
+[01/21 10:30:56    122s] @file 2: # Do Not Remove Above Line
+[01/21 10:30:56    122s] @file 3:
+[01/21 10:30:56    122s] @file 4: ############# MMMC Hierarchy ########################################################################################
+[01/21 10:30:56    122s] @file 5: #                                                                                                                   #
+[01/21 10:30:56    122s] @file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+[01/21 10:30:56    122s] @file 7: #                       |--> Analysis View  |                                                                       #
+[01/21 10:30:56    122s] @file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+[01/21 10:30:56    122s] @file 9: #                                           |--> Delay Corner |                                                     #
+[01/21 10:30:56    122s] @file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+[01/21 10:30:56    122s] @file 11: #####################################################################################################################
+[01/21 10:30:56    122s] @file 12:
+[01/21 10:30:56    122s] @file 13: # Constraint Modes #
+[01/21 10:30:56    122s] @file 14: # ---------------- #
+[01/21 10:30:56    122s] @@file 15: create_constraint_mode \
+[01/21 10:30:56    122s] 	-name functional_mode \
+[01/21 10:30:56    122s] 	-sdc_files $design(functional_sdc)
+[01/21 10:30:56    122s] The existing constraint_mode 'functional_mode' has been replaced with new attributes.
+[01/21 10:30:57    122s] @file 18:
+[01/21 10:30:57    122s] @file 19: # RC Corners #
+[01/21 10:30:57    122s] @file 20: # ---------- #
+[01/21 10:30:57    122s] @file 21: if {$runtype=="synthesis"} {...
+[01/21 10:30:57    122s] @file 24: } else {
+[01/21 10:30:57    122s] @@file 25: set_message -suppress -id ENCEXT-6202 ;
+[01/21 10:30:57    122s] @file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+[01/21 10:30:57    122s] @file 26: }
+[01/21 10:30:57    122s] @file 27:
+[01/21 10:30:57    122s] @@file 28: create_rc_corner \
+[01/21 10:30:57    122s] 	-name bc_rc_corner \
+[01/21 10:30:57    122s] 	-temperature $tech(TEMPERATURE_BC) \
+[01/21 10:30:57    122s]     -qrc_tech $tech_files(QRCTECH_FILE_BC)
+[01/21 10:30:57    122s] The existing rc_corner 'bc_rc_corner' has been replaced with new attributes.
+[01/21 10:30:57    122s] Extraction setup Started 
+[01/21 10:30:57    122s] @file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+[01/21 10:30:57    122s] @file 33:
+[01/21 10:30:57    122s] @@file 34: create_rc_corner \
+[01/21 10:30:57    122s] 	-name tc_rc_corner \
+[01/21 10:30:57    122s] 	-temperature $tech(TEMPERATURE_TC) \
+[01/21 10:30:57    122s] 	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+[01/21 10:30:57    122s] The existing rc_corner 'tc_rc_corner' has been replaced with new attributes.
+[01/21 10:30:57    122s] Extraction setup Started 
+[01/21 10:30:57    122s] @file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+[01/21 10:30:57    122s] @file 39:
+[01/21 10:30:57    122s] @@file 40: create_rc_corner \
+[01/21 10:30:57    122s] 	-name wc_rc_corner \
+[01/21 10:30:57    122s] 	-temperature $tech(TEMPERATURE_WC) \
+[01/21 10:30:57    122s]     -qrc_tech $tech_files(QRCTECH_FILE_WC)
+[01/21 10:30:57    122s] The existing rc_corner 'wc_rc_corner' has been replaced with new attributes.
+[01/21 10:30:57    122s] Extraction setup Started 
+[01/21 10:30:57    122s] @file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+[01/21 10:30:57    122s] @file 45:
+[01/21 10:30:57    122s] @file 46: # Library Sets #
+[01/21 10:30:57    122s] @file 47: # ------------ #
+[01/21 10:30:57    122s] @@file 48: create_library_set \
+[01/21 10:30:57    122s] 	-name bc_libset \
+[01/21 10:30:57    122s] 	-timing $tech_files(ALL_BC_LIBS)  
+[01/21 10:30:57    122s] **ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+[01/21 10:30:57    122s] **ERROR: (IMPSE-110):	File '/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc' line 48: errors out.
+[01/21 10:30:57    122s] #@ End verbose source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+[01/21 10:30:57    122s] 
+[01/21 10:30:57    122s] 
+[01/21 10:30:57    122s]     while executing
+[01/21 10:30:57    122s] "create_library_set \
+[01/21 10:30:57    122s] 	-name bc_libset \
+[01/21 10:30:57    122s] 	-timing $tech_files(ALL_BC_LIBS)  "
+[01/21 10:30:57    122s]     (file "/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc" line 48)
+[01/21 10:30:57    122s]     invoked from within
+[01/21 10:30:57    122s] "::se_source_orig /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 10:30:57    122s]     ("uplevel" body line 1)
+[01/21 10:30:57    122s]     invoked from within
+[01/21 10:30:57    122s] "uplevel [concat ::se_source_orig $args]"
+[01/21 10:30:57    122s]     invoked from within
+[01/21 10:30:57    122s] "if { !$encrypted && !$no_encoding && $encodingName != ""  } {
+[01/21 10:30:57    122s]                   set st [uplevel [concat ::se_source_orig " -encoding " $encodingName "..."
+[01/21 10:30:57    122s]     invoked from within
+[01/21 10:30:57    122s] "if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:30:57    122s]               ::SE::source_verbose_start $file_name
+[01/21 10:30:57    122s]               if { !$encrypted && !$no_en..."
+[01/21 10:30:57    122s]     invoked from within
+[01/21 10:30:57    122s] "if {$useTclVerbose} {
+[01/21 10:30:57    122s]           # use tcl internal method
+[01/21 10:30:57    122s]           set st ""
+[01/21 10:30:57    122s]           if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:30:57    122s]      ..."
+[01/21 10:30:57    122s]     invoked from within
+[01/21 10:30:57    122s] "if {$largeFile == 1} {
+[01/21 10:30:57    122s]     if {$enableVerbose == 0 && [::SE::isEchoFile] == 1} {
+[01/21 10:30:57    122s]       $putCmd "Sourcing $file_name"
+[01/21 10:30:57    122s]     }
+[01/21 10:30:57    122s]     set st [uplevel [concat..."
+[01/21 10:30:57    122s]     (procedure "source" line 197)
+[01/21 10:30:57    122s]     invoked from within
+[01/21 10:30:57    122s] "source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 10:30:57    122s]     ("uplevel" body line 1)
+[01/21 10:30:57    122s]     invoked from within
+[01/21 10:30:57    122s] "uplevel #0 {source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc}"
+[01/21 10:30:57    122s] 
+[01/21 10:30:57    122s] @innovus 45> read_physical -lef $tech_files(ALL_LEFS)
+read_physical -lef $tech_files(ALL_LEFS)
+[01/21 10:32:01    124s] **ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+[01/21 10:32:01    124s] The MMMC init sequence looks like this: 
+[01/21 10:32:01    124s] read_mmmc top.mmmc 
+[01/21 10:32:01    124s] read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+[01/21 10:32:01    124s] read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+[01/21 10:32:01    124s] read_power_intent -1801 top.1801   #only for MSV designs 
+[01/21 10:32:01    124s] init_design 
+[01/21 10:32:01    124s] 
+[01/21 10:32:01    124s] Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+[01/21 10:32:01    124s] read_libs all.lib 
+[01/21 10:32:01    124s] read_netlist top.v 
+[01/21 10:32:01    124s] read_sdc top.sdc 
+[01/21 10:32:01    124s] init_design 
+[01/21 10:32:01    124s] 
+[01/21 10:32:01    124s] See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+[01/21 10:32:01    124s] Common UI User Guide for more details.
+[01/21 10:32:01    124s] 
+[01/21 10:32:01    124s] 
+[01/21 10:32:01    124s] @innovus 46> read_netlist $design(postsyn_netlist)
+[01/21 10:32:13    124s] 
+read_netlist $design(postsyn_netlist)
+[01/21 10:32:13    124s] **ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+[01/21 10:32:13    124s] The MMMC init sequence looks like this: 
+[01/21 10:32:13    124s] read_mmmc top.mmmc 
+[01/21 10:32:13    124s] read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+[01/21 10:32:13    124s] read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+[01/21 10:32:13    124s] read_power_intent -1801 top.1801   #only for MSV designs 
+[01/21 10:32:13    124s] init_design 
+[01/21 10:32:13    124s] 
+[01/21 10:32:13    124s] Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+[01/21 10:32:13    124s] read_libs all.lib 
+[01/21 10:32:13    124s] read_netlist top.v 
+[01/21 10:32:13    124s] read_sdc top.sdc 
+[01/21 10:32:13    124s] init_design 
+[01/21 10:32:13    124s] 
+[01/21 10:32:13    124s] See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+[01/21 10:32:13    124s] Common UI User Guide for more details.
+[01/21 10:32:13    124s] 
+[01/21 10:32:13    124s] @innovus 47> set var_list {runtype}
+set var_list {runtype}
+[01/21 10:33:07    125s] runtype
+[01/21 10:33:07    125s] @innovus 48> set dic_list {paths tech teset dic_list {paths tech tech_files design}
+ch_files design}
+[01/21 10:33:07    125s] paths tech tech_files design
+[01/21 10:33:07    125s] @innovus 49> enics_print_debug_data w $debug_fenics_print_debug_data w $debug_file "after everything was loaded"
+
+[01/21 10:33:12    125s] wrong # args: should be "enics_print_debug_data write_or_append ?debug_file? this_file var_list dic_list"
+[01/21 10:33:12    125s] wrong # args: should be "enics_print_debug_data write_or_append ?debug_file? this_file var_list dic_list"
+[01/21 10:33:12    125s] @innovus 50> enics_start_stage "init_design"
+***********************************************
+[01/21 10:33:22    126s] ***********************************************
+[01/21 10:33:22    126s] **   ENICSINFO: Starting stage init_design   **
+[01/21 10:33:22    126s] ***********************************************
+[01/21 10:33:22    126s] ***********************************************
+[01/21 10:33:22    126s] ENICSINFO: Current time is: 21/01/2026 10:33
+[01/21 10:33:22    126s] ENICSINFO: ----------------------------------
+[01/21 10:33:22    126s] @innovus 51> set_db init_ground_nets $design(all_ground_nets)
+set_db init_ground_nets $design(all_ground_nets)
+[01/21 10:33:35    126s] 1 gnd
+[01/21 10:33:35    126s] @innovus 52> sset_db init_power_nets $design(all_power_nets)
+
+[01/21 10:33:36    126s] 1 {vdd vddio}
+[01/21 10:33:36    126s] @innovus 53> enics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+that are reported due t [1Go the LIB definitions:" 
+[01/21 10:34:04    127s] ENICSINFO: Suppressing the following messages that are reported due to the LIB definitions:
+[01/21 10:34:04    127s] @innovus 54> enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+
+[01/21 10:34:04    127s] ENICSINFO: TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 IMPTS-282
+[01/21 10:34:04    127s] @innovus 55> set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+[01/21 10:34:04    127s] @innovus 56> enics_message "Reading MMMC File" menics_message "Reading MMMC File" medium
+edium
+[01/21 10:34:04    127s] 
+[01/21 10:34:04    127s] ENICSINFO: Reading MMMC File
+[01/21 10:34:04    127s] ----------------------------
+read_mmmc $design(mmmc_view_file) 
+[01/21 10:34:04    127s] @innovus 57> read_mmmc $design(mmmc_view_file) 
+[01/21 10:34:04    127s] #@ Begin verbose source (pre): 
+[01/21 10:34:04    127s] @file 1: #  Version:1.0 MMMC View Definition File
+[01/21 10:34:04    127s] @file 2: # Do Not Remove Above Line
+[01/21 10:34:04    127s] @file 3:
+[01/21 10:34:04    127s] @file 4: ############# MMMC Hierarchy ########################################################################################
+[01/21 10:34:04    127s] @file 5: #                                                                                                                   #
+[01/21 10:34:04    127s] @file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+[01/21 10:34:04    127s] @file 7: #                       |--> Analysis View  |                                                                       #
+[01/21 10:34:04    127s] @file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+[01/21 10:34:04    127s] @file 9: #                                           |--> Delay Corner |                                                     #
+[01/21 10:34:04    127s] @file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+[01/21 10:34:04    127s] @file 11: #####################################################################################################################
+[01/21 10:34:04    127s] @file 12:
+[01/21 10:34:04    127s] @file 13: # Constraint Modes #
+[01/21 10:34:04    127s] @file 14: # ---------------- #
+[01/21 10:34:04    127s] @@file 15: create_constraint_mode \
+[01/21 10:34:04    127s] 	-name functional_mode \
+[01/21 10:34:04    127s] 	-sdc_files $design(functional_sdc)
+[01/21 10:34:04    127s] The existing constraint_mode 'functional_mode' has been replaced with new attributes.
+[01/21 10:34:04    127s] @file 18:
+[01/21 10:34:04    127s] @file 19: # RC Corners #
+[01/21 10:34:04    127s] @file 20: # ---------- #
+[01/21 10:34:04    127s] @file 21: if {$runtype=="synthesis"} {...
+[01/21 10:34:04    127s] @file 24: } else {
+[01/21 10:34:04    127s] @@file 25: set_message -suppress -id ENCEXT-6202 ;
+[01/21 10:34:04    127s] @file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+[01/21 10:34:04    127s] @file 26: }
+[01/21 10:34:04    127s] @file 27:
+[01/21 10:34:04    127s] @@file 28: create_rc_corner \
+[01/21 10:34:04    127s] 	-name bc_rc_corner \
+[01/21 10:34:04    127s] 	-temperature $tech(TEMPERATURE_BC) \
+[01/21 10:34:04    127s]     -qrc_tech $tech_files(QRCTECH_FILE_BC)
+[01/21 10:34:04    127s] The existing rc_corner 'bc_rc_corner' has been replaced with new attributes.
+[01/21 10:34:04    127s] Extraction setup Started 
+[01/21 10:34:04    127s] @file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+[01/21 10:34:04    127s] @file 33:
+[01/21 10:34:04    127s] @@file 34: create_rc_corner \
+[01/21 10:34:04    127s] 	-name tc_rc_corner \
+[01/21 10:34:04    127s] 	-temperature $tech(TEMPERATURE_TC) \
+[01/21 10:34:04    127s] 	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+[01/21 10:34:04    127s] The existing rc_corner 'tc_rc_corner' has been replaced with new attributes.
+[01/21 10:34:04    127s] Extraction setup Started 
+[01/21 10:34:04    127s] @file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+[01/21 10:34:04    127s] @file 39:
+[01/21 10:34:04    127s] @@file 40: create_rc_corner \
+[01/21 10:34:04    127s] 	-name wc_rc_corner \
+[01/21 10:34:04    127s] 	-temperature $tech(TEMPERATURE_WC) \
+[01/21 10:34:04    127s]     -qrc_tech $tech_files(QRCTECH_FILE_WC)
+[01/21 10:34:04    127s] The existing rc_corner 'wc_rc_corner' has been replaced with new attributes.
+[01/21 10:34:04    127s] Extraction setup Started 
+[01/21 10:34:04    127s] @file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+[01/21 10:34:04    127s] @file 45:
+[01/21 10:34:04    127s] @file 46: # Library Sets #
+[01/21 10:34:04    127s] @file 47: # ------------ #
+[01/21 10:34:04    127s] @@file 48: create_library_set \
+[01/21 10:34:04    127s] 	-name bc_libset \
+[01/21 10:34:04    127s] 	-timing $tech_files(ALL_BC_LIBS)  
+[01/21 10:34:04    127s] **ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+[01/21 10:34:04    127s] **ERROR: (IMPSE-110):	File '/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc' line 48: errors out.
+[01/21 10:34:04    127s] #@ End verbose source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+[01/21 10:34:04    127s] 
+[01/21 10:34:04    127s]     while executing
+[01/21 10:34:04    127s] "create_library_set \
+[01/21 10:34:04    127s] 	-name bc_libset \
+[01/21 10:34:04    127s] 	-timing $tech_files(ALL_BC_LIBS)  "
+[01/21 10:34:04    127s]     (file "/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc" line 48)
+[01/21 10:34:04    127s]     invoked from within
+[01/21 10:34:04    127s] "::se_source_orig /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 10:34:04    127s]     ("uplevel" body line 1)
+[01/21 10:34:04    127s]     invoked from within
+[01/21 10:34:04    127s] "uplevel [concat ::se_source_orig $args]"
+[01/21 10:34:04    127s]     invoked from within
+[01/21 10:34:04    127s] "if { !$encrypted && !$no_encoding && $encodingName != ""  } {
+[01/21 10:34:04    127s]                   set st [uplevel [concat ::se_source_orig " -encoding " $encodingName "..."
+[01/21 10:34:04    127s]     invoked from within
+[01/21 10:34:04    127s] "if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:34:04    127s]               ::SE::source_verbose_start $file_name
+[01/21 10:34:04    127s]               if { !$encrypted && !$no_en..."
+[01/21 10:34:04    127s]     invoked from within
+[01/21 10:34:04    127s] "if {$useTclVerbose} {
+[01/21 10:34:04    127s]           # use tcl internal method
+[01/21 10:34:04    127s]           set st ""
+[01/21 10:34:04    127s]           if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:34:04    127s]      ..."
+[01/21 10:34:04    127s]     invoked from within
+[01/21 10:34:04    127s] "if {$largeFile == 1} {
+[01/21 10:34:04    127s]     if {$enableVerbose == 0 && [::SE::isEchoFile] == 1} {
+[01/21 10:34:04    127s]       $putCmd "Sourcing $file_name"
+[01/21 10:34:04    127s]     }
+[01/21 10:34:04    127s]     set st [uplevel [concat..."
+[01/21 10:34:04    127s]     (procedure "source" line 197)
+[01/21 10:34:04    127s]     invoked from within
+[01/21 10:34:04    127s] "source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 10:34:04    127s]     ("uplevel" body line 1)
+[01/21 10:34:04    127s]     invoked from within
+[01/21 10:34:04    127s] "uplevel #0 {source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc}"
+[01/21 10:34:04    127s] 
+[01/21 10:34:04    127s] 
+[01/21 10:34:04    127s] @innovus 58> enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+)"
+[01/21 10:34:44    128s] ENICSINFO: TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 IMPTS-282
+[01/21 10:34:44    128s] @innovus 59> 
+
+[01/21 10:34:46    128s] @innovus 59> set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+GES_INNOVUS) 
+[01/21 10:35:29    129s] @innovus 60> enics_message "Reading MMMC File" medium
+enics_message "Reading MMMC File" medium
+[01/21 10:35:41    129s] 
+[01/21 10:35:41    129s] ENICSINFO: Reading MMMC File
+[01/21 10:35:41    129s] ----------------------------
+[01/21 10:35:41    129s] @innovus 61> read_mmmc $design(mmmc_view_file) 
+read_mmmc $design(mmmc_view_file) 
+[01/21 10:35:53    129s] #@ Begin verbose source (pre): 
+[01/21 10:35:53    129s] @file 1: #  Version:1.0 MMMC View Definition File
+[01/21 10:35:53    129s] @file 2: # Do Not Remove Above Line
+[01/21 10:35:53    129s] @file 3:
+[01/21 10:35:53    129s] @file 4: ############# MMMC Hierarchy ########################################################################################
+[01/21 10:35:53    129s] @file 5: #                                                                                                                   #
+[01/21 10:35:53    129s] @file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+[01/21 10:35:53    129s] @file 7: #                       |--> Analysis View  |                                                                       #
+[01/21 10:35:53    129s] @file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+[01/21 10:35:53    129s] @file 9: #                                           |--> Delay Corner |                                                     #
+[01/21 10:35:53    129s] @file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+[01/21 10:35:53    129s] @file 11: #####################################################################################################################
+[01/21 10:35:53    129s] @file 12:
+[01/21 10:35:53    129s] @file 13: # Constraint Modes #
+[01/21 10:35:53    129s] @file 14: # ---------------- #
+[01/21 10:35:53    129s] @@file 15: create_constraint_mode \
+[01/21 10:35:53    129s] 	-name functional_mode \
+[01/21 10:35:53    129s] 	-sdc_files $design(functional_sdc)
+[01/21 10:35:53    129s] The existing constraint_mode 'functional_mode' has been replaced with new attributes.
+[01/21 10:35:53    129s] @file 18:
+[01/21 10:35:53    129s] @file 19: # RC Corners #
+[01/21 10:35:53    129s] @file 20: # ---------- #
+[01/21 10:35:53    129s] @file 21: if {$runtype=="synthesis"} {...
+[01/21 10:35:53    129s] @file 24: } else {
+[01/21 10:35:53    129s] @@file 25: set_message -suppress -id ENCEXT-6202 ;
+[01/21 10:35:53    129s] @file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+[01/21 10:35:53    129s] @file 26: }
+[01/21 10:35:53    129s] @file 27:
+[01/21 10:35:53    129s] @@file 28: create_rc_corner \
+[01/21 10:35:53    129s] 	-name bc_rc_corner \
+[01/21 10:35:53    129s] 	-temperature $tech(TEMPERATURE_BC) \
+[01/21 10:35:53    129s]     -qrc_tech $tech_files(QRCTECH_FILE_BC)
+[01/21 10:35:53    129s] The existing rc_corner 'bc_rc_corner' has been replaced with new attributes.
+[01/21 10:35:53    129s] Extraction setup Started 
+[01/21 10:35:53    129s] @file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+[01/21 10:35:53    129s] @file 33:
+[01/21 10:35:53    129s] @@file 34: create_rc_corner \
+[01/21 10:35:53    129s] 	-name tc_rc_corner \
+[01/21 10:35:53    129s] 	-temperature $tech(TEMPERATURE_TC) \
+[01/21 10:35:53    129s] 	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+[01/21 10:35:53    129s] The existing rc_corner 'tc_rc_corner' has been replaced with new attributes.
+[01/21 10:35:53    129s] Extraction setup Started 
+[01/21 10:35:53    129s] @file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+[01/21 10:35:53    129s] @file 39:
+[01/21 10:35:53    129s] @@file 40: create_rc_corner \
+[01/21 10:35:53    129s] 	-name wc_rc_corner \
+[01/21 10:35:53    129s] 	-temperature $tech(TEMPERATURE_WC) \
+[01/21 10:35:53    129s]     -qrc_tech $tech_files(QRCTECH_FILE_WC)
+[01/21 10:35:53    129s] The existing rc_corner 'wc_rc_corner' has been replaced with new attributes.
+[01/21 10:35:53    129s] Extraction setup Started 
+[01/21 10:35:53    129s] @file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+[01/21 10:35:53    129s] @file 45:
+[01/21 10:35:53    129s] @file 46: # Library Sets #
+[01/21 10:35:53    129s] @file 47: # ------------ #
+[01/21 10:35:53    129s] @@file 48: create_library_set \
+[01/21 10:35:53    129s] 	-name bc_libset \
+[01/21 10:35:53    129s] 	-timing $tech_files(ALL_BC_LIBS)  
+[01/21 10:35:53    129s] **ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+[01/21 10:35:53    129s] 
+[01/21 10:35:53    129s] **ERROR: (IMPSE-110):	File '/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc' line 48: errors out.
+[01/21 10:35:53    129s] #@ End verbose source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+[01/21 10:35:53    129s] 
+[01/21 10:35:53    129s]     while executing
+[01/21 10:35:53    129s] "create_library_set \
+[01/21 10:35:53    129s] 	-name bc_libset \
+[01/21 10:35:53    129s] 	-timing $tech_files(ALL_BC_LIBS)  "
+[01/21 10:35:53    129s]     (file "/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc" line 48)
+[01/21 10:35:53    129s]     invoked from within
+[01/21 10:35:53    129s] "::se_source_orig /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 10:35:53    129s]     ("uplevel" body line 1)
+[01/21 10:35:53    129s]     invoked from within
+[01/21 10:35:53    129s] "uplevel [concat ::se_source_orig $args]"
+[01/21 10:35:53    129s]     invoked from within
+[01/21 10:35:53    129s] "if { !$encrypted && !$no_encoding && $encodingName != ""  } {
+[01/21 10:35:53    129s]                   set st [uplevel [concat ::se_source_orig " -encoding " $encodingName "..."
+[01/21 10:35:53    129s]     invoked from within
+[01/21 10:35:53    129s] "if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:35:53    129s]               ::SE::source_verbose_start $file_name
+[01/21 10:35:53    129s]               if { !$encrypted && !$no_en..."
+[01/21 10:35:53    129s]     invoked from within
+[01/21 10:35:53    129s] "if {$useTclVerbose} {
+[01/21 10:35:53    129s]           # use tcl internal method
+[01/21 10:35:53    129s]           set st ""
+[01/21 10:35:53    129s]           if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:35:53    129s]      ..."
+[01/21 10:35:53    129s]     invoked from within
+[01/21 10:35:53    129s] "if {$largeFile == 1} {
+[01/21 10:35:53    129s]     if {$enableVerbose == 0 && [::SE::isEchoFile] == 1} {
+[01/21 10:35:53    129s]       $putCmd "Sourcing $file_name"
+[01/21 10:35:53    129s]     }
+[01/21 10:35:53    129s]     set st [uplevel [concat..."
+[01/21 10:35:53    129s]     (procedure "source" line 197)
+[01/21 10:35:53    129s]     invoked from within
+[01/21 10:35:53    129s] "source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 10:35:53    129s]     ("uplevel" body line 1)
+[01/21 10:35:53    129s]     invoked from within
+[01/21 10:35:53    129s] "uplevel #0 {source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc}"
+[01/21 10:35:53    129s] 
+[01/21 10:35:53    129s] @innovus 62> set design(TOPLEVEL) "lp_riscv_top"
+set design(TOPLEVEL) "lp_riscv_top"
+[01/21 10:47:50    145s] lp_riscv_top
+[01/21 10:47:50    145s] @innovus 63> set runtype "pset runtype "pnr"
+set debug_file "debug.txt"
+nr"
+[01/21 10:47:50    145s] pnr
+[01/21 10:47:50    145s] @innovus 64> set debug_file "debug.txt"
+[01/21 10:47:50    145s] debug.txt
+[01/21 10:47:50    145s] @innovus 65> 
+
+# Load general procedures
+source ../scripts/procedures.tcl -quiet
+[01/21 10:47:50    145s] @innovus 65> # Load general procedures
+[01/21 10:47:50    145s] @innovus 66> source ../scripts/procedures.tcl -quiet
+
+###############################################
+# Starting Stage - Load defines and technology
+[01/21 10:47:50    145s] @innovus 67> 
+[01/21 10:47:50    145s] @innovus 67> ###############################################
+[01/21 10:47:50    145s] @innovus 68> # Starting Stage - Load defines and technology
+[01/21 10:47:50    145s] @innovus 69> #####################################################
+#########################################
+[01/21 10:47:50    145s] @innovus 70> enics_stenics_start_stage "start"
+
+
+art_stage "start"
+[01/21 10:47:50    145s] *****************************************
+[01/21 10:47:50    145s] *****************************************
+[01/21 10:47:50    145s] **   ENICSINFO: Starting stage start   **
+[01/21 10:47:50    145s] *****************************************
+[01/21 10:47:50    145s] *****************************************
+[01/21 10:47:50    145s] ENICSINFO: Current time is: 21/01/2026 10:47
+[01/21 10:47:50    145s] ENICSINFO: This session is running on Hostname : ip-10-70-160-95.il-central-1.compute.internal
+[01/21 10:47:50    145s] ENICSINFO: The log file is innovus.log1 and the command file is innovus.cmd1
+[01/21 10:47:50    145s] ENICSINFO: ----------------------------------
+[01/21 10:47:50    145s] @innovus 71> 
+[01/21 10:47:50    145s] @innovus 71> 
+[01/21 10:47:50    145s] @innovus 71> # Load the specific definition# Load the specific definitions for this project
+s for this project
+[01/21 10:47:50    145s] @innovus 72> source ../inputs/$design(TOPLEVsource ../inputs/$design(TOPLEVEL).defines -quiet
+EL).defines -quiet
+
+
+
+# Load the library paths and definitions for this technology
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/21 10:47:50    145s] @innovus 73> 
+[01/21 10:47:50    145s] @innovus 73> 
+[01/21 10:47:50    145s] @innovus 73> 
+[01/21 10:47:50    145s] @innovus 73> # Load the library paths and definitions for this technology
+[01/21 10:47:50    145s] @innovus 74> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/21 10:47:50    145s] **WARN: (IMPDB-6501):	"set_db design_process_node" will be obsoleted in future release. Remove it from the script to avoid the interruption of running the script in future.
+[01/21 10:47:50    145s] ##  Process: 65            (User Set)               
+[01/21 10:47:50    145s] ##     Node: (not set)                           
+[01/21 10:47:50    145s] 
+[01/21 10:47:50    145s] ##  Check design process and node:  
+[01/21 10:47:50    145s] ##  Design tech node is not set.
+[01/21 10:47:50    145s] 
+[01/21 10:47:50    145s] Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[01/21 10:47:50    145s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[01/21 10:47:50    145s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[01/21 10:47:50    145s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'high'.
+[01/21 10:47:50    145s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+[01/21 10:47:50    145s] @innovus 75> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+[01/21 10:47:50    145s] @innovus 76> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+[01/21 10:47:50    145s] @innovus 77> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+[01/21 10:47:50    145s] +     source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+[01/21 10:47:50    145s] + }
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+[01/21 10:47:50    145s] @innovus 78> set_library_unit -time 1ns -cap 1pf
+set_library_unit -time 1ns -cap 1pf
+
+#############################################
+#       Print values to debug file
+#############################################
+set var_list {runtype}
+set dic_list {paths tech tech_files design}
+enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+[01/21 10:47:50    145s] @innovus 79> 
+[01/21 10:47:50    145s] @innovus 79> #############################################
+[01/21 10:47:50    145s] @innovus 80> #       Print values to debug file
+[01/21 10:47:50    145s] @innovus 81> #############################################
+[01/21 10:47:50    145s] @innovus 82> set var_list {runtype}
+[01/21 10:47:50    145s] runtype
+[01/21 10:47:50    145s] @innovus 83> set dic_list {paths tech tech_files design}
+[01/21 10:47:50    145s] paths tech tech_files design
+[01/21 10:47:50    145s] @innovus 84> enics_print_debug_data w $debug_file "after everything was loaded" $var_l [1Gist $dic_list
+
+[01/21 10:47:50    145s] @innovus 85> 
+
+[01/21 10:47:50    145s] @innovus 85> 
+[01/21 10:47:50    145s] @innovus 85> ############################################
+############################################
+[01/21 10:47:50    145s] @innovus 86> # Init Design
+# Init Design
+[01/21 10:47:50    145s] @innovus 87> ############################################
+############################################
+[01/21 10:47:50    145s] @innovus 88> #enable_metrics -on
+#enable_metrics -on
+[01/21 10:47:50    145s] @innovus 89> enics_start_stage "init_design"
+enics_start_stage "init_design"
+[01/21 10:47:50    145s] ***********************************************
+[01/21 10:47:50    145s] ***********************************************
+[01/21 10:47:50    145s] **   ENICSINFO: Starting stage init_design   **
+[01/21 10:47:50    145s] ***********************************************
+[01/21 10:47:50    145s] ***********************************************
+[01/21 10:47:50    145s] ENICSINFO: Current time is: 21/01/2026 10:47
+[01/21 10:47:50    145s] ENICSINFO: ----------------------------------
+[01/21 10:47:50    145s] @innovus 90> 
+
+# Global Nets
+[01/21 10:47:50    145s] @innovus 90> # Global Nets
+set_db init_ground_nets $design(all_ground_nets)
+[01/21 10:47:50    145s] @innovus 91> set_db init_ground_nets $design(all_ground_nets)
+[01/21 10:47:50    145s] 1 gnd
+[01/21 10:47:50    145s] @innovus 92> set_db init_set_db init_power_nets $design(all_power_nets)
+
+# MMMC
+power_nets $design(all_power_nets)
+[01/21 10:47:50    145s] 1 {vdd vddio}
+[01/21 10:47:50    145s] @innovus 93> 
+[01/21 10:47:50    145s] @innovus 93> # MMMC
+[01/21 10:47:50    145s] @innovus 94> enics_menics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+e reported due t [1Go the LIB definitions:" 
+[01/21 10:47:50    145s] ENICSINFO: Suppressing the following messages that are reported due to the LIB definitions:
+[01/21 10:47:50    145s] @innovus 95> enics_mesenics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+ENICSINFO: TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 IMPTS-282
+[01/21 10:47:50    145s] @innovus 96> set_meset_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+@innovus 97> enics_message "Reading MMMC File" mediumenics_message "Reading MMMC File" medium
+
+[01/21 10:47:54    145s] 
+[01/21 10:47:54    145s] ENICSINFO: Reading MMMC File
+[01/21 10:47:54    145s] ----------------------------
+[01/21 10:47:54    145s] @innovus 98> read_mmmc $design(mmmc_view_file) 
+#@ Begin verbose source (pre): 
+[01/21 10:48:08    146s] @file 1: #  Version:1.0 MMMC View Definition File
+[01/21 10:48:08    146s] @file 2: # Do Not Remove Above Line
+[01/21 10:48:08    146s] @file 3:
+[01/21 10:48:08    146s] @file 4: ############# MMMC Hierarchy ########################################################################################
+[01/21 10:48:08    146s] @file 5: #                                                                                                                   #
+[01/21 10:48:08    146s] @file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+[01/21 10:48:08    146s] @file 7: #                       |--> Analysis View  |                                                                       #
+[01/21 10:48:08    146s] @file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+[01/21 10:48:08    146s] @file 9: #                                           |--> Delay Corner |                                                     #
+[01/21 10:48:08    146s] @file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+[01/21 10:48:08    146s] @file 11: #####################################################################################################################
+[01/21 10:48:08    146s] @file 12:
+[01/21 10:48:08    146s] @file 13: # Constraint Modes #
+[01/21 10:48:08    146s] @file 14: # ---------------- #
+[01/21 10:48:08    146s] @@file 15: create_constraint_mode \
+[01/21 10:48:08    146s] 	-name functional_mode \
+[01/21 10:48:08    146s] 	-sdc_files $design(functional_sdc)
+[01/21 10:48:08    146s] The existing constraint_mode 'functional_mode' has been replaced with new attributes.
+[01/21 10:48:08    146s] @file 18:
+[01/21 10:48:08    146s] @file 19: # RC Corners #
+[01/21 10:48:08    146s] @file 20: # ---------- #
+[01/21 10:48:08    146s] @file 21: if {$runtype=="synthesis"} {...
+[01/21 10:48:08    146s] @file 24: } else {
+[01/21 10:48:08    146s] @@file 25: set_message -suppress -id ENCEXT-6202 ;
+[01/21 10:48:08    146s] @file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+[01/21 10:48:08    146s] @file 26: }
+[01/21 10:48:08    146s] @file 27:
+[01/21 10:48:08    146s] @@file 28: create_rc_corner \
+[01/21 10:48:08    146s] 	-name bc_rc_corner \
+[01/21 10:48:08    146s] 	-temperature $tech(TEMPERATURE_BC) \
+[01/21 10:48:08    146s]     -qrc_tech $tech_files(QRCTECH_FILE_BC)
+[01/21 10:48:08    146s] The existing rc_corner 'bc_rc_corner' has been replaced with new attributes.
+[01/21 10:48:08    146s] Extraction setup Started 
+[01/21 10:48:08    146s] @file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+[01/21 10:48:08    146s] @file 33:
+[01/21 10:48:08    146s] @@file 34: create_rc_corner \
+[01/21 10:48:08    146s] 	-name tc_rc_corner \
+[01/21 10:48:08    146s] 	-temperature $tech(TEMPERATURE_TC) \
+[01/21 10:48:08    146s] 	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+[01/21 10:48:08    146s] The existing rc_corner 'tc_rc_corner' has been replaced with new attributes.
+[01/21 10:48:08    146s] Extraction setup Started 
+[01/21 10:48:08    146s] @file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+[01/21 10:48:08    146s] @file 39:
+[01/21 10:48:08    146s] @@file 40: create_rc_corner \
+[01/21 10:48:08    146s] 	-name wc_rc_corner \
+[01/21 10:48:08    146s] 	-temperature $tech(TEMPERATURE_WC) \
+[01/21 10:48:08    146s]     -qrc_tech $tech_files(QRCTECH_FILE_WC)
+[01/21 10:48:08    146s] The existing rc_corner 'wc_rc_corner' has been replaced with new attributes.
+[01/21 10:48:08    146s] Extraction setup Started 
+[01/21 10:48:08    146s] @file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+[01/21 10:48:08    146s] @file 45:
+[01/21 10:48:08    146s] @file 46: # Library Sets #
+[01/21 10:48:08    146s] @file 47: # ------------ #
+[01/21 10:48:08    146s] @@file 48: create_library_set \
+[01/21 10:48:08    146s] 	-name bc_libset \
+[01/21 10:48:08    146s] 	-timing $tech_files(ALL_BC_LIBS)  
+[01/21 10:48:08    146s] **ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+[01/21 10:48:08    146s] **ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+[01/21 10:48:08    146s] **ERROR: (IMPSE-110):	File '/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc' line 48: errors out.
+[01/21 10:48:08    146s] #@ End verbose source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+[01/21 10:48:08    146s] 
+[01/21 10:48:08    146s]     while executing
+[01/21 10:48:08    146s] "create_library_set \
+[01/21 10:48:08    146s] 	-name bc_libset \
+[01/21 10:48:08    146s] 	-timing $tech_files(ALL_BC_LIBS)  "
+[01/21 10:48:08    146s]     (file "/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc" line 48)
+[01/21 10:48:08    146s]     invoked from within
+[01/21 10:48:08    146s] "::se_source_orig /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 10:48:08    146s]     ("uplevel" body line 1)
+[01/21 10:48:08    146s]     invoked from within
+[01/21 10:48:08    146s] "uplevel [concat ::se_source_orig $args]"
+[01/21 10:48:08    146s]     invoked from within
+[01/21 10:48:08    146s] "if { !$encrypted && !$no_encoding && $encodingName != ""  } {
+[01/21 10:48:08    146s]                   set st [uplevel [concat ::se_source_orig " -encoding " $encodingName "..."
+[01/21 10:48:08    146s]     invoked from within
+[01/21 10:48:08    146s] "if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:48:08    146s]               ::SE::source_verbose_start $file_name
+[01/21 10:48:08    146s]               if { !$encrypted && !$no_en..."
+[01/21 10:48:08    146s]     invoked from within
+[01/21 10:48:08    146s] "if {$useTclVerbose} {
+[01/21 10:48:08    146s]           # use tcl internal method
+[01/21 10:48:08    146s]           set st ""
+[01/21 10:48:08    146s]           if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:48:08    146s]      ..."
+[01/21 10:48:08    146s]     invoked from within
+[01/21 10:48:08    146s] "if {$largeFile == 1} {
+[01/21 10:48:08    146s]     if {$enableVerbose == 0 && [::SE::isEchoFile] == 1} {
+[01/21 10:48:08    146s]       $putCmd "Sourcing $file_name"
+[01/21 10:48:08    146s]     }
+[01/21 10:48:08    146s]     set st [uplevel [concat..."
+[01/21 10:48:08    146s]     (procedure "source" line 197)
+[01/21 10:48:08    146s]     invoked from within
+[01/21 10:48:08    146s] "source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 10:48:08    146s]     ("uplevel" body line 1)
+[01/21 10:48:08    146s]     invoked from within
+[01/21 10:48:08    146s] "uplevel #0 {source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc}"
+[01/21 10:48:08    146s] 
+[01/21 10:48:08    146s] 
+[01/21 10:48:08    146s] @innovus 99> set_db init_lib_search_path {. ./inputs ../inputs ../mem_gen}
+
+[01/21 10:55:54    156s] 1 {. ./inputs ../inputs ../mem_gen}
+[01/21 10:55:54    156s] @innovus 100> read_mmmc $design(mmmc_view_file) 
+read_mmmc $design(mmmc_view_file) 
+[01/21 10:56:12    157s] #@ Begin verbose source (pre): 
+[01/21 10:56:12    157s] @file 1: #  Version:1.0 MMMC View Definition File
+[01/21 10:56:12    157s] @file 2: # Do Not Remove Above Line
+[01/21 10:56:12    157s] @file 3:
+[01/21 10:56:12    157s] @file 4: ############# MMMC Hierarchy ########################################################################################
+[01/21 10:56:12    157s] @file 5: #                                                                                                                   #
+[01/21 10:56:12    157s] @file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+[01/21 10:56:12    157s] @file 7: #                       |--> Analysis View  |                                                                       #
+[01/21 10:56:12    157s] @file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+[01/21 10:56:12    157s] @file 9: #                                           |--> Delay Corner |                                                     #
+[01/21 10:56:12    157s] @file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+[01/21 10:56:12    157s] @file 11: #####################################################################################################################
+[01/21 10:56:12    157s] @file 12:
+[01/21 10:56:12    157s] @file 13: # Constraint Modes #
+[01/21 10:56:12    157s] @file 14: # ---------------- #
+[01/21 10:56:12    157s] @@file 15: create_constraint_mode \
+[01/21 10:56:12    157s] 	-name functional_mode \
+[01/21 10:56:12    157s] 	-sdc_files $design(functional_sdc)
+[01/21 10:56:12    157s] The existing constraint_mode 'functional_mode' has been replaced with new attributes.
+[01/21 10:56:12    157s] @file 18:
+[01/21 10:56:12    157s] @file 19: # RC Corners #
+[01/21 10:56:12    157s] @file 20: # ---------- #
+[01/21 10:56:12    157s] @file 21: if {$runtype=="synthesis"} {...
+[01/21 10:56:12    157s] @file 24: } else {
+[01/21 10:56:12    157s] @@file 25: set_message -suppress -id ENCEXT-6202 ;
+[01/21 10:56:12    157s] @file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+[01/21 10:56:12    157s] @file 26: }
+[01/21 10:56:12    157s] @file 27:
+[01/21 10:56:12    157s] @@file 28: create_rc_corner \
+[01/21 10:56:12    157s] 	-name bc_rc_corner \
+[01/21 10:56:12    157s] 	-temperature $tech(TEMPERATURE_BC) \
+[01/21 10:56:12    157s]     -qrc_tech $tech_files(QRCTECH_FILE_BC)
+[01/21 10:56:12    157s] The existing rc_corner 'bc_rc_corner' has been replaced with new attributes.
+[01/21 10:56:12    157s] Extraction setup Started 
+[01/21 10:56:12    157s] @file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+[01/21 10:56:12    157s] @file 33:
+[01/21 10:56:12    157s] @@file 34: create_rc_corner \
+[01/21 10:56:12    157s] 	-name tc_rc_corner \
+[01/21 10:56:12    157s] 	-temperature $tech(TEMPERATURE_TC) \
+[01/21 10:56:12    157s] 	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+[01/21 10:56:12    157s] The existing rc_corner 'tc_rc_corner' has been replaced with new attributes.
+[01/21 10:56:12    157s] Extraction setup Started 
+[01/21 10:56:12    157s] @file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+[01/21 10:56:12    157s] @file 39:
+[01/21 10:56:12    157s] @@file 40: create_rc_corner \
+[01/21 10:56:12    157s] 	-name wc_rc_corner \
+[01/21 10:56:12    157s] 	-temperature $tech(TEMPERATURE_WC) \
+[01/21 10:56:12    157s]     -qrc_tech $tech_files(QRCTECH_FILE_WC)
+[01/21 10:56:12    157s] The existing rc_corner 'wc_rc_corner' has been replaced with new attributes.
+[01/21 10:56:12    157s] Extraction setup Started 
+[01/21 10:56:12    157s] @file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+[01/21 10:56:12    157s] @file 45:
+[01/21 10:56:12    157s] @file 46: # Library Sets #
+[01/21 10:56:12    157s] @file 47: # ------------ #
+[01/21 10:56:12    157s] @@file 48: create_library_set \
+[01/21 10:56:12    157s] 	-name bc_libset \
+[01/21 10:56:12    157s] 	-timing $tech_files(ALL_BC_LIBS)  
+[01/21 10:56:12    157s] **ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+[01/21 10:56:12    157s] **ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+[01/21 10:56:12    157s] **ERROR: (IMPSE-110):	File '/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc' line 48: errors out.
+[01/21 10:56:12    157s] #@ End verbose source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+[01/21 10:56:12    157s] 
+[01/21 10:56:12    157s]     while executing
+[01/21 10:56:12    157s] "create_library_set \
+[01/21 10:56:12    157s] 	-name bc_libset \
+[01/21 10:56:12    157s] 	-timing $tech_files(ALL_BC_LIBS)  "
+[01/21 10:56:12    157s]     (file "/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc" line 48)
+[01/21 10:56:12    157s]     invoked from within
+[01/21 10:56:12    157s] "::se_source_orig /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 10:56:12    157s]     ("uplevel" body line 1)
+[01/21 10:56:12    157s]     invoked from within
+[01/21 10:56:12    157s] "uplevel [concat ::se_source_orig $args]"
+[01/21 10:56:12    157s]     invoked from within
+[01/21 10:56:12    157s] "if { !$encrypted && !$no_encoding && $encodingName != ""  } {
+[01/21 10:56:12    157s]                   set st [uplevel [concat ::se_source_orig " -encoding " $encodingName "..."
+[01/21 10:56:12    157s]     invoked from within
+[01/21 10:56:12    157s] "if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:56:12    157s]               ::SE::source_verbose_start $file_name
+[01/21 10:56:12    157s]               if { !$encrypted && !$no_en..."
+[01/21 10:56:12    157s]     invoked from within
+[01/21 10:56:12    157s] "if {$useTclVerbose} {
+[01/21 10:56:12    157s]           # use tcl internal method
+[01/21 10:56:12    157s]           set st ""
+[01/21 10:56:12    157s]           if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:56:12    157s]      ..."
+[01/21 10:56:12    157s]     invoked from within
+[01/21 10:56:12    157s] "if {$largeFile == 1} {
+[01/21 10:56:12    157s]     if {$enableVerbose == 0 && [::SE::isEchoFile] == 1} {
+[01/21 10:56:12    157s]       $putCmd "Sourcing $file_name"
+[01/21 10:56:12    157s]     }
+[01/21 10:56:12    157s]     set st [uplevel [concat..."
+[01/21 10:56:12    157s]     (procedure "source" line 197)
+[01/21 10:56:12    157s]     invoked from within
+[01/21 10:56:12    157s] "source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/21 10:56:12    157s]     ("uplevel" body line 1)
+[01/21 10:56:12    157s]     invoked from within
+[01/21 10:56:12    157s] "uplevel #0 {source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc}"
+[01/21 10:56:12    157s] 
+[01/21 10:56:12    157s] 
+[01/21 10:56:12    157s] @innovus 101> read_mmmc ../inputs/lp_riscv_top.mmmc
+
+[01/21 10:56:39    157s] #@ Begin verbose source (pre): 
+[01/21 10:56:39    157s] @file 1: #  Version:1.0 MMMC View Definition File
+[01/21 10:56:39    157s] @file 2: # Do Not Remove Above Line
+[01/21 10:56:39    157s] @file 3:
+[01/21 10:56:39    157s] @file 4: ############# MMMC Hierarchy ########################################################################################
+[01/21 10:56:39    157s] @file 5: #                                                                                                                   #
+[01/21 10:56:39    157s] @file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+[01/21 10:56:39    157s] @file 7: #                       |--> Analysis View  |                                                                       #
+[01/21 10:56:39    157s] @file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+[01/21 10:56:39    157s] @file 9: #                                           |--> Delay Corner |                                                     #
+[01/21 10:56:39    157s] @file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+[01/21 10:56:39    157s] @file 11: #####################################################################################################################
+[01/21 10:56:39    157s] @file 12:
+[01/21 10:56:39    157s] @file 13: # Constraint Modes #
+[01/21 10:56:39    157s] @file 14: # ---------------- #
+[01/21 10:56:39    157s] @@file 15: create_constraint_mode \
+[01/21 10:56:39    157s] 	-name functional_mode \
+[01/21 10:56:39    157s] 	-sdc_files $design(functional_sdc)
+[01/21 10:56:39    157s] @file 18:
+[01/21 10:56:39    157s] @file 19: # RC Corners #
+[01/21 10:56:39    157s] @file 20: # ---------- #
+[01/21 10:56:39    157s] @file 21: if {$runtype=="synthesis"} {...
+[01/21 10:56:39    157s] @file 24: } else {
+[01/21 10:56:39    157s] @@file 25: set_message -suppress -id ENCEXT-6202 ;
+[01/21 10:56:39    157s] @file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+[01/21 10:56:39    157s] @file 26: }
+[01/21 10:56:39    157s] @file 27:
+[01/21 10:56:39    157s] @@file 28: create_rc_corner \
+[01/21 10:56:39    157s] 	-name bc_rc_corner \
+[01/21 10:56:39    157s] 	-temperature $tech(TEMPERATURE_BC) \
+[01/21 10:56:39    157s]     -qrc_tech $tech_files(QRCTECH_FILE_BC)
+[01/21 10:56:39    157s] Extraction setup Started 
+[01/21 10:56:39    157s] @file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+[01/21 10:56:39    157s] @file 33:
+[01/21 10:56:39    157s] @@file 34: create_rc_corner \
+[01/21 10:56:39    157s] 	-name tc_rc_corner \
+[01/21 10:56:39    157s] 	-temperature $tech(TEMPERATURE_TC) \
+[01/21 10:56:39    157s] 	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+[01/21 10:56:39    157s] Extraction setup Started 
+[01/21 10:56:39    157s] @file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+[01/21 10:56:39    157s] @file 39:
+[01/21 10:56:39    157s] @@file 40: create_rc_corner \
+[01/21 10:56:39    157s] 	-name wc_rc_corner \
+[01/21 10:56:39    157s] 	-temperature $tech(TEMPERATURE_WC) \
+[01/21 10:56:39    157s]     -qrc_tech $tech_files(QRCTECH_FILE_WC)
+[01/21 10:56:39    157s] Extraction setup Started 
+[01/21 10:56:39    157s] @file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+[01/21 10:56:39    157s] @file 45:
+[01/21 10:56:39    157s] @file 46: # Library Sets #
+[01/21 10:56:39    157s] @file 47: # ------------ #
+[01/21 10:56:39    157s] @@file 48: create_library_set \
+[01/21 10:56:39    157s] 	-name bc_libset \
+[01/21 10:56:39    157s] 	-timing $tech_files(ALL_BC_LIBS)  
+[01/21 10:56:39    157s] **ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+[01/21 10:56:39    157s] **ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+[01/21 10:56:39    157s] **ERROR: (IMPSE-110):	File '../inputs/lp_riscv_top.mmmc' line 48: errors out.
+[01/21 10:56:39    157s] #@ End verbose source ../inputs/lp_riscv_top.mmmc
+[01/21 10:56:39    157s] 
+[01/21 10:56:39    157s]     while executing
+[01/21 10:56:39    157s] "create_library_set \
+[01/21 10:56:39    157s] 	-name bc_libset \
+[01/21 10:56:39    157s] 	-timing $tech_files(ALL_BC_LIBS)  "
+[01/21 10:56:39    157s]     (file "../inputs/lp_riscv_top.mmmc" line 48)
+[01/21 10:56:39    157s]     invoked from within
+[01/21 10:56:39    157s] "::se_source_orig ../inputs/lp_riscv_top.mmmc"
+[01/21 10:56:39    157s]     ("uplevel" body line 1)
+[01/21 10:56:39    157s]     invoked from within
+[01/21 10:56:39    157s] "uplevel [concat ::se_source_orig $args]"
+[01/21 10:56:39    157s]     invoked from within
+[01/21 10:56:39    157s] "if { !$encrypted && !$no_encoding && $encodingName != ""  } {
+[01/21 10:56:39    157s]                   set st [uplevel [concat ::se_source_orig " -encoding " $encodingName "..."
+[01/21 10:56:39    157s]     invoked from within
+[01/21 10:56:39    157s] "if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:56:39    157s]               ::SE::source_verbose_start $file_name
+[01/21 10:56:39    157s]               if { !$encrypted && !$no_en..."
+[01/21 10:56:39    157s]     invoked from within
+[01/21 10:56:39    157s] "if {$useTclVerbose} {
+[01/21 10:56:39    157s]           # use tcl internal method
+[01/21 10:56:39    157s]           set st ""
+[01/21 10:56:39    157s]           if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/21 10:56:39    157s]      ..."
+[01/21 10:56:39    157s]     invoked from within
+[01/21 10:56:39    157s] "if {$largeFile == 1} {
+[01/21 10:56:39    157s]     if {$enableVerbose == 0 && [::SE::isEchoFile] == 1} {
+[01/21 10:56:39    157s]       $putCmd "Sourcing $file_name"
+[01/21 10:56:39    157s]     }
+[01/21 10:56:39    157s]     set st [uplevel [concat..."
+[01/21 10:56:39    157s]     (procedure "source" line 197)
+[01/21 10:56:39    157s]     invoked from within
+[01/21 10:56:39    157s] "source ../inputs/lp_riscv_top.mmmc"
+[01/21 10:56:39    157s]     ("uplevel" body line 1)
+[01/21 10:56:39    157s]     invoked from within
+[01/21 10:56:39    157s] "uplevel #0 {source ../inputs/lp_riscv_top.mmmc}"
+[01/21 10:56:39    157s] 
+[01/21 10:56:39    157s] 
+[01/21 10:56:39    157s] @innovus 102> exit
+
+[01/21 11:00:03    162s] 
+[01/21 11:00:03    162s] *** Summary of all messages that are not suppressed in this session:
+[01/21 11:00:03    162s] Severity  ID               Count  Summary                                  
+[01/21 11:00:03    162s] ERROR     IMPSE-110            7  File '%s' line %s: %s.                   
+[01/21 11:00:03    162s] ERROR     IMPSYT-7300          2  %s                                       
+[01/21 11:00:03    162s] WARNING   IMPDB-6501           2  "set_db design_process_node" will be obs...
+[01/21 11:00:03    162s] ERROR     IMPIMEX-10           1  Specified file cannot be found: %s.      
+[01/21 11:00:03    162s] ERROR     IMPIMEX-12           9  'init_design' failed. You are missing on...
+[01/21 11:00:03    162s] ERROR     TCLCMD-995          10  Can not open file '%s' for %s            
+[01/21 11:00:03    162s] ERROR     TCLCMD-1146          2  %s '%s' not found.                       
+[01/21 11:00:03    162s] *** Message Summary: 2 warning(s), 31 error(s)
+[01/21 11:00:03    162s] 
+[01/21 11:00:03    162s] 
+[01/21 11:00:03    162s] *** Memory Usage v#1 (Current mem = 1952.496M, initial mem = 906.504M) ***
+[01/21 11:00:03    162s] --- Ending "Innovus" (totcpu=0:02:42, real=1:38:42, mem=1952.5M) ---

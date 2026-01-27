@@ -1,0 +1,456 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Wed Jan 21 13:29:08 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v25.11-s102_1 (64bit) 08/27/2025 13:03 (Linux 4.18.0-305.el8.x86_64)
+#@(#)CDS: NanoRoute 25.11-s102_1 NR250730-0928/25_11-UB (database version 18.20.674) {superthreading v2.20}
+#@(#)CDS: AAE 25.11-s028 (64bit) 08/27/2025 (Linux 4.18.0-305.el8.x86_64)
+#@(#)CDS: CTE 25.11-s034_1 () Aug 18 2025 08:55:47 ( )
+#@(#)CDS: SYNTECH 25.11-s013_1 () Jul 30 2025 05:18:51 ( )
+#@(#)CDS: CPE v25.11-s029
+#@(#)CDS: IQuantus/TQuantus 24.1.0-s290 (64bit) Sun Jul 20 21:40:56 PDT 2025 (Linux 4.18.0-305.el8.x86_64)
+
+set design(TOPLEVEL) "lp_riscv_top"
+set runtype "pnr"
+set debug_file "debug.txt"
+source ../scripts/procedures.tcl -quiet
+enics_start_stage "start"
+source ../inputs/$design(TOPLEVEL).defines -quiet
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+set_library_unit -time 1ns -cap 1pf
+set var_list {runtype}
+set dic_list {paths tech tech_files design}
+enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+enics_start_stage "init_design"
+set_db init_ground_nets $design(all_ground_nets)
+set_db init_power_nets $design(all_power_nets)
+nics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+enics_message "Reading MMMC File"
+read_mmmc $design(mmmc_view_file) 
+#@ Begin verbose source (pre): 
+create_constraint_mode \
+	-name functional_mode \
+	-sdc_files $design(functional_sdc)
+if {$runtype=="synthesis"} {...
+} else {
+set_message -suppress -id ENCEXT-6202 ;
+}
+create_rc_corner \
+	-name bc_rc_corner \
+	-temperature $tech(TEMPERATURE_BC) \
+    -qrc_tech $tech_files(QRCTECH_FILE_BC)
+create_rc_corner \
+	-name tc_rc_corner \
+	-temperature $tech(TEMPERATURE_TC) \
+	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+create_rc_corner \
+	-name wc_rc_corner \
+	-temperature $tech(TEMPERATURE_WC) \
+    -qrc_tech $tech_files(QRCTECH_FILE_WC)
+create_library_set \
+	-name bc_libset \
+	-timing $tech_files(ALL_BC_LIBS)  
+create_library_set \
+	-name tc_libset \
+	-timing $tech_files(ALL_TC_LIBS)  
+create_library_set \
+	-name wc_libset \
+	-timing $tech_files(ALL_WC_LIBS)  
+create_timing_condition \
+   -name         bc_timing_condition \
+   -library_sets bc_libset
+create_timing_condition \
+   -name         tc_timing_condition \
+   -library_sets tc_libset
+create_timing_condition \
+   -name         wc_timing_condition \
+   -library_sets wc_libset
+create_delay_corner \
+	-name bc_dly_corner \
+	-timing_condition bc_timing_condition \
+	-rc_corner bc_rc_corner
+create_delay_corner \
+	-name tc_dly_corner \
+	-timing_condition tc_timing_condition \
+	-rc_corner tc_rc_corner
+create_delay_corner \
+	-name wc_dly_corner \
+	-timing_condition wc_timing_condition \
+	-rc_corner wc_rc_corner
+create_analysis_view \
+	-name bc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner bc_dly_corner
+create_analysis_view \
+    -name tc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner tc_dly_corner
+create_analysis_view \
+	-name wc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner wc_dly_corner
+set_analysis_view \
+	-setup $design(selected_setup_analysis_views) \
+	-hold  $design(selected_hold_analysis_views)
+#@ End verbose source: /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+enics_message "Suppressing the following messages that are reported due to the LEF definitions:" 
+enics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+set_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS) 
+enics_message "Reading LEF abstracts"
+read_physical -lef $tech_files(ALL_LEFS)
+read_netlist $design(postsyn_netlist)
+init_design
+enics_default_cost_groups
+connect_global_net $design(digital_gnd) -pin $tech(STANDARD_CELL_GND) -all -verbose
+connect_global_net $design(digital_vdd) -pin $tech(STANDARD_CELL_VDD) -all -verbose
+connect_global_net $design(digital_vdd) -type tiehi -all -verbose 
+connect_global_net $design(digital_gnd) -type tielo -all -verbose 
+connect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDCORE_PIN)      -all -verbose 
+connect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDPERIPHERY_PIN) -all -verbose 
+connect_global_net $design(digital_gnd) -pin $tech(SRAM_GND_PIN)          -all -verbose 
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    # Connect pads to IO and CORE voltages
+    #    -netlist_override is needed, since GENUS connects these pins to UNCONNECTED during synthesis
+    connect_global_net $design(io_vdd)      -pin $tech(IO_VDDIO)   -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(io_gnd)      -pin $tech(IO_GNDIO)   -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(digital_vdd) -pin $tech(IO_VDDCORE) -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(digital_gnd) -pin $tech(IO_GNDCORE) -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+}
+enics_create_stage_reports -save_db no -report_timing no -pop_snapshot yes
+enics_start_stage "floorplan"
+source ../inputs/$design(TOPLEVEL).floorplan.defines -quiet
+create_floorplan \
+    -core_size <YOUR FLOORPLAN SIZE> \
+    -core_margins_by die \
+    -flip s \
+    -match_to_site
+gui_fit
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+# Reload the IO file after resizing the floorplan
+read_io_file $design(io_file)
+# Add IO Fillers
+add_io_fillers -cells $tech(IO_FILLERS) -prefix IOFILLER
+# Connect Pad Rings
+#route_special -connect {pad_ring} \
+#-nets "$design(digital_gnd) $design(digital_vdd) $design(io_gnd) $design(io_vdd)"
+} elseif {$design(FULLCHIP_OR_MACRO)=="MACRO"} {
+# Spread pins
+set pins_to_spread  [get_db ports .name] ;#[get_object_name [get_ports]]
+#edit_pin -fix_overlap 1 -spread_direction clockwise -side Bottom -layer 4 -spread_type side 
+edit_pin -spread_type start -start {0 0} -spread_direction clockwise -layer {3 4}  \
+        -pin $pins_to_spread -fix_overlap 1 -spacing 6
+
+}
+gui_redraw
+check_legacy_design -all -out_dir $design(reports_dir)/$this_run(stage)
+gui_select -point {419.00150 254.92700}
+delete_relative_floorplan -all
+<THIS IS AN EXAMPLE OF HOW YOU COULD MAKE YOUR FLOORPLAN>
+---------------------------------------------------------
+set imem0_name [get_db [get_db insts $design(imem0)] .name]
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem0_name \
+    -horizontal_edge_separate {0  25  0} -vertical_edge_separate {1  25  1} -orient MX
+set imem1_name [get_db [get_db insts $design(imem1)] .name]
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem1_name \
+         -horizontal_edge_separate { 1 -25 1 } -vertical_edge_separate { 1 25 1 } -orient R0
+set dmem0_name [get_db [get_db insts $design(dmem0)] .name]
+set dmem1_name [get_db [get_db insts $design(dmem1)] .name]
+set dmem2_name [get_db [get_db insts $design(dmem2)] .name]
+set dmem3_name [get_db [get_db insts $design(dmem3)] .name]
+deselect_obj -all
+select_obj $imem0_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+-layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem0_name -snap_to_site
+deselect_obj -all
+select_obj $imem1_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+-layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem1_name -snap_to_site
+deselect_obj -all
+select_obj $dmem0_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+-layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem1_name -snap_to_site
+deselect_obj -all
+select_obj $dmem1_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+-layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem1_name -snap_to_site
+route_special -connect {block_pin} -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -block_pin_layer_range {1 4} \
+    -block_pin on_boundary \
+    -detailed_log
+gui_select -point {712.14400 487.30700}
+gui_select -point {262.13250 1097.91250}
+gui_select -point {271.85600 1059.01900}
+gui_select -point {655.48100 591.83200}
+gui_select -point {441.46350 163.79650}
+gui_select -point {562.19150 822.31250}
+gui_select -point {682.91950 882.67650}
+gui_select -rect {660.96850 372.32650 611.58000 350.37600}
+gui_select -point {578.65400 416.22800}
+gui_select -point {885.96150 493.05450}
+gui_select -point {962.78850 427.20300}
+gui_select -point {962.78850 427.20300}
+gui_select -rect {1001.20200 564.39400 1012.17750 482.07950}
+gui_select -point {468.90150 723.53500}
+gui_select -point {463.41400 866.21350}
+gui_select -point {304.27250 1552.16800}
+gui_select -point {337.19850 1513.75450}
+gui_select -point {331.71050 240.62350}
+gui_select -point {172.56950 279.03700}
+gui_select -point {276.83450 257.08650}
+gui_select -point {90.25500 290.01200}
+gui_select -point {-1210.31400 246.11100}
+gui_select -point {-1210.31400 246.11100}
+gui_select -point {-1396.89350 119.89550}
+gui_select -point {289.67300 -170.09600}
+gui_select -point {889.70500 -162.50100}
+gui_select -point {715.01200 -238.45400}
+delete_relative_floorplan -all
+<THIS IS AN EXAMPLE OF HOW YOU COULD MAKE YOUR FLOORPLAN>
+---------------------------------------------------------
+set imem0_name [get_db [get_db insts $design(imem0)] .name]
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem0_name \
+    -horizontal_edge_separate {0  25  0} -vertical_edge_separate {1  25  1} -orient MX
+set imem1_name [get_db [get_db insts $design(imem1)] .name]
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem1_name \
+         -horizontal_edge_separate { 1 -25 1 } -vertical_edge_separate { 1 25 1 } -orient R0
+set dmem0_name [get_db [get_db insts *$design(dmem0)*] .name]
+set dmem1_name [get_db [get_db insts *design(dmem1)*] .name]
+set dmem2_name [get_db [get_db insts *$design(dmem2)*] .name]
+set dmem3_name [get_db [get_db insts *$design(dmem3)*] .name]
+deselect_obj -all
+select_obj $imem0_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+-layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem0_name -snap_to_site
+deselect_obj -all
+select_obj $imem1_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+-layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem1_name -snap_to_site
+deselect_obj -all
+select_obj $dmem0_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+-layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem1_name -snap_to_site
+deselect_obj -all
+select_obj $dmem1_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+-layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem1_name -snap_to_site
+route_special -connect {block_pin} -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -block_pin_layer_range {1 4} \
+    -block_pin on_boundary \
+    -detailed_log
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem0_name \
+    -horizontal_edge_separate {0 25 0} -vertical_edge_separate {1 25 1} -orient MX
+create_relative_floorplan -ref_type core_boundary -ref $imem0_name -place $imem1_name \
+    -horizontal_edge_separate {2 40 0} -vertical_edge_separate {1 0 1} -orient R0
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $dmem0_name \
+    -horizontal_edge_separate {0 25 0} -vertical_edge_separate {3 -25 3} -orient MX
+create_relative_floorplan -ref_type core_boundary -ref $dmem0_name -place $dmem1_name \
+    -horizontal_edge_separate {2 40 0} -vertical_edge_separate {3 0 3} -orient R0
+set all_mems [list $imem0_name $imem1_name $dmem0_name $dmem1_name]
+foreach mem $all_mems {
+    deselect_obj -all
+    select_obj $mem
+    
+    #       
+    add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+        -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+    
+    #  Halo ( )  10u         
+    create_place_halo -halo_deltas {10 10 10 10} -insts $mem -snap_to_site
+}
+route_special -connect {block_pin} -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -block_pin_layer_range {1 4} \
+    -block_pin on_boundary \
+    -detailed_log
+gui_select -point {765.21800 826.30650}
+gui_select -point {751.73800 819.56650}
+gui_select -point {758.47800 812.82600}
+gui_select -point {478.76000 383.64450}
+gui_select -point {466.61000 393.50450}
+gui_select -point {474.88900 379.01700}
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem0_name \
+    -horizontal_edge_separate {0 25 0} -vertical_edge_separate {1 25 1} -orient MX
+create_relative_floorplan -ref_type core_boundary -ref $imem0_name -place $imem1_name \
+    -horizontal_edge_separate {2 40 0} -vertical_edge_separate {1 0 1} -orient R0
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $dmem0_name \
+    -horizontal_edge_separate {0 25 0} -vertical_edge_separate {3 -25 3} -orient MX
+create_relative_floorplan -ref_type core_boundary -ref $dmem0_name -place $dmem1_name \
+    -horizontal_edge_separate {2 40 0} -vertical_edge_separate {3 0 3} -orient R0
+set all_mems [list $imem0_name $imem1_name $dmem0_name $dmem1_name]
+foreach mem $all_mems {
+    deselect_obj -all
+    select_obj $mem
+    
+    #       
+    add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+        -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+    
+    #  Halo ( )  10u         
+    create_place_halo -halo_deltas {10 10 10 10} -insts $mem -snap_to_site
+}
+route_special -connect {block_pin} -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -block_pin_layer_range {1 4} \
+    -block_pin on_boundary \
+    -detailed_log
+set imem0_name [get_db [get_db insts *$design(imem0)*] .name]
+set imem1_name [get_db [get_db insts *$design(imem1)*] .name]
+set dmem0_name [get_db [get_db insts *$design(dmem0)*] .name]
+set dmem1_name [get_db [get_db insts *$design(dmem1)*] .name]
+delete_relative_floorplan -all
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem0_name \
+    -horizontal_edge_separate {0 40 0} -vertical_edge_separate {1 40 1} -orient MX
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem1_name \
+    -horizontal_edge_separate {2 -40 2} -vertical_edge_separate {1 40 1} -orient R0
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $dmem0_name \
+    -horizontal_edge_separate {0 40 0} -vertical_edge_separate {3 -40 3} -orient MX
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $dmem1_name \
+    -horizontal_edge_separate {2 -40 2} -vertical_edge_separate {3 -40 3} -orient R0
+set all_mems [list $imem0_name $imem1_name $dmem0_name $dmem1_name]
+foreach mem $all_mems {
+    deselect_obj -all
+    select_obj $mem
+    
+    #     
+    add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+        -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+    
+    #  Halo ( )  10u [cite: 158]
+    create_place_halo -halo_deltas {10 10 10 10} -insts $mem -snap_to_site
+}
+route_special -connect {block_pin} -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -block_pin_layer_range {1 4} \
+    -block_pin on_boundary \
+    -detailed_log
+add_rings -type core_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 5 -spacing 0.8
+set imem0_name [get_db [get_db insts *$design(imem0)*] .name]
+set imem1_name [get_db [get_db insts *$design(imem1)*] .name]
+set dmem0_name [get_db [get_db insts *$design(dmem0)*] .name]
+set dmem1_name [get_db [get_db insts *$design(dmem1)*] .name]
+delete_relative_floorplan -all
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem0_name \
+    -horizontal_edge_separate {0 40 0} -vertical_edge_separate {1 40 1} -orient MX
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem1_name \
+    -horizontal_edge_separate {2 -40 2} -vertical_edge_separate {1 40 1} -orient R0
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $dmem0_name \
+    -horizontal_edge_separate {0 40 0} -vertical_edge_separate {3 -40 3} -orient MX
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $dmem1_name \
+    -horizontal_edge_separate {2 -40 2} -vertical_edge_separate {3 -40 3} -orient R0
+set all_mems [list $imem0_name $imem1_name $dmem0_name $dmem1_name]
+foreach mem $all_mems {
+    deselect_obj -all
+    select_obj $mem
+    
+    #       [cite: 158]
+    add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+        -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+    
+    #  Halo ( )  DRC [cite: 158, 171]
+    create_place_halo -halo_deltas {10 10 10 10} -insts $mem -snap_to_site
+}
+route_special -connect {block_pin} -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -block_pin_layer_range {1 4} \
+    -block_pin on_boundary \
+    -detailed_log
+add_rings -type core_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 5 -spacing 0.8
+gui_select -point {975.65250 -354.89050}
+gui_select -point {477.82150 1502.49700}
+gui_select -point {468.49250 1469.84550}
+gui_select -point {664.40150 788.82950}
+set_layer_preference M1 -is_visible 0
+set_layer_preference M1 -is_visible 1
+set_layer_preference M1 -is_visible 0
+gui_select -point {-786.00000 292.01350}
+gui_select -point {62.47200 319.76750}
+set imem0_name [get_db [get_db insts *$design(imem0)*] .name]
+set imem1_name [get_db [get_db insts *$design(imem1)*] .name]
+set dmem0_name [get_db [get_db insts *$design(dmem0)*] .name]
+set dmem1_name [get_db [get_db insts *$design(dmem1)*] .name]
+set dmem2_name [get_db [get_db insts *$design(dmem2)*] .name]
+set dmem3_name [get_db [get_db insts *$design(dmem3)*] .name]
+delete_relative_floorplan -all
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem0_name \
+    -horizontal_edge_separate {0 50 0} -vertical_edge_separate {1 50 1} -orient MX
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem1_name \
+    -horizontal_edge_separate {2 -50 2} -vertical_edge_separate {1 50 1} -orient R0
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $dmem0_name \
+    -horizontal_edge_separate {0 50 0} -vertical_edge_separate {3 -50 3} -orient MX
+create_relative_floorplan -ref_type core_boundary -ref $dmem0_name -place $dmem1_name \
+    -horizontal_edge_separate {2 40 0} -vertical_edge_separate {3 0 3} -orient R0
+create_relative_floorplan -ref_type core_boundary -ref $dmem1_name -place $dmem2_name \
+    -horizontal_edge_separate {2 40 0} -vertical_edge_separate {3 0 3} -orient R0
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $dmem3_name \
+    -horizontal_edge_separate {2 -50 2} -vertical_edge_separate {3 -50 3} -orient R0
+set all_mems [list $imem0_name $imem1_name $dmem0_name $dmem1_name $dmem2_name $dmem3_name]
+foreach mem $all_mems {
+    deselect_obj -all
+    select_obj $mem
+    add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+        -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+    create_place_halo -halo_deltas {10 10 10 10} -insts $mem -snap_to_site
+}
+route_special -connect {block_pin} -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -block_pin_layer_range {1 4} -block_pin on_boundary -detailed_log
+add_rings -type core_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 5 -spacing 0.8
+gui_select -point {353.77250 609.39700}
+gui_select -point {749.39900 1190.60400}
+gui_select -rect {605.14300 1146.62350 281.44750 1111.43950}
+gui_select -rect {246.26350 1155.41950 306.07650 967.18350}
+set_layer_preference VIA3 -is_visible 0
+set_layer_preference node_layer -is_selectable 0
+set_layer_preference node_layer -is_visible 1
+set_layer_preference node_layer -is_visible 0
+set_layer_preference node_layer -is_visible 1
+set_layer_preference node_layer -is_visible 0
+set_layer_preference node_net -is_visible 0
+set_layer_preference node_net -is_visible 1
+set_layer_preference node_module -is_visible 0
+set_layer_preference node_module -is_visible 1
+set_layer_preference node_module -is_visible 0
+set_layer_preference node_route -is_visible 0
+gui_select -rect {136.43000 116.31600 33.81100 41.68400}
+gui_select -point {117.77200 130.30950}
+gui_select -rect {430.29350 377.52850 -605.22600 606.08900}
+gui_select -point {579.55750 2098.72950}
+gui_select -point {570.22850 2052.08450}
+gui_select -point {1176.61400 1193.81600}
+gui_select -rect {1162.62050 1142.50650 -278.71050 -196.20550}
+gui_select -point {1283.89750 559.44400}
+gui_select -point {1106.64650 494.14100}
+gui_select -point {1106.64650 494.14100}
+gui_select -point {1120.64000 344.87700}
+set dmem0_name [get_db [get_db insts *$design(dmem0)*] .name]
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $dmem0_name \
+    -horizontal_edge_separate {1000 50 0} -vertical_edge_separate {3 -50 3} -orient MX
+create_relative_floorplan -ref_type core_boundary -ref $dmem0_name -place $dmem1_name \
+    -horizontal_edge_separate {2 40 0} -vertical_edge_separate {3 0 3} -orient R0
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem1_name \
+    -horizontal_edge_separate {2 -50 2} -vertical_edge_separate {1 50 1} -orient R0
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem1_name \
+    -horizontal_edge_separate {8 -50 2} -vertical_edge_separate {1 50 1} -orient R0
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem0_name \
+    -horizontal_edge_separate {0 40 0} -vertical_edge_separate {1 40 1} -orient MX
+gui_select -point {-661.20000 1524.99600}
+gui_select -point {-656.53550 1557.64750}
+gui_select -point {-567.91000 1189.15150}
+gui_select -point {677.51250 1511.00250}
+exit

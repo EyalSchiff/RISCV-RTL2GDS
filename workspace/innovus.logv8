@@ -1,0 +1,111 @@
+[01/22 13:14:52      0s] 
+[01/22 13:14:52      0s] Cadence Innovus(TM) Implementation System.
+[01/22 13:14:52      0s] Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+[01/22 13:14:52      0s] 
+[01/22 13:14:52      0s] Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+[01/22 13:14:52      0s] Options:	-stylus 
+[01/22 13:14:52      0s] Date:		Thu Jan 22 13:14:52 2026
+[01/22 13:14:52      0s] Host:		ip-10-70-160-95.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+[01/22 13:14:52      0s] OS:		Rocky Linux 8.10 (Green Obsidian)
+[01/22 13:14:52      0s] 
+[01/22 13:14:52      0s] License:
+[01/22 13:14:52      0s] 		[13:14:52.003969] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+[01/22 13:14:52      0s] 
+[01/22 13:14:52      0s] 		invs	Innovus Implementation System	25.1	checkout succeeded
+[01/22 13:14:52      0s] 		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[01/22 13:15:10      0s] Memory management switch to non-aggressive memory release mode.
+[01/22 13:15:10      0s] 
+[01/22 13:15:10      0s] OS Mmap count monitoring thread starts. Limit of OS Mmap count is 65530
+[01/22 13:15:10      0s] 
+[01/22 13:15:10      0s] 
+[01/22 13:15:10      0s] 
+[01/22 13:15:16      0s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v25.11-s102_1 (64bit) 08/27/2025 13:03 (Linux 4.18.0-305.el8.x86_64)
+[01/22 13:15:24      0s] @(#)CDS: NanoRoute 25.11-s102_1 NR250730-0928/25_11-UB (database version 18.20.674) {superthreading v2.20}
+[01/22 13:15:24      0s] @(#)CDS: AAE 25.11-s028 (64bit) 08/27/2025 (Linux 4.18.0-305.el8.x86_64)
+[01/22 13:15:24      0s] @(#)CDS: CTE 25.11-s034_1 () Aug 18 2025 08:55:47 ( )
+[01/22 13:15:24      0s] @(#)CDS: SYNTECH 25.11-s013_1 () Jul 30 2025 05:18:51 ( )
+[01/22 13:15:24      0s] @(#)CDS: CPE v25.11-s029
+[01/22 13:15:24      0s] @(#)CDS: IQuantus/TQuantus 24.1.0-s290 (64bit) Sun Jul 20 21:40:56 PDT 2025 (Linux 4.18.0-305.el8.x86_64)
+[01/22 13:15:24      0s] @(#)CDS: OA 22.62-p010 Tue Jun 10 08:32:29 2025
+[01/22 13:15:24      0s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[01/22 13:15:24      0s] @(#)CDS: RCDB 11.15.0
+[01/22 13:15:24      0s] @(#)CDS: STYLUS 25.10-b003_1 (03/20/2025 14:55 PDT)
+[01/22 13:15:24      0s] @(#)CDS: IntegrityPlanner-25.11-186 (25.11) (2025-07-16 18:29:01+0800)
+[01/22 13:15:24      0s] @(#)CDS: SYNTHESIS_ENGINE 25.11-s095
+[01/22 13:15:24      0s] @(#)CDS: TCDB v25.10-b001
+[01/22 13:15:24      0s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_80106_8d7ecbc7-e0e6-44f7-a3db-8664f87c6273_ip-10-70-160-95.il-central-1.compute.internal_schiffe_NoInc0.
+
+[01/22 13:15:24      0s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_80106_8d7ecbc7-e0e6-44f7-a3db-8664f87c6273_ip-10-70-160-95.il-central-1.compute.internal_schiffe_NoInc0.
+[01/22 13:15:24      0s] 
+[01/22 13:15:24      0s] The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[01/22 13:15:28      0s] [INFO] Loading PVS 24.12 fill procedures
+[01/22 13:15:31      0s] Info: Process UID = 80106 / 8d7ecbc7-e0e6-44f7-a3db-8664f87c6273 / YgJwzRDDiD
+[01/22 13:15:34      0s] 
+[01/22 13:15:34      0s] **INFO:  MMMC transition support version v31-84 
+[01/22 13:15:34      0s] 
+[01/22 13:15:39      0s] @innovus 1> set design(TOPLEVEL) "lp_riscv_top"
+set runtype "pnr"
+set debug_file "debug.txt"
+
+# Load general procedures
+source ../scripts/procedures.tcl -quiet
+set design(TOPLEVEL) "lp_riscv_top"
+[01/22 13:15:57      0s] lp_riscv_top
+[01/22 13:15:57      0s] @innovus 2> set runtype "pnr"
+[01/22 13:15:57      0s] pnr
+[01/22 13:15:57      0s] @innovus 3> set debug_file "debug.txt"
+[01/22 13:15:57      0s] debug.txt
+[01/22 13:15:57      0s] @innovus 4> 
+[01/22 13:15:57      0s] @innovus 4> # Load general procedures
+[01/22 13:15:57      0s] @innovus 5> source ../scripts/procedures.tcl -quiet
+
+###############################################
+# Starting Stage - Load defines and technology
+###############################################
+
+
+# Load the specific definitions for this project
+source ../inputs/$design(TOPLEVEL).defines -quiet
+[01/22 13:15:57      0s] @innovus 6> 
+[01/22 13:15:57      0s] @innovus 6> ###############################################
+[01/22 13:15:57      0s] @innovus 7> # Starting Stage - Load defines and technology
+[01/22 13:15:57      0s] @innovus 8> ###############################################
+[01/22 13:15:57      0s] @innovus 9> 
+[01/22 13:15:57      0s] @innovus 9> 
+[01/22 13:15:57      0s] @innovus 9> # Load the specific definitions for this project
+[01/22 13:15:57      0s] @innovus 10> source ../inputs/$design(TOPLEVEL).defines -quiet
+
+# Load the library paths and definitions for this technology
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/22 13:15:57      0s] @innovus 11> 
+[01/22 13:15:57      0s] @innovus 11> # Load the library paths and definitions for this technology
+[01/22 13:15:57      0s] @innovus 12> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/22 13:15:57      0s] **WARN: (IMPDB-6501):	"set_db design_process_node" will be obsoleted in future release. Remove it from the script to avoid the interruption of running the script in future.
+[01/22 13:15:57      0s] ##  Process: 65            (User Set)               
+[01/22 13:15:57      0s] ##     Node: (not set)                           
+[01/22 13:15:57      0s] 
+[01/22 13:15:57      0s] ##  Check design process and node:  
+[01/22 13:15:57      0s] ##  Design tech node is not set.
+[01/22 13:15:57      0s] 
+[01/22 13:15:57      0s] Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[01/22 13:15:57      0s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[01/22 13:15:57      0s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[01/22 13:15:57      0s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'high'.
+[01/22 13:15:57      0s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+[01/22 13:15:57      0s] @innovus 13> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+[01/22 13:15:57      0s] @innovus 14> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet [1G
+[01/22 13:15:57      0s] @innovus 15> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+[01/22 13:15:57      0s] +     source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+[01/22 13:15:57      0s] + }
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+[01/22 13:15:57      0s] @innovus 16> set_library_unit -time 1ns -cap 1pf
+set_library_unit -time 1ns -cap 1pf
+[01/22 13:15:57      0s] @innovus 17> gui_select -point {0.09000 0.04900}
+[01/22 13:16:16      0s] @innovus 18> [01/22 13:16:43      0s] 
+[01/22 13:16:43      0s] *** Summary of all messages that are not suppressed in this session:
+[01/22 13:16:43      0s] Severity  ID               Count  Summary                                  
+[01/22 13:16:43      0s] WARNING   IMPDB-6501           1  "set_db design_process_node" will be obs...

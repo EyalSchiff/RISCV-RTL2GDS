@@ -1,0 +1,311 @@
+[01/26 13:07:31      0s] 
+[01/26 13:07:31      0s] Cadence Innovus(TM) Implementation System.
+[01/26 13:07:31      0s] Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+[01/26 13:07:31      0s] 
+[01/26 13:07:31      0s] Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+[01/26 13:07:31      0s] Options:	-stylus 
+[01/26 13:07:31      0s] Date:		Mon Jan 26 13:07:31 2026
+[01/26 13:07:31      0s] Host:		ip-10-70-160-95.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+[01/26 13:07:31      0s] OS:		Rocky Linux 8.10 (Green Obsidian)
+[01/26 13:07:31      0s] 
+[01/26 13:07:31      0s] License:
+[01/26 13:07:31      0s] 		[13:07:31.003961] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+[01/26 13:07:31      0s] 
+[01/26 13:07:31      0s] 		invs	Innovus Implementation System	25.1	checkout succeeded
+[01/26 13:07:31      0s] 		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[01/26 13:07:49      0s] Memory management switch to non-aggressive memory release mode.
+[01/26 13:07:49      0s] 
+[01/26 13:07:49      0s] OS Mmap count monitoring thread starts. Limit of OS Mmap count is 65530
+[01/26 13:07:49      0s] 
+[01/26 13:07:49      0s] 
+[01/26 13:07:49      0s] 
+[01/26 13:08:02      0s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v25.11-s102_1 (64bit) 08/27/2025 13:03 (Linux 4.18.0-305.el8.x86_64)
+[01/26 13:08:11      0s] @(#)CDS: NanoRoute 25.11-s102_1 NR250730-0928/25_11-UB (database version 18.20.674) {superthreading v2.20}
+[01/26 13:08:11      0s] @(#)CDS: AAE 25.11-s028 (64bit) 08/27/2025 (Linux 4.18.0-305.el8.x86_64)
+[01/26 13:08:11      0s] @(#)CDS: CTE 25.11-s034_1 () Aug 18 2025 08:55:47 ( )
+[01/26 13:08:11      0s] @(#)CDS: SYNTECH 25.11-s013_1 () Jul 30 2025 05:18:51 ( )
+[01/26 13:08:11      0s] @(#)CDS: CPE v25.11-s029
+[01/26 13:08:11      0s] @(#)CDS: IQuantus/TQuantus 24.1.0-s290 (64bit) Sun Jul 20 21:40:56 PDT 2025 (Linux 4.18.0-305.el8.x86_64)
+[01/26 13:08:11      0s] @(#)CDS: OA 22.62-p010 Tue Jun 10 08:32:29 2025
+[01/26 13:08:11      0s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[01/26 13:08:11      0s] @(#)CDS: RCDB 11.15.0
+[01/26 13:08:11      0s] @(#)CDS: STYLUS 25.10-b003_1 (03/20/2025 14:55 PDT)
+[01/26 13:08:11      0s] @(#)CDS: IntegrityPlanner-25.11-186 (25.11) (2025-07-16 18:29:01+0800)
+[01/26 13:08:11      0s] @(#)CDS: SYNTHESIS_ENGINE 25.11-s095
+[01/26 13:08:11      0s] @(#)CDS: TCDB v25.10-b001
+[01/26 13:08:11      0s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_122084_cd3e6d63-77ca-4fdf-839c-2638e245755e_ip-10-70-160-95.il-central-1.compute.internal_schiffe_hisxXI.
+
+[01/26 13:08:11      0s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_122084_cd3e6d63-77ca-4fdf-839c-2638e245755e_ip-10-70-160-95.il-central-1.compute.internal_schiffe_hisxXI.
+[01/26 13:08:11      0s] 
+[01/26 13:08:11      0s] The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[01/26 13:08:14      0s] [INFO] Loading PVS 24.12 fill procedures
+[01/26 13:08:17      0s] Info: Process UID = 122084 / cd3e6d63-77ca-4fdf-839c-2638e245755e / vojaF5LEBr
+[01/26 13:08:21      0s] 
+[01/26 13:08:21      0s] **INFO:  MMMC transition support version v31-84 
+[01/26 13:08:21      0s] 
+[01/26 13:08:25      0s] @innovus 1> set design(TOPLEVEL) "lp_riscv_top"
+set design(TOPLEVEL) "lp_riscv_top"
+[01/26 13:09:28      0s] lp_riscv_top
+[01/26 13:09:28      0s] @innovus 2> set runtype "pset runtype "pnr"
+set debug_file "debug.txt"
+
+nr"
+[01/26 13:09:28      0s] pnr
+[01/26 13:09:28      0s] @innovus 3> set debug_file "debug.txt"
+[01/26 13:09:28      0s] debug.txt
+[01/26 13:09:28      0s] @innovus 4> 
+[01/26 13:09:28      0s] @innovus 4> # Load general pro# Load general procedures
+source ../scripts/procedures.tcl -quiet
+cedures
+[01/26 13:09:28      0s] @innovus 5> source ../scripts/procedures.tcl -quiet
+[01/26 13:09:28      0s] @innovus 6> 
+
+###############################################
+# Starting Stage - Load defines and technology
+###############################################
+[01/26 13:09:28      0s] @innovus 6> ###############################################
+[01/26 13:09:28      0s] @innovus 7> # Starting Stage - Load defines and technology
+[01/26 13:09:28      0s] @innovus 8> ###############################################
+enics_start_stage "start"
+[01/26 13:09:28      0s] @innovus 9> enics_start_stage "start"
+[01/26 13:09:28      0s] *****************************************
+[01/26 13:09:28      0s] *****************************************
+[01/26 13:09:28      0s] **   ENICSINFO: Starting stage start   **
+[01/26 13:09:28      0s] *****************************************
+[01/26 13:09:28      0s] *****************************************
+
+
+# Load the specific definitions for this project
+source ../inputs/$design(TOPLEVEL).defines -quiet
+[01/26 13:09:28      0s] ENICSINFO: Current time is: 26/01/2026 13:09
+[01/26 13:09:28      0s] ENICSINFO: This session is running on Hostname : ip-10-70-160-95.il-central-1.compute.internal
+[01/26 13:09:28      0s] ENICSINFO: The log file is innovus.log19 and the command file is innovus.cmd19
+[01/26 13:09:28      0s] ENICSINFO: ----------------------------------
+[01/26 13:09:28      0s] @innovus 10> 
+[01/26 13:09:28      0s] @innovus 10> 
+[01/26 13:09:28      0s] @innovus 10> # Load the specific definitions for this project
+[01/26 13:09:28      0s] @innovus 11> source ../inputs/$design(TOPLEVEL).defines -quiet
+
+
+
+# Load the library paths and definitions for this technology
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/26 13:09:28      0s] @innovus 12> 
+[01/26 13:09:28      0s] @innovus 12> 
+[01/26 13:09:28      0s] @innovus 12> 
+[01/26 13:09:28      0s] @innovus 12> # Load the library paths and definitions for this technology
+[01/26 13:09:28      0s] @innovus 13> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/26 13:09:28      0s] **WARN: (IMPDB-6501):	"set_db design_process_node" will be obsoleted in future release. Remove it from the script to avoid the interruption of running the script in future.
+[01/26 13:09:28      0s] ##  Process: 65            (User Set)               
+[01/26 13:09:28      0s] ##     Node: (not set)                           
+[01/26 13:09:28      0s] 
+[01/26 13:09:28      0s] ##  Check design process and node:  
+[01/26 13:09:28      0s] ##  Design tech node is not set.
+[01/26 13:09:28      0s] 
+[01/26 13:09:28      0s] Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[01/26 13:09:28      0s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[01/26 13:09:28      0s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[01/26 13:09:28      0s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'high'.
+[01/26 13:09:28      0s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+[01/26 13:09:28      0s] @innovus 14> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+[01/26 13:09:28      0s] @innovus 15> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+[01/26 13:09:28      0s] @innovus 16> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+[01/26 13:09:28      0s] +     source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+[01/26 13:09:28      0s] + }
+set_library_unit -time 1ns -cap 1pf
+
+#############################################
+#       Print values to debug file
+#############################################
+set var_list {runtype}
+set dic_list {paths tech tech_files design}
+[01/26 13:09:28      0s] @innovus 17> set_library_unit -time 1ns -cap 1pf
+[01/26 13:09:28      0s] @innovus 18> 
+[01/26 13:09:28      0s] @innovus 18> #############################################
+[01/26 13:09:28      0s] @innovus 19> #       Print values to debug file
+[01/26 13:09:28      0s] @innovus 20> #############################################
+[01/26 13:09:28      0s] @innovus 21> set var_list {runtype}
+[01/26 13:09:28      0s] runtype
+[01/26 13:09:28      0s] @innovus 22> set dic_list {paths tech tech_files design}
+[01/26 13:09:28      0s] paths tech tech_files design
+[01/26 13:09:28      0s] @innovus 23> enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+[01/26 13:09:28      0s] @innovus 24> 
+
+
+[01/26 13:09:28      0s] @innovus 24> 
+[01/26 13:09:28      0s] @innovus 24> ############################################
+############################################
+[01/26 13:09:28      0s] @innovus 25> # Init Design
+# Init Design
+[01/26 13:09:28      0s] @innovus 26> ############################################
+############################################
+[01/26 13:09:28      0s] @innovus 27> enable_metrics -on
+enable_metrics -on
+[01/26 13:09:28      0s] @innovus 28> enics_start_stage "init_design"
+enics_start_stage "init_design"
+[01/26 13:09:28      0s] ***********************************************
+[01/26 13:09:28      0s] ***********************************************
+[01/26 13:09:28      0s] **   ENICSINFO: Starting stage init_design   **
+[01/26 13:09:28      0s] ***********************************************
+[01/26 13:09:28      0s] ***********************************************
+[01/26 13:09:28      0s] ENICSINFO: Current time is: 26/01/2026 13:09
+[01/26 13:09:28      0s] ENICSINFO: ----------------------------------
+
+[01/26 13:09:28      0s] @innovus 29> 
+# Global Nets
+[01/26 13:09:28      0s] @innovus 29> # Global Nets
+set_db init_ground_nets $design(all_ground_nets)
+set_db init_power_nets $design(all_power_nets)
+
+# MMMC
+[01/26 13:09:28      0s] @innovus 30> set_db init_ground_nets $design(all_ground_nets)
+[01/26 13:09:28      0s] 1 gnd
+[01/26 13:09:28      0s] @innovus 31> set_db init_power_nets $design(all_power_nets)
+[01/26 13:09:28      0s] 1 {vdd vddio}
+[01/26 13:09:28      0s] @innovus 32> 
+[01/26 13:09:28      0s] @innovus 32> # MMMC
+enics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+[01/26 13:09:28      0s] @innovus 33> enics_message "Suppressing the following messages that are reported due to the LIB definition [1Gs:" 
+[01/26 13:09:28      0s] ENICSINFO: Suppressing the following messages that are reported due to the LIB definitions:
+[01/26 13:09:28      0s] @innovus 34> enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+[01/26 13:09:28      0s] ENICSINFO: TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 IMPTS-282
+[01/26 13:09:28      0s] @innovus 35> set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNset_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+OVUS) 
+[01/26 13:09:28      0s] @innovus 36> enics_message "Reading MMMC File" medium
+enics_message "Reading MMMC File" medium
+[01/26 13:09:28      0s] 
+[01/26 13:09:28      0s] ENICSINFO: Reading MMMC File
+[01/26 13:09:28      0s] ----------------------------
+[01/26 13:09:28      0s] @innovus 37> reread_mmmc $design(mmmc_view_file) 
+#@ Begin verbose source (pre): 
+[01/26 13:09:28      0s] @file 1: #  Version:1.0 MMMC View Definition File
+[01/26 13:09:28      0s] @file 2: # Do Not Remove Above Line
+[01/26 13:09:28      0s] @file 3:
+[01/26 13:09:28      0s] @file 4: ############# MMMC Hierarchy ########################################################################################
+[01/26 13:09:28      0s] @file 5: #                                                                                                                   #
+[01/26 13:09:28      0s] @file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+[01/26 13:09:28      0s] @file 7: #                       |--> Analysis View  |                                                                       #
+[01/26 13:09:28      0s] @file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+[01/26 13:09:28      0s] @file 9: #                                           |--> Delay Corner |                                                     #
+[01/26 13:09:28      0s] @file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+[01/26 13:09:28      0s] @file 11: #####################################################################################################################
+[01/26 13:09:28      0s] @file 12:
+[01/26 13:09:28      0s] @file 13: # Constraint Modes #
+[01/26 13:09:28      0s] @file 14: # ---------------- #
+[01/26 13:09:28      0s] @@file 15: create_constraint_mode \
+[01/26 13:09:28      0s] 	-name functional_mode \
+[01/26 13:09:28      0s] 	-sdc_files $design(functional_sdc)
+[01/26 13:09:28      0s] @file 18:
+[01/26 13:09:28      0s] @file 19: # RC Corners #
+[01/26 13:09:28      0s] @file 20: # ---------- #
+[01/26 13:09:28      0s] @file 21: if {$runtype=="synthesis"} {...
+[01/26 13:09:28      0s] @file 24: } else {
+[01/26 13:09:28      0s] @@file 25: set_message -suppress -id ENCEXT-6202 ;
+[01/26 13:09:28      0s] @file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+[01/26 13:09:28      0s] @file 26: }
+[01/26 13:09:28      0s] @file 27:
+[01/26 13:09:28      0s] @@file 28: create_rc_corner \
+[01/26 13:09:28      0s] 	-name bc_rc_corner \
+[01/26 13:09:28      0s] 	-temperature $tech(TEMPERATURE_BC) \
+[01/26 13:09:28      0s]     -qrc_tech $tech_files(QRCTECH_FILE_BC)
+[01/26 13:09:28      0s] @file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+[01/26 13:09:28      0s] @file 33:
+[01/26 13:09:28      0s] @@file 34: create_rc_corner \
+[01/26 13:09:28      0s] 	-name tc_rc_corner \
+[01/26 13:09:28      0s] 	-temperature $tech(TEMPERATURE_TC) \
+[01/26 13:09:28      0s] 	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+[01/26 13:09:28      0s] @file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+[01/26 13:09:28      0s] @file 39:
+[01/26 13:09:28      0s] @@file 40: create_rc_corner \
+[01/26 13:09:28      0s] 	-name wc_rc_corner \
+[01/26 13:09:28      0s] 	-temperature $tech(TEMPERATURE_WC) \
+[01/26 13:09:28      0s]     -qrc_tech $tech_files(QRCTECH_FILE_WC)
+[01/26 13:09:28      0s] @file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+[01/26 13:09:28      0s] @file 45:
+[01/26 13:09:28      0s] @file 46: # Library Sets #
+[01/26 13:09:28      0s] @file 47: # ------------ #
+[01/26 13:09:28      0s] @@file 48: create_library_set \
+[01/26 13:09:28      0s] 	-name bc_libset \
+[01/26 13:09:28      0s] 	-timing $tech_files(ALL_BC_LIBS)  
+[01/26 13:09:28      0s] @file 51: # -aocv $tech_files(ALL_BC_AOCV_LIBS)
+[01/26 13:09:28      0s] @file 52:
+[01/26 13:09:28      0s] @@file 53: create_library_set \
+[01/26 13:09:28      0s] 	-name tc_libset \
+[01/26 13:09:28      0s] 	-timing $tech_files(ALL_TC_LIBS)  
+[01/26 13:09:28      0s] @file 56: # -aocv $tech_files(ALL_TC_AOCV_LIBS)
+[01/26 13:09:28      0s] @file 57:     
+[01/26 13:09:28      0s] @@file 58: create_library_set \
+[01/26 13:09:28      0s] 	-name wc_libset \
+[01/26 13:09:28      0s] 	-timing $tech_files(ALL_WC_LIBS)  
+[01/26 13:09:28      0s] @file 61: # -aocv $tech_files(ALL_WC_AOCV_LIBS)
+[01/26 13:09:28      0s] @file 62:
+[01/26 13:09:28      0s] @file 63: # Timing Conditions #
+[01/26 13:09:28      0s] @file 64: # ----------------- #
+[01/26 13:09:28      0s] @@file 65: create_timing_condition \
+[01/26 13:09:28      0s]    -name         bc_timing_condition \
+[01/26 13:09:28      0s]    -library_sets bc_libset
+[01/26 13:09:28      0s] @file 68:
+[01/26 13:09:28      0s] @@file 69: create_timing_condition \
+[01/26 13:09:28      0s]    -name         tc_timing_condition \
+[01/26 13:09:28      0s]    -library_sets tc_libset
+[01/26 13:09:28      0s] @file 72:
+[01/26 13:09:28      0s] @@file 73: create_timing_condition \
+[01/26 13:09:28      0s]    -name         wc_timing_condition \
+[01/26 13:09:28      0s]    -library_sets wc_libset
+[01/26 13:09:28      0s] @file 76:
+[01/26 13:09:28      0s] @file 77: # Delay Corners #
+[01/26 13:09:28      0s] @file 78: # ------------- #
+[01/26 13:09:28      0s] @@file 79: create_delay_corner \
+[01/26 13:09:28      0s] 	-name bc_dly_corner \
+[01/26 13:09:28      0s] 	-timing_condition bc_timing_condition \
+[01/26 13:09:28      0s] 	-rc_corner bc_rc_corner
+[01/26 13:09:28      0s] @file 83:
+[01/26 13:09:28      0s] @@file 84: create_delay_corner \
+[01/26 13:09:28      0s] 	-name tc_dly_corner \
+[01/26 13:09:28      0s] 	-timing_condition tc_timing_condition \
+[01/26 13:09:28      0s] 	-rc_corner tc_rc_corner
+[01/26 13:09:28      0s] @file 88:
+[01/26 13:09:28      0s] @@file 89: create_delay_corner \
+[01/26 13:09:28      0s] 	-name wc_dly_corner \
+[01/26 13:09:28      0s] 	-timing_condition wc_timing_condition \
+[01/26 13:09:28      0s] 	-rc_corner wc_rc_corner
+[01/26 13:09:28      0s] @file 93:
+[01/26 13:09:28      0s] @file 94: # Analysis Views #
+[01/26 13:09:28      0s] @file 95: # -------------- #
+[01/26 13:09:28      0s] @@file 96: create_analysis_view \
+[01/26 13:09:28      0s] 	-name bc_analysis_view \
+[01/26 13:09:28      0s] 	-constraint_mode functional_mode \
+[01/26 13:09:28      0s] 	-delay_corner bc_dly_corner
+[01/26 13:09:28      0s] @file 100:
+[01/26 13:09:28      0s] @@file 101: create_analysis_view \
+[01/26 13:09:28      0s]     -name tc_analysis_view \
+[01/26 13:09:28      0s] 	-constraint_mode functional_mode \
+[01/26 13:09:28      0s] 	-delay_corner tc_dly_corner
+[01/26 13:09:28      0s] @file 105:
+[01/26 13:09:28      0s] @@file 106: create_analysis_view \
+[01/26 13:09:28      0s] 	-name wc_analysis_view \
+[01/26 13:09:28      0s] 	-constraint_mode functional_mode \
+[01/26 13:09:28      0s] 	-delay_corner wc_dly_corner
+[01/26 13:09:28      0s] @file 110:
+[01/26 13:09:28      0s] @file 111: # Selected Analysis Views #
+[01/26 13:09:28      0s] @file 112: # ----------------------- #
+[01/26 13:09:28      0s] @@file 113: set_analysis_view \
+[01/26 13:09:28      0s] 	-setup $design(selected_setup_analysis_views) \
+[01/26 13:09:28      0s] 	-hold  $design(selected_hold_analysis_views)
+[01/26 13:09:28      0s] @file 116: # -leakage $design(selected_leakage_analysis_views)
+[01/26 13:09:28      0s] @file 117:     # -dynamic $design(selected_dynamic_power_analysis_views)
+[01/26 13:09:28      0s] @file 118:
+[01/26 13:09:28      0s] @file 119:
+[01/26 13:09:28      0s] #@ End verbose source: /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+[01/26 13:09:28      0s] Reading wc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_rvt/r0p0/lib/sc9_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib' ...
+[01/26 13:09:32      0s] Read 949 cells in library 'sc9_cln65lp_base_rvt_ss_typical_max_0p90v_125c' 
+[01/26 13:09:32      0s] Reading wc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_lvt/r0p0/lib/sc9_cln65lp_base_lvt_ss_typical_max_0p90v_125c.lib' ...
+[01/26 13:09:35      0s] Read 949 cells in library 'sc9_cln65lp_base_lvt_ss_typical_max_0p90v_125c' 
+[01/26 13:09:35      0s] Reading wc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_hvt/r0p0/lib/sc9_cln65lp_base_hvt_ss_typical_max_0p90v_125c.lib' ...

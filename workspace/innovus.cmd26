@@ -1,0 +1,276 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Tue Jan 27 09:26:51 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v25.11-s102_1 (64bit) 08/27/2025 13:03 (Linux 4.18.0-305.el8.x86_64)
+#@(#)CDS: NanoRoute 25.11-s102_1 NR250730-0928/25_11-UB (database version 18.20.674) {superthreading v2.20}
+#@(#)CDS: AAE 25.11-s028 (64bit) 08/27/2025 (Linux 4.18.0-305.el8.x86_64)
+#@(#)CDS: CTE 25.11-s034_1 () Aug 18 2025 08:55:47 ( )
+#@(#)CDS: SYNTECH 25.11-s013_1 () Jul 30 2025 05:18:51 ( )
+#@(#)CDS: CPE v25.11-s029
+#@(#)CDS: IQuantus/TQuantus 24.1.0-s290 (64bit) Sun Jul 20 21:40:56 PDT 2025 (Linux 4.18.0-305.el8.x86_64)
+
+set design(TOPLEVEL) "lp_riscv_top"
+set runtype "pnr"
+set debug_file "debug.txt"
+source ../scripts/procedures.tcl -quiet
+enics_start_stage "start"
+source ../inputs/$design(TOPLEVEL).defines -quiet
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+set_library_unit -time 1ns -cap 1pf
+set var_list {runtype}
+set dic_list {paths tech tech_files design}
+enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+enable_metrics -on
+enics_start_stage "init_design"
+set_db init_ground_nets $design(all_ground_nets)
+set_db init_power_nets $design(all_power_nets)
+enics_message "Suppressing the following messages that are reported due to the LIB definitions:"
+enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS)
+enics_message "Reading MMMC File" medium
+read_mmmc $design(mmmc_view_file)
+#@ Begin verbose source (pre): 
+create_constraint_mode \
+	-name functional_mode \
+	-sdc_files $design(functional_sdc)
+if {$runtype=="synthesis"} {...
+} else {
+set_message -suppress -id ENCEXT-6202 ;
+}
+create_rc_corner \
+	-name bc_rc_corner \
+	-temperature $tech(TEMPERATURE_BC) \
+    -qrc_tech $tech_files(QRCTECH_FILE_BC)
+create_rc_corner \
+	-name tc_rc_corner \
+	-temperature $tech(TEMPERATURE_TC) \
+	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+create_rc_corner \
+	-name wc_rc_corner \
+	-temperature $tech(TEMPERATURE_WC) \
+    -qrc_tech $tech_files(QRCTECH_FILE_WC)
+create_library_set \
+	-name bc_libset \
+	-timing $tech_files(ALL_BC_LIBS)  
+create_library_set \
+	-name tc_libset \
+	-timing $tech_files(ALL_TC_LIBS)  
+create_library_set \
+	-name wc_libset \
+	-timing $tech_files(ALL_WC_LIBS)  
+create_timing_condition \
+   -name         bc_timing_condition \
+   -library_sets bc_libset
+create_timing_condition \
+   -name         tc_timing_condition \
+   -library_sets tc_libset
+create_timing_condition \
+   -name         wc_timing_condition \
+   -library_sets wc_libset
+create_delay_corner \
+	-name bc_dly_corner \
+	-timing_condition bc_timing_condition \
+	-rc_corner bc_rc_corner
+create_delay_corner \
+	-name tc_dly_corner \
+	-timing_condition tc_timing_condition \
+	-rc_corner tc_rc_corner
+create_delay_corner \
+	-name wc_dly_corner \
+	-timing_condition wc_timing_condition \
+	-rc_corner wc_rc_corner
+create_analysis_view \
+	-name bc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner bc_dly_corner
+create_analysis_view \
+    -name tc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner tc_dly_corner
+create_analysis_view \
+	-name wc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner wc_dly_corner
+set_analysis_view \
+	-setup $design(selected_setup_analysis_views) \
+	-hold  $design(selected_hold_analysis_views)
+#@ End verbose source: /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+enics_message "Suppressing the following messages that are reported due to the LEF definitions:"
+enics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+set_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS)
+enics_message "Reading LEF abstracts"
+read_physical -lef $tech_files(ALL_LEFS)
+enics_message "Reading the Post Synthesis netlist at $design(postsyn_netlist)" medium
+read_netlist $design(postsyn_netlist)
+enics_message "Running init_design command" medium
+init_design
+source ../scripts/settings.tcl -quiet
+enics_default_cost_groups
+enics_message "Connecting Global Nets" medium
+connect_global_net $design(digital_gnd) -pin $tech(STANDARD_CELL_GND) -all -verbose
+connect_global_net $design(digital_vdd) -pin $tech(STANDARD_CELL_VDD) -all -verbose
+connect_global_net $design(digital_vdd) -type tiehi -all -verbose
+connect_global_net $design(digital_gnd) -type tielo -all -verbose
+connect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDCORE_PIN)      -all -verbose
+connect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDPERIPHERY_PIN) -all -verbose
+connect_global_net $design(digital_gnd) -pin $tech(SRAM_GND_PIN)          -all -verbose
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    # Connect pads to IO and CORE voltages
+    #    -netlist_override is needed, since GENUS connects these pins to UNCONNECTED during synthesis
+    connect_global_net $design(io_vdd)      -pin $tech(IO_VDDIO)   -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(io_gnd)      -pin $tech(IO_GNDIO)   -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(digital_vdd) -pin $tech(IO_VDDCORE) -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(digital_gnd) -pin $tech(IO_GNDCORE) -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+}
+enics_create_stage_reports -save_db no -report_timing no -pop_snapshot yes
+enics_start_stage "floorplan"
+source ../inputs/$design(TOPLEVEL).floorplan.defines -quiet
+create_floorplan \
+    -core_size [list 2000.0 1600.0 150.0 150.0 150.0 150.0] \
+    -core_margins_by die \
+    -flip s \
+    -match_to_site
+gui_fit
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    enics_message "Defining IO Ring" medium
+    # Reload the IO file after resizing the floorplan
+    read_io_file $design(io_file)
+    # Add IO Fillers
+    add_io_fillers -cells $tech(IO_FILLERS) -prefix IOFILLER
+} elseif {$design(FULLCHIP_OR_MACRO)=="MACRO"} {
+    enics_message "Spreading Pins around Macro" medium
+    # Spread pins
+    set pins_to_spread  [get_db ports .name]
+    edit_pin -spread_type start -start {0 0} -spread_direction clockwise -layer {3 4} \
+        -pin $pins_to_spread -fix_overlap 1 -spacing 6
+}
+gui_redraw
+check_legacy_design -all -out_dir $design(reports_dir)/$this_run(stage)
+enics_message "Placing Hard Macros" medium
+delete_relative_floorplan -all
+set design(imem0) "lp_riscv/iccm_ram_wrapper_iccm_ram_0_sram_sp_16384x32"
+set design(imem1) "lp_riscv/iccm_ram_wrapper_iccm_ram_1_sram_sp_16384x32"
+set design(dmem0) "lp_riscv/dccm_ram_wrapper_dccm_ram_0_sram_sp_8192x32"
+set design(dmem1) "lp_riscv/dccm_ram_wrapper_dccm_ram_1_sram_sp_8192x32"
+set design(dmem2) "lp_riscv/dccm_ram_wrapper_dccm_ram_2_sram_sp_8192x32"
+set design(dmem3) "lp_riscv/dccm_ram_wrapper_dccm_ram_3_sram_sp_8192x32"
+set imem0_name [get_db [get_db insts $design(imem0)] .name]
+set imem1_name [get_db [get_db insts $design(imem1)] .name]  ;
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem0_name \
+    -horizontal_edge_separate {2 -80 2} \
+    -vertical_edge_separate {1 50 1} -orient R0
+create_relative_floorplan -ref_type object -ref $imem0_name -place $imem1_name \
+    -horizontal_edge_separate {0 -80 2} \
+    -vertical_edge_separate {0 0 0} -orient MX
+set dmem0_name [get_db [get_db insts $design(dmem0)] .name]
+set dmem1_name [get_db [get_db insts $design(dmem1)] .name]
+set dmem2_name [get_db [get_db insts $design(dmem2)] .name]
+set dmem3_name [get_db [get_db insts $design(dmem3)] .name]
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $dmem0_name \
+    -horizontal_edge_separate {2 -80 2} \
+    -vertical_edge_separate {3 -50 3} -orient R0
+create_relative_floorplan -ref_type object -ref $dmem0_name -place $dmem1_name \
+    -horizontal_edge_separate {0 -80 2} \
+    -vertical_edge_separate {0 0 0} -orient MX
+create_relative_floorplan -ref_type object -ref $dmem1_name -place $dmem2_name \
+    -horizontal_edge_separate {0 -80 2} \
+    -vertical_edge_separate {0 0 0} -orient R0
+create_relative_floorplan -ref_type object -ref $dmem2_name -place $dmem3_name \
+    -horizontal_edge_separate {0 -80 2} \
+    -vertical_edge_separate {0 0 0} -orient MX
+enics_message "Adding Rings Around Hard Macros and creating Halos"
+deselect_obj -all
+select_obj $imem0_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem0_name -snap_to_site
+deselect_obj -all
+select_obj $imem1_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem1_name -snap_to_site
+deselect_obj -all
+select_obj $dmem0_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $dmem0_name -snap_to_site
+deselect_obj -all
+select_obj $dmem1_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $dmem1_name -snap_to_site
+deselect_obj -all
+select_obj $dmem2_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $dmem2_name -snap_to_site
+deselect_obj -all
+select_obj $dmem3_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $dmem3_name -snap_to_site
+enics_message "Connecting Block Pins of hard macros to Power/Ground"
+route_special -connect {block_pin} -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -block_pin_layer_range {1 4} \
+    -block_pin on_boundary \
+    -detailed_log
+enics_message "Creating Core Rings" medium
+add_rings -type core_rings -nets $design(core_ring_nets) -center 1 -follow core \
+    -layer $design(core_ring_layers) -width $design(core_ring_width) -spacing $design(core_ring_spacing)
+enics_message "Routing Follow Pins" medium
+route_special -connect { core_pin } -nets  "$design(digital_gnd) $design(digital_vdd)" -detailed_log
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    # Connect pads to the rings
+    enics_message "Connecting PG Pads to Core Ring" medium
+    route_special -connect {pad_pin} -nets $design(core_ring_nets) -pad_pin_port_connect all_geom -detailed_log
+}
+if {$tech(LIBRARY_HAS_ENDCAPS)=="YES"} {
+    enics_message "Adding End Caps" medium
+    add_endcaps
+}
+enics_message "Adding Well Taps" medium
+add_well_taps -cell $tech(WELLTAP)  -checker_board -prefix $design(well_tap_prefix) \
+    -cell_interval [expr 2 * $tech(WELLTAP_RULE)]
+check_well_taps -max_distance $tech(WELLTAP_RULE)
+enics_message "Creating Power Grid" high
+add_stripes -layer [lindex [get_db layers .name] 1] -direction vertical -nets $design(M2_stripe_nets) \
+    -width $design(M2_stripes_width) -spacing $design(M2_stripes_spacing) \
+    -start_from left -start_offset $design(M2_stripes_from_left) \
+    -set_to_set_distance $design(M2_stripes_interval) -create_pins true \
+    -max_same_layer_jog_length 10.0 \
+    -block_ring_bottom_layer_limit M2
+set route_halo_width 0.5
+foreach net_name $design(M2_stripe_nets) {
+    edit_net -net $net_name \
+        -route_halo_width $route_halo_width \
+        -route_halo_top_layer M2 \
+        -route_halo_bottom_layer M2
+}
+verify_drc  ;
+enics_create_stage_reports -pop_snapshot yes
+write_def -floorplan -no_std_cells "$design(floorplan_def)"
+enics_start_stage "placement"
+enics_message "Creating M2 blockage around stripes"
+deselect_obj -all
+deselect_routes
+select_routes -shapes stripe -layer M2 -nets $design(M2_stripe_nets)
+foreach stripe [get_db selected] {
+    create_route_blockage -name M2_pwr_stripe_route_blk \
+        -layers "M1 M2" \
+        -spacing 0.2 \
+        -area [get_db $stripe .rect]
+}
+deselect_routes
+enics_message "Starting place_opt_design" medium
+set_db place_global_cong_effort high                 ;
+set_db place_detail_legalization_inst_gap 1          ;
+place_opt_design -report_dir "$design(reports_dir)/placement/place_opt_design"

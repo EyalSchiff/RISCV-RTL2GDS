@@ -1,0 +1,4911 @@
+tns -1597376.75000 -806275.00000 0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_1
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_16
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_168
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_181
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_188
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_190
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_191
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_193
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_198
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_201
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_205
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_207
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_210
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_213
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sll_789_39_n_61
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sll_789_39_n_94
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sll_789_39_n_95
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3237
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3595
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4475
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4557
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4637
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4668
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4672
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4674
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4675
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9701
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9732
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN1551_n_4675
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3441_n_3237
+0.0 0.0 2132 -1087025.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_bmask_a_ex[2]
+0.0 0.0 1906 -952639.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7598
+0.0 0.0 1906 -952639.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_761
+0.0 0.0 1906 -952639.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7671
+0.0 0.0 1906 -952639.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9763
+0.0 0.0 1906 -952639.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_221
+0.0 0.0 1432 -680179.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_222
+0.0 0.0 1432 -680179.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_227
+0.0 0.0 1432 -680179.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sra_292_63_n_165
+0.0 0.0 1432 -680179.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sra_292_63_n_218
+0.0 0.0 1432 -680179.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sra_292_63_n_239
+0.0 0.0 1432 -680179.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9600
+0.0 0.0 1432 -680179.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_576
+0.0 0.0 1404 -677304.43750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OCPN12888_n_4675
+0.0 0.0 728 -409721.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_223
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_231
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_239
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_srl_296_63_n_125
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_srl_296_63_n_160
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_srl_296_63_n_167
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_srl_296_63_n_44
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_srl_296_63_n_45
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_srl_296_63_n_87
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6761
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9568
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9655
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9690
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN2921_n_9655
+0.0 0.0 700 -406846.46875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_242
+0.0 0.0 771 -358369.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_add_176_44_n_251
+0.0 0.0 771 -358369.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sra_292_63_n_139
+0.0 0.0 771 -358369.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sra_292_63_n_59
+0.0 0.0 771 -358369.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sra_292_63_n_8
+0.0 0.0 771 -358369.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sra_292_63_n_91
+0.0 0.0 771 -358369.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12196
+0.0 0.0 771 -358369.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7193
+0.0 0.0 771 -358369.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9662
+0.0 0.0 771 -358369.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1000
+0.0 0.0 460 -327152.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_156
+0.0 0.0 460 -327152.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_405
+0.0 0.0 460 -327152.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_406
+0.0 0.0 460 -327152.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7921
+0.0 0.0 460 -327152.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9107
+0.0 0.0 460 -327152.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_DBTN14_n_9107
+0.0 0.0 460 -327152.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12930_n_9107
+0.0 0.0 460 -327152.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN2150_n_9107
+0.0 0.0 460 -327152.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sra_292_63_n_143
+0.0 0.0 661 -321809.65625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sra_292_63_n_6
+0.0 0.0 661 -321809.65625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_sra_292_63_n_72
+0.0 0.0 661 -321809.65625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7192
+0.0 0.0 661 -321809.65625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9660
+0.0 0.0 661 -321809.65625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9692
+0.0 0.0 661 -321809.65625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1144
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1321
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1358
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1555
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1578
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1616
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1666
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1692
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1709
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1719
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1741
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1756
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1764
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN13035_i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1358
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3315_i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1578
+0.0 0.0 452 -321304.87500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_102
+0.0 0.0 436 -307119.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_189
+0.0 0.0 436 -307119.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_60
+0.0 0.0 436 -307119.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1781
+0.0 0.0 436 -307119.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7682
+0.0 0.0 436 -307119.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8943
+0.0 0.0 436 -307119.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8957
+0.0 0.0 436 -307119.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN747_n_8957
+0.0 0.0 436 -307119.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_mult_en_ex
+0.0 0.0 261 -186919.68750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12387_i_riscv_core_mult_en_ex
+0.0 0.0 261 -186919.68750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_196
+0.0 0.0 250 -184395.40625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7800
+0.0 0.0 250 -178626.90625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12478_n_7800
+0.0 0.0 250 -178626.90625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7748
+0.0 0.0 242 -172770.14062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7749
+0.0 0.0 242 -172770.14062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_mult_operator_ex[1]
+0.0 0.0 218 -154381.84375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7756
+0.0 0.0 218 -154381.84375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7768
+0.0 0.0 218 -154381.84375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7782
+0.0 0.0 218 -154381.84375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12441_n
+0.0 0.0 218 -154381.84375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12442_n
+0.0 0.0 218 -154381.84375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN4011_n_7768
+0.0 0.0 218 -154381.84375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_192
+0.0 0.0 202 -136909.48438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6338
+0.0 0.0 226 -134385.96875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7596
+0.0 0.0 226 -134385.96875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7668
+0.0 0.0 226 -134385.96875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7694
+0.0 0.0 226 -134385.96875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9762
+0.0 0.0 226 -134385.96875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_DBTN69_n_6338
+0.0 0.0 226 -134385.96875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_199
+0.0 0.0 172 -130227.95312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_alu_operand_a_ex[9]
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_branch_decision
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_pc_set
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7006
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7135
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7217
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7242
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7263
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7280
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7291
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7301
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7313
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7316
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7320
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7340
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7348
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7349
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8154
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8181
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8196
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8256
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8260
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8314
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8316
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9262
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9356
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9960
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12308_n
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN438_i_riscv_core_alu_operand_a_ex_9
+0.0 0.0 238 -122258.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7354
+0.0 0.0 236 -121918.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7358
+0.0 0.0 236 -121918.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7384
+0.0 0.0 236 -121918.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8044
+0.0 0.0 236 -121918.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8231
+0.0 0.0 236 -121918.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8336
+0.0 0.0 236 -121918.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8339
+0.0 0.0 236 -121918.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8340
+0.0 0.0 236 -121918.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_DBTN32_n_8336
+0.0 0.0 236 -121918.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6588
+0.0 0.0 140 -101488.25000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8880
+0.0 0.0 140 -101488.25000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8891
+0.0 0.0 140 -101488.25000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_201
+0.0 0.0 94 -76281.24219 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_202
+0.0 0.0 94 -76281.24219 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3254_n_8336
+0.0 0.0 128 -75984.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3258_n_8336
+0.0 0.0 128 -75984.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3260_n_8336
+0.0 0.0 126 -75965.95312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3317_n_743
+0.0 0.0 108 -70637.78906 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1424
+0.0 0.0 78 -64955.89844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4584
+0.0 0.0 78 -64955.89844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_580
+0.0 0.0 78 -64955.89844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8821
+0.0 0.0 78 -64955.89844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3544_n_4584
+0.0 0.0 78 -64955.89844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7307
+0.0 0.0 122 -63904.94141 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_48
+0.0 0.0 78 -62095.48828 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_8
+0.0 0.0 78 -62095.48828 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1425
+0.0 0.0 78 -62095.48828 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4589
+0.0 0.0 78 -62095.48828 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_586
+0.0 0.0 78 -62095.48828 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6584
+0.0 0.0 78 -62095.48828 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8820
+0.0 0.0 78 -62095.48828 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8884
+0.0 0.0 78 -62095.48828 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8895
+0.0 0.0 78 -62095.48828 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3576_n_4589
+0.0 0.0 78 -62095.48828 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4786
+0.0 0.0 68 -55992.67188 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4683
+0.0 0.0 102 -54829.33203 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4716
+0.0 0.0 102 -54829.33203 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4753
+0.0 0.0 102 -54829.33203 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4794
+0.0 0.0 102 -54829.33203 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_14
+0.0 0.0 78 -54167.47266 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_73
+0.0 0.0 78 -54167.47266 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1426
+0.0 0.0 78 -54167.47266 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4646
+0.0 0.0 78 -54167.47266 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_587
+0.0 0.0 78 -54167.47266 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8818
+0.0 0.0 78 -54167.47266 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8893
+0.0 0.0 78 -54167.47266 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3643_n_4646
+0.0 0.0 78 -54167.47266 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN730_n_8893
+0.0 0.0 78 -54167.47266 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4698
+0.0 0.0 84 -54119.50391 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4727
+0.0 0.0 84 -54119.50391 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4771
+0.0 0.0 84 -54119.50391 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4816
+0.0 0.0 84 -54119.50391 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_9
+0.0 0.0 78 -53946.69922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1435
+0.0 0.0 78 -53946.69922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1646
+0.0 0.0 78 -53946.69922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_385
+0.0 0.0 78 -53946.69922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4809
+0.0 0.0 78 -53946.69922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6555
+0.0 0.0 78 -53946.69922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8819
+0.0 0.0 78 -53946.69922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8851
+0.0 0.0 78 -53946.69922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8894
+0.0 0.0 78 -53946.69922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN731_n_8894
+0.0 0.0 78 -53946.69922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_DBTN33_n_8336
+0.0 0.0 72 -53574.55469 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4696
+0.0 0.0 84 -53304.50000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4725
+0.0 0.0 84 -53304.50000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4769
+0.0 0.0 84 -53304.50000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4793
+0.0 0.0 84 -53304.50000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_DBTN80_n_4793
+0.0 0.0 84 -53304.50000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4694
+0.0 0.0 84 -52703.31641 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4723
+0.0 0.0 84 -52703.31641 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4767
+0.0 0.0 84 -52703.31641 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4778
+0.0 0.0 84 -52703.31641 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12464_n
+0.0 0.0 84 -52703.31641 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3645_n_4778
+0.0 0.0 84 -52703.31641 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_102
+0.0 0.0 62 -50770.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_121
+0.0 0.0 62 -50770.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_183
+0.0 0.0 62 -50770.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_187
+0.0 0.0 62 -50770.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_189
+0.0 0.0 62 -50770.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_190
+0.0 0.0 62 -50770.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_192
+0.0 0.0 62 -50770.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_64
+0.0 0.0 62 -50770.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_7
+0.0 0.0 62 -50770.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3703_n_580
+0.0 0.0 62 -50770.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_11
+0.0 0.0 78 -50718.11328 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_57
+0.0 0.0 78 -50718.11328 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1428
+0.0 0.0 78 -50718.11328 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4661
+0.0 0.0 78 -50718.11328 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_579
+0.0 0.0 78 -50718.11328 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8816
+0.0 0.0 78 -50718.11328 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3366_n_4661
+0.0 0.0 78 -50718.11328 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4676
+0.0 0.0 84 -50171.98047 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4708
+0.0 0.0 84 -50171.98047 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4781
+0.0 0.0 84 -50171.98047 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OCPN12887_n_4675
+0.0 0.0 84 -50171.98047 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3711_n_4781
+0.0 0.0 84 -50171.98047 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_RN_16_0
+0.0 0.0 84 -50171.98047 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4679
+0.0 0.0 102 -49680.35547 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4712
+0.0 0.0 102 -49680.35547 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4758
+0.0 0.0 102 -49680.35547 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4802
+0.0 0.0 102 -49680.35547 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3739_n_586
+0.0 0.0 62 -48583.62500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4704
+0.0 0.0 90 -47762.24609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4733
+0.0 0.0 90 -47762.24609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4749
+0.0 0.0 90 -47762.24609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4783
+0.0 0.0 90 -47762.24609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_RN_27_0
+0.0 0.0 90 -47762.24609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4680
+0.0 0.0 96 -47595.04297 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4713
+0.0 0.0 96 -47595.04297 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4756
+0.0 0.0 96 -47595.04297 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4803
+0.0 0.0 96 -47595.04297 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4705
+0.0 0.0 90 -47468.78125 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4734
+0.0 0.0 90 -47468.78125 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4750
+0.0 0.0 90 -47468.78125 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4784
+0.0 0.0 90 -47468.78125 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1427
+0.0 0.0 78 -47125.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4659
+0.0 0.0 78 -47125.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_588
+0.0 0.0 78 -47125.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8817
+0.0 0.0 78 -47125.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3619_n_4659
+0.0 0.0 78 -47125.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3636_n_588
+0.0 0.0 78 -47125.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4681
+0.0 0.0 84 -46672.01172 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4714
+0.0 0.0 84 -46672.01172 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4740
+0.0 0.0 84 -46672.01172 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4755
+0.0 0.0 84 -46672.01172 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4795
+0.0 0.0 84 -46672.01172 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3687_n_4795
+0.0 0.0 84 -46672.01172 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_288
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_3
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_302
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_348
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_368
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_389
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_393
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_128
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_139
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_142
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_168
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_174
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_176
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_49
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_105
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_118
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_123
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_1040
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_153
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_255
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_444
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_59
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_712
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_713
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_729
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_757
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_786
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_895
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_921
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_958
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_959
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_990
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12248
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7629
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7714
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7789
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8994
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9040
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9168
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_DBTN42_n_7789
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12405_n_9168
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN2464_n_8994
+0.0 0.0 88 -45892.80078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_DBTN71_n_4816
+0.0 0.0 72 -45334.69531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6554
+0.0 0.0 66 -45288.53125 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8850
+0.0 0.0 66 -45288.53125 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_51
+0.0 0.0 67 -45180.47266 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4697
+0.0 0.0 84 -44497.19531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4726
+0.0 0.0 84 -44497.19531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4770
+0.0 0.0 84 -44497.19531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_577
+0.0 0.0 84 -44497.19531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_DBTN160_n_577
+0.0 0.0 84 -44497.19531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4700
+0.0 0.0 90 -44431.45703 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4724
+0.0 0.0 90 -44431.45703 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4744
+0.0 0.0 90 -44431.45703 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4773
+0.0 0.0 90 -44431.45703 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4685
+0.0 0.0 99 -43643.28906 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4718
+0.0 0.0 99 -43643.28906 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4751
+0.0 0.0 99 -43643.28906 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4805
+0.0 0.0 99 -43643.28906 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_RN_32_0
+0.0 0.0 99 -43643.28906 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3621_n_4793
+0.0 0.0 72 -43149.96094 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_581
+0.0 0.0 78 -42783.42969 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4684
+0.0 0.0 84 -42639.05859 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4717
+0.0 0.0 84 -42639.05859 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4754
+0.0 0.0 84 -42639.05859 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4804
+0.0 0.0 84 -42639.05859 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4707
+0.0 0.0 84 -42489.93359 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4729
+0.0 0.0 84 -42489.93359 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4742
+0.0 0.0 84 -42489.93359 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4798
+0.0 0.0 84 -42489.93359 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3741_n_587
+0.0 0.0 62 -42488.03516 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_320
+0.0 0.0 72 -40923.17578 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4701
+0.0 0.0 78 -39758.34375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4730
+0.0 0.0 78 -39758.34375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4759
+0.0 0.0 78 -39758.34375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4799
+0.0 0.0 78 -39758.34375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4678
+0.0 0.0 84 -39172.24609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4711
+0.0 0.0 84 -39172.24609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4746
+0.0 0.0 84 -39172.24609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4775
+0.0 0.0 84 -39172.24609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1304
+0.0 0.0 64 -39160.04297 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2236
+0.0 0.0 64 -39160.04297 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_515
+0.0 0.0 64 -39160.04297 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3437_n_515
+0.0 0.0 64 -39160.04297 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_175
+0.0 0.0 78 -38189.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_179
+0.0 0.0 78 -38189.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_20
+0.0 0.0 78 -38189.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_21
+0.0 0.0 78 -38189.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1413
+0.0 0.0 78 -38189.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4663
+0.0 0.0 78 -38189.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_582
+0.0 0.0 78 -38189.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8813
+0.0 0.0 78 -38189.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN2334_n_1413
+0.0 0.0 78 -38189.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3590_n_582
+0.0 0.0 78 -38189.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3733_n_579
+0.0 0.0 62 -38033.37109 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4682
+0.0 0.0 84 -37847.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4715
+0.0 0.0 84 -37847.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4752
+0.0 0.0 84 -37847.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4801
+0.0 0.0 84 -37847.44531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_mult_operator_ex[0]
+0.0 0.0 77 -37600.03516 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN4079_i_riscv_core_mult_operator_ex_0
+0.0 0.0 77 -37600.03516 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4699
+0.0 0.0 78 -37596.01562 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4728
+0.0 0.0 78 -37596.01562 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4741
+0.0 0.0 78 -37596.01562 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4796
+0.0 0.0 78 -37596.01562 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_DBTN77_n_4796
+0.0 0.0 78 -37596.01562 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4706
+0.0 0.0 78 -36639.30078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4735
+0.0 0.0 78 -36639.30078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4743
+0.0 0.0 78 -36639.30078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4785
+0.0 0.0 78 -36639.30078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4686
+0.0 0.0 84 -36333.70312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4719
+0.0 0.0 84 -36333.70312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4757
+0.0 0.0 84 -36333.70312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4806
+0.0 0.0 84 -36333.70312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_194
+0.0 0.0 62 -35421.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_197
+0.0 0.0 62 -35421.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_45
+0.0 0.0 62 -35421.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_6
+0.0 0.0 62 -35421.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12237
+0.0 0.0 62 -35421.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6589
+0.0 0.0 62 -35421.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8881
+0.0 0.0 62 -35421.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12545_n_588
+0.0 0.0 62 -35421.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3704_n_580
+0.0 0.0 40 -35287.27344 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4693
+0.0 0.0 68 -35080.21875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4722
+0.0 0.0 68 -35080.21875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4766
+0.0 0.0 68 -35080.21875 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4702
+0.0 0.0 78 -34727.39062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4731
+0.0 0.0 78 -34727.39062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4747
+0.0 0.0 78 -34727.39062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4800
+0.0 0.0 78 -34727.39062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_RN_19_0
+0.0 0.0 78 -34727.39062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4703
+0.0 0.0 78 -34047.91016 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4739
+0.0 0.0 78 -34047.91016 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4748
+0.0 0.0 78 -34047.91016 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4782
+0.0 0.0 78 -34047.91016 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4692
+0.0 0.0 81 -33815.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4710
+0.0 0.0 81 -33815.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4745
+0.0 0.0 81 -33815.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4774
+0.0 0.0 81 -33815.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3717_n_4816
+0.0 0.0 46 -32274.82031 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3688_n_4795
+0.0 0.0 62 -32115.79492 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3740_n_586
+0.0 0.0 40 -31862.12695 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12505_n_385
+0.0 0.0 46 -31811.18164 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN4016_n_4800
+0.0 0.0 72 -31684.42383 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_38
+0.0 0.0 55 -31209.83008 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8915
+0.0 0.0 55 -31209.83008 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3735_n_581
+0.0 0.0 60 -30628.10352 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3768_n_4804
+0.0 0.0 62 -30098.35352 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3762_n_4799
+0.0 0.0 62 -28787.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3303_placement_opt_inst_FE_DBTN32_n_8336
+0.0 0.0 36 -26796.36328 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_743
+0.0 0.0 36 -26778.18945 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12436_n
+0.0 0.0 62 -26766.62109 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3757_n_4794
+0.0 0.0 60 -26328.12305 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12433_n_4783
+0.0 0.0 62 -26274.08594 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3748_n_4775
+0.0 0.0 62 -26143.79492 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3763_n_4801
+0.0 0.0 62 -26028.59570 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3755_n_4785
+0.0 0.0 56 -26020.75391 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3493_n_2236
+0.0 0.0 34 -24937.56445 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3749_n_4782
+0.0 0.0 62 -23893.16016 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3715_n_4803
+0.0 0.0 62 -23768.65039 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3690_n_4806
+0.0 0.0 62 -23597.19336 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3689_n_4796
+0.0 0.0 46 -23547.96484 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN4019_n_4795
+0.0 0.0 36 -23293.82422 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3743_n_4773
+0.0 0.0 62 -23275.54883 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12535_n
+0.0 0.0 30 -22781.90820 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3761_n_4799
+0.0 0.0 40 -22351.29688 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3623_n_4809
+0.0 0.0 32 -22135.52930 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3592_n_582
+0.0 0.0 40 -21593.32422 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3624_n_4809
+0.0 0.0 30 -21456.95312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3745_n_4774
+0.0 0.0 62 -21225.10156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3637_n_588
+0.0 0.0 30 -21162.20898 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12890_placement_opt_inst_FE_DBTN71_n_4816
+0.0 0.0 30 -21104.65039 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12465_n
+0.0 0.0 52 -20826.01562 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3622_n_4793
+0.0 0.0 30 -20748.09180 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3646_n_4778
+0.0 0.0 30 -20620.29297 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5814
+0.0 0.0 27 -20493.74609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6272
+0.0 0.0 24 -20329.26367 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6268
+0.0 0.0 24 -20265.16992 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN4017_n_4800
+0.0 0.0 40 -20224.64258 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3764_n_4801
+0.0 0.0 38 -20203.87305 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12435_n
+0.0 0.0 32 -20124.30859 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_DBTN81_n_4781
+0.0 0.0 30 -20063.03906 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3752_n_4783
+0.0 0.0 36 -19552.46094 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3732_n_579
+0.0 0.0 24 -19030.73438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3760_n_4798
+0.0 0.0 40 -18292.15430 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12669_n
+0.0 0.0 36 -18148.24609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6596
+0.0 0.0 24 -17857.92773 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8840
+0.0 0.0 24 -17857.92773 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6073
+0.0 0.0 21 -17701.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6269
+0.0 0.0 21 -17701.60156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12313_n
+0.0 0.0 30 -16905.24609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3553_n_577
+0.0 0.0 30 -16648.53125 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3754_n_4784
+0.0 0.0 28 -16616.53906 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3691_n_4806
+0.0 0.0 32 -16606.66211 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12319_n
+0.0 0.0 26 -15813.91602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3756_n_4785
+0.0 0.0 26 -15678.86523 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3744_n_4773
+0.0 0.0 28 -14691.55469 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_185
+0.0 0.0 33 -14682.97559 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_190
+0.0 0.0 33 -14682.97559 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_55
+0.0 0.0 33 -14682.97559 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6601
+0.0 0.0 33 -14682.97559 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8873
+0.0 0.0 33 -14682.97559 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8916
+0.0 0.0 33 -14682.97559 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3737_n_581
+0.0 0.0 22 -14605.35547 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6271
+0.0 0.0 18 -14246.70703 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12819_n_6271
+0.0 0.0 18 -14246.70703 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_117
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_143
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_203
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_205
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_84
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_80
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_86
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6556
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7683
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8853
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8896
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8944
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8958
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN749_n_8958
+0.0 0.0 16 -14185.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5866
+0.0 0.0 18 -14104.07910 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5839
+0.0 0.0 18 -13943.81641 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3746_n_4774
+0.0 0.0 26 -13458.42090 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12317_n
+0.0 0.0 16 -13363.54004 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6514
+0.0 0.0 31 -13351.90039 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8872
+0.0 0.0 31 -13351.90039 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3716_n_4803
+0.0 0.0 24 -13151.52637 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5849
+0.0 0.0 18 -12976.48340 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5812
+0.0 0.0 18 -12308.48438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3771_n_4805
+0.0 0.0 30 -12162.52246 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_116
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_135
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_178
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_182
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_42
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_111
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_174
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_180
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_184
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_75
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12239
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6587
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8879
+0.0 0.0 16 -11703.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12536_n
+0.0 0.0 16 -11613.39355 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5916
+0.0 0.0 15 -11455.00977 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6064
+0.0 0.0 12 -11329.60840 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6274
+0.0 0.0 12 -11329.60840 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6296
+0.0 0.0 12 -11267.82031 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6017
+0.0 0.0 12 -11218.66602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6280
+0.0 0.0 12 -11218.66602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6299
+0.0 0.0 12 -11198.95996 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3259_n_8336
+0.0 0.0 18 -11172.49219 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12309_placement_opt_inst_FE_DBTN71_n_4816
+0.0 0.0 16 -11170.16797 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5840
+0.0 0.0 18 -10685.08984 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3719_n_5840
+0.0 0.0 18 -10685.08984 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6300
+0.0 0.0 12 -10676.83301 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6281
+0.0 0.0 12 -10562.83105 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12473_n_385
+0.0 0.0 16 -10354.22754 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6023
+0.0 0.0 12 -10173.03125 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6071
+0.0 0.0 12 -10157.78418 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6067
+0.0 0.0 12 -10156.23047 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5886
+0.0 0.0 12 -10149.52637 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5875
+0.0 0.0 12 -10107.38574 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6027
+0.0 0.0 12 -10107.38574 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5870
+0.0 0.0 12 -10074.22559 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6583
+0.0 0.0 12 -8878.94824 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8882
+0.0 0.0 12 -8878.94824 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5858
+0.0 0.0 10 -8837.37500 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12474_n_385
+0.0 0.0 14 -8836.74121 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5889
+0.0 0.0 12 -8815.12891 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5887
+0.0 0.0 12 -8784.81348 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5897
+0.0 0.0 10 -8773.63672 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3615_n_5897
+0.0 0.0 10 -8773.63672 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_52
+0.0 0.0 11 -8766.23828 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5908
+0.0 0.0 10 -8608.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3835_n_5908
+0.0 0.0 10 -8608.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5900
+0.0 0.0 10 -8533.15820 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3831_n_5900
+0.0 0.0 10 -8533.15820 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12311_placement_opt_inst_FE_DBTN77_n_4796
+0.0 0.0 12 -8515.13281 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5867
+0.0 0.0 12 -8446.49316 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5896
+0.0 0.0 10 -8441.63281 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5828
+0.0 0.0 12 -8417.70117 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3767_n_4802
+0.0 0.0 14 -8407.25391 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5909
+0.0 0.0 10 -8339.64746 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6297
+0.0 0.0 9 -8327.68750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5859
+0.0 0.0 10 -8266.81543 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5860
+0.0 0.0 10 -8266.81543 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5857
+0.0 0.0 10 -8232.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5913
+0.0 0.0 10 -7988.92822 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3722_n_5913
+0.0 0.0 10 -7988.92822 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5861
+0.0 0.0 12 -7870.09277 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3815_n_5861
+0.0 0.0 12 -7870.09277 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_127
+0.0 0.0 10 -7703.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_165
+0.0 0.0 10 -7703.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_63_Y_i_riscv_core_ex_stage_i_mult_i_add_241_81_Y_i_riscv_core_ex_stage_i_mult_i_add_254_96_n_23
+0.0 0.0 10 -7703.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1429
+0.0 0.0 10 -7703.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4662
+0.0 0.0 10 -7703.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5893
+0.0 0.0 10 -7703.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5894
+0.0 0.0 10 -7703.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8815
+0.0 0.0 10 -7703.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3579_n_4662
+0.0 0.0 10 -7703.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5865
+0.0 0.0 12 -7699.11816 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5853
+0.0 0.0 10 -7693.71924 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3810_n_5853
+0.0 0.0 10 -7693.71924 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5809
+0.0 0.0 12 -7638.16992 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3796_n_5809
+0.0 0.0 12 -7638.16992 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5898
+0.0 0.0 10 -7575.62842 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5852
+0.0 0.0 10 -7573.67090 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3809_n_5852
+0.0 0.0 10 -7573.67090 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5911
+0.0 0.0 10 -7404.15332 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3670_n_5911
+0.0 0.0 10 -7404.15332 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5854
+0.0 0.0 10 -7384.07422 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3811_n_5854
+0.0 0.0 10 -7384.07422 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5899
+0.0 0.0 10 -7359.12012 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3781_n_5899
+0.0 0.0 10 -7359.12012 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5874
+0.0 0.0 10 -7212.10742 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3824_n_5874
+0.0 0.0 10 -7212.10742 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5831
+0.0 0.0 9 -7168.62549 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6024
+0.0 0.0 9 -7164.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5901
+0.0 0.0 10 -7158.76221 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3832_n_5901
+0.0 0.0 10 -7158.76221 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6068
+0.0 0.0 9 -7081.95605 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5878
+0.0 0.0 10 -7081.03369 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3826_n_5878
+0.0 0.0 10 -7081.03369 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5895
+0.0 0.0 10 -7042.81982 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3614_n_5895
+0.0 0.0 10 -7042.81982 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5917
+0.0 0.0 10 -6962.19580 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3782_n_5917
+0.0 0.0 10 -6962.19580 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5855
+0.0 0.0 10 -6940.17480 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3812_n_5855
+0.0 0.0 10 -6940.17480 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5856
+0.0 0.0 10 -6682.95605 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3255_n_8336
+0.0 0.0 40 -6537.98340 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3257_n_8336
+0.0 0.0 40 -6537.98340 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5880
+0.0 0.0 10 -6453.86182 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3827_n_5880
+0.0 0.0 10 -6453.86182 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5882
+0.0 0.0 10 -6334.24707 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3828_n_5882
+0.0 0.0 10 -6334.24707 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5813
+0.0 0.0 12 -6086.84424 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5876
+0.0 0.0 10 -6011.79883 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3825_n_5876
+0.0 0.0 10 -6011.79883 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6037
+0.0 0.0 6 -5948.33203 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6120
+0.0 0.0 6 -5948.33203 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3725_n_6120
+0.0 0.0 6 -5948.33203 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_203
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_308
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_339
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_353
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_406
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/csa_tree_i_riscv_core_ex_stage_i_mult_i_add_240_81_groupi_n_410
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_3
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_1045
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_1073
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_1116
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_1156
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_1165
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_1208
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_1209
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_130
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_189
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_343
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_63
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_662
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_78
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_838
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12242
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12260
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7642
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7723
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7747
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7914
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9005
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9047
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_9173
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12892_i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_1209
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12903_i_riscv_core_ex_stage_i_mult_i_mul_237_55_Y_i_riscv_core_ex_stage_i_mult_i_mul_251_57_n_63
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN2471_n_9005
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_RN_4_0
+0.0 0.0 8 -5856.77148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_add_204_39_Y_i_riscv_core_ex_stage_i_mult_i_add_241_54_Y_i_riscv_core_ex_stage_i_mult_i_add_254_62_n_0
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1364
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1464
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1518
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1636
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1678
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1693
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1716
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1735
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1758
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_30
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7679
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8940
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8954
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN644_i_riscv_core_ex_stage_i_mult_i_mul_252_57_Y_i_riscv_core_ex_stage_i_mult_i_mul_204_87_Y_i_riscv_core_ex_stage_i_mult_i_mul_236_55_n_1716
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN745_n_8954
+0.0 0.0 8 -5847.16602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_106
+0.0 0.0 6 -5839.40674 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3952_n_106
+0.0 0.0 6 -5839.40674 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6289
+0.0 0.0 6 -5821.45605 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6310
+0.0 0.0 6 -5821.45605 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6315
+0.0 0.0 6 -5821.45605 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6333
+0.0 0.0 6 -5821.45605 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3970_n_6333
+0.0 0.0 6 -5821.45605 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6304
+0.0 0.0 6 -5730.76611 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6316
+0.0 0.0 6 -5730.76611 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6328
+0.0 0.0 6 -5730.76611 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3728_n_6328
+0.0 0.0 6 -5730.76611 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6292
+0.0 0.0 6 -5717.02979 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6308
+0.0 0.0 6 -5717.02979 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6318
+0.0 0.0 6 -5717.02979 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6331
+0.0 0.0 6 -5717.02979 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3730_n_6331
+0.0 0.0 6 -5717.02979 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_130
+0.0 0.0 6 -5645.73877 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6323
+0.0 0.0 6 -5645.73877 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3946_n_6323
+0.0 0.0 6 -5645.73877 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5823
+0.0 0.0 6 -5623.66309 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6077
+0.0 0.0 6 -5623.66309 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6312
+0.0 0.0 6 -5623.66309 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12878_n_6312
+0.0 0.0 6 -5623.66309 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3671_n_6077
+0.0 0.0 6 -5623.66309 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6311
+0.0 0.0 6 -5592.34326 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6319
+0.0 0.0 6 -5592.34326 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6330
+0.0 0.0 6 -5592.34326 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3948_n_6330
+0.0 0.0 6 -5592.34326 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6075
+0.0 0.0 6 -5569.01611 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6322
+0.0 0.0 6 -5569.01611 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12622_n_6322
+0.0 0.0 6 -5569.01611 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3625_n_6075
+0.0 0.0 6 -5569.01611 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6306
+0.0 0.0 6 -5553.22168 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3958_n_6306
+0.0 0.0 6 -5553.22168 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_105
+0.0 0.0 6 -5537.05371 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3133_n_105
+0.0 0.0 6 -5537.05371 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_104
+0.0 0.0 6 -5508.15186 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3950_n_104
+0.0 0.0 6 -5508.15186 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_109
+0.0 0.0 6 -5501.63672 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3794_n_109
+0.0 0.0 6 -5501.63672 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6040
+0.0 0.0 6 -5476.16650 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6123
+0.0 0.0 6 -5476.16650 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3627_n_6123
+0.0 0.0 6 -5476.16650 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6076
+0.0 0.0 6 -5448.67725 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6329
+0.0 0.0 6 -5448.67725 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3724_n_6076
+0.0 0.0 6 -5448.67725 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6291
+0.0 0.0 6 -5405.85156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6309
+0.0 0.0 6 -5405.85156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6317
+0.0 0.0 6 -5405.85156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6332
+0.0 0.0 6 -5405.85156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3968_n_6332
+0.0 0.0 6 -5405.85156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5837
+0.0 0.0 6 -5309.31738 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6062
+0.0 0.0 6 -5309.31738 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5851
+0.0 0.0 6 -5285.20215 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5950
+0.0 0.0 6 -5285.20215 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6133
+0.0 0.0 6 -5285.20215 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3848_n_6133
+0.0 0.0 6 -5285.20215 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6018
+0.0 0.0 6 -5253.51416 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6039
+0.0 0.0 6 -5247.61523 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6122
+0.0 0.0 6 -5247.61523 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3696_n_6122
+0.0 0.0 6 -5247.61523 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5815
+0.0 0.0 6 -5222.50977 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6116
+0.0 0.0 6 -5222.50977 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3845_n_6116
+0.0 0.0 6 -5222.50977 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_110
+0.0 0.0 6 -5156.97998 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3954_n_110
+0.0 0.0 6 -5156.97998 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6100
+0.0 0.0 6 -5112.14062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6250
+0.0 0.0 6 -5112.14062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6307
+0.0 0.0 6 -5112.14062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3843_n_6100
+0.0 0.0 6 -5112.14062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12318_n
+0.0 0.0 12 -5100.54883 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_108
+0.0 0.0 6 -5084.48975 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3863_n_108
+0.0 0.0 6 -5084.48975 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6283
+0.0 0.0 6 -5072.01758 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6320
+0.0 0.0 6 -5072.01758 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3960_n_6320
+0.0 0.0 6 -5072.01758 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5910
+0.0 0.0 7 -5060.61865 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3836_n_5910
+0.0 0.0 7 -5060.61865 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6031
+0.0 0.0 6 -5039.48779 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6117
+0.0 0.0 6 -5039.48779 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3873_n_6117
+0.0 0.0 6 -5039.48779 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6285
+0.0 0.0 6 -5031.51855 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6324
+0.0 0.0 6 -5031.51855 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12644_n_6324
+0.0 0.0 6 -5031.51855 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6044
+0.0 0.0 6 -5026.86768 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6126
+0.0 0.0 6 -5026.86768 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3879_n_6126
+0.0 0.0 6 -5026.86768 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6032
+0.0 0.0 6 -4992.53760 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6118
+0.0 0.0 6 -4992.53760 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3694_n_6118
+0.0 0.0 6 -4992.53760 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_111
+0.0 0.0 6 -4989.76367 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5873
+0.0 0.0 7 -4951.88037 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3823_n_5873
+0.0 0.0 7 -4951.88037 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6294
+0.0 0.0 6 -4949.97900 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6321
+0.0 0.0 6 -4949.97900 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3944_n_6321
+0.0 0.0 6 -4949.97900 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5841
+0.0 0.0 6 -4903.80615 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5842
+0.0 0.0 6 -4903.80615 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6134
+0.0 0.0 6 -4903.80615 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12861_n_6134
+0.0 0.0 6 -4903.80615 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_RN_13_0
+0.0 0.0 6 -4903.80615 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_RN_14_0
+0.0 0.0 6 -4903.80615 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5929
+0.0 0.0 6 -4902.52295 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6155
+0.0 0.0 6 -4902.52295 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3786_n_6155
+0.0 0.0 6 -4902.52295 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6041
+0.0 0.0 6 -4893.87598 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6124
+0.0 0.0 6 -4893.87598 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3877_n_6124
+0.0 0.0 6 -4893.87598 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6012
+0.0 0.0 6 -4830.04980 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6098
+0.0 0.0 6 -4830.04980 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6325
+0.0 0.0 6 -4830.04980 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3866_n_6098
+0.0 0.0 6 -4830.04980 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6096
+0.0 0.0 6 -4805.62305 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6326
+0.0 0.0 6 -4805.62305 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3841_n_6096
+0.0 0.0 6 -4805.62305 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3966_n_6326
+0.0 0.0 6 -4805.62305 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6056
+0.0 0.0 6 -4775.90283 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6131
+0.0 0.0 6 -4775.90283 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3889_n_6131
+0.0 0.0 6 -4775.90283 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6048
+0.0 0.0 6 -4770.87988 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6199
+0.0 0.0 6 -4770.87988 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3937_n_6199
+0.0 0.0 6 -4770.87988 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6197
+0.0 0.0 6 -4734.89844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3934_n_6197
+0.0 0.0 6 -4734.89844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5956
+0.0 0.0 6 -4625.54932 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6184
+0.0 0.0 6 -4625.54932 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3727_n_6184
+0.0 0.0 6 -4625.54932 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5958
+0.0 0.0 6 -4580.51025 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6183
+0.0 0.0 6 -4580.51025 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3630_n_6183
+0.0 0.0 6 -4580.51025 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6038
+0.0 0.0 6 -4556.94482 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6121
+0.0 0.0 6 -4556.94482 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3626_n_6121
+0.0 0.0 6 -4556.94482 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_102
+0.0 0.0 6 -4530.88232 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5885
+0.0 0.0 6 -4530.88232 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6185
+0.0 0.0 6 -4530.88232 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3672_n_6185
+0.0 0.0 6 -4530.88232 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6046
+0.0 0.0 6 -4523.96826 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6127
+0.0 0.0 6 -4523.96826 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3881_n_6127
+0.0 0.0 6 -4523.96826 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3261_n_8336
+0.0 0.0 12 -4522.69189 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6119
+0.0 0.0 6 -4518.44287 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3875_n_6119
+0.0 0.0 6 -4518.44287 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6043
+0.0 0.0 6 -4493.09277 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6125
+0.0 0.0 6 -4493.09277 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3846_n_6125
+0.0 0.0 6 -4493.09277 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6058
+0.0 0.0 6 -4473.34619 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6129
+0.0 0.0 6 -4473.34619 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3885_n_6129
+0.0 0.0 6 -4473.34619 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6198
+0.0 0.0 6 -4444.19385 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3936_n_6198
+0.0 0.0 6 -4444.19385 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5816
+0.0 0.0 6 -4417.93164 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5817
+0.0 0.0 6 -4417.93164 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6181
+0.0 0.0 6 -4417.93164 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3923_n_6181
+0.0 0.0 6 -4417.93164 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6196
+0.0 0.0 6 -4404.10742 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3701_n_6196
+0.0 0.0 6 -4404.10742 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6054
+0.0 0.0 6 -4399.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6130
+0.0 0.0 6 -4399.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3887_n_6130
+0.0 0.0 6 -4399.14844 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5881
+0.0 0.0 9 -4376.57471 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5906
+0.0 0.0 6 -4360.50488 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5953
+0.0 0.0 6 -4360.50488 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6136
+0.0 0.0 6 -4360.50488 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3834_n_5906
+0.0 0.0 6 -4360.50488 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3895_n_6136
+0.0 0.0 6 -4360.50488 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5821
+0.0 0.0 6 -4356.19482 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5822
+0.0 0.0 6 -4356.19482 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6138
+0.0 0.0 6 -4356.19482 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3628_n_6138
+0.0 0.0 6 -4356.19482 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_107
+0.0 0.0 6 -4351.19238 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6022
+0.0 0.0 6 -4351.19238 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6277
+0.0 0.0 6 -4351.19238 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5937
+0.0 0.0 6 -4337.34863 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6137
+0.0 0.0 6 -4337.34863 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5936
+0.0 0.0 6 -4329.51904 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6157
+0.0 0.0 6 -4329.51904 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3921_n_6157
+0.0 0.0 6 -4329.51904 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3940_n_6269
+0.0 0.0 6 -4301.89648 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5846
+0.0 0.0 6 -4299.78467 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5847
+0.0 0.0 6 -4299.78467 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6158
+0.0 0.0 6 -4299.78467 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3700_n_6158
+0.0 0.0 6 -4299.78467 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5931
+0.0 0.0 6 -4282.80029 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6154
+0.0 0.0 6 -4282.80029 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3919_n_6154
+0.0 0.0 6 -4282.80029 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5927
+0.0 0.0 6 -4281.32178 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6153
+0.0 0.0 6 -4281.32178 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3854_n_6153
+0.0 0.0 6 -4281.32178 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5905
+0.0 0.0 6 -4195.96289 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5952
+0.0 0.0 6 -4195.96289 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6135
+0.0 0.0 6 -4195.96289 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3698_n_6135
+0.0 0.0 6 -4195.96289 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6189
+0.0 0.0 6 -4136.67090 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3857_n_6189
+0.0 0.0 6 -4136.67090 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6150
+0.0 0.0 6 -4136.07227 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3914_n_6150
+0.0 0.0 6 -4136.07227 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6052
+0.0 0.0 6 -4117.63623 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6128
+0.0 0.0 6 -4117.63623 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3883_n_6128
+0.0 0.0 6 -4117.63623 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3942_n_6272
+0.0 0.0 6 -4098.78369 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5919
+0.0 0.0 6 -4083.47559 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6149
+0.0 0.0 6 -4083.47559 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3912_n_6149
+0.0 0.0 6 -4083.47559 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_101
+0.0 0.0 6 -4072.52490 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4788
+0.0 0.0 6 -4072.52490 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5883
+0.0 0.0 6 -4072.52490 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6182
+0.0 0.0 6 -4072.52490 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3924_n_6182
+0.0 0.0 6 -4072.52490 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5938
+0.0 0.0 6 -4056.84497 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6180
+0.0 0.0 6 -4056.84497 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3787_n_6180
+0.0 0.0 6 -4056.84497 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN4030_n_6268
+0.0 0.0 6 -4047.37012 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5888
+0.0 0.0 6 -4016.90552 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5959
+0.0 0.0 6 -4016.90552 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6139
+0.0 0.0 6 -4016.90552 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3850_n_6139
+0.0 0.0 6 -4016.90552 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5961
+0.0 0.0 6 -3985.07959 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6187
+0.0 0.0 6 -3985.07959 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3926_n_6187
+0.0 0.0 6 -3985.07959 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_103
+0.0 0.0 6 -3979.18970 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6186
+0.0 0.0 6 -3979.18970 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3855_n_6186
+0.0 0.0 6 -3979.18970 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6072
+0.0 0.0 6 -3929.63940 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6266
+0.0 0.0 6 -3929.63940 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3939_n_6266
+0.0 0.0 6 -3929.63940 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5915
+0.0 0.0 7 -3816.43774 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5829
+0.0 0.0 6 -3812.47461 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5830
+0.0 0.0 6 -3812.47461 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6188
+0.0 0.0 6 -3812.47461 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3242_n_6188
+0.0 0.0 6 -3812.47461 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6050
+0.0 0.0 6 -3809.81689 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6200
+0.0 0.0 6 -3809.81689 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3859_n_6200
+0.0 0.0 6 -3809.81689 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6273
+0.0 0.0 6 -3728.87134 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3791_n_6273
+0.0 0.0 6 -3728.87134 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5891
+0.0 0.0 4 -3678.03271 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5892
+0.0 0.0 4 -3678.03271 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6078
+0.0 0.0 4 -3678.03271 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3780_n_5891
+0.0 0.0 4 -3678.03271 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5933
+0.0 0.0 6 -3669.45337 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6156
+0.0 0.0 6 -3669.45337 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6079
+0.0 0.0 4 -3568.57471 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6074
+0.0 0.0 6 -3547.85645 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6267
+0.0 0.0 6 -3547.85645 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3790_n_6267
+0.0 0.0 6 -3547.85645 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6083
+0.0 0.0 4 -3531.91650 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3814_n_5859
+0.0 0.0 4 -3531.91650 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5979
+0.0 0.0 6 -3518.90039 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6193
+0.0 0.0 6 -3518.90039 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3932_n_6193
+0.0 0.0 6 -3518.90039 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5941
+0.0 0.0 4 -3506.29028 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6090
+0.0 0.0 4 -3506.29028 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_12
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_14
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_16
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_18
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_20
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_22
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_24
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_26
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_28
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_30
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_32
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_34
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_36
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_38
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_4
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_40
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_42
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_44
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_46
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_48
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_50
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_52
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_54
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_56
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_58
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_instr_rdata_id[13]
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12375
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12376
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_614
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_660
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7063
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8052
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8173
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN392_i_riscv_core_instr_rdata_id_13
+0.0 0.0 16 -3471.69678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5942
+0.0 0.0 4 -3461.18262 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6092
+0.0 0.0 4 -3461.18262 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6080
+0.0 0.0 4 -3347.10986 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3668_n_5909
+0.0 0.0 4 -3347.10986 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5848
+0.0 0.0 6 -3311.83765 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6087
+0.0 0.0 4 -3297.47021 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6084
+0.0 0.0 4 -3259.00928 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3829_n_5893
+0.0 0.0 4 -3259.00928 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5914
+0.0 0.0 6 -3255.43823 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3723_n_5914
+0.0 0.0 6 -3255.43823 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5986
+0.0 0.0 6 -3238.55615 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6132
+0.0 0.0 6 -3238.55615 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3891_n_6132
+0.0 0.0 6 -3238.55615 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5918
+0.0 0.0 6 -3214.58203 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5967
+0.0 0.0 6 -3214.58203 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6191
+0.0 0.0 6 -3214.58203 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3928_n_6191
+0.0 0.0 6 -3214.58203 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6086
+0.0 0.0 4 -3194.01709 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_60
+0.0 0.0 14 -3184.54028 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5948
+0.0 0.0 4 -3128.63135 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6111
+0.0 0.0 4 -3128.63135 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5947
+0.0 0.0 4 -3100.32471 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6110
+0.0 0.0 4 -3100.32471 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6102
+0.0 0.0 4 -3086.40527 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3783_n_6102
+0.0 0.0 4 -3086.40527 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6152
+0.0 0.0 6 -3084.95142 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3918_n_6152
+0.0 0.0 6 -3084.95142 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5994
+0.0 0.0 6 -3080.38867 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6195
+0.0 0.0 6 -3080.38867 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5976
+0.0 0.0 6 -3079.45190 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6143
+0.0 0.0 6 -3079.45190 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5833
+0.0 0.0 6 -3042.95654 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5834
+0.0 0.0 6 -3042.95654 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5964
+0.0 0.0 6 -3042.95654 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6190
+0.0 0.0 6 -3042.95654 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3244_n_6190
+0.0 0.0 6 -3042.95654 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3713_n_4800
+0.0 0.0 6 -3042.95654 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5810
+0.0 0.0 6 -3016.50488 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5922
+0.0 0.0 6 -3016.50488 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6151
+0.0 0.0 6 -3016.50488 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12580_n_6151
+0.0 0.0 6 -3016.50488 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6082
+0.0 0.0 4 -3000.04590 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12454_n_5911
+0.0 0.0 4 -3000.04590 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_101
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_102
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_104
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_15
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_25
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_81
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_83
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_84
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_86
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_90
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_92
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_96
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_98
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_99
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_regfile_data_ra_id[1]
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_10334
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_10658
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_10745
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12377
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12378
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12379
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12380
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12381
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12382
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12383
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12384
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12385
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12386
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12387
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12388
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12389
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12390
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12391
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12392
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12393
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12394
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12395
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_12396
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7527
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8475
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_RN_25_0
+0.0 0.0 8 -2998.09644 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5945
+0.0 0.0 4 -2984.92578 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6095
+0.0 0.0 4 -2984.92578 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5946
+0.0 0.0 4 -2917.81616 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6108
+0.0 0.0 4 -2917.81616 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6085
+0.0 0.0 4 -2889.04370 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5969
+0.0 0.0 6 -2885.41382 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6192
+0.0 0.0 6 -2885.41382 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3930_n_6192
+0.0 0.0 6 -2885.41382 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5943
+0.0 0.0 4 -2873.13916 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6093
+0.0 0.0 4 -2873.13916 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5949
+0.0 0.0 4 -2873.04395 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6112
+0.0 0.0 4 -2873.04395 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5940
+0.0 0.0 4 -2866.02686 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6089
+0.0 0.0 4 -2866.02686 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6146
+0.0 0.0 6 -2838.40454 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5944
+0.0 0.0 4 -2822.53833 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6094
+0.0 0.0 4 -2822.53833 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6081
+0.0 0.0 4 -2800.49609 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5992
+0.0 0.0 6 -2792.14307 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6148
+0.0 0.0 6 -2792.14307 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_105
+0.0 0.0 6 -2789.51929 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6106
+0.0 0.0 4 -2743.68481 0.0 1.0 0.0 0.0 0.0
+lp_riscv/WALLACE_CSA_DUMMY_OP_groupi_n_48
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/WALLACE_CSA_DUMMY_OP_groupi_n_61
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/WALLACE_CSA_DUMMY_OP_groupi_n_62
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/WALLACE_CSA_DUMMY_OP_groupi_n_64
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/WALLACE_CSA_DUMMY_OP_groupi_n_66
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_cnt_result[4]
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_110
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_156
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_160
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_162
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_166
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_170
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_171
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_177
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_186
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_192
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_207
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_211
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_214
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_3
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6850
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7081
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7238
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7249
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8041
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8223
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8442
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN2688_n_8442
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN637_i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_177
+0.0 0.0 6 -2722.11719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6088
+0.0 0.0 4 -2681.75220 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6115
+0.0 0.0 4 -2680.87378 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3844_n_6115
+0.0 0.0 4 -2680.87378 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3861_n_6271
+0.0 0.0 4 -2664.27417 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6141
+0.0 0.0 6 -2651.30322 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6091
+0.0 0.0 4 -2634.79321 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6145
+0.0 0.0 6 -2617.48877 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5974
+0.0 0.0 6 -2614.20679 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6142
+0.0 0.0 6 -2614.20679 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6144
+0.0 0.0 6 -2557.35498 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_62
+0.0 0.0 8 -2543.72974 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8714
+0.0 0.0 8 -2543.72974 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN12963_n_8714
+0.0 0.0 8 -2543.72974 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6065
+0.0 0.0 3 -2501.48193 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6276
+0.0 0.0 3 -2501.48193 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6305
+0.0 0.0 3 -2501.48193 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6314
+0.0 0.0 3 -2501.48193 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_83
+0.0 0.0 3 -2501.48193 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6109
+0.0 0.0 4 -2485.87476 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_1
+0.0 0.0 10 -2457.29395 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7062
+0.0 0.0 10 -2457.29395 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8715
+0.0 0.0 10 -2457.29395 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5970
+0.0 0.0 6 -2445.60376 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6140
+0.0 0.0 6 -2445.60376 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_217
+0.0 0.0 4 -2417.87061 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_220
+0.0 0.0 4 -2417.87061 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6104
+0.0 0.0 4 -2342.34521 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6114
+0.0 0.0 4 -2276.36255 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3872_n_6114
+0.0 0.0 4 -2276.36255 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6033
+0.0 0.0 3 -2260.12280 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5844
+0.0 0.0 3 -2258.32031 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5845
+0.0 0.0 3 -2258.32031 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6270
+0.0 0.0 6 -2246.03564 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_107
+0.0 0.0 4 -2183.04639 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5990
+0.0 0.0 6 -2157.20508 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6147
+0.0 0.0 6 -2157.20508 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5988
+0.0 0.0 6 -2150.69897 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6194
+0.0 0.0 6 -2150.69897 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5872
+0.0 0.0 4 -2141.84375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6113
+0.0 0.0 4 -2141.84375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN13017_n_6113
+0.0 0.0 4 -2141.84375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6105
+0.0 0.0 4 -2124.34277 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_100
+0.0 0.0 3 -2080.18604 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5869
+0.0 0.0 3 -2080.18604 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5921
+0.0 0.0 3 -2078.83643 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5920
+0.0 0.0 3 -2057.23584 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5832
+0.0 0.0 3 -2056.48511 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5963
+0.0 0.0 3 -2056.48511 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6103
+0.0 0.0 4 -2051.44678 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5902
+0.0 0.0 4 -2051.42188 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6107
+0.0 0.0 4 -2051.42188 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3721_n_5902
+0.0 0.0 4 -2051.42188 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6069
+0.0 0.0 3 -1883.03516 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6264
+0.0 0.0 2 -1856.56262 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6025
+0.0 0.0 3 -1845.83618 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6215
+0.0 0.0 2 -1821.47021 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5192
+0.0 0.0 2 -1812.02319 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5093
+0.0 0.0 2 -1794.65112 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6216
+0.0 0.0 2 -1794.41260 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5156
+0.0 0.0 2 -1787.55469 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5201
+0.0 0.0 2 -1786.33887 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5183
+0.0 0.0 2 -1777.89868 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5147
+0.0 0.0 2 -1777.65369 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5228
+0.0 0.0 2 -1777.07568 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5102
+0.0 0.0 2 -1776.97949 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6262
+0.0 0.0 2 -1774.16235 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5084
+0.0 0.0 2 -1771.80396 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6259
+0.0 0.0 2 -1768.64233 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5219
+0.0 0.0 2 -1764.72095 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6220
+0.0 0.0 2 -1763.27417 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5165
+0.0 0.0 2 -1762.25098 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5210
+0.0 0.0 2 -1760.56006 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5255
+0.0 0.0 2 -1759.12085 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6164
+0.0 0.0 2 -1756.31323 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6251
+0.0 0.0 2 -1756.31323 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5120
+0.0 0.0 2 -1753.73267 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5138
+0.0 0.0 2 -1752.25537 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5174
+0.0 0.0 2 -1750.08765 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6173
+0.0 0.0 2 -1749.97705 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6228
+0.0 0.0 2 -1749.97705 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5246
+0.0 0.0 2 -1749.88086 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4869
+0.0 0.0 2 -1746.77075 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5075
+0.0 0.0 2 -1745.22119 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6174
+0.0 0.0 2 -1730.71191 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6229
+0.0 0.0 2 -1730.71191 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6165
+0.0 0.0 2 -1730.47070 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6265
+0.0 0.0 2 -1730.47070 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4933
+0.0 0.0 2 -1728.71118 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5129
+0.0 0.0 2 -1715.03345 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5237
+0.0 0.0 2 -1712.43188 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4929
+0.0 0.0 2 -1709.87415 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4853
+0.0 0.0 2 -1701.91675 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6254
+0.0 0.0 2 -1700.32593 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4865
+0.0 0.0 2 -1696.16040 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6217
+0.0 0.0 2 -1685.85205 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4821
+0.0 0.0 2 -1672.51025 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6261
+0.0 0.0 2 -1661.25781 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5382
+0.0 0.0 2 -1658.27368 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6221
+0.0 0.0 2 -1657.24463 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4937
+0.0 0.0 2 -1644.74683 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4861
+0.0 0.0 2 -1640.02124 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5492
+0.0 0.0 2 -1631.45532 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6255
+0.0 0.0 2 -1626.68896 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4905
+0.0 0.0 2 -1625.45020 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4909
+0.0 0.0 2 -1620.94312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5536
+0.0 0.0 2 -1619.96362 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5481
+0.0 0.0 2 -1617.71191 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4881
+0.0 0.0 2 -1616.58862 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4893
+0.0 0.0 2 -1611.71826 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5426
+0.0 0.0 2 -1606.49487 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5415
+0.0 0.0 2 -1605.46399 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6258
+0.0 0.0 2 -1601.76465 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6159
+0.0 0.0 2 -1601.30688 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6236
+0.0 0.0 2 -1601.30688 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5800
+0.0 0.0 2 -1598.25049 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4885
+0.0 0.0 2 -1598.14160 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6223
+0.0 0.0 2 -1597.14417 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4857
+0.0 0.0 2 -1596.88281 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4925
+0.0 0.0 2 -1594.07520 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4897
+0.0 0.0 2 -1589.21436 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4841
+0.0 0.0 2 -1587.90015 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4849
+0.0 0.0 2 -1586.66138 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4829
+0.0 0.0 2 -1586.06055 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5371
+0.0 0.0 2 -1585.16699 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4901
+0.0 0.0 2 -1584.94482 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4917
+0.0 0.0 2 -1584.60327 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4923
+0.0 0.0 2 -1582.99536 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4921
+0.0 0.0 2 -1582.69702 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4877
+0.0 0.0 2 -1580.06665 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6167
+0.0 0.0 2 -1578.01245 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6205
+0.0 0.0 2 -1578.01245 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4837
+0.0 0.0 2 -1578.00586 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6240
+0.0 0.0 2 -1575.36035 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4899
+0.0 0.0 2 -1574.76807 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6225
+0.0 0.0 2 -1567.32800 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5723
+0.0 0.0 2 -1559.42529 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4883
+0.0 0.0 2 -1556.54053 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3089
+0.0 0.0 2 -1556.17041 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4873
+0.0 0.0 2 -1555.07764 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2728
+0.0 0.0 2 -1555.00928 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4913
+0.0 0.0 2 -1550.74121 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3081
+0.0 0.0 2 -1548.86475 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4845
+0.0 0.0 2 -1548.33228 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2734
+0.0 0.0 2 -1547.85352 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5924
+0.0 0.0 3 -1544.87622 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2725
+0.0 0.0 2 -1544.36682 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5503
+0.0 0.0 2 -1542.31348 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4887
+0.0 0.0 2 -1541.91211 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5925
+0.0 0.0 3 -1540.07532 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3082
+0.0 0.0 2 -1537.51904 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2742
+0.0 0.0 2 -1537.17847 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4842
+0.0 0.0 2 -1536.87476 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2743
+0.0 0.0 2 -1532.97180 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4927
+0.0 0.0 2 -1532.88550 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2730
+0.0 0.0 2 -1530.77075 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6170
+0.0 0.0 2 -1527.32471 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6206
+0.0 0.0 2 -1527.32471 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4911
+0.0 0.0 2 -1524.61914 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4906
+0.0 0.0 2 -1524.32446 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6169
+0.0 0.0 2 -1523.34790 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6204
+0.0 0.0 2 -1523.34790 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6178
+0.0 0.0 2 -1522.31226 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6235
+0.0 0.0 2 -1522.31226 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4919
+0.0 0.0 2 -1519.82593 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3079
+0.0 0.0 2 -1519.64282 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6219
+0.0 0.0 2 -1516.25635 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4903
+0.0 0.0 2 -1515.95776 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3090
+0.0 0.0 2 -1514.73193 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3110
+0.0 0.0 2 -1513.86499 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4915
+0.0 0.0 2 -1513.08447 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6210
+0.0 0.0 2 -1511.04492 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4879
+0.0 0.0 2 -1510.84229 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4843
+0.0 0.0 2 -1510.68408 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2718
+0.0 0.0 2 -1510.60352 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_registers_i_n_4315
+0.0 0.0 4 -1510.44849 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_instr_rdata_id[17]
+0.0 0.0 4 -1510.44849 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_10009
+0.0 0.0 4 -1510.44849 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN1756_i_riscv_core_id_stage_i_registers_i_n_4315
+0.0 0.0 4 -1510.44849 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN1757_i_riscv_core_id_stage_i_registers_i_n_4315
+0.0 0.0 4 -1510.44849 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN387_i_riscv_core_instr_rdata_id_17
+0.0 0.0 4 -1510.44849 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN4101_i_riscv_core_instr_rdata_id_17
+0.0 0.0 4 -1510.44849 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4895
+0.0 0.0 2 -1507.58643 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4889
+0.0 0.0 2 -1506.85120 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3262
+0.0 0.0 2 -1506.42163 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3088
+0.0 0.0 2 -1505.01013 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5393
+0.0 0.0 2 -1503.84717 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4907
+0.0 0.0 2 -1503.63354 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2716
+0.0 0.0 2 -1502.65552 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3086
+0.0 0.0 2 -1502.44714 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5404
+0.0 0.0 2 -1502.36597 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2726
+0.0 0.0 2 -1502.07898 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3295
+0.0 0.0 2 -1499.66724 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3284
+0.0 0.0 2 -1497.81079 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2565
+0.0 0.0 2 -1497.45752 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4875
+0.0 0.0 2 -1490.09888 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2574
+0.0 0.0 2 -1489.74512 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2581
+0.0 0.0 2 -1488.51294 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2573
+0.0 0.0 2 -1488.27734 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4926
+0.0 0.0 2 -1488.20679 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_registers_i_n_4316
+0.0 0.0 4 -1487.64795 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_instr_rdata_id[15]
+0.0 0.0 4 -1487.64795 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_10001
+0.0 0.0 4 -1487.64795 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN1759_i_riscv_core_id_stage_i_registers_i_n_4316
+0.0 0.0 4 -1487.64795 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN1761_i_riscv_core_id_stage_i_registers_i_n_4316
+0.0 0.0 4 -1487.64795 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN389_i_riscv_core_instr_rdata_id_15
+0.0 0.0 4 -1487.64795 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3273
+0.0 0.0 2 -1485.72925 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3266
+0.0 0.0 2 -1485.51611 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3271
+0.0 0.0 2 -1484.20337 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6260
+0.0 0.0 2 -1483.78943 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4888
+0.0 0.0 2 -1482.64111 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4931
+0.0 0.0 2 -1481.66553 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4884
+0.0 0.0 2 -1481.58179 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2562
+0.0 0.0 2 -1481.43384 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3287
+0.0 0.0 2 -1481.20312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2720
+0.0 0.0 2 -1480.77966 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3260
+0.0 0.0 2 -1480.67944 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4863
+0.0 0.0 2 -1479.56567 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2731
+0.0 0.0 2 -1478.43933 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3296
+0.0 0.0 2 -1476.83240 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3272
+0.0 0.0 2 -1475.87354 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6222
+0.0 0.0 2 -1475.54199 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4854
+0.0 0.0 2 -1471.31738 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6166
+0.0 0.0 2 -1469.16064 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6202
+0.0 0.0 2 -1469.16064 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6179
+0.0 0.0 2 -1466.81738 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6237
+0.0 0.0 2 -1466.81738 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4855
+0.0 0.0 2 -1464.99536 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3283
+0.0 0.0 2 -1464.09839 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5057
+0.0 0.0 2 -1463.18054 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2560
+0.0 0.0 2 -1462.62451 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6162
+0.0 0.0 2 -1462.11963 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6234
+0.0 0.0 2 -1462.11963 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6177
+0.0 0.0 2 -1461.57788 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6233
+0.0 0.0 2 -1461.57788 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2557
+0.0 0.0 2 -1459.71387 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4928
+0.0 0.0 2 -1458.99780 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5012
+0.0 0.0 2 -1457.70068 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2559
+0.0 0.0 2 -1457.27832 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6161
+0.0 0.0 2 -1455.69653 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6201
+0.0 0.0 2 -1455.69653 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5197
+0.0 0.0 2 -1454.29224 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3289
+0.0 0.0 2 -1451.31201 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3261
+0.0 0.0 2 -1450.89246 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2717
+0.0 0.0 2 -1449.42908 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2561
+0.0 0.0 2 -1449.39893 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4859
+0.0 0.0 2 -1448.73999 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4847
+0.0 0.0 2 -1447.03589 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6163
+0.0 0.0 2 -1446.74438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6252
+0.0 0.0 2 -1446.74438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3264
+0.0 0.0 2 -1445.59814 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3103
+0.0 0.0 2 -1443.84521 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5260
+0.0 0.0 2 -1442.99316 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4871
+0.0 0.0 2 -1440.62329 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5161
+0.0 0.0 2 -1440.60620 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4900
+0.0 0.0 2 -1440.47363 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3263
+0.0 0.0 2 -1438.64258 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4918
+0.0 0.0 2 -1438.62524 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4851
+0.0 0.0 2 -1437.84326 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4922
+0.0 0.0 2 -1436.64746 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4846
+0.0 0.0 2 -1436.40039 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5273
+0.0 0.0 2 -1436.27454 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2583
+0.0 0.0 2 -1436.06812 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5145
+0.0 0.0 2 -1435.65649 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5107
+0.0 0.0 2 -1435.14819 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2558
+0.0 0.0 2 -1434.47021 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4850
+0.0 0.0 2 -1434.11914 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5190
+0.0 0.0 2 -1432.88135 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5438
+0.0 0.0 2 -1432.54468 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5125
+0.0 0.0 2 -1432.46753 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5003
+0.0 0.0 2 -1432.25195 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5163
+0.0 0.0 2 -1431.99927 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4876
+0.0 0.0 2 -1430.84058 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4910
+0.0 0.0 2 -1430.80054 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5984
+0.0 0.0 3 -1428.80249 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5242
+0.0 0.0 2 -1425.77747 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5199
+0.0 0.0 2 -1425.76599 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5071
+0.0 0.0 2 -1425.61157 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4891
+0.0 0.0 2 -1425.48950 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6263
+0.0 0.0 2 -1423.86060 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5153
+0.0 0.0 2 -1423.73181 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5066
+0.0 0.0 2 -1422.82104 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4892
+0.0 0.0 2 -1422.13623 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5204
+0.0 0.0 2 -1421.92261 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5493
+0.0 0.0 2 -1421.03101 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5080
+0.0 0.0 2 -1420.84314 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1981
+0.0 0.0 4 -1420.46826 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4365
+0.0 0.0 4 -1420.46826 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6172
+0.0 0.0 2 -1419.28247 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6227
+0.0 0.0 2 -1419.28247 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5048
+0.0 0.0 2 -1419.18384 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6244
+0.0 0.0 2 -1415.73389 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4904
+0.0 0.0 2 -1415.68384 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2719
+0.0 0.0 2 -1415.38525 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6168
+0.0 0.0 2 -1415.23315 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6203
+0.0 0.0 2 -1415.23315 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5264
+0.0 0.0 2 -1414.61084 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5177
+0.0 0.0 2 -1414.23315 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5224
+0.0 0.0 2 -1413.98340 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6257
+0.0 0.0 2 -1413.50171 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5231
+0.0 0.0 2 -1412.58716 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3085
+0.0 0.0 2 -1411.28687 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5985
+0.0 0.0 3 -1409.60217 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5062
+0.0 0.0 2 -1408.48926 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4912
+0.0 0.0 2 -1408.17358 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5394
+0.0 0.0 2 -1407.80737 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3265
+0.0 0.0 2 -1407.30713 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6176
+0.0 0.0 2 -1407.30518 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6232
+0.0 0.0 2 -1407.30518 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5186
+0.0 0.0 2 -1406.89746 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6171
+0.0 0.0 2 -1406.22656 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6207
+0.0 0.0 2 -1406.22656 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3268
+0.0 0.0 2 -1405.77979 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4924
+0.0 0.0 2 -1404.95776 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6175
+0.0 0.0 2 -1403.97876 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6231
+0.0 0.0 2 -1403.97876 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5416
+0.0 0.0 2 -1403.81433 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5188
+0.0 0.0 2 -1403.12866 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5460
+0.0 0.0 2 -1401.88599 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5116
+0.0 0.0 2 -1401.25562 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4880
+0.0 0.0 2 -1398.41174 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5215
+0.0 0.0 2 -1397.51904 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5166
+0.0 0.0 2 -1396.95361 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4914
+0.0 0.0 2 -1396.42725 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4870
+0.0 0.0 2 -1394.93274 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5170
+0.0 0.0 2 -1394.81348 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2572
+0.0 0.0 2 -1394.70190 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2575
+0.0 0.0 2 -1393.96289 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5141
+0.0 0.0 2 -1392.58569 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4916
+0.0 0.0 2 -1392.07739 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5168
+0.0 0.0 2 -1391.98584 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5089
+0.0 0.0 2 -1391.72742 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4920
+0.0 0.0 2 -1391.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5159
+0.0 0.0 2 -1390.68127 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5111
+0.0 0.0 2 -1389.80005 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5233
+0.0 0.0 2 -1389.16968 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4862
+0.0 0.0 2 -1386.09888 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5030
+0.0 0.0 2 -1385.83472 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5152
+0.0 0.0 2 -1385.29016 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5258
+0.0 0.0 2 -1384.90479 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4867
+0.0 0.0 2 -1383.90552 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5206
+0.0 0.0 2 -1383.62793 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4858
+0.0 0.0 2 -1383.31689 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5179
+0.0 0.0 2 -1382.79541 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5098
+0.0 0.0 2 -1382.01709 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5240
+0.0 0.0 2 -1381.13025 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5383
+0.0 0.0 2 -1380.01440 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4932
+0.0 0.0 2 -1378.99780 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6218
+0.0 0.0 2 -1376.63550 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5482
+0.0 0.0 2 -1372.85803 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4866
+0.0 0.0 2 -1371.62695 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5504
+0.0 0.0 2 -1371.61829 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5222
+0.0 0.0 2 -1371.39417 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5722
+0.0 0.0 2 -1370.95740 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5361
+0.0 0.0 2 -1369.44287 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5483
+0.0 0.0 2 -1369.17773 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6239
+0.0 0.0 2 -1368.05103 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5150
+0.0 0.0 2 -1367.78162 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5195
+0.0 0.0 2 -1367.69580 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5213
+0.0 0.0 2 -1367.19409 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5193
+0.0 0.0 2 -1367.06641 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5405
+0.0 0.0 2 -1366.39404 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5136
+0.0 0.0 2 -1365.09802 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5450
+0.0 0.0 2 -1363.75708 0.0 1.0 0.0 0.0 0.0
+lp_riscv/WALLACE_CSA_DUMMY_OP_groupi_n_27
+0.0 0.0 3 -1363.30884 0.0 1.0 0.0 0.0 0.0
+lp_riscv/WALLACE_CSA_DUMMY_OP_groupi_n_31
+0.0 0.0 3 -1363.30884 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_alu_operand_a_ex[1]
+0.0 0.0 3 -1363.30884 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN455_i_riscv_core_alu_operand_a_ex_1
+0.0 0.0 3 -1363.30884 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN456_i_riscv_core_alu_operand_a_ex_1
+0.0 0.0 3 -1363.30884 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5439
+0.0 0.0 2 -1362.56409 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5249
+0.0 0.0 2 -1361.29956 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5494
+0.0 0.0 2 -1361.13257 0.0 1.0 0.0 0.0 0.0
+lp_riscv/WALLACE_CSA_DUMMY_OP_groupi_n_13
+0.0 0.0 3 -1358.80847 0.0 1.0 0.0 0.0 0.0
+lp_riscv/WALLACE_CSA_DUMMY_OP_groupi_n_43
+0.0 0.0 3 -1358.80847 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_alu_operand_a_ex[11]
+0.0 0.0 3 -1358.80847 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_DBTN181_i_riscv_core_alu_operand_a_ex_11
+0.0 0.0 3 -1358.80847 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN434_i_riscv_core_alu_operand_a_ex_11
+0.0 0.0 3 -1358.80847 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN944_WALLACE_CSA_DUMMY_OP_groupi_n_13
+0.0 0.0 3 -1358.80847 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5505
+0.0 0.0 2 -1357.05371 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5134
+0.0 0.0 2 -1354.62085 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5143
+0.0 0.0 2 -1354.62085 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5252
+0.0 0.0 2 -1354.02100 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5798
+0.0 0.0 2 -1353.32593 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5449
+0.0 0.0 2 -1352.69641 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4959
+0.0 0.0 2 -1352.05273 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6253
+0.0 0.0 2 -1348.70813 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4886
+0.0 0.0 2 -1348.67090 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5787
+0.0 0.0 2 -1346.76550 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5732
+0.0 0.0 2 -1343.57739 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5472
+0.0 0.0 2 -1342.56555 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4966
+0.0 0.0 2 -1342.50732 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5471
+0.0 0.0 2 -1339.43945 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5247
+0.0 0.0 2 -1339.36890 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5130
+0.0 0.0 2 -1337.90771 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5175
+0.0 0.0 2 -1336.66040 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5238
+0.0 0.0 2 -1336.02148 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5982
+0.0 0.0 3 -1335.74536 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5838
+0.0 0.0 3 -1334.20190 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5973
+0.0 0.0 3 -1334.20190 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6226
+0.0 0.0 2 -1333.04407 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5157
+0.0 0.0 2 -1331.45239 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6249
+0.0 0.0 2 -1331.32788 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_AReg_DN[31]
+0.0 0.0 2 -1330.91736 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_221
+0.0 0.0 2 -1330.91736 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5021
+0.0 0.0 2 -1330.80859 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5039
+0.0 0.0 2 -1330.40820 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4896
+0.0 0.0 2 -1329.64038 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6214
+0.0 0.0 2 -1327.95093 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4934
+0.0 0.0 2 -1327.52991 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4930
+0.0 0.0 2 -1327.23242 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4908
+0.0 0.0 2 -1326.43994 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5864
+0.0 0.0 3 -1317.10156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5972
+0.0 0.0 3 -1317.10156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5372
+0.0 0.0 2 -1316.90210 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5132
+0.0 0.0 2 -1315.79492 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5184
+0.0 0.0 2 -1315.05969 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5359
+0.0 0.0 2 -1313.10278 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4830
+0.0 0.0 2 -1313.08838 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5427
+0.0 0.0 2 -1312.88428 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6209
+0.0 0.0 2 -1312.82275 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4882
+0.0 0.0 2 -1312.47705 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5743
+0.0 0.0 2 -1312.34937 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5765
+0.0 0.0 2 -1312.23291 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5754
+0.0 0.0 2 -1311.81055 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4964
+0.0 0.0 2 -1309.60376 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5461
+0.0 0.0 2 -1307.04028 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5776
+0.0 0.0 2 -1306.58252 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4957
+0.0 0.0 2 -1305.47144 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5672
+0.0 0.0 2 -1303.92358 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6230
+0.0 0.0 2 -1303.46533 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4958
+0.0 0.0 2 -1302.16699 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5139
+0.0 0.0 2 -1299.77124 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5679
+0.0 0.0 2 -1298.30078 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4963
+0.0 0.0 2 -1298.16821 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4894
+0.0 0.0 2 -1297.47192 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4960
+0.0 0.0 2 -1297.26221 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3096
+0.0 0.0 2 -1296.88452 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4956
+0.0 0.0 2 -1296.20459 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4965
+0.0 0.0 2 -1294.44604 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4953
+0.0 0.0 2 -1292.99829 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4874
+0.0 0.0 2 -1291.74414 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4969
+0.0 0.0 2 -1291.69556 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5680
+0.0 0.0 2 -1290.49304 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5256
+0.0 0.0 2 -1287.92188 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4890
+0.0 0.0 2 -1287.44897 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4968
+0.0 0.0 2 -1284.93213 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4970
+0.0 0.0 2 -1284.18066 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5669
+0.0 0.0 2 -1283.78003 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4962
+0.0 0.0 2 -1283.03906 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4878
+0.0 0.0 2 -1282.08057 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5980
+0.0 0.0 3 -1281.97766 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5983
+0.0 0.0 3 -1281.74353 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4952
+0.0 0.0 2 -1277.88733 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4818
+0.0 0.0 2 -1277.52490 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4949
+0.0 0.0 2 -1275.79492 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2576
+0.0 0.0 2 -1275.40112 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5981
+0.0 0.0 3 -1275.37732 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4902
+0.0 0.0 2 -1274.79370 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3098
+0.0 0.0 2 -1273.97925 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2727
+0.0 0.0 2 -1272.67065 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4961
+0.0 0.0 2 -1271.49683 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5676
+0.0 0.0 2 -1270.02051 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6256
+0.0 0.0 2 -1267.65210 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5666
+0.0 0.0 2 -1265.96448 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5673
+0.0 0.0 2 -1265.85767 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4826
+0.0 0.0 2 -1264.30420 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5674
+0.0 0.0 2 -1263.80737 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5667
+0.0 0.0 2 -1263.20068 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4898
+0.0 0.0 2 -1259.53955 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5675
+0.0 0.0 2 -1258.04517 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5148
+0.0 0.0 2 -1257.17065 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5670
+0.0 0.0 2 -1255.66284 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5617
+0.0 0.0 2 -1255.59717 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4822
+0.0 0.0 2 -1251.43994 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5389
+0.0 0.0 2 -1250.23267 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5678
+0.0 0.0 2 -1247.00549 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3095
+0.0 0.0 2 -1246.80908 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5610
+0.0 0.0 2 -1242.50024 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5543
+0.0 0.0 2 -1242.12646 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5608
+0.0 0.0 2 -1239.98169 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5716
+0.0 0.0 2 -1238.17920 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5606
+0.0 0.0 2 -1237.47729 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5611
+0.0 0.0 2 -1235.73584 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5378
+0.0 0.0 2 -1234.99292 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3097
+0.0 0.0 2 -1234.83667 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4967
+0.0 0.0 2 -1233.91724 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5607
+0.0 0.0 2 -1232.58301 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5663
+0.0 0.0 2 -1232.56299 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5388
+0.0 0.0 2 -1231.96606 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5616
+0.0 0.0 2 -1230.52026 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5542
+0.0 0.0 2 -1225.73376 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4938
+0.0 0.0 2 -1225.67651 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5455
+0.0 0.0 2 -1225.50098 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5367
+0.0 0.0 2 -1223.19897 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5545
+0.0 0.0 2 -1220.88428 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6224
+0.0 0.0 2 -1218.22266 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5466
+0.0 0.0 2 -1217.23364 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5717
+0.0 0.0 2 -1216.65576 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5618
+0.0 0.0 2 -1215.16699 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5400
+0.0 0.0 2 -1212.37756 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5614
+0.0 0.0 2 -1211.20740 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5488
+0.0 0.0 2 -1210.71631 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5366
+0.0 0.0 2 -1210.15259 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5668
+0.0 0.0 2 -1210.09448 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5509
+0.0 0.0 2 -1209.16370 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5547
+0.0 0.0 2 -1208.96338 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5671
+0.0 0.0 2 -1208.49414 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5677
+0.0 0.0 2 -1207.09424 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5433
+0.0 0.0 2 -1203.93274 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3099
+0.0 0.0 2 -1202.06250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5544
+0.0 0.0 2 -1199.90356 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5421
+0.0 0.0 2 -1199.11011 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2729
+0.0 0.0 2 -1198.15625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5377
+0.0 0.0 2 -1195.12280 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6238
+0.0 0.0 2 -1191.95703 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5411
+0.0 0.0 2 -1189.06982 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5399
+0.0 0.0 2 -1188.74927 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5498
+0.0 0.0 2 -1187.66602 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5465
+0.0 0.0 2 -1183.76257 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5604
+0.0 0.0 2 -1180.98169 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5605
+0.0 0.0 2 -1180.38184 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5609
+0.0 0.0 2 -1179.78198 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5454
+0.0 0.0 2 -1179.50342 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5191
+0.0 0.0 2 -1177.75916 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4834
+0.0 0.0 2 -1177.17651 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6212
+0.0 0.0 2 -1172.76807 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5151
+0.0 0.0 2 -1172.43677 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5615
+0.0 0.0 2 -1172.00000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3104
+0.0 0.0 2 -1171.69189 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5392
+0.0 0.0 2 -1171.49634 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5187
+0.0 0.0 2 -1169.62146 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6242
+0.0 0.0 2 -1169.57715 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5432
+0.0 0.0 2 -1168.46082 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5410
+0.0 0.0 2 -1167.71033 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5491
+0.0 0.0 2 -1163.52368 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5241
+0.0 0.0 2 -1160.75232 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5422
+0.0 0.0 2 -1160.74365 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2547
+0.0 0.0 2 -1160.21301 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2748
+0.0 0.0 2 -1160.21301 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5095
+0.0 0.0 2 -1156.54810 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5444
+0.0 0.0 2 -1156.54370 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5510
+0.0 0.0 2 -1156.14319 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5403
+0.0 0.0 2 -1155.45752 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5548
+0.0 0.0 2 -1155.42126 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5578
+0.0 0.0 2 -1155.15137 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5546
+0.0 0.0 2 -1154.22058 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5487
+0.0 0.0 2 -1152.15210 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5713
+0.0 0.0 2 -1145.77393 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5502
+0.0 0.0 2 -1145.51733 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5209
+0.0 0.0 2 -1145.33813 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5185
+0.0 0.0 2 -1144.68237 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4825
+0.0 0.0 2 -1143.80542 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5414
+0.0 0.0 2 -1141.94873 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5128
+0.0 0.0 2 -1140.96265 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6026
+0.0 0.0 3 -1138.01819 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5801
+0.0 0.0 2 -1135.77466 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5718
+0.0 0.0 2 -1135.54004 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5155
+0.0 0.0 2 -1133.90735 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5232
+0.0 0.0 2 -1133.69556 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5263
+0.0 0.0 2 -1130.20422 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5236
+0.0 0.0 2 -1129.23816 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5476
+0.0 0.0 2 -1126.36279 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5198
+0.0 0.0 2 -1126.21692 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5119
+0.0 0.0 2 -1125.12109 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5158
+0.0 0.0 2 -1124.89185 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4362
+0.0 0.0 4 -1123.26147 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_682
+0.0 0.0 4 -1123.26147 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5576
+0.0 0.0 2 -1122.43176 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4817
+0.0 0.0 2 -1121.00122 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5735
+0.0 0.0 2 -1120.86304 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5251
+0.0 0.0 2 -1120.28223 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5169
+0.0 0.0 2 -1119.75000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5110
+0.0 0.0 2 -1119.40771 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5381
+0.0 0.0 2 -1118.94226 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5160
+0.0 0.0 2 -1118.92603 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5194
+0.0 0.0 2 -1118.90454 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5227
+0.0 0.0 2 -1117.44409 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_500_38_Y_i_riscv_core_id_stage_i_add_503_49_Y_i_riscv_core_id_stage_i_add_499_38_n_109
+0.0 0.0 2 -1116.80322 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1843
+0.0 0.0 2 -1116.80322 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2813
+0.0 0.0 2 -1116.80322 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8473
+0.0 0.0 2 -1116.80322 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5218
+0.0 0.0 2 -1116.61816 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5436
+0.0 0.0 2 -1115.81128 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5223
+0.0 0.0 2 -1114.97498 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5173
+0.0 0.0 2 -1114.86438 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5259
+0.0 0.0 2 -1114.25684 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5700
+0.0 0.0 2 -1113.43677 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5135
+0.0 0.0 2 -1113.08289 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5101
+0.0 0.0 2 -1112.17603 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5790
+0.0 0.0 2 -1111.72485 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5585
+0.0 0.0 2 -1110.92566 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5699
+0.0 0.0 2 -1110.27344 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5425
+0.0 0.0 2 -1109.92529 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5431
+0.0 0.0 2 -1109.65625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5140
+0.0 0.0 2 -1109.23804 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5486
+0.0 0.0 2 -1108.73987 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5710
+0.0 0.0 2 -1108.53857 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5811
+0.0 0.0 3 -1108.01746 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6070
+0.0 0.0 3 -1108.01746 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5508
+0.0 0.0 2 -1107.77563 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5221
+0.0 0.0 2 -1106.77100 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5072
+0.0 0.0 2 -1106.65894 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5587
+0.0 0.0 2 -1106.53589 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5409
+0.0 0.0 2 -1105.81201 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5480
+0.0 0.0 2 -1105.70435 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5387
+0.0 0.0 2 -1105.25989 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5164
+0.0 0.0 2 -1104.30713 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5212
+0.0 0.0 2 -1104.12646 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5423
+0.0 0.0 2 -1103.69580 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5577
+0.0 0.0 2 -1101.80957 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5575
+0.0 0.0 2 -1097.65430 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5715
+0.0 0.0 2 -1097.12219 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5133
+0.0 0.0 2 -1096.54907 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6243
+0.0 0.0 2 -1096.14136 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5475
+0.0 0.0 2 -1095.85095 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5146
+0.0 0.0 2 -1095.54675 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5142
+0.0 0.0 2 -1095.39600 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5068
+0.0 0.0 2 -1094.15674 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5579
+0.0 0.0 2 -1093.83679 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5250
+0.0 0.0 2 -1093.68420 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5490
+0.0 0.0 2 -1093.63367 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4833
+0.0 0.0 2 -1093.15015 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5412
+0.0 0.0 2 -1093.00134 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5398
+0.0 0.0 2 -1091.64136 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5583
+0.0 0.0 2 -1091.60132 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5205
+0.0 0.0 2 -1090.43506 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5573
+0.0 0.0 2 -1089.46228 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5497
+0.0 0.0 2 -1087.74854 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_AReg_DN[30]
+0.0 0.0 2 -1086.95312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5149
+0.0 0.0 2 -1086.68652 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5104
+0.0 0.0 2 -1085.75391 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5574
+0.0 0.0 2 -1085.66382 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5442
+0.0 0.0 2 -1085.58472 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5230
+0.0 0.0 2 -1084.49707 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6208
+0.0 0.0 2 -1084.40552 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5751
+0.0 0.0 2 -1083.82983 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5420
+0.0 0.0 2 -1083.78601 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5512
+0.0 0.0 2 -1083.18518 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5698
+0.0 0.0 2 -1082.43372 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5746
+0.0 0.0 2 -1082.41089 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5214
+0.0 0.0 2 -1082.09326 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5370
+0.0 0.0 2 -1080.37573 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5453
+0.0 0.0 2 -1079.69287 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6245
+0.0 0.0 2 -1079.10498 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5131
+0.0 0.0 2 -1078.78540 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5689
+0.0 0.0 2 -1076.13940 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5773
+0.0 0.0 2 -1074.19971 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5709
+0.0 0.0 2 -1072.97705 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4999
+0.0 0.0 2 -1072.73291 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2546
+0.0 0.0 2 -1071.03198 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2747
+0.0 0.0 2 -1071.03198 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5701
+0.0 0.0 2 -1069.78223 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5176
+0.0 0.0 2 -1069.72827 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4988
+0.0 0.0 2 -1067.82434 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5182
+0.0 0.0 2 -1067.20923 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5784
+0.0 0.0 2 -1066.69714 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5239
+0.0 0.0 2 -1066.51440 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1842
+0.0 0.0 2 -1066.24316 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2811
+0.0 0.0 2 -1066.24316 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8472
+0.0 0.0 2 -1066.24316 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5707
+0.0 0.0 2 -1065.88550 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5703
+0.0 0.0 2 -1065.77966 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5376
+0.0 0.0 2 -1065.68811 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4991
+0.0 0.0 2 -1065.66138 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5257
+0.0 0.0 2 -1064.71777 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5695
+0.0 0.0 2 -1064.55615 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5706
+0.0 0.0 2 -1064.24805 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4990
+0.0 0.0 2 -1064.03735 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5467
+0.0 0.0 2 -1063.54907 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6246
+0.0 0.0 2 -1062.73889 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4984
+0.0 0.0 2 -1061.76855 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5690
+0.0 0.0 2 -1060.76807 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5697
+0.0 0.0 2 -1060.52881 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5248
+0.0 0.0 2 -1060.31274 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5753
+0.0 0.0 2 -1059.20508 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5470
+0.0 0.0 2 -1057.01929 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4994
+0.0 0.0 2 -1056.78174 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5711
+0.0 0.0 2 -1056.33740 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5379
+0.0 0.0 2 -1055.25781 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5434
+0.0 0.0 2 -1055.18726 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5245
+0.0 0.0 2 -1054.95361 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5696
+0.0 0.0 2 -1054.87817 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4989
+0.0 0.0 2 -1051.66919 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5479
+0.0 0.0 2 -1049.29443 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5580
+0.0 0.0 2 -1049.12671 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5000
+0.0 0.0 2 -1048.67932 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5792
+0.0 0.0 2 -1047.83813 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5374
+0.0 0.0 2 -1047.72192 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5086
+0.0 0.0 2 -1047.59351 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5584
+0.0 0.0 2 -1047.32617 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5719
+0.0 0.0 2 -1046.29419 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4995
+0.0 0.0 2 -1046.26562 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4992
+0.0 0.0 2 -1046.10352 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5196
+0.0 0.0 2 -1045.04871 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5708
+0.0 0.0 2 -1044.95239 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5506
+0.0 0.0 2 -1043.95874 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5435
+0.0 0.0 2 -1043.36255 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5419
+0.0 0.0 2 -1043.03638 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5759
+0.0 0.0 2 -1042.21631 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5380
+0.0 0.0 2 -1042.19922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5413
+0.0 0.0 2 -1042.01025 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4997
+0.0 0.0 2 -1041.93970 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5178
+0.0 0.0 2 -1040.91064 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5789
+0.0 0.0 2 -1040.63794 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5478
+0.0 0.0 2 -1040.03809 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5474
+0.0 0.0 2 -1038.37964 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5437
+0.0 0.0 2 -1038.31006 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5401
+0.0 0.0 2 -1037.64246 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5402
+0.0 0.0 2 -1037.54138 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6247
+0.0 0.0 2 -1037.39600 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5459
+0.0 0.0 2 -1037.32007 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5468
+0.0 0.0 2 -1037.11035 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5424
+0.0 0.0 2 -1035.29541 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5088
+0.0 0.0 2 -1035.25830 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5385
+0.0 0.0 2 -1034.57446 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4823
+0.0 0.0 2 -1033.44165 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5368
+0.0 0.0 2 -1032.90173 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5365
+0.0 0.0 2 -1032.67773 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5464
+0.0 0.0 2 -1032.27808 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6241
+0.0 0.0 2 -1030.46851 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5291
+0.0 0.0 2 -1030.08179 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5496
+0.0 0.0 2 -1030.06555 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4935
+0.0 0.0 2 -1029.73462 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5397
+0.0 0.0 2 -1029.68982 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5396
+0.0 0.0 2 -1029.36450 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6213
+0.0 0.0 2 -1028.20154 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5514
+0.0 0.0 2 -1026.94409 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5500
+0.0 0.0 2 -1025.60046 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4819
+0.0 0.0 2 -1025.48608 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5720
+0.0 0.0 2 -1024.14417 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5391
+0.0 0.0 2 -1022.83093 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5462
+0.0 0.0 2 -1021.89258 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5357
+0.0 0.0 2 -1021.34705 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5418
+0.0 0.0 2 -1021.09814 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6211
+0.0 0.0 2 -1020.97845 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4939
+0.0 0.0 2 -1020.93127 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5375
+0.0 0.0 2 -1020.89404 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5764
+0.0 0.0 2 -1020.67761 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5302
+0.0 0.0 2 -1020.19690 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5463
+0.0 0.0 2 -1020.09387 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5714
+0.0 0.0 2 -1015.98645 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5525
+0.0 0.0 2 -1014.57593 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_id_stage_i_add_456_37_Y_i_riscv_core_id_stage_i_add_455_37_n_2
+0.0 0.0 6 -1014.40240 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8716
+0.0 0.0 6 -1014.40240 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6248
+0.0 0.0 2 -1014.02612 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5702
+0.0 0.0 2 -1013.02429 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5704
+0.0 0.0 2 -1011.32202 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5507
+0.0 0.0 2 -1011.22571 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5731
+0.0 0.0 2 -1010.30823 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5364
+0.0 0.0 2 -1009.36890 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5705
+0.0 0.0 2 -1008.01282 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5778
+0.0 0.0 2 -1007.88019 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4993
+0.0 0.0 2 -1007.47583 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5386
+0.0 0.0 2 -1007.33472 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5429
+0.0 0.0 2 -1006.55652 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5363
+0.0 0.0 2 -1006.19788 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5390
+0.0 0.0 2 -1005.49121 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4839
+0.0 0.0 2 -1005.27478 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4835
+0.0 0.0 2 -1005.21851 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5745
+0.0 0.0 2 -1005.10022 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5167
+0.0 0.0 2 -1004.11938 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5785
+0.0 0.0 2 -1004.05121 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5484
+0.0 0.0 2 -1001.81201 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3293
+0.0 0.0 2 -1000.88312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4987
+0.0 0.0 2 -999.78357 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4827
+0.0 0.0 2 -999.54126 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5495
+0.0 0.0 2 -999.49365 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5441
+0.0 0.0 2 -998.91284 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5203
+0.0 0.0 2 -995.21301 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5408
+0.0 0.0 2 -994.87976 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5001
+0.0 0.0 2 -993.78491 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5485
+0.0 0.0 2 -992.45740 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5748
+0.0 0.0 2 -992.01111 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5452
+0.0 0.0 2 -991.98718 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4998
+0.0 0.0 2 -991.60767 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5346
+0.0 0.0 2 -991.00397 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5324
+0.0 0.0 2 -990.82947 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4996
+0.0 0.0 2 -990.54718 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5077
+0.0 0.0 2 -990.08325 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5313
+0.0 0.0 2 -989.71368 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5451
+0.0 0.0 2 -988.32703 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5473
+0.0 0.0 2 -987.89307 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5430
+0.0 0.0 2 -987.35425 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4840
+0.0 0.0 2 -985.09027 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5369
+0.0 0.0 2 -982.44666 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2770
+0.0 0.0 2 -980.82495 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5763
+0.0 0.0 2 -976.94495 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5734
+0.0 0.0 2 -974.23077 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5501
+0.0 0.0 2 -973.52405 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4831
+0.0 0.0 2 -973.09497 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5172
+0.0 0.0 2 -972.69531 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5767
+0.0 0.0 2 -971.67780 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5407
+0.0 0.0 2 -970.60962 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5440
+0.0 0.0 2 -963.89673 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4828
+0.0 0.0 2 -963.64880 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5335
+0.0 0.0 2 -951.89093 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5797
+0.0 0.0 2 -951.65253 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4848
+0.0 0.0 2 -948.05908 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5752
+0.0 0.0 2 -945.27527 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5162
+0.0 0.0 2 -940.17981 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5144
+0.0 0.0 2 -939.76782 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3294
+0.0 0.0 2 -938.94769 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5099
+0.0 0.0 2 -936.69409 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5254
+0.0 0.0 2 -931.64258 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5042
+0.0 0.0 2 -931.37787 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5261
+0.0 0.0 2 -931.08368 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3286
+0.0 0.0 2 -930.90674 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5207
+0.0 0.0 2 -928.40479 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5171
+0.0 0.0 2 -926.51270 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3291
+0.0 0.0 2 -926.45642 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5154
+0.0 0.0 2 -926.22095 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2769
+0.0 0.0 2 -925.41168 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5217
+0.0 0.0 2 -924.41559 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5189
+0.0 0.0 2 -923.65747 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5180
+0.0 0.0 2 -921.33997 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5200
+0.0 0.0 2 -921.23132 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5117
+0.0 0.0 2 -921.20557 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5108
+0.0 0.0 2 -920.97754 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3267
+0.0 0.0 2 -919.73022 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3270
+0.0 0.0 2 -918.96820 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5756
+0.0 0.0 2 -917.23822 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5448
+0.0 0.0 2 -916.63837 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5799
+0.0 0.0 2 -915.73425 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4864
+0.0 0.0 2 -915.65607 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3269
+0.0 0.0 2 -915.56836 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5243
+0.0 0.0 2 -914.47827 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5118
+0.0 0.0 2 -913.00201 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5103
+0.0 0.0 2 -912.76929 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3288
+0.0 0.0 2 -912.43884 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5127
+0.0 0.0 2 -909.99695 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5069
+0.0 0.0 2 -908.94800 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5100
+0.0 0.0 2 -908.67517 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5244
+0.0 0.0 2 -908.03809 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5262
+0.0 0.0 2 -907.76733 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5082
+0.0 0.0 2 -906.61902 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5216
+0.0 0.0 2 -905.33252 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5267
+0.0 0.0 2 -904.79089 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5105
+0.0 0.0 2 -903.23065 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5096
+0.0 0.0 2 -900.89655 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4860
+0.0 0.0 2 -900.31622 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4936
+0.0 0.0 2 -900.19415 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5056
+0.0 0.0 2 -898.90198 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5137
+0.0 0.0 2 -898.17334 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4940
+0.0 0.0 2 -898.03503 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5015
+0.0 0.0 2 -897.94684 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5006
+0.0 0.0 2 -896.16730 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5276
+0.0 0.0 2 -893.77734 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4856
+0.0 0.0 2 -893.31342 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4844
+0.0 0.0 2 -892.71356 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4836
+0.0 0.0 2 -889.37665 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5235
+0.0 0.0 2 -888.70044 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5181
+0.0 0.0 2 -887.42261 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5755
+0.0 0.0 2 -886.78833 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5078
+0.0 0.0 2 -886.43311 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5114
+0.0 0.0 2 -885.69165 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5211
+0.0 0.0 2 -884.99731 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5358
+0.0 0.0 2 -883.74329 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4872
+0.0 0.0 2 -883.13391 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5303
+0.0 0.0 2 -883.07666 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5085
+0.0 0.0 2 -881.45251 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5123
+0.0 0.0 2 -881.03101 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5090
+0.0 0.0 2 -880.74683 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5022
+0.0 0.0 2 -879.88086 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5064
+0.0 0.0 2 -879.63867 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5009
+0.0 0.0 2 -877.22876 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5648
+0.0 0.0 2 -875.21265 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3285
+0.0 0.0 2 -874.78973 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3292
+0.0 0.0 2 -874.38916 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5126
+0.0 0.0 2 -873.71155 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3290
+0.0 0.0 2 -871.91345 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5220
+0.0 0.0 2 -870.61597 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5049
+0.0 0.0 2 -870.20972 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4832
+0.0 0.0 2 -869.02429 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5031
+0.0 0.0 2 -866.32349 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5336
+0.0 0.0 2 -864.25977 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5274
+0.0 0.0 2 -859.87000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5109
+0.0 0.0 2 -857.63550 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4852
+0.0 0.0 2 -855.01288 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5087
+0.0 0.0 2 -854.93420 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5225
+0.0 0.0 2 -852.71545 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5067
+0.0 0.0 2 -852.65161 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5020
+0.0 0.0 2 -852.56958 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5074
+0.0 0.0 2 -851.91626 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4820
+0.0 0.0 2 -848.67194 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5314
+0.0 0.0 2 -846.84656 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5253
+0.0 0.0 2 -846.27625 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5045
+0.0 0.0 2 -846.26489 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5004
+0.0 0.0 2 -845.86719 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5094
+0.0 0.0 2 -845.50098 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5208
+0.0 0.0 2 -845.27686 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5641
+0.0 0.0 2 -845.19482 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5229
+0.0 0.0 2 -844.96594 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5226
+0.0 0.0 2 -844.07617 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5234
+0.0 0.0 2 -844.07617 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5638
+0.0 0.0 2 -843.16638 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5051
+0.0 0.0 2 -842.52209 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5058
+0.0 0.0 2 -840.66101 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5645
+0.0 0.0 2 -835.93469 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5073
+0.0 0.0 2 -834.68250 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5202
+0.0 0.0 2 -831.54395 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5384
+0.0 0.0 2 -825.75659 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5112
+0.0 0.0 2 -824.56873 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5347
+0.0 0.0 2 -824.12341 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5643
+0.0 0.0 2 -823.79724 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5395
+0.0 0.0 2 -818.98352 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5744
+0.0 0.0 2 -816.82202 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2721
+0.0 0.0 2 -812.98303 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5028
+0.0 0.0 2 -812.89197 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2826
+0.0 0.0 2 -812.77655 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5036
+0.0 0.0 2 -812.69165 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5325
+0.0 0.0 2 -812.47229 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5644
+0.0 0.0 2 -812.35413 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5646
+0.0 0.0 2 -811.21448 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4868
+0.0 0.0 2 -809.01050 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5076
+0.0 0.0 2 -808.13403 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4824
+0.0 0.0 2 -807.74689 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5526
+0.0 0.0 2 -806.77600 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5362
+0.0 0.0 2 -806.65442 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5635
+0.0 0.0 2 -805.92346 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5721
+0.0 0.0 2 -802.68384 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5777
+0.0 0.0 2 -801.84174 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5642
+0.0 0.0 2 -801.44312 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5639
+0.0 0.0 2 -797.52637 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5428
+0.0 0.0 2 -797.09766 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5373
+0.0 0.0 2 -797.07336 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5637
+0.0 0.0 2 -795.22131 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5060
+0.0 0.0 2 -794.12317 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5516
+0.0 0.0 2 -793.28156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5326
+0.0 0.0 2 -793.15283 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5649
+0.0 0.0 2 -792.24585 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5337
+0.0 0.0 2 -792.07996 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5024
+0.0 0.0 2 -790.80487 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5304
+0.0 0.0 2 -790.38574 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5515
+0.0 0.0 2 -788.13269 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5788
+0.0 0.0 2 -788.01160 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5033
+0.0 0.0 2 -787.55762 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5647
+0.0 0.0 2 -787.01019 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5293
+0.0 0.0 2 -785.54773 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2722
+0.0 0.0 2 -785.42517 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5636
+0.0 0.0 2 -783.01526 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4943
+0.0 0.0 2 -780.90234 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5282
+0.0 0.0 2 -780.38550 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5406
+0.0 0.0 2 -779.61829 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5121
+0.0 0.0 2 -775.42493 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5417
+0.0 0.0 2 -773.37842 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5292
+0.0 0.0 2 -772.55823 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5348
+0.0 0.0 2 -766.67932 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5265
+0.0 0.0 2 -763.91028 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5013
+0.0 0.0 2 -763.40576 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4838
+0.0 0.0 2 -763.17694 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5640
+0.0 0.0 2 -753.26343 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5760
+0.0 0.0 2 -743.26611 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5733
+0.0 0.0 2 -741.47412 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5766
+0.0 0.0 2 -738.76001 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2723
+0.0 0.0 2 -735.05212 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5738
+0.0 0.0 2 -731.37183 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5782
+0.0 0.0 2 -726.26978 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5749
+0.0 0.0 2 -725.58020 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5315
+0.0 0.0 2 -725.32324 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5278
+0.0 0.0 2 -724.93835 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5044
+0.0 0.0 2 -719.35364 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5026
+0.0 0.0 2 -719.10571 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5661
+0.0 0.0 2 -718.17493 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4942
+0.0 0.0 2 -717.30756 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2736
+0.0 0.0 2 -716.74347 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5499
+0.0 0.0 2 -714.34119 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5804
+0.0 0.0 2 -713.50000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5269
+0.0 0.0 2 -712.12097 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4955
+0.0 0.0 2 -707.39417 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5309
+0.0 0.0 2 -705.76855 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5662
+0.0 0.0 2 -700.93445 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4971
+0.0 0.0 2 -698.62695 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5727
+0.0 0.0 2 -697.09302 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5555
+0.0 0.0 2 -693.18298 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4945
+0.0 0.0 2 -690.73340 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4954
+0.0 0.0 2 -690.18793 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5793
+0.0 0.0 2 -689.89661 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5808
+0.0 0.0 2 -689.11267 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2584
+0.0 0.0 2 -685.06384 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5652
+0.0 0.0 2 -684.73242 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3092
+0.0 0.0 2 -682.95715 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5538
+0.0 0.0 2 -682.13843 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5017
+0.0 0.0 2 -680.23962 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2566
+0.0 0.0 2 -678.83539 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5651
+0.0 0.0 2 -677.47693 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3094
+0.0 0.0 2 -676.92615 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4946
+0.0 0.0 2 -676.45410 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5660
+0.0 0.0 2 -675.91095 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5298
+0.0 0.0 2 -675.29675 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5551
+0.0 0.0 2 -674.90771 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5665
+0.0 0.0 2 -674.69885 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5541
+0.0 0.0 2 -673.91687 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4941
+0.0 0.0 2 -673.68933 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5553
+0.0 0.0 2 -672.09912 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5657
+0.0 0.0 2 -671.92358 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5664
+0.0 0.0 2 -671.44202 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3091
+0.0 0.0 2 -669.87372 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2579
+0.0 0.0 2 -669.35730 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2577
+0.0 0.0 2 -668.09320 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4948
+0.0 0.0 2 -668.03406 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5549
+0.0 0.0 2 -666.06616 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5534
+0.0 0.0 2 -665.24414 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5529
+0.0 0.0 2 -664.56604 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5655
+0.0 0.0 2 -660.09424 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5595
+0.0 0.0 2 -658.82593 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5590
+0.0 0.0 2 -657.65381 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5599
+0.0 0.0 2 -657.44214 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2568
+0.0 0.0 2 -657.27612 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4944
+0.0 0.0 2 -656.71106 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5477
+0.0 0.0 2 -652.34375 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5658
+0.0 0.0 2 -651.80298 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5653
+0.0 0.0 2 -650.30005 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5550
+0.0 0.0 2 -649.84802 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5656
+0.0 0.0 2 -648.72168 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5556
+0.0 0.0 2 -647.43896 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5539
+0.0 0.0 2 -647.16907 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5531
+0.0 0.0 2 -646.17346 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5771
+0.0 0.0 2 -645.77295 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5342
+0.0 0.0 2 -644.78302 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5323
+0.0 0.0 2 -644.58850 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5035
+0.0 0.0 2 -643.03308 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5053
+0.0 0.0 2 -643.03308 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5008
+0.0 0.0 2 -642.43317 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5603
+0.0 0.0 2 -640.94922 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8713
+0.0 0.0 6 -640.81000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5681
+0.0 0.0 2 -640.08044 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5287
+0.0 0.0 2 -638.30188 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5331
+0.0 0.0 2 -638.30188 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5527
+0.0 0.0 2 -636.51941 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5540
+0.0 0.0 2 -635.36835 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5582
+0.0 0.0 2 -633.59119 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5535
+0.0 0.0 2 -629.90186 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5589
+0.0 0.0 2 -629.34973 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5654
+0.0 0.0 2 -628.94440 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5537
+0.0 0.0 2 -628.47900 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5520
+0.0 0.0 2 -626.96362 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5038
+0.0 0.0 2 -626.50488 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5596
+0.0 0.0 2 -624.13977 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4950
+0.0 0.0 2 -623.76074 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5352
+0.0 0.0 2 -623.68298 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4951
+0.0 0.0 2 -623.57666 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5591
+0.0 0.0 2 -622.70642 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5458
+0.0 0.0 2 -620.80103 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5581
+0.0 0.0 2 -620.34363 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5783
+0.0 0.0 2 -620.21826 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5597
+0.0 0.0 2 -619.98938 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5308
+0.0 0.0 2 -619.75671 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5659
+0.0 0.0 2 -618.80493 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5319
+0.0 0.0 2 -618.73242 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5619
+0.0 0.0 2 -617.16650 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5728
+0.0 0.0 2 -615.04364 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4947
+0.0 0.0 2 -614.59589 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5805
+0.0 0.0 2 -614.41992 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5018
+0.0 0.0 2 -613.56738 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5330
+0.0 0.0 2 -613.32507 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5594
+0.0 0.0 2 -612.76343 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5083
+0.0 0.0 2 -612.41052 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5593
+0.0 0.0 2 -612.04431 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5554
+0.0 0.0 2 -611.68188 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5598
+0.0 0.0 2 -610.90851 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1841
+0.0 0.0 2 -606.47296 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2814
+0.0 0.0 2 -606.47296 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8471
+0.0 0.0 2 -606.47296 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5016
+0.0 0.0 2 -606.45294 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5739
+0.0 0.0 2 -606.15344 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5602
+0.0 0.0 2 -605.90363 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5552
+0.0 0.0 2 -604.95093 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5600
+0.0 0.0 2 -604.93750 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5447
+0.0 0.0 2 -604.73730 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5443
+0.0 0.0 2 -601.77417 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5613
+0.0 0.0 2 -600.70996 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5794
+0.0 0.0 2 -599.28516 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5290
+0.0 0.0 2 -595.71460 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5334
+0.0 0.0 2 -595.33118 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5029
+0.0 0.0 2 -593.89496 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5079
+0.0 0.0 2 -592.89648 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5750
+0.0 0.0 2 -591.07690 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5757
+0.0 0.0 2 -588.62976 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5761
+0.0 0.0 2 -587.61975 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2578
+0.0 0.0 2 -587.27930 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5281
+0.0 0.0 2 -587.06189 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5011
+0.0 0.0 2 -585.91077 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5312
+0.0 0.0 2 -583.06030 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5025
+0.0 0.0 2 -583.03070 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5061
+0.0 0.0 2 -582.09509 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5772
+0.0 0.0 2 -580.84680 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5569
+0.0 0.0 2 -580.84253 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5065
+0.0 0.0 2 -578.98425 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5511
+0.0 0.0 2 -578.84167 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5360
+0.0 0.0 2 -578.17456 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5047
+0.0 0.0 2 -577.98096 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5054
+0.0 0.0 2 -577.21997 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5566
+0.0 0.0 2 -576.51807 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5588
+0.0 0.0 2 -576.45465 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2580
+0.0 0.0 2 -574.77905 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5601
+0.0 0.0 2 -574.16248 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5043
+0.0 0.0 2 -571.61047 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5724
+0.0 0.0 2 -570.87231 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5469
+0.0 0.0 2 -570.05688 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5524
+0.0 0.0 2 -569.76123 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5270
+0.0 0.0 2 -568.42322 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5565
+0.0 0.0 2 -568.09619 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5779
+0.0 0.0 2 -567.06042 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5489
+0.0 0.0 2 -566.11963 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5612
+0.0 0.0 2 -564.55420 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5768
+0.0 0.0 2 -564.25098 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5115
+0.0 0.0 2 -564.04492 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5345
+0.0 0.0 2 -563.32776 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5052
+0.0 0.0 2 -562.40369 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5558
+0.0 0.0 2 -561.50439 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5570
+0.0 0.0 2 -561.39807 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5124
+0.0 0.0 2 -556.92676 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5571
+0.0 0.0 2 -556.01648 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5559
+0.0 0.0 2 -555.65167 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5318
+0.0 0.0 2 -554.97504 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5034
+0.0 0.0 2 -553.58508 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5268
+0.0 0.0 2 -552.68958 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5563
+0.0 0.0 2 -551.93188 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5562
+0.0 0.0 2 -551.33630 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5806
+0.0 0.0 2 -551.28857 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5567
+0.0 0.0 2 -551.11548 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5351
+0.0 0.0 2 -550.67157 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5586
+0.0 0.0 2 -550.44653 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5445
+0.0 0.0 2 -550.18665 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5097
+0.0 0.0 2 -549.82758 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5803
+0.0 0.0 2 -547.35852 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5572
+0.0 0.0 2 -546.15356 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5560
+0.0 0.0 2 -546.02100 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5286
+0.0 0.0 2 -545.53027 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5341
+0.0 0.0 2 -543.53052 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5297
+0.0 0.0 2 -542.13049 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5513
+0.0 0.0 2 -538.51794 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5307
+0.0 0.0 2 -538.11023 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5356
+0.0 0.0 2 -532.31812 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5007
+0.0 0.0 2 -531.50085 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5301
+0.0 0.0 2 -529.51813 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5564
+0.0 0.0 2 -529.20386 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5070
+0.0 0.0 2 -528.62268 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5277
+0.0 0.0 2 -526.65710 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5762
+0.0 0.0 2 -526.23083 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5729
+0.0 0.0 2 -525.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5691
+0.0 0.0 2 -524.76306 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5332
+0.0 0.0 2 -521.14679 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5456
+0.0 0.0 2 -517.25391 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5122
+0.0 0.0 2 -516.90247 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5795
+0.0 0.0 2 -516.15094 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5737
+0.0 0.0 2 -515.53296 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5059
+0.0 0.0 2 -515.00085 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5340
+0.0 0.0 2 -514.35663 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5092
+0.0 0.0 2 -513.85498 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5726
+0.0 0.0 2 -512.63000 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5685
+0.0 0.0 2 -510.48660 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5041
+0.0 0.0 2 -509.25970 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5692
+0.0 0.0 2 -509.25159 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5285
+0.0 0.0 2 -506.98090 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5296
+0.0 0.0 2 -506.32571 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5686
+0.0 0.0 2 -506.27136 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5568
+0.0 0.0 2 -505.36584 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5014
+0.0 0.0 2 -500.80823 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5343
+0.0 0.0 2 -499.70151 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5354
+0.0 0.0 2 -499.29474 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4972
+0.0 0.0 2 -497.29730 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4978
+0.0 0.0 2 -496.82428 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5682
+0.0 0.0 2 -496.26923 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5561
+0.0 0.0 2 -495.13626 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5519
+0.0 0.0 2 -494.94409 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4977
+0.0 0.0 2 -491.67346 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5050
+0.0 0.0 2 -490.32544 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5684
+0.0 0.0 2 -489.11954 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5694
+0.0 0.0 2 -489.09570 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1660
+0.0 0.0 2 -488.86633 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_64
+0.0 0.0 2 -488.86633 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4986
+0.0 0.0 2 -486.66193 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5688
+0.0 0.0 2 -485.84558 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5770
+0.0 0.0 2 -485.44739 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5299
+0.0 0.0 2 -485.20709 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5106
+0.0 0.0 2 -484.97961 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5781
+0.0 0.0 2 -482.92444 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5002
+0.0 0.0 2 -481.86780 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5742
+0.0 0.0 2 -480.89313 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4982
+0.0 0.0 2 -478.73877 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4981
+0.0 0.0 2 -477.05746 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5266
+0.0 0.0 2 -477.05316 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5522
+0.0 0.0 2 -474.12396 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5321
+0.0 0.0 2 -473.77921 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5113
+0.0 0.0 2 -473.18030 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4976
+0.0 0.0 2 -472.69345 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5023
+0.0 0.0 2 -471.55139 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5327
+0.0 0.0 2 -471.54425 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5740
+0.0 0.0 2 -469.63214 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4973
+0.0 0.0 2 -468.99225 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5329
+0.0 0.0 2 -466.67529 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5687
+0.0 0.0 2 -466.38394 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5339
+0.0 0.0 2 -463.50909 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4975
+0.0 0.0 2 -463.47333 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5775
+0.0 0.0 2 -463.02985 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4980
+0.0 0.0 2 -462.14676 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5683
+0.0 0.0 2 -459.77783 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5317
+0.0 0.0 2 -459.08688 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5284
+0.0 0.0 2 -458.55237 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5306
+0.0 0.0 2 -457.92053 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5328
+0.0 0.0 2 -456.08807 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5349
+0.0 0.0 2 -455.80627 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5807
+0.0 0.0 2 -455.34372 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5791
+0.0 0.0 2 -453.92468 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5457
+0.0 0.0 2 -453.76587 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5741
+0.0 0.0 2 -452.97864 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5517
+0.0 0.0 2 -451.54285 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5712
+0.0 0.0 2 -451.44366 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4983
+0.0 0.0 2 -449.35895 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5747
+0.0 0.0 2 -448.92596 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5769
+0.0 0.0 2 -448.01617 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5283
+0.0 0.0 2 -447.98373 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1982
+0.0 0.0 4 -446.87366 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4227
+0.0 0.0 4 -446.87366 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5523
+0.0 0.0 2 -446.83362 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5350
+0.0 0.0 2 -446.36917 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5758
+0.0 0.0 2 -444.97394 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5730
+0.0 0.0 2 -444.27063 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5780
+0.0 0.0 2 -443.91156 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5295
+0.0 0.0 2 -442.62744 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5288
+0.0 0.0 2 -437.64639 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5310
+0.0 0.0 2 -436.79810 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5333
+0.0 0.0 2 -436.16675 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5693
+0.0 0.0 2 -436.01227 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5289
+0.0 0.0 2 -434.63803 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5355
+0.0 0.0 2 -433.73297 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5446
+0.0 0.0 2 -432.55951 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5311
+0.0 0.0 2 -427.22894 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4985
+0.0 0.0 2 -426.93140 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5796
+0.0 0.0 2 -423.20776 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4979
+0.0 0.0 2 -423.00797 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5725
+0.0 0.0 2 -422.28125 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5802
+0.0 0.0 2 -419.91425 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5294
+0.0 0.0 2 -418.66302 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5344
+0.0 0.0 2 -417.42230 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5300
+0.0 0.0 2 -416.89301 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5032
+0.0 0.0 2 -415.47443 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5005
+0.0 0.0 2 -413.85315 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5275
+0.0 0.0 2 -413.85315 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4974
+0.0 0.0 2 -413.80405 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5037
+0.0 0.0 2 -409.11627 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5322
+0.0 0.0 2 -407.39154 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5338
+0.0 0.0 2 -406.38257 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5786
+0.0 0.0 2 -400.63095 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1539
+0.0 0.0 2 -398.86139 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_48
+0.0 0.0 2 -398.86139 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5019
+0.0 0.0 2 -396.26074 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5774
+0.0 0.0 2 -395.17737 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5305
+0.0 0.0 2 -392.07364 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5518
+0.0 0.0 2 -389.78384 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5316
+0.0 0.0 2 -388.28088 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1540
+0.0 0.0 2 -385.01883 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_71
+0.0 0.0 2 -385.01883 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1544
+0.0 0.0 2 -381.19650 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_67
+0.0 0.0 2 -381.19650 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5040
+0.0 0.0 2 -379.59100 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5736
+0.0 0.0 2 -378.09753 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1588
+0.0 0.0 2 -374.56085 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_50
+0.0 0.0 2 -374.56085 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1548
+0.0 0.0 2 -374.09354 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_44
+0.0 0.0 2 -374.09354 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5272
+0.0 0.0 2 -371.95013 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1666
+0.0 0.0 2 -361.16364 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_68
+0.0 0.0 2 -361.16364 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5280
+0.0 0.0 2 -359.53235 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2735
+0.0 0.0 2 -353.11987 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1672
+0.0 0.0 2 -351.56201 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_56
+0.0 0.0 2 -351.56201 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5081
+0.0 0.0 2 -351.00366 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5091
+0.0 0.0 2 -343.40143 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1599
+0.0 0.0 2 -341.55798 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_62
+0.0 0.0 2 -341.55798 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_607
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_683
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7356
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7381
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_7422
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8334
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8364
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3152_n_7356
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3252_n_8334
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3253_n_8334
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3514_n_8364
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3516_n_8364
+0.0 0.0 2 -340.28577 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1668
+0.0 0.0 2 -327.40927 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_59
+0.0 0.0 2 -327.40927 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5063
+0.0 0.0 2 -323.04572 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5055
+0.0 0.0 2 -313.32062 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1665
+0.0 0.0 2 -312.85431 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_65
+0.0 0.0 2 -312.85431 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1632
+0.0 0.0 2 -312.59106 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_70
+0.0 0.0 2 -312.59106 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5027
+0.0 0.0 2 -312.20581 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5271
+0.0 0.0 2 -311.66028 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5046
+0.0 0.0 2 -310.80579 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5279
+0.0 0.0 2 -310.13251 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5010
+0.0 0.0 2 -308.51410 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_AReg_DN[29]
+0.0 0.0 2 -304.24689 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_ex_stage_i_alu_i_div_i_add_100_46_Y_i_riscv_core_ex_stage_i_alu_i_div_i_sub_100_68_n_218
+0.0 0.0 2 -304.24689 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1537
+0.0 0.0 2 -303.34329 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_47
+0.0 0.0 2 -303.34329 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1549
+0.0 0.0 2 -294.56378 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_53
+0.0 0.0 2 -294.56378 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1983
+0.0 0.0 2 -287.15659 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4222
+0.0 0.0 2 -287.15659 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8712
+0.0 0.0 2 -287.15659 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1609
+0.0 0.0 2 -286.96393 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_52
+0.0 0.0 2 -286.96393 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1667
+0.0 0.0 2 -286.00647 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_54
+0.0 0.0 2 -286.00647 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5634
+0.0 0.0 2 -280.86804 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5620
+0.0 0.0 2 -272.17340 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5632
+0.0 0.0 2 -271.06619 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5627
+0.0 0.0 2 -270.06866 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5633
+0.0 0.0 2 -263.70383 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5625
+0.0 0.0 2 -262.68817 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1613
+0.0 0.0 2 -262.44690 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_73
+0.0 0.0 2 -262.44690 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1622
+0.0 0.0 2 -255.11122 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_72
+0.0 0.0 2 -255.11122 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3087
+0.0 0.0 2 -252.48813 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1619
+0.0 0.0 2 -249.96425 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_49
+0.0 0.0 2 -249.96425 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5623
+0.0 0.0 2 -247.48753 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5631
+0.0 0.0 2 -246.18768 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5626
+0.0 0.0 2 -245.33797 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5629
+0.0 0.0 2 -240.81850 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_6354
+0.0 0.0 4 -236.42540 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8335
+0.0 0.0 4 -236.42540 0.0 1.0 0.0 0.0 0.0
+lp_riscv/placement_opt_inst_FE_OFN3304_placement_opt_inst_FE_DBTN32_n_8336
+0.0 0.0 4 -236.42540 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5624
+0.0 0.0 2 -236.34863 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5630
+0.0 0.0 2 -231.32468 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5628
+0.0 0.0 2 -223.53410 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5621
+0.0 0.0 2 -220.04652 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5650
+0.0 0.0 2 -213.90677 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1839
+0.0 0.0 2 -208.57715 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2808
+0.0 0.0 2 -208.57715 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_8470
+0.0 0.0 2 -208.57715 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_3093
+0.0 0.0 2 -199.85342 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_4226
+0.0 0.0 2 -193.93634 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_853
+0.0 0.0 2 -193.93634 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1569
+0.0 0.0 2 -189.84747 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_46
+0.0 0.0 2 -189.84747 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5622
+0.0 0.0 2 -180.41658 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5320
+0.0 0.0 2 -151.28278 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5532
+0.0 0.0 2 -145.18690 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5353
+0.0 0.0 2 -131.98853 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_if_stage_i_prefetch_32.prefetch_buffer_i_fifo_i_n_1711
+0.0 0.0 2 -130.91803 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5557
+0.0 0.0 2 -122.83087 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5533
+0.0 0.0 2 -122.15089 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5530
+0.0 0.0 2 -117.04301 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5521
+0.0 0.0 2 -110.31007 0.0 1.0 0.0 0.0 0.0
+lp_riscv/i_riscv_core_if_stage_i_prefetch_32.prefetch_buffer_i_fifo_i_n_1717
+0.0 0.0 2 -105.50737 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5528
+0.0 0.0 2 -99.18929 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_5592
+0.0 0.0 2 -73.54498 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_2053
+0.0 0.0 1 -9.25064 0.0 1.0 0.0 0.0 0.0
+lp_riscv/n_1811
+0.0 0.0 1 -8.80146 0.0 1.0 0.0 0.0 0.0

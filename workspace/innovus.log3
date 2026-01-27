@@ -1,0 +1,338 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+Options:	-stylus 
+Date:		Wed Jan 21 12:02:18 2026
+Host:		ip-10-70-160-95.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+OS:		Rocky Linux 8.10 (Green Obsidian)
+
+License:
+		[12:02:19.003961] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+
+		invs	Innovus Implementation System	25.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+
+
+Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_50183_b8170e96-678b-4fe0-ab95-3f0bc38cfbb3_ip-10-70-160-95.il-central-1.compute.internal_schiffe_Ur3Z2N.
+
+The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[INFO] Loading PVS 24.12 fill procedures
+Info: Process UID = 50183 / b8170e96-678b-4fe0-ab95-3f0bc38cfbb3 / 1ySg3rWJSa
+
+**INFO:  MMMC transition support version v31-84 
+
+@innovus 1> set design(TOPLEVEL) "lp_riscv_top"
+lp_riscv_top
+@innovus 2> 
+
+@innovus 2> set runtype "pnr"
+set runtype "pnr"
+pnr
+@innovus 3> 
+
+@innovus 3> set debug_file "debug.txt"
+debug.txt
+@innovus 4> source ../scripts/procedures.tcl -quiet
+source ../scripts/procedures.tcl -quiet
+@innovus 5> 
+
+@innovus 5> enics_start_stage "start"
+enics_start_stage "start"
+*****************************************
+*****************************************
+**   ENICSINFO: Starting stage start   **
+*****************************************
+*****************************************
+ENICSINFO: Current time is: 21/01/2026 12:04
+ENICSINFO: This session is running on Hostname : ip-10-70-160-95.il-central-1.compute.internal
+ENICSINFO: The log file is innovus.log3 and the command file is innovus.cmd3
+ENICSINFO: ----------------------------------
+@innovus 6> source ../inputs/$design(TOPLEVEL).defines -quiet
+@innovus 7> source ../scripts/settings.tcl -quiet
+can't read "tech(ENDCAPS)": no such variable
+can't read "tech(ENDCAPS)": no such variable
+@innovus 8> source ../inputs/$design(TOPLEVEL).defines -quiet
+source ../inputs/$design(TOPLEVEL).defines -quiet
+@innovus 9> 
+@innovus 9> source ../scripts/settings.tcl -quiet
+can't read "tech(ENDCAPS)": no such variable
+can't read "tech(ENDCAPS)": no such variable
+@innovus 10> source ../inputs/$design(TOPLEVEL).defines -quiet
+source ../inputs/$design(TOPLEVEL).defines -quiet
+@innovus 11> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+Y.tcl -quiet
+**WARN: (IMPDB-6501):	"set_db design_process_node" will be obsoleted in future release. Remove it from the script to avoid the interruption of running the script in future.
+##  Process: 65            (User Set)               
+##     Node: (not set)                           
+
+##  Check design process and node:  
+##  Design tech node is not set.
+
+Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'high'.
+	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+@innovus 12> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+LOGY.tcl -quiet
+@innovus 13> 
+
+@innovus 13> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+@innovus 14> ource $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+.tcl -quiet
+invalid command name "ource"
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+invalid command name "ource"
+@innovus 15> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+@innovus 16> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quietsource $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+
+@innovus 17> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+
+@innovus 18> set_library_unit -time 1ns -cap 1pf
+set_library_unit -time 1ns -cap 1pf
+@innovus 19> 
+
+@innovus 19> set var_list {runtype}
+set var_list {runtype}
+runtype
+@innovus 20> set dic_list {paths tech teset dic_list {paths tech tech_files design}
+ch_files design}
+paths tech tech_files design
+@innovus 21> enics_print_debug_data w $debug_fenics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+ist
+@innovus 22> enics_start_stage "init_design"
+
+***********************************************
+***********************************************
+**   ENICSINFO: Starting stage init_design   **
+***********************************************
+***********************************************
+ENICSINFO: Current time is: 21/01/2026 12:14
+ENICSINFO: ----------------------------------
+@innovus 23> set_db init_ground_nets $design(all_ground_nets)
+set_db init_ground_nets $design(all_ground_nets)
+1 gnd
+@innovus 24> sset_db init_power_nets $design(all_power_nets)
+et_db init_power_nets $design(all_power_nets)
+1 {vdd vddio}
+@innovus 25> enics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+that are reported due to the LIB definitions:" 
+ENICSINFO: Suppressing the following messages that are reported due to the LIB definitions:
+@innovus 26> enenics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+ics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+ENICSINFO: TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 IMPTS-282
+@innovus 27> set_message -suppress -id $tech(LIB_SUPPRESS_MESSset_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+enics_message "Reading MMMC File"
+AGES_INNOVUS) 
+@innovus 28> enics_message "Reading MMMC File"
+ENICSINFO: Reading MMMC File
+@innovus 29> rread_mmmc $design(mmmc_view_file) 
+
+#@ Begin verbose source (pre): 
+@file 1: #  Version:1.0 MMMC View Definition File
+@file 2: # Do Not Remove Above Line
+@file 3:
+@file 4: ############# MMMC Hierarchy ########################################################################################
+@file 5: #                                                                                                                   #
+@file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+@file 7: #                       |--> Analysis View  |                                                                       #
+@file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+@file 9: #                                           |--> Delay Corner |                                                     #
+@file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+@file 11: #####################################################################################################################
+@file 12:
+@file 13: # Constraint Modes #
+@file 14: # ---------------- #
+@@file 15: create_constraint_mode \
+	-name functional_mode \
+	-sdc_files $design(functional_sdc)
+@file 18:
+@file 19: # RC Corners #
+@file 20: # ---------- #
+@file 21: if {$runtype=="synthesis"} {...
+@file 24: } else {
+@@file 25: set_message -suppress -id ENCEXT-6202 ;
+@file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+@file 26: }
+@file 27:
+@@file 28: create_rc_corner \
+	-name bc_rc_corner \
+	-temperature $tech(TEMPERATURE_BC) \
+    -qrc_tech $tech_files(QRCTECH_FILE_BC)
+@file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+@file 33:
+@@file 34: create_rc_corner \
+	-name tc_rc_corner \
+	-temperature $tech(TEMPERATURE_TC) \
+	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+@file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+@file 39:
+@@file 40: create_rc_corner \
+	-name wc_rc_corner \
+	-temperature $tech(TEMPERATURE_WC) \
+    -qrc_tech $tech_files(QRCTECH_FILE_WC)
+@file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+@file 45:
+@file 46: # Library Sets #
+@file 47: # ------------ #
+@@file 48: create_library_set \
+	-name bc_libset \
+	-timing $tech_files(ALL_BC_LIBS)  
+**ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+**ERROR: (IMPSE-110):	File '/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc' line 48: errors out.
+#@ End verbose source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+
+    while executing
+"create_library_set \
+	-name bc_libset \
+	-timing $tech_files(ALL_BC_LIBS)  "
+    (file "/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc" line 48)
+    invoked from within
+"::se_source_orig /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel [concat ::se_source_orig $args]"
+    invoked from within
+"if { !$encrypted && !$no_encoding && $encodingName != ""  } {
+                  set st [uplevel [concat ::se_source_orig " -encoding " $encodingName "..."
+    invoked from within
+"if {[::SE::source_verbose_file_state $file_name] == 1} {
+              ::SE::source_verbose_start $file_name
+              if { !$encrypted && !$no_en..."
+    invoked from within
+"if {$useTclVerbose} {
+          # use tcl internal method
+          set st ""
+          if {[::SE::source_verbose_file_state $file_name] == 1} {
+     ..."
+    invoked from within
+"if {$largeFile == 1} {
+    if {$enableVerbose == 0 && [::SE::isEchoFile] == 1} {
+      $putCmd "Sourcing $file_name"
+    }
+    set st [uplevel [concat..."
+    (procedure "source" line 197)
+    invoked from within
+"source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 {source /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc}"
+
+
+@innovus 30> enics_message "Suppressing the following messages that are reported due to the LEF definitions:" 
+that are reported due to the LEF definitions:" 
+ENICSINFO: Suppressing the following messages that are reported due to the LEF definitions:
+@innovus 31> enenics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+
+ENICSINFO: ENCEXT-6202 IMPLF-200 IMPLF-200 LEFPARS-2001 LEFPARS-2065 LEFPARS-2076 IMPLF-58 IMPFP-3961 IMPSR-4302
+@innovus 32> set_message -suppress -id $tech(LEF_SUPPRESS_MESSset_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS) 
+AGES_INNOVUS) 
+@innovus 33> enics_message "Reading LEF abstractenics_message "Reading LEF abstracts"
+s"
+ENICSINFO: Reading LEF abstracts
+@innovus 34> read_physical -lef $tech_files(ALL_LEFS)read_physical -lef $tech_files(ALL_LEFS)
+
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/lef/1p9m_6x2z/sc9_tech.lef ...
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc9_base_rvt/r0p0/lef/sc9_cln65lp_base_rvt.lef ...
+Set DBUPerIGU to M2 pitch 400.
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc9_base_lvt/r0p0/lef/sc9_cln65lp_base_lvt.lef ...
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc9_base_hvt/r0p0/lef/sc9_cln65lp_base_hvt.lef ...
+
+Loading LEF file ../mem_gen/SP_16384X32/M16/sp_hde_16384_m16.lef ...
+
+Loading LEF file ../mem_gen/SP_8192X32/M16/sp_hse_8192_m16.lef ...
+
+Loading LEF file /data/project/tsmc65/shared/modified_libraries/tpdn65lpnv2od3_9lm.lef ...
+WARNING (LEFPARS-2502): Message (LEFPARS-2065) has been suppressed from output. See file /data/project/tsmc65/shared/modified_libraries/tpdn65lpnv2od3_9lm.lef at line 12683.
+WARNING (LEFPARS-2502): Message (LEFPARS-2076) has been suppressed from output. See file /data/project/tsmc65/shared/modified_libraries/tpdn65lpnv2od3_9lm.lef at line 12686.
+WARNING (LEFPARS-2502): Message (LEFPARS-2001) has been suppressed from output. See file /data/project/tsmc65/shared/modified_libraries/tpdn65lpnv2od3_9lm.lef at line 13714.
+
+Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/TSMCHOME_fe/digital/Back_End/lef/tpdn65lpnv2od3_140b/mt/9lm/lef//antenna_9lm.lef ...
+**WARN: (IMPLF-61):	43 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+Review the LEF files specified in the init_lef_files variable and remove redundant definitions.
+Type 'man IMPLF-61' for more detail.
+
+##  Check design process and node:  
+##  Design tech node is not set.
+
+0
+@innovus 35> read_netlist $design(postsyn_netlist)
+read_netlist $design(postsyn_netlist)
+**ERROR: (IMPIMEX-10):	Specified file cannot be found: /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v.
+error
+@innovus 36> read_netlist $design(postsyn_netlist)
+#% Begin Load netlist data ... (date=01/21 12:18:04, mem=1968.2M)
+*** Begin netlist parsing (mem=1968.2M) ***
+Created 0 new cells from 0 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist '/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v'
+**WARN: (IMPVL-346):	Module 'sp_hde_8192_m16' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+Type 'man IMPVL-346' for more detail.
+
+*** Memory Usage v#1 (Current mem = 1986.480M, initial mem = 907.227M) ***
+*** End netlist parsing (cpu=0:00:00.3, real=0:00:01.0, mem=1986.5M) ***
+#% End Load netlist data ... (date=01/21 12:18:05, total cpu=0:00:00.3, real=0:00:01.0, peak res=1986.5M, current mem=1986.5M)
+Top level cell is lp_riscv_top.
+Hooked 0 DB cells to tlib cells.
+**WARN: (IMPDB-2504):	Unable to find netlist cell in the design data of the library or LEF. The 'sp_hde_8192_m16' cell is instantiated in the Verilog netlist, but not defined in the library or design data.  Its pin directions might be derived incorrectly. Include the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+Type 'man IMPDB-2504' for more detail.
+1 empty module found.
+Starting recursive module instantiation check.
+No recursion found.
+Term dir updated for 0 vinsts of 1 cells.
+Building hierarchical netlist for Cell lp_riscv_top ...
+***** UseNewTieNetMode *****.
+*** Netlist is unique.
+** info: there are 3029 modules.
+** info: there are 21952 stdCell insts.
+** info: there are 21952 stdCell insts with at least one signal pin.
+** info: there are 68 Pad insts.
+** info: there are 2 macros.
+
+*** Memory Usage v#1 (Current mem = 2025.598M, initial mem = 907.227M) ***
+0
+@innovus 37> init_design
+
+Pre-connect netlist-defined P/G connections...
+Initializing I/O assignment ...
+Start create_tracks
+Extraction setup Started for TopCell lp_riscv_top 
+@innovus 38> enics_message "Suppressing the following messages that are reported due to the LEF definitions:" 
+that are reported due to the LEF definitions:" 
+ENICSINFO: Suppressing the following messages that are reported due to the LEF definitions:
+@innovus 39> enenics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+
+ENICSINFO: ENCEXT-6202 IMPLF-200 IMPLF-200 LEFPARS-2001 LEFPARS-2065 LEFPARS-2076 IMPLF-58 IMPFP-3961 IMPSR-4302
+@innovus 40> set_message -suppress -id $tech(LEF_SUPPRESS_MESSset_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS) 
+AGES_INNOVUS) 
+@innovus 41> enics_message "Reading LEF abstractenics_message "Reading LEF abstracts"
+s"
+ENICSINFO: Reading LEF abstracts
+@innovus 42> read_physical -lef $tech_files(ALL_LEFS)read_physical -lef $tech_files(ALL_LEFS)
+
+**ERROR: (IMPIMEX-7030):	LEF files are not allowed to be read in after the design is in memory. If you want to modify the current list of LEF files, please refer to read_physical -add_lefs
+
+@innovus 43>  read_physical -lef $tech_files(ALL_LEFS)
+**ERROR: (IMPIMEX-7030):	LEF files are not allowed to be read in after the design is in memory. If you want to modify the current list of LEF files, please refer to read_physical -add_lefs
+
+@innovus 44> 
+
+@innovus 44> read_physical -lef $tech_files(ALL_LEFS)
+read_physical -lef $tech_files(ALL_LEFS)
+**ERROR: (IMPIMEX-7030):	LEF files are not allowed to be read in after the design is in memory. If you want to modify the current list of LEF files, please refer to read_physical -add_lefs
+
+@innovus 45> exit
+*** Message Summary: 4 warning(s), 6 error(s)
+
+
+*** Memory Usage v#1 (Current mem = 2314.914M, initial mem = 907.227M) ***
+--- Ending "Innovus" (totcpu=0:02:21, real=1:25:47, mem=2314.9M) ---

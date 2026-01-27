@@ -1,0 +1,217 @@
+[01/21 11:00:20      0s] 
+[01/21 11:00:20      0s] Cadence Innovus(TM) Implementation System.
+[01/21 11:00:20      0s] Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+[01/21 11:00:20      0s] 
+[01/21 11:00:20      0s] Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+[01/21 11:00:20      0s] Options:	-stylus 
+[01/21 11:00:20      0s] Date:		Wed Jan 21 11:00:20 2026
+[01/21 11:00:20      0s] Host:		ip-10-70-160-95.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+[01/21 11:00:20      0s] OS:		Rocky Linux 8.10 (Green Obsidian)
+[01/21 11:00:20      0s] 
+[01/21 11:00:20      0s] License:
+[01/21 11:00:20      0s] 		[11:00:20.003873] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+[01/21 11:00:20      0s] 
+[01/21 11:00:20      0s] 		invs	Innovus Implementation System	25.1	checkout succeeded
+[01/21 11:00:20      0s] 		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[01/21 11:00:36     13s] Memory management switch to non-aggressive memory release mode.
+[01/21 11:00:36     13s] 
+[01/21 11:00:36     13s] OS Mmap count monitoring thread starts. Limit of OS Mmap count is 65530
+[01/21 11:00:36     13s] 
+[01/21 11:00:36     13s] 
+[01/21 11:00:36     13s] 
+[01/21 11:00:42     15s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v25.11-s102_1 (64bit) 08/27/2025 13:03 (Linux 4.18.0-305.el8.x86_64)
+[01/21 11:00:49     18s] @(#)CDS: NanoRoute 25.11-s102_1 NR250730-0928/25_11-UB (database version 18.20.674) {superthreading v2.20}
+[01/21 11:00:49     18s] @(#)CDS: AAE 25.11-s028 (64bit) 08/27/2025 (Linux 4.18.0-305.el8.x86_64)
+[01/21 11:00:49     18s] @(#)CDS: CTE 25.11-s034_1 () Aug 18 2025 08:55:47 ( )
+[01/21 11:00:49     18s] @(#)CDS: SYNTECH 25.11-s013_1 () Jul 30 2025 05:18:51 ( )
+[01/21 11:00:49     18s] @(#)CDS: CPE v25.11-s029
+[01/21 11:00:49     18s] @(#)CDS: IQuantus/TQuantus 24.1.0-s290 (64bit) Sun Jul 20 21:40:56 PDT 2025 (Linux 4.18.0-305.el8.x86_64)
+[01/21 11:00:49     18s] @(#)CDS: OA 22.62-p010 Tue Jun 10 08:32:29 2025
+[01/21 11:00:49     18s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[01/21 11:00:49     18s] @(#)CDS: RCDB 11.15.0
+[01/21 11:00:49     18s] @(#)CDS: STYLUS 25.10-b003_1 (03/20/2025 14:55 PDT)
+[01/21 11:00:49     18s] @(#)CDS: IntegrityPlanner-25.11-186 (25.11) (2025-07-16 18:29:01+0800)
+[01/21 11:00:49     18s] @(#)CDS: SYNTHESIS_ENGINE 25.11-s095
+[01/21 11:00:49     18s] @(#)CDS: TCDB v25.10-b001
+[01/21 11:00:49     18s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_47855_ce3b94a0-8a61-4a6c-a814-3d30c9707d0d_ip-10-70-160-95.il-central-1.compute.internal_schiffe_vUN4nS.
+
+[01/21 11:00:49     18s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_47855_ce3b94a0-8a61-4a6c-a814-3d30c9707d0d_ip-10-70-160-95.il-central-1.compute.internal_schiffe_vUN4nS.
+[01/21 11:00:49     18s] 
+[01/21 11:00:49     18s] The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[01/21 11:00:51     19s] [INFO] Loading PVS 24.12 fill procedures
+[01/21 11:00:54     20s] Info: Process UID = 47855 / ce3b94a0-8a61-4a6c-a814-3d30c9707d0d / 5W7Q5c1rj4
+[01/21 11:00:57     23s] 
+[01/21 11:00:57     23s] **INFO:  MMMC transition support version v31-84 
+[01/21 11:00:57     23s] 
+[01/21 11:01:01     27s] @innovus 1> et design(TOPLEVEL) "lp_riscv_top"
+et design(TOPLEVEL) "lp_riscv_top"
+[01/21 11:01:27     28s] invalid command name "et"
+set runtype "pnr"
+set debug_file "debug.txt"
+
+# Load general procedures
+source ../scripts/procedures.tcl -quiet
+[01/21 11:01:27     28s] invalid command name "et"
+[01/21 11:01:27     28s] @innovus 2> set runtype "pnr"
+[01/21 11:01:27     28s] pnr
+[01/21 11:01:27     28s] @innovus 3> set debug_file "debug.txt"
+[01/21 11:01:27     28s] debug.txt
+[01/21 11:01:27     28s] @innovus 4> 
+[01/21 11:01:27     28s] @innovus 4> # Load general procedures
+[01/21 11:01:27     28s] @innovus 5> source ../scripts/procedures.tcl -quiet
+[01/21 11:01:27     28s] @innovus 6> 
+
+[01/21 11:01:27     28s] @innovus 6> ###############################################
+###############################################
+# Starting Stage - Load defines and technology
+###############################################
+enics_start_stage "start"
+[01/21 11:01:27     28s] @innovus 7> # Starting Stage - Load defines and technology
+[01/21 11:01:27     28s] @innovus 8> ###############################################
+[01/21 11:01:27     28s] @innovus 9> enics_start_stage "start"
+[01/21 11:01:27     28s] *****************************************
+[01/21 11:01:27     28s] *****************************************
+[01/21 11:01:27     28s] **   ENICSINFO: Starting stage start   **
+[01/21 11:01:27     28s] *****************************************
+[01/21 11:01:27     28s] *****************************************
+
+
+# Load the specific definitions for this project
+source ../inputs/$design(TOPLEVEL).defines -quiet
+[01/21 11:01:27     28s] ENICSINFO: Current time is: 21/01/2026 11:01
+[01/21 11:01:27     28s] ENICSINFO: This session is running on Hostname : ip-10-70-160-95.il-central-1.compute.internal
+[01/21 11:01:27     28s] ENICSINFO: The log file is innovus.log2 and the command file is innovus.cmd2
+[01/21 11:01:27     28s] ENICSINFO: ----------------------------------
+[01/21 11:01:27     28s] @innovus 10> 
+[01/21 11:01:27     28s] @innovus 10> 
+[01/21 11:01:27     28s] @innovus 10> # Load the specific definitions for this project
+[01/21 11:01:27     28s] @innovus 11> source ../inputs/$design(TOPLEVEL).defines -quiet
+[01/21 11:01:27     28s] can't read "design(TOPLEVEL)": no such variable
+
+# Load general settings
+source ../scripts/settings.tcl -quiet
+[01/21 11:01:27     28s] can't read "design(TOPLEVEL)": no such variable
+[01/21 11:01:27     28s] @innovus 12> 
+[01/21 11:01:27     28s] @innovus 12> # Load general settings
+[01/21 11:01:27     28s] @innovus 13> source ../scripts/settings.tcl -quiet
+[01/21 11:01:27     28s] can't read "tech(ENDCAPS)": no such variable
+[01/21 11:01:27     28s] can't read "tech(ENDCAPS)": no such variable
+[01/21 11:01:27     28s] @innovus 14> 
+
+[01/21 11:01:27     28s] @innovus 14> # Load the library paths and definitions for this te [1Gchnology
+# Load the library paths and definitions for this technology
+[01/21 11:01:27     28s] @innovus 15> source $design(libraries_dir)/libraries.$TECHNOLOGY. [1Gtcl -quiet
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/21 11:01:27     28s] can't read "design(libraries_dir)": no such variable
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+[01/21 11:01:27     28s] can't read "design(libraries_dir)": no such variable
+[01/21 11:01:27     28s] @innovus 16> source $design(libraries_dir)/libraries.$SC_TECHNOLO [1GGY.tcl -quiet
+[01/21 11:01:27     28s] can't read "design(libraries_dir)": no such variable
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+[01/21 11:01:27     28s] can't read "design(libraries_dir)": no such variable
+[01/21 11:01:27     28s] @innovus 17> source $design(libraries_dir)/libraries.$SRAM_TECHNO [1GLOGY.tcl -quiet
+[01/21 11:01:27     28s] can't read "design(libraries_dir)": no such variable
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+[01/21 11:01:27     28s] can't read "design(libraries_dir)": no such variable
+[01/21 11:01:27     28s] @innovus 18> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+[01/21 11:01:27     28s] +     source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl  [1G-quiet
+[01/21 11:01:27     28s] + }
+[01/21 11:01:27     28s] can't read "design(FULLCHIP_OR_MACRO)": no such variable
+
+#############################################
+#       Print values to debug file
+#############################################
+set var_list {runtype}
+set dic_list {paths tech tech_files design}
+enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+[01/21 11:01:27     28s] can't read "design(FULLCHIP_OR_MACRO)": no such variable
+[01/21 11:01:27     28s] @innovus 19> 
+[01/21 11:01:27     28s] @innovus 19> #############################################
+[01/21 11:01:27     28s] @innovus 20> #       Print values to debug file
+[01/21 11:01:27     28s] @innovus 21> #############################################
+[01/21 11:01:27     28s] @innovus 22> set var_list {runtype}
+[01/21 11:01:27     28s] runtype
+[01/21 11:01:27     28s] @innovus 23> set dic_list {paths tech tech_files design}
+[01/21 11:01:27     28s] paths tech tech_files design
+[01/21 11:01:27     28s] @innovus 24> enics_print_debug_data w $debug_file "after everythi [1Gng was loaded" $var_list $dic_list
+
+
+############################################
+# Init Design
+############################################
+enable_metrics -on
+enics_start_stage "init_design"
+
+# Global Nets
+[01/21 11:01:27     28s] @innovus 25> 
+[01/21 11:01:27     28s] @innovus 25> 
+[01/21 11:01:27     28s] @innovus 25> ############################################
+[01/21 11:01:27     28s] @innovus 26> # Init Design
+[01/21 11:01:27     28s] @innovus 27> ############################################
+[01/21 11:01:27     28s] @innovus 28> enable_metrics -on
+[01/21 11:01:27     28s] @innovus 29> enics_start_stage "init_design"
+[01/21 11:01:27     28s] ***********************************************
+[01/21 11:01:27     28s] ***********************************************
+[01/21 11:01:27     28s] **   ENICSINFO: Starting stage init_design   **
+[01/21 11:01:27     28s] ***********************************************
+[01/21 11:01:27     28s] ***********************************************
+[01/21 11:01:27     28s] ENICSINFO: Current time is: 21/01/2026 11:01
+[01/21 11:01:27     28s] ENICSINFO: ----------------------------------
+[01/21 11:01:27     28s] @innovus 30> 
+[01/21 11:01:27     28s] @innovus 30> # Global Nets
+[01/21 11:01:27     28s] @innovus 31> set_db init_ground_nets $design(all_grset_db init_ground_nets $design(all_ground_nets)
+ound_nets)
+[01/21 11:01:27     28s] can't read "design(all_ground_nets)": no such variable
+[01/21 11:01:27     28s] can't read "design(all_ground_nets)": no such variable
+[01/21 11:01:27     28s] @innovus 32> set_db init_power_nets $design(all_poweset_db init_power_nets $design(all_power_nets)
+[01/21 11:01:28     28s] can't read "design(all_power_nets)": no such variable
+can't read "design(all_power_nets)": no such variable
+[01/21 11:01:28     28s] @innovus 33> set design(TOPLEVEL) "lp_riscv_top"
+set design(TOPLEVEL) "lp_riscv_top"
+[01/21 11:02:13     29s] lp_riscv_top
+[01/21 11:02:13     29s] @innovus 34> set runtype "pset runtype "pnr"
+set debug_file "debug.txt"
+nr"
+[01/21 11:02:13     29s] pnr
+[01/21 11:02:13     29s] @innovus 35> set debug_file "debug.txt"
+[01/21 11:02:13     29s] debug.txt
+[01/21 11:02:13     29s] @innovus 36> source ../scripts/procedures.tcl -quiet
+@innovus 37> enics_start_stage "start"
+enics_start_stage "start"
+[01/21 11:02:45     29s] *****************************************
+[01/21 11:02:45     29s] *****************************************
+[01/21 11:02:45     29s] **   ENICSINFO: Starting stage start   **
+[01/21 11:02:45     29s] *****************************************
+[01/21 11:02:45     29s] *****************************************
+[01/21 11:02:45     29s] ENICSINFO: Current time is: 21/01/2026 11:02
+[01/21 11:02:45     29s] ENICSINFO: This session is running on Hostname : ip-10-70-160-95.il-central-1.compute.internal
+[01/21 11:02:45     29s] ENICSINFO: The log file is innovus.log2 and the command file is innovus.cmd2
+[01/21 11:02:45     29s] ENICSINFO: ----------------------------------
+[01/21 11:02:45     29s] @innovus 38> source ../inputs/$design(TOPLEVEL).defines -quiet
+@innovus 39> source ../scripts/settings.tcl -quiet
+[01/21 11:03:22     30s] can't read "tech(ENDCAPS)": no such variable
+can't read "tech(ENDCAPS)": no such variable
+[01/21 11:03:22     30s] @innovus 40> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+Y.tcl -quiet
+[01/21 11:03:53     31s] **WARN: (IMPDB-6501):	"set_db design_process_node" will be obsoleted in future release. Remove it from the script to avoid the interruption of running the script in future.
+[01/21 11:03:53     31s] ##  Process: 65            (User Set)               
+[01/21 11:03:53     31s] ##     Node: (not set)                           
+[01/21 11:03:53     31s] 
+[01/21 11:03:53     31s] ##  Check design process and node:  
+[01/21 11:03:53     31s] ##  Design tech node is not set.
+[01/21 11:03:53     31s] 
+[01/21 11:03:53     31s] Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[01/21 11:03:53     31s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[01/21 11:03:53     31s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[01/21 11:03:53     31s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'high'.
+[01/21 11:03:53     31s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+[01/21 11:03:53     31s] @innovus 41> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+[01/21 11:03:53     31s] @innovus 42> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quietsource $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+
+[01/21 11:03:55     31s] @innovus 43> [01/21 12:02:00    102s] 
+[01/21 12:02:00    102s] *** Summary of all messages that are not suppressed in this session:
+[01/21 12:02:00    102s] Severity  ID               Count  Summary                                  
+[01/21 12:02:00    102s] WARNING   IMPDB-6501           1  "set_db design_process_node" will be obs...

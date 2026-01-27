@@ -1,13 +1,13 @@
 # floorplan
-set design(floorplan_ratio) <fill in the ratio> 
-set design(floorplan_utilization) <fill in target utilization>
+set design(floorplan_ratio) 1.0
+set design(floorplan_utilization) 0.7
 set design(floorplan_space_to_core) "10 10 10 10" ; # Note that this should be passed as four arguments and not a list,
 						# Therefore, use the expand list {*} operator!
 
 set design(core_ring_nets) "$design(digital_gnd) $design(digital_vdd)"
-set design(core_ring_width) <decide on your core ring width>
-set design(core_ring_spacing) <decide on your core ring spacing>; #[get_db layer:[lindex [get_db / .layers.name] 1] .min_spacing]
-set design(core_ring_layers) <decide on layers, e.g.: "bottom M1 top M1 right M2 left M2">
+set design(core_ring_width) 5.0
+set design(core_ring_spacing) 2.0; #[get_db layer:[lindex [get_db / .layers.name] 1] .min_spacing]
+set design(core_ring_layers) "bottom M5 top M5 right M6 left M6"
 
 #set design(well_tap_interval) 10
 #set design(well_tap_offset) 3
@@ -16,8 +16,8 @@ set design(well_tap_prefix) "WELLTAP"
 
 set design(end_cap_prefix) "ENDCAP"
 
-set design(M2_stripes_width) <define M2 stripes width>
-set design(M2_stripes_spacing) <define spacing between M2 vdd/gnd stripes>; #[get_db layer:[lindex [get_db / .layers.name] 1] .min_spacing]
-set design(M2_stripes_interval) <define interval between M2 stripes sets>
-set design(M2_stripes_from_left) <define offset of first set of M2 stripes from left>
+set design(M2_stripes_width) 1.0
+set design(M2_stripes_spacing) 0.8; #[get_db layer:[lindex [get_db / .layers.name] 1] .min_spacing]
+set design(M2_stripes_interval) 20.0
+set design(M2_stripes_from_left) 10.0
 set design(M2_stripe_nets) "$design(digital_gnd) $design(digital_vdd)"

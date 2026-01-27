@@ -1,0 +1,447 @@
+[01/21 14:30:52      0s] 
+[01/21 14:30:52      0s] Cadence Innovus(TM) Implementation System.
+[01/21 14:30:52      0s] Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+[01/21 14:30:52      0s] 
+[01/21 14:30:52      0s] Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+[01/21 14:30:52      0s] Options:	-stylus 
+[01/21 14:30:52      0s] Date:		Wed Jan 21 14:30:52 2026
+[01/21 14:30:52      0s] Host:		ip-10-70-160-95.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+[01/21 14:30:52      0s] OS:		Rocky Linux 8.10 (Green Obsidian)
+[01/21 14:30:52      0s] 
+[01/21 14:30:52      0s] License:
+[01/21 14:30:52      0s] 		[14:30:52.003961] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+[01/21 14:30:52      0s] 
+[01/21 14:30:52      0s] 		invs	Innovus Implementation System	25.1	checkout succeeded
+[01/21 14:30:52      0s] 		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[01/21 14:31:07     13s] Memory management switch to non-aggressive memory release mode.
+[01/21 14:31:07     13s] 
+[01/21 14:31:07     13s] OS Mmap count monitoring thread starts. Limit of OS Mmap count is 65530
+[01/21 14:31:07     13s] 
+[01/21 14:31:08     13s] 
+[01/21 14:31:08     13s] 
+[01/21 14:31:19     15s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v25.11-s102_1 (64bit) 08/27/2025 13:03 (Linux 4.18.0-305.el8.x86_64)
+[01/21 14:31:28     19s] @(#)CDS: NanoRoute 25.11-s102_1 NR250730-0928/25_11-UB (database version 18.20.674) {superthreading v2.20}
+[01/21 14:31:28     19s] @(#)CDS: AAE 25.11-s028 (64bit) 08/27/2025 (Linux 4.18.0-305.el8.x86_64)
+[01/21 14:31:28     19s] @(#)CDS: CTE 25.11-s034_1 () Aug 18 2025 08:55:47 ( )
+[01/21 14:31:28     19s] @(#)CDS: SYNTECH 25.11-s013_1 () Jul 30 2025 05:18:51 ( )
+[01/21 14:31:28     19s] @(#)CDS: CPE v25.11-s029
+[01/21 14:31:28     19s] @(#)CDS: IQuantus/TQuantus 24.1.0-s290 (64bit) Sun Jul 20 21:40:56 PDT 2025 (Linux 4.18.0-305.el8.x86_64)
+[01/21 14:31:28     19s] @(#)CDS: OA 22.62-p010 Tue Jun 10 08:32:29 2025
+[01/21 14:31:28     19s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[01/21 14:31:28     19s] @(#)CDS: RCDB 11.15.0
+[01/21 14:31:28     19s] @(#)CDS: STYLUS 25.10-b003_1 (03/20/2025 14:55 PDT)
+[01/21 14:31:28     19s] @(#)CDS: IntegrityPlanner-25.11-186 (25.11) (2025-07-16 18:29:01+0800)
+[01/21 14:31:28     19s] @(#)CDS: SYNTHESIS_ENGINE 25.11-s095
+[01/21 14:31:28     19s] @(#)CDS: TCDB v25.10-b001
+[01/21 14:31:28     19s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_58928_dbf771cf-f7f7-4b2f-93c4-d22c05da12a4_ip-10-70-160-95.il-central-1.compute.internal_schiffe_99HP8I.
+
+[01/21 14:31:28     19s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_58928_dbf771cf-f7f7-4b2f-93c4-d22c05da12a4_ip-10-70-160-95.il-central-1.compute.internal_schiffe_99HP8I.
+[01/21 14:31:28     19s] 
+[01/21 14:31:28     19s] The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[01/21 14:31:30     19s] [INFO] Loading PVS 24.12 fill procedures
+[01/21 14:31:33     21s] Info: Process UID = 58928 / dbf771cf-f7f7-4b2f-93c4-d22c05da12a4 / 293ERmcnfT
+[01/21 14:31:36     24s] 
+[01/21 14:31:36     24s] **INFO:  MMMC transition support version v31-84 
+[01/21 14:31:36     24s] 
+[01/21 14:31:39     28s] @innovus 1> set design(TOPLEVEL) "lp_riscv_top"
+set design(TOPLEVEL) "lp_riscv_top"
+[01/21 14:31:59     28s] lp_riscv_top
+[01/21 14:31:59     28s] @innovus 2> set runtype "pset runtype "pnr"
+nr"
+[01/21 14:31:59     28s] pnr
+[01/21 14:31:59     28s] @innovus 3> set debug_file "debug.txt"
+set debug_file "debug.txt"
+[01/21 14:31:59     28s] debug.txt
+[01/21 14:31:59     28s] @innovus 4> source ../scripts/procedures.tcl -quiet
+source ../scripts/procedures.tcl -quiet
+[01/21 14:32:12     29s] @innovus 5> enics_start_stage "start"
+enics_start_stage "start"
+[01/21 14:32:20     29s] *****************************************
+[01/21 14:32:20     29s] *****************************************
+[01/21 14:32:20     29s] **   ENICSINFO: Starting stage start   **
+[01/21 14:32:20     29s] *****************************************
+[01/21 14:32:20     29s] *****************************************
+[01/21 14:32:21     29s] ENICSINFO: Current time is: 21/01/2026 14:32
+[01/21 14:32:21     29s] ENICSINFO: This session is running on Hostname : ip-10-70-160-95.il-central-1.compute.internal
+[01/21 14:32:21     29s] ENICSINFO: The log file is innovus.log6 and the command file is innovus.cmd6
+[01/21 14:32:21     29s] ENICSINFO: ----------------------------------
+[01/21 14:32:21     29s] @innovus 6> source ../inputs/$design(TOPLEVEL).defines -quiet
+@innovus 7> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+Y.tcl -quiet
+[01/21 14:32:41     29s] **WARN: (IMPDB-6501):	"set_db design_process_node" will be obsoleted in future release. Remove it from the script to avoid the interruption of running the script in future.
+[01/21 14:32:41     29s] ##  Process: 65            (User Set)               
+[01/21 14:32:41     29s] ##     Node: (not set)                           
+[01/21 14:32:41     29s] 
+[01/21 14:32:41     29s] ##  Check design process and node:  
+[01/21 14:32:41     29s] ##  Design tech node is not set.
+[01/21 14:32:41     29s] 
+[01/21 14:32:41     29s] Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[01/21 14:32:41     29s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[01/21 14:32:41     29s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[01/21 14:32:41     29s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'high'.
+[01/21 14:32:41     29s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+[01/21 14:32:41     29s] @innovus 8> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+[01/21 14:32:41     29s] @innovus 9> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+[01/21 14:32:41     29s] @innovus 10> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+[01/21 14:32:41     29s] +     source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+[01/21 14:32:41     29s] + }
+[01/21 14:32:41     29s] @innovus 11> set_library_unit -time 1ns -cap 1pfset_library_unit -time 1ns -cap 1pf
+
+[01/21 14:32:42     29s] @innovus 12> set var_list {runtype}
+set var_list {runtype}
+[01/21 14:32:54     30s] runtype
+[01/21 14:32:54     30s] @innovus 13> set dic_list {paths tech teset dic_list {paths tech tech_files design}
+ch_files design}
+[01/21 14:32:54     30s] paths tech tech_files design
+[01/21 14:32:54     30s] @innovus 14> enics_print_debug_data w $debug_fenics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+ile "after everything was loaded" $var_list $dic_list
+
+[01/21 14:32:54     30s] @innovus 15> 
+[01/21 14:32:54     30s] @innovus 15> #enable_metrics -on
+enics_start_stage "init_design"
+
+# Global Nets
+#enable_metrics -on
+[01/21 14:33:09     30s] @innovus 16> enics_start_stage "init_design"
+[01/21 14:33:09     30s] ***********************************************
+[01/21 14:33:09     30s] ***********************************************
+[01/21 14:33:09     30s] **   ENICSINFO: Starting stage init_design   **
+[01/21 14:33:09     30s] ***********************************************
+[01/21 14:33:09     30s] ***********************************************
+[01/21 14:33:09     30s] ENICSINFO: Current time is: 21/01/2026 14:33
+[01/21 14:33:09     30s] ENICSINFO: ----------------------------------
+[01/21 14:33:09     30s] @innovus 17> 
+[01/21 14:33:09     30s] @innovus 17> # Global Nets
+[01/21 14:33:09     30s] @innovus 18> set_db init_ground_nets $design(aset_db init_ground_nets $design(all_ground_nets)
+ll_ground_nets)
+[01/21 14:33:09     30s] 1 gnd
+[01/21 14:33:09     30s] @innovus 19> set_db init_power_nets $design(allset_db init_power_nets $design(all_power_nets)
+_power_nets)
+[01/21 14:33:09     30s] 1 {vdd vddio}
+[01/21 14:33:09     30s] @innovus 20> enics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+that are reported due to the LIB definitions:" 
+[01/21 14:33:18     30s] ENICSINFO: Suppressing the following messages that are reported due to the LIB definitions:
+[01/21 14:33:18     30s] @innovus 21> enenics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+
+[01/21 14:33:18     30s] ENICSINFO: TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 IMPTS-282
+[01/21 14:33:18     30s] @innovus 22> set_message -suppress -id $tech(LIB_SUPPRESS_MESSset_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+enics_message "Reading MMMC File"
+AGES_INNOVUS) 
+[01/21 14:33:18     30s] @innovus 23> enics_message "Reading MMMC File"
+[01/21 14:33:18     30s] ENICSINFO: Reading MMMC File
+[01/21 14:33:18     30s] @innovus 24> rread_mmmc $design(mmmc_view_file) 
+#@ Begin verbose source (pre): 
+[01/21 14:33:18     30s] @file 1: #  Version:1.0 MMMC View Definition File
+[01/21 14:33:18     30s] @file 2: # Do Not Remove Above Line
+[01/21 14:33:18     30s] @file 3:
+[01/21 14:33:18     30s] @file 4: ############# MMMC Hierarchy ########################################################################################
+[01/21 14:33:18     30s] @file 5: #                                                                                                                   #
+[01/21 14:33:18     30s] @file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+[01/21 14:33:18     30s] @file 7: #                       |--> Analysis View  |                                                                       #
+[01/21 14:33:18     30s] @file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+[01/21 14:33:18     30s] @file 9: #                                           |--> Delay Corner |                                                     #
+[01/21 14:33:18     30s] @file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+[01/21 14:33:18     30s] @file 11: #####################################################################################################################
+[01/21 14:33:18     30s] @file 12:
+[01/21 14:33:18     30s] @file 13: # Constraint Modes #
+[01/21 14:33:18     30s] @file 14: # ---------------- #
+[01/21 14:33:18     30s] @@file 15: create_constraint_mode \
+[01/21 14:33:18     30s] 	-name functional_mode \
+[01/21 14:33:18     30s] 	-sdc_files $design(functional_sdc)
+[01/21 14:33:18     30s] @file 18:
+[01/21 14:33:18     30s] @file 19: # RC Corners #
+[01/21 14:33:18     30s] @file 20: # ---------- #
+[01/21 14:33:18     30s] @file 21: if {$runtype=="synthesis"} {...
+[01/21 14:33:18     30s] @file 24: } else {
+[01/21 14:33:18     30s] @@file 25: set_message -suppress -id ENCEXT-6202 ;
+[01/21 14:33:18     30s] @file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+[01/21 14:33:18     30s] @file 26: }
+[01/21 14:33:18     30s] @file 27:
+[01/21 14:33:18     30s] @@file 28: create_rc_corner \
+[01/21 14:33:18     30s] 	-name bc_rc_corner \
+[01/21 14:33:18     30s] 	-temperature $tech(TEMPERATURE_BC) \
+[01/21 14:33:18     30s]     -qrc_tech $tech_files(QRCTECH_FILE_BC)
+[01/21 14:33:18     30s] @file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+[01/21 14:33:18     30s] @file 33:
+[01/21 14:33:18     30s] @@file 34: create_rc_corner \
+[01/21 14:33:18     30s] 	-name tc_rc_corner \
+[01/21 14:33:18     30s] 	-temperature $tech(TEMPERATURE_TC) \
+[01/21 14:33:18     30s] 	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+[01/21 14:33:18     30s] @file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+[01/21 14:33:18     30s] @file 39:
+[01/21 14:33:18     30s] @@file 40: create_rc_corner \
+[01/21 14:33:18     30s] 	-name wc_rc_corner \
+[01/21 14:33:18     30s] 	-temperature $tech(TEMPERATURE_WC) \
+[01/21 14:33:18     30s]     -qrc_tech $tech_files(QRCTECH_FILE_WC)
+[01/21 14:33:18     30s] @file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+[01/21 14:33:18     30s] @file 45:
+[01/21 14:33:18     30s] @file 46: # Library Sets #
+[01/21 14:33:18     30s] @file 47: # ------------ #
+[01/21 14:33:18     30s] @@file 48: create_library_set \
+[01/21 14:33:18     30s] 	-name bc_libset \
+[01/21 14:33:18     30s] 	-timing $tech_files(ALL_BC_LIBS)  
+[01/21 14:33:19     30s] @file 51: # -aocv $tech_files(ALL_BC_AOCV_LIBS)
+[01/21 14:33:19     30s] @file 52:
+[01/21 14:33:19     30s] @@file 53: create_library_set \
+[01/21 14:33:19     30s] 	-name tc_libset \
+[01/21 14:33:19     30s] 	-timing $tech_files(ALL_TC_LIBS)  
+[01/21 14:33:19     30s] @file 56: # -aocv $tech_files(ALL_TC_AOCV_LIBS)
+[01/21 14:33:19     30s] @file 57:     
+[01/21 14:33:19     30s] @@file 58: create_library_set \
+[01/21 14:33:19     30s] 	-name wc_libset \
+[01/21 14:33:19     30s] 	-timing $tech_files(ALL_WC_LIBS)  
+[01/21 14:33:19     30s] @file 61: # -aocv $tech_files(ALL_WC_AOCV_LIBS)
+[01/21 14:33:19     30s] @file 62:
+[01/21 14:33:19     30s] @file 63: # Timing Conditions #
+[01/21 14:33:19     30s] @file 64: # ----------------- #
+[01/21 14:33:19     30s] @@file 65: create_timing_condition \
+[01/21 14:33:19     30s]    -name         bc_timing_condition \
+[01/21 14:33:19     30s]    -library_sets bc_libset
+[01/21 14:33:19     30s] @file 68:
+[01/21 14:33:19     30s] @@file 69: create_timing_condition \
+[01/21 14:33:19     30s]    -name         tc_timing_condition \
+[01/21 14:33:19     30s]    -library_sets tc_libset
+[01/21 14:33:19     30s] @file 72:
+[01/21 14:33:19     30s] @@file 73: create_timing_condition \
+[01/21 14:33:19     30s]    -name         wc_timing_condition \
+[01/21 14:33:19     30s]    -library_sets wc_libset
+[01/21 14:33:19     30s] @file 76:
+[01/21 14:33:19     30s] @file 77: # Delay Corners #
+[01/21 14:33:19     30s] @file 78: # ------------- #
+[01/21 14:33:19     30s] @@file 79: create_delay_corner \
+[01/21 14:33:19     30s] 	-name bc_dly_corner \
+[01/21 14:33:19     30s] 	-timing_condition bc_timing_condition \
+[01/21 14:33:19     30s] 	-rc_corner bc_rc_corner
+[01/21 14:33:19     30s] @file 83:
+[01/21 14:33:19     30s] @@file 84: create_delay_corner \
+[01/21 14:33:19     30s] 	-name tc_dly_corner \
+[01/21 14:33:19     30s] 	-timing_condition tc_timing_condition \
+[01/21 14:33:19     30s] 	-rc_corner tc_rc_corner
+[01/21 14:33:19     30s] @file 88:
+[01/21 14:33:19     30s] @@file 89: create_delay_corner \
+[01/21 14:33:19     30s] 	-name wc_dly_corner \
+[01/21 14:33:19     30s] 	-timing_condition wc_timing_condition \
+[01/21 14:33:19     30s] 	-rc_corner wc_rc_corner
+[01/21 14:33:19     30s] @file 93:
+[01/21 14:33:19     30s] @file 94: # Analysis Views #
+[01/21 14:33:19     30s] @file 95: # -------------- #
+[01/21 14:33:19     30s] @@file 96: create_analysis_view \
+[01/21 14:33:19     30s] 	-name bc_analysis_view \
+[01/21 14:33:19     30s] 	-constraint_mode functional_mode \
+[01/21 14:33:19     30s] 	-delay_corner bc_dly_corner
+[01/21 14:33:19     30s] @file 100:
+[01/21 14:33:19     30s] @@file 101: create_analysis_view \
+[01/21 14:33:19     30s]     -name tc_analysis_view \
+[01/21 14:33:19     30s] 	-constraint_mode functional_mode \
+[01/21 14:33:19     30s] 	-delay_corner tc_dly_corner
+[01/21 14:33:19     30s] @file 105:
+[01/21 14:33:19     30s] @@file 106: create_analysis_view \
+[01/21 14:33:19     30s] 	-name wc_analysis_view \
+[01/21 14:33:19     30s] 	-constraint_mode functional_mode \
+[01/21 14:33:19     30s] 	-delay_corner wc_dly_corner
+[01/21 14:33:19     30s] @file 110:
+[01/21 14:33:19     30s] @file 111: # Selected Analysis Views #
+[01/21 14:33:19     30s] @file 112: # ----------------------- #
+[01/21 14:33:19     30s] @@file 113: set_analysis_view \
+[01/21 14:33:19     30s] 	-setup $design(selected_setup_analysis_views) \
+[01/21 14:33:19     30s] 	-hold  $design(selected_hold_analysis_views)
+[01/21 14:33:19     30s] @file 116: # -leakage $design(selected_leakage_analysis_views)
+[01/21 14:33:19     30s] @file 117:     # -dynamic $design(selected_dynamic_power_analysis_views)
+[01/21 14:33:19     30s] @file 118:
+[01/21 14:33:19     30s] @file 119:
+[01/21 14:33:19     30s] #@ End verbose source: /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+[01/21 14:33:19     30s] Reading wc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_rvt/r0p0/lib/sc9_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib' ...
+[01/21 14:33:22     33s] Read 949 cells in library 'sc9_cln65lp_base_rvt_ss_typical_max_0p90v_125c' 
+[01/21 14:33:22     33s] Reading wc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_lvt/r0p0/lib/sc9_cln65lp_base_lvt_ss_typical_max_0p90v_125c.lib' ...
+[01/21 14:33:25     36s] Read 949 cells in library 'sc9_cln65lp_base_lvt_ss_typical_max_0p90v_125c' 
+[01/21 14:33:25     36s] Reading wc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_hvt/r0p0/lib/sc9_cln65lp_base_hvt_ss_typical_max_0p90v_125c.lib' ...
+[01/21 14:33:28     39s] Read 949 cells in library 'sc9_cln65lp_base_hvt_ss_typical_max_0p90v_125c' 
+[01/21 14:33:28     39s] Reading wc_libset timing library '/project/tsmc65/users/schiffe/ws/DVD/hw6/mem_gen/SP_16384X32/M16/sp_hde_16384_m16_ss_1p08v_1p08v_125c.lib' ...
+[01/21 14:33:28     39s] Read 1 cells in library 'USERLIB_ss_1p08v_1p08v_125c' 
+[01/21 14:33:28     39s] Reading wc_libset timing library '/project/tsmc65/users/schiffe/ws/DVD/hw6/mem_gen/SP_8192X32/M16/sp_hse_8192_m16_ss_1p08v_1p08v_125c.lib' ...
+[01/21 14:33:29     40s] Read 1 cells in library 'USERLIB_ss_1p08v_1p08v_125c' 
+[01/21 14:33:29     40s] Reading wc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/TSMCHOME_fe/digital/Front_End/timing_power_noise/NLDM/tpdn65lpnv2od3_200a/tpdn65lpnv2od3wc.lib' ...
+[01/21 14:33:29     40s] Read 47 cells in library 'tpdn65lpnv2od3wc' 
+[01/21 14:33:29     40s] Reading bc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_rvt/r0p0/lib/sc9_cln65lp_base_rvt_ff_typical_min_1p32v_m40c.lib' ...
+[01/21 14:33:32     42s] Read 949 cells in library 'sc9_cln65lp_base_rvt_ff_typical_min_1p32v_m40c' 
+[01/21 14:33:32     42s] Reading bc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_lvt/r0p0/lib/sc9_cln65lp_base_lvt_ff_typical_min_1p32v_m40c.lib' ...
+[01/21 14:33:34     45s] Read 949 cells in library 'sc9_cln65lp_base_lvt_ff_typical_min_1p32v_m40c' 
+[01/21 14:33:34     45s] Reading bc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_hvt/r0p0/lib/sc9_cln65lp_base_hvt_ff_typical_min_1p32v_m40c.lib' ...
+[01/21 14:33:37     47s] Read 949 cells in library 'sc9_cln65lp_base_hvt_ff_typical_min_1p32v_m40c' 
+[01/21 14:33:37     47s] Reading bc_libset timing library '/project/tsmc65/users/schiffe/ws/DVD/hw6/mem_gen/SP_16384X32/M16/sp_hde_16384_m16_ff_1p32v_1p32v_m40c.lib' ...
+[01/21 14:33:37     47s] Read 1 cells in library 'USERLIB_ff_1p32v_1p32v_m40c' 
+[01/21 14:33:37     47s] Reading bc_libset timing library '/project/tsmc65/users/schiffe/ws/DVD/hw6/mem_gen/SP_8192X32/M16/sp_hse_8192_m16_ff_1p32v_1p32v_m40c.lib' ...
+[01/21 14:33:37     48s] Read 1 cells in library 'USERLIB_ff_1p32v_1p32v_m40c' 
+[01/21 14:33:37     48s] Reading bc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/TSMCHOME_fe/digital/Front_End/timing_power_noise/NLDM/tpdn65lpnv2od3_200a/tpdn65lpnv2od3bc.lib' ...
+[01/21 14:33:37     48s] Read 47 cells in library 'tpdn65lpnv2od3bc' 
+[01/21 14:33:39     48s] Ending "PreSetAnalysisView" (total cpu=0:00:17.6, real=0:00:20.0, peak res=2278.2M, current mem=1977.1M)
+[01/21 14:33:39     48s] 1
+[01/21 14:33:39     48s] @innovus 25> enics_message "Suppressing the following messages that are reported due to the LEF definitions:" 
+that are reported due to the LEF definitions:" 
+[01/21 14:34:02     48s] ENICSINFO: Suppressing the following messages that are reported due to the LEF definitions:
+[01/21 14:34:02     48s] @innovus 26> enenics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+
+[01/21 14:34:02     48s] ENICSINFO: ENCEXT-6202 IMPLF-200 LEFPARS-2001 LEFPARS-2065 LEFPARS-2076 IMPLF-58 IMPFP-3961 IMPSR-4302
+[01/21 14:34:02     48s] @innovus 27> set_message -suppress -id $tech(LEF_SUPPRESS_MESSset_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS) 
+AGES_INNOVUS) 
+[01/21 14:34:02     48s] @innovus 28> enics_message "Reading LEF abstractenics_message "Reading LEF abstracts"
+s"
+[01/21 14:34:02     48s] ENICSINFO: Reading LEF abstracts
+[01/21 14:34:02     48s] @innovus 29> read_physical -lef $tech_files(ALL_LEFS)read_physical -lef $tech_files(ALL_LEFS)
+
+[01/21 14:34:05     49s] 
+[01/21 14:34:05     49s] Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//arm_tech/r2p0/lef/1p9m_6x2z/sc9_tech.lef ...
+[01/21 14:34:05     49s] 
+[01/21 14:34:05     49s] Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc9_base_rvt/r0p0/lef/sc9_cln65lp_base_rvt.lef ...
+[01/21 14:34:05     49s] Set DBUPerIGU to M2 pitch 400.
+[01/21 14:34:05     49s] 
+[01/21 14:34:05     49s] Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc9_base_lvt/r0p0/lef/sc9_cln65lp_base_lvt.lef ...
+[01/21 14:34:05     49s] 
+[01/21 14:34:05     49s] Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp//sc9_base_hvt/r0p0/lef/sc9_cln65lp_base_hvt.lef ...
+[01/21 14:34:05     49s] 
+[01/21 14:34:05     49s] Loading LEF file ../mem_gen/SP_16384X32/M16/sp_hde_16384_m16.lef ...
+[01/21 14:34:05     49s] 
+[01/21 14:34:05     49s] Loading LEF file ../mem_gen/SP_8192X32/M16/sp_hse_8192_m16.lef ...
+[01/21 14:34:05     49s] 
+[01/21 14:34:05     49s] Loading LEF file /data/project/tsmc65/shared/modified_libraries/tpdn65lpnv2od3_9lm.lef ...
+[01/21 14:34:05     49s] WARNING (LEFPARS-2502): Message (LEFPARS-2065) has been suppressed from output. See file /data/project/tsmc65/shared/modified_libraries/tpdn65lpnv2od3_9lm.lef at line 12683.
+[01/21 14:34:05     49s] WARNING (LEFPARS-2502): Message (LEFPARS-2076) has been suppressed from output. See file /data/project/tsmc65/shared/modified_libraries/tpdn65lpnv2od3_9lm.lef at line 12686.
+[01/21 14:34:05     49s] WARNING (LEFPARS-2502): Message (LEFPARS-2001) has been suppressed from output. See file /data/project/tsmc65/shared/modified_libraries/tpdn65lpnv2od3_9lm.lef at line 13714.
+[01/21 14:34:05     49s] 
+[01/21 14:34:05     49s] Loading LEF file /data/tsmc/65LP/dig_libs/ARM_FEONLY/TSMCHOME_fe/digital/Back_End/lef/tpdn65lpnv2od3_140b/mt/9lm/lef//antenna_9lm.lef ...
+[01/21 14:34:05     49s] **WARN: (IMPLF-61):	43 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+[01/21 14:34:05     49s] Review the LEF files specified in the init_lef_files variable and remove redundant definitions.
+[01/21 14:34:05     49s] Type 'man IMPLF-61' for more detail.
+[01/21 14:34:05     49s] 
+[01/21 14:34:05     49s] ##  Check design process and node:  
+[01/21 14:34:05     49s] ##  Design tech node is not set.
+[01/21 14:34:05     49s] 
+[01/21 14:34:05     49s] 0
+[01/21 14:34:05     49s] @innovus 30> read_netlist $design(postsyn_netlist)
+#% Begin Load netlist data ... (date=01/21 14:34:32, mem=1994.8M)
+[01/21 14:34:32     50s] *** Begin netlist parsing (mem=1994.8M) ***
+[01/21 14:34:32     50s] Pin 'VSS' of cell 'PVSS3CDG' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[01/21 14:34:32     50s] Pin 'VSSPST' of cell 'PVSS2CDG' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[01/21 14:34:32     50s] Pin 'AVSS' of cell 'PVSS2ANA' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[01/21 14:34:32     50s] Pin 'VSS' of cell 'PVSS1CDG' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[01/21 14:34:32     50s] Pin 'AVSS' of cell 'PVSS1ANA' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[01/21 14:34:32     50s] Pin 'VDDPST' of cell 'PVDD2POC' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[01/21 14:34:32     50s] Pin 'VDDPST' of cell 'PVDD2CDG' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[01/21 14:34:32     50s] Pin 'AVDD' of cell 'PVDD2ANA' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[01/21 14:34:32     50s] Pin 'VDD' of cell 'PVDD1CDG' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[01/21 14:34:32     50s] Pin 'AVDD' of cell 'PVDD1ANA' is declared as power/ground in LEF but as signal in timing library.  Treat it as power/ground.
+[01/21 14:34:32     50s] Created 2896 new cells from 12 timing libraries.
+[01/21 14:34:32     50s] Reading netlist ...
+[01/21 14:34:32     50s] Backslashed names will retain backslash and a trailing blank character.
+[01/21 14:34:32     50s] Reading verilog netlist '/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v'
+[01/21 14:34:32     50s] Undeclared bus Q in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:34:32     50s] Undeclared bus WEN in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:34:32     50s] Undeclared bus A in module sp_hde_8192_m16 ... created as [12:0].
+[01/21 14:34:32     50s] Undeclared bus D in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:34:32     50s] Undeclared bus WENY in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:34:32     50s] Undeclared bus AY in module sp_hde_8192_m16 ... created as [12:0].
+[01/21 14:34:32     50s] Undeclared bus SO in module sp_hde_8192_m16 ... created as [1:0].
+[01/21 14:34:32     50s] Undeclared bus EMA in module sp_hde_8192_m16 ... created as [2:0].
+[01/21 14:34:32     50s] Undeclared bus EMAW in module sp_hde_8192_m16 ... created as [1:0].
+[01/21 14:34:32     50s] Undeclared bus TWEN in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:34:32     50s] Undeclared bus TA in module sp_hde_8192_m16 ... created as [12:0].
+[01/21 14:34:32     50s] Undeclared bus TD in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:34:32     50s] Undeclared bus SI in module sp_hde_8192_m16 ... created as [1:0].
+[01/21 14:34:32     50s] **WARN: (IMPVL-346):	Module 'sp_hde_8192_m16' is instantiated in the netlist, but is not defined in the LEF files.  Since there is no real cell definition for such a cell, it will be treated as an empty module.
+[01/21 14:34:32     50s] Type 'man IMPVL-346' for more detail.
+[01/21 14:34:33     50s] 
+[01/21 14:34:33     50s] *** Memory Usage v#1 (Current mem = 2145.586M, initial mem = 908.512M) ***
+[01/21 14:34:33     50s] *** End netlist parsing (cpu=0:00:00.4, real=0:00:01.0, mem=2145.6M) ***
+[01/21 14:34:33     50s] #% End Load netlist data ... (date=01/21 14:34:33, total cpu=0:00:00.4, real=0:00:01.0, peak res=2145.6M, current mem=2145.6M)
+[01/21 14:34:33     50s] Top level cell is lp_riscv_top.
+[01/21 14:34:34     52s] Hooked 5792 DB cells to tlib cells.
+[01/21 14:34:34     52s] Ending "BindLib:" (total cpu=0:00:00.5, real=0:00:00.0, peak res=2292.0M, current mem=2292.0M)
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[31]' of cell 'sp_hde_8192_m16' as output for net 'Q[31]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[30]' of cell 'sp_hde_8192_m16' as output for net 'Q[30]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[29]' of cell 'sp_hde_8192_m16' as output for net 'Q[29]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[28]' of cell 'sp_hde_8192_m16' as output for net 'Q[28]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[27]' of cell 'sp_hde_8192_m16' as output for net 'Q[27]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[26]' of cell 'sp_hde_8192_m16' as output for net 'Q[26]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[25]' of cell 'sp_hde_8192_m16' as output for net 'Q[25]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[24]' of cell 'sp_hde_8192_m16' as output for net 'Q[24]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[23]' of cell 'sp_hde_8192_m16' as output for net 'Q[23]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[22]' of cell 'sp_hde_8192_m16' as output for net 'Q[22]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[21]' of cell 'sp_hde_8192_m16' as output for net 'Q[21]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[20]' of cell 'sp_hde_8192_m16' as output for net 'Q[20]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[19]' of cell 'sp_hde_8192_m16' as output for net 'Q[19]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[18]' of cell 'sp_hde_8192_m16' as output for net 'Q[18]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[17]' of cell 'sp_hde_8192_m16' as output for net 'Q[17]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[16]' of cell 'sp_hde_8192_m16' as output for net 'Q[16]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[15]' of cell 'sp_hde_8192_m16' as output for net 'Q[15]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[14]' of cell 'sp_hde_8192_m16' as output for net 'Q[14]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[13]' of cell 'sp_hde_8192_m16' as output for net 'Q[13]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[12]' of cell 'sp_hde_8192_m16' as output for net 'Q[12]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[11]' of cell 'sp_hde_8192_m16' as output for net 'Q[11]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[10]' of cell 'sp_hde_8192_m16' as output for net 'Q[10]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[9]' of cell 'sp_hde_8192_m16' as output for net 'Q[9]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[8]' of cell 'sp_hde_8192_m16' as output for net 'Q[8]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[7]' of cell 'sp_hde_8192_m16' as output for net 'Q[7]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[6]' of cell 'sp_hde_8192_m16' as output for net 'Q[6]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[5]' of cell 'sp_hde_8192_m16' as output for net 'Q[5]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[4]' of cell 'sp_hde_8192_m16' as output for net 'Q[4]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[3]' of cell 'sp_hde_8192_m16' as output for net 'Q[3]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[2]' of cell 'sp_hde_8192_m16' as output for net 'Q[2]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[1]' of cell 'sp_hde_8192_m16' as output for net 'Q[1]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[0]' of cell 'sp_hde_8192_m16' as output for net 'Q[0]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:34:34     52s] **WARN: (IMPDB-2504):	Unable to find netlist cell in the design data of the library or LEF. The 'sp_hde_8192_m16' cell is instantiated in the Verilog netlist, but not defined in the library or design data.  Its pin directions might be derived incorrectly. Include the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[01/21 14:34:34     52s] Type 'man IMPDB-2504' for more detail.
+[01/21 14:34:34     52s] 1 empty module found.
+[01/21 14:34:34     52s] Starting recursive module instantiation check.
+[01/21 14:34:34     52s] No recursion found.
+[01/21 14:34:34     52s] Term dir updated for 0 vinsts of 1 cells.
+[01/21 14:34:34     52s] Building hierarchical netlist for Cell lp_riscv_top ...
+[01/21 14:34:34     52s] ***** UseNewTieNetMode *****.
+[01/21 14:34:35     52s] *** Netlist is unique.
+[01/21 14:34:35     52s] Setting Std. cell height to 3600 DBU (smallest netlist inst).
+[01/21 14:34:35     52s] ** info: there are 5925 modules.
+[01/21 14:34:35     52s] ** info: there are 21952 stdCell insts.
+[01/21 14:34:35     52s] ** info: there are 21952 stdCell insts with at least one signal pin.
+[01/21 14:34:35     52s] ** info: there are 68 Pad insts.
+[01/21 14:34:35     52s] ** info: there are 2 macros.
+[01/21 14:34:35     52s] 
+[01/21 14:34:35     52s] *** Memory Usage v#1 (Current mem = 2331.984M, initial mem = 908.512M) ***
+[01/21 14:34:35     52s] 0
+[01/21 14:34:35     52s] @innovus 31> get_db [get_db layers] .name
+M1 M2 M3 M4 M5 M6 M7 M8 M9 AP VIA1 VIA2 VIA3 VIA4 VIA5 VIA6 VIA7 VIA8 RV RVT HVT LVT OVERLAP
+[01/21 14:37:49     57s] @innovus 32> get_db [get_db designs] .lef_files
+
+[01/21 14:40:39     61s] **ERROR: (IMPDBTCL-248):	'lef_files' is not a recognized object or attribute for object type 'design'. Update its value to match one of the 'design' attributes. Run 'help design' to get a list of all 'design' attributes.
+[01/21 14:40:39     61s] 
+[01/21 14:40:39     61s] 
+[01/21 14:40:39     61s] @innovus 33> get_db base_cells .name
+
+[01/21 14:40:57     61s] PCORNER PXOE2CDG PXOE1CDG PVSS3CDG PVSS2CDG PVSS2ANA PVSS1CDG PVSS1ANA PVDD2POC PVDD2CDG PVDD2ANA PVDD1CDG PVDD1ANA PRUW1216SCDG PRUW1216CDG PRUW0812SCDG PRUW0812CDG PRUW0408SCDG PRUW0408CDG PDDW0204CDG PCLAMP2ANA PDDW0408SCDG PDDW0408CDG PDDW0204SCDG PDUW0204SCDG PDUW0204CDG PDDW1216SCDG PDDW1216CDG PDDW0812SCDG PDDW0812CDG PCLAMP1ANA sp_hse_8192_m16 sp_hde_16384_m16 XOR3_X4M_A9TH XOR3_X3M_A9TH XOR3_X2M_A9TH XOR3_X1P4M_A9TH XOR3_X1M_A9TH XOR3_X0P7M_A9TH XOR3_X0P5M_A9TH XOR2_X4M_A9TH XOR2_X3M_A9TH PRUW0204SCDG PRUW0204CDG PRDW1216SCDG PRDW1216CDG PRDW0812SCDG PRDW0812CDG PRDW0408SCDG PRDW0408CDG PRDW0204SCDG PRDW0204CDG PRCUT PFILLER5 PFILLER20 PFILLER10 PFILLER1 PFILLER05 PFILLER0005 PDUW1216SCDG PDUW1216CDG PDUW0812SCDG PDUW0812CDG PDUW0408SCDG PDUW0408CDG XOR2_X2M_A9TH XOR2_X1P4M_A9TH XOR2_X1M_A9TH XOR2_X0P7M_A9TH XOR2_X0P5M_A9TH XNOR3_X4M_A9TH XNOR3_X3M_A9TH XNOR3_X2M_A9TH XNOR3_X1P4M_A9TH XNOR3_X1M_A9TH XNOR3_X0P7M_A9TH XNOR3_X0P5M_A9TH XNOR2_X4M_A9TH XNOR2_X3M_A9TH XNOR2_X2M_A9TH XNOR2_X1P4M_A9TH XNOR2_X1M_A9TH XNOR2_X0P7M_A9TH XNOR2_X0P5M_A9TH WELLANTENNATIEPW2_A9TH TIELO_X1M_A9TH TIEHI_X1M_A9TH SDFFYQ_X4M_A9TH SDFFYQ_X3M_A9TH SDFFYQ_X2M_A9TH SDFFYQ_X1M_A9TH SDFFSRPQ_X4M_A9TH SDFFSRPQ_X3M_A9TH SDFFSRPQ_X2M_A9TH SDFFSRPQ_X1M_A9TH SDFFSRPQ_X0P5M_A9TH SDFFSQ_X4M_A9TH SDFFSQ_X3M_A9TH SDFFSQ_X2M_A9TH SDFFSQ_X1M_A9TH SDFFSQ_X0P5M_A9TH SDFFSQN_X3M_A9TH SDFFSQN_X2M_A9TH SDFFSQN_X1M_A9TH SDFFSQN_X0P5M_A9TH SDFFRPQ_X4M_A9TH SDFFRPQ_X3M_A9TH SDFFRPQ_X2M_A9TH SDFFRPQ_X1M_A9TH SDFFRPQ_X0P5M_A9TH SDFFRPQN_X3M_A9TH SDFFRPQN_X2M_A9TH SDFFRPQN_X1M_A9TH SDFFRPQN_X0P5M_A9TH SDFFQ_X4M_A9TH SDFFQ_X3M_A9TH SDFFQ_X2M_A9TH SDFFQ_X1M_A9TH SDFFQ_X0P5M_A9TH SDFFQN_X3M_A9TH SDFFQN_X2M_A9TH SDFFQN_X1M_A9TH SDFFQN_X0P5M_A9TH SDFFNSRPQ_X3M_A9TH SDFFNSRPQ_X2M_A9TH SDFFNSRPQ_X1M_A9TH SDFFNSQ_X3M_A9TH SDFFNSQ_X2M_A9TH SDFFNSQ_X1M_A9TH SDFFNRPQ_X3M_A9TH SDFFNRPQ_X2M_A9TH SDFFNRPQ_X1M_A9TH SDFFNQ_X3M_A9TH SDFFNQ_X2M_A9TH SDFFNQ_X1M_A9TH RF2R2WS_X2M_A9TH RF2R2WS_X1P4M_A9TH RF2R2WS_X1M_A9TH RF2R1WS_X2M_A9TH RF2R1WS_X1P4M_A9TH RF2R1WS_X1M_A9TH RF1R2WS_X2M_A9TH RF1R2WS_X1P4M_A9TH RF1R2WS_X1M_A9TH RF1R1WS_X2M_A9TH RF1R1WS_X1P4M_A9TH RF1R1WS_X1M_A9TH PREICG_X9B_A9TH PREICG_X7P5B_A9TH PREICG_X6B_A9TH PREICG_X5B_A9TH PREICG_X4B_A9TH PREICG_X3P5B_A9TH PREICG_X3B_A9TH PREICG_X2P5B_A9TH PREICG_X2B_A9TH PREICG_X1P7B_A9TH PREICG_X1P4B_A9TH PREICG_X1P2B_A9TH PREICG_X1B_A9TH PREICG_X16B_A9TH PREICG_X13B_A9TH PREICG_X11B_A9TH PREICG_X0P8B_A9TH PREICG_X0P7B_A9TH PREICG_X0P6B_A9TH PREICG_X0P5B_A9TH POSTICG_X9B_A9TH POSTICG_X7P5B_A9TH POSTICG_X6B_A9TH POSTICG_X5B_A9TH POSTICG_X4B_A9TH POSTICG_X3P5B_A9TH POSTICG_X3B_A9TH POSTICG_X2P5B_A9TH POSTICG_X2B_A9TH POSTICG_X1P7B_A9TH POSTICG_X1P4B_A9TH POSTICG_X1P2B_A9TH POSTICG_X1B_A9TH POSTICG_X16B_A9TH POSTICG_X13B_A9TH POSTICG_X11B_A9TH POSTICG_X0P8B_A9TH POSTICG_X0P7B_A9TH POSTICG_X0P6B_A9TH POSTICG_X0P5B_A9TH OR6_X6M_A9TH OR6_X4M_A9TH OR6_X3M_A9TH OR6_X2M_A9TH OR6_X1P4M_A9TH OR6_X1M_A9TH OR6_X0P7M_A9TH OR6_X0P5M_A9TH OR4_X8M_A9TH OR4_X6M_A9TH OR4_X4M_A9TH OR4_X3M_A9TH OR4_X2M_A9TH OR4_X1P4M_A9TH OR4_X1M_A9TH OR4_X0P7M_A9TH OR4_X0P5M_A9TH OR3_X8M_A9TH OR3_X6M_A9TH OR3_X4M_A9TH OR3_X3M_A9TH OR3_X2M_A9TH OR3_X1P4M_A9TH OR3_X1M_A9TH OR3_X0P7M_A9TH OR3_X0P5M_A9TH OR2_X8M_A9TH OR2_X6M_A9TH OR2_X4M_A9TH OR2_X3M_A9TH OR2_X2M_A9TH OR2_X1P4M_A9TH OR2_X1M_A9TH OR2_X11M_A9TH OR2_X0P7M_A9TH OR2_X0P5M_A9TH OAI31_X6M_A9TH OAI31_X4M_A9TH OAI31_X3M_A9TH OAI31_X2M_A9TH OAI31_X1P4M_A9TH OAI31_X1M_A9TH OAI31_X0P7M_A9TH OAI31_X0P5M_A9TH OAI2XB1_X8M_A9TH OAI2XB1_X6M_A9TH OAI2XB1_X4M_A9TH OAI2XB1_X3M_A9TH OAI2XB1_X2M_A9TH OAI2XB1_X1P4M_A9TH OAI2XB1_X1M_A9TH OAI2XB1_X0P7M_A9TH OAI2XB1_X0P5M_A9TH OAI22_X8M_A9TH OAI22_X6M_A9TH OAI22_X4M_A9TH OAI22_X3M_A9TH OAI22_X2M_A9TH OAI22_X1P4M_A9TH OAI22_X1M_A9TH OAI22_X0P7M_A9TH OAI22_X0P5M_A9TH OAI222_X4M_A9TH OAI222_X3M_A9TH OAI222_X2M_A9TH OAI222_X1P4M_A9TH OAI222_X1M_A9TH OAI222_X0P7M_A9TH OAI222_X0P5M_A9TH OAI221_X4M_A9TH OAI221_X3M_A9TH OAI221_X2M_A9TH OAI221_X1P4M_A9TH OAI221_X1M_A9TH OAI221_X0P7M_A9TH OAI221_X0P5M_A9TH OAI21_X8M_A9TH OAI21_X6M_A9TH OAI21_X4M_A9TH OAI21_X3M_A9TH OAI21_X2M_A9TH OAI21_X1P4M_A9TH OAI21_X1M_A9TH OAI21_X0P7M_A9TH OAI21_X0P5M_A9TH OAI21B_X8M_A9TH OAI21B_X6M_A9TH OAI21B_X4M_A9TH OAI21B_X3M_A9TH OAI21B_X2M_A9TH OAI21B_X1P4M_A9TH OAI21B_X1M_A9TH OAI21B_X0P7M_A9TH OAI21B_X0P5M_A9TH OAI211_X4M_A9TH OAI211_X3M_A9TH OAI211_X2M_A9TH OAI211_X1P4M_A9TH OAI211_X1M_A9TH OAI211_X0P7M_A9TH OAI211_X0P5M_A9TH OA22_X8M_A9TH OA22_X6M_A9TH OA22_X4M_A9TH OA22_X3M_A9TH OA22_X2M_A9TH OA22_X1P4M_A9TH OA22_X1M_A9TH OA22_X0P7M_A9TH OA22_X0P5M_A9TH OA21_X8M_A9TH OA21_X6M_A9TH OA21_X4M_A9TH OA21_X3M_A9TH OA21_X2M_A9TH OA21_X1P4M_A9TH OA21_X1M_A9TH OA21_X0P7M_A9TH OA21_X0P5M_A9TH OA211_X6M_A9TH OA211_X4M_A9TH OA211_X3M_A9TH OA211_X2M_A9TH OA211_X1P4M_A9TH OA211_X1M_A9TH OA211_X0P7M_A9TH OA211_X0P5M_A9TH NOR3_X4M_A9TH NOR3_X4A_A9TH NOR3_X3M_A9TH NOR3_X3A_A9TH NOR3_X2M_A9TH NOR3_X2A_A9TH NOR3_X1P4M_A9TH NOR3_X1P4A_A9TH NOR3_X1M_A9TH NOR3_X1A_A9TH NOR3_X0P7M_A9TH NOR3_X0P7A_A9TH NOR3_X0P5M_A9TH NOR3_X0P5A_A9TH NOR2_X8M_A9TH NOR2_X8B_A9TH NOR2_X8A_A9TH NOR2_X6M_A9TH NOR2_X6B_A9TH NOR2_X6A_A9TH NOR2_X4M_A9TH NOR2_X4B_A9TH NOR2_X4A_A9TH NOR2_X3M_A9TH NOR2_X3B_A9TH NOR2_X3A_A9TH NOR2_X2M_A9TH NOR2_X2B_A9TH NOR2_X2A_A9TH NOR2_X1P4M_A9TH NOR2_X1P4B_A9TH NOR2_X1P4A_A9TH NOR2_X1M_A9TH NOR2_X1B_A9TH NOR2_X1A_A9TH NOR2_X0P7M_A9TH NOR2_X0P7B_A9TH NOR2_X0P7A_A9TH NOR2_X0P5M_A9TH NOR2_X0P5B_A9TH NOR2_X0P5A_A9TH NOR2XB_X8M_A9TH NOR2XB_X6M_A9TH NOR2XB_X4M_A9TH NOR2XB_X3M_A9TH NOR2XB_X2M_A9TH NOR2XB_X1P4M_A9TH NOR2XB_X1M_A9TH NOR2XB_X0P7M_A9TH NOR2XB_X0P5M_A9TH NOR2B_X8M_A9TH NOR2B_X6M_A9TH NOR2B_X4M_A9TH NOR2B_X3M_A9TH NOR2B_X2M_A9TH NOR2B_X1P4M_A9TH NOR2B_X1M_A9TH NOR2B_X0P7M_A9TH NOR2B_X0P5M_A9TH NAND4_X4M_A9TH NAND4_X4A_A9TH NAND4_X3M_A9TH NAND4_X3A_A9TH NAND4_X2M_A9TH NAND4_X2A_A9TH NAND4_X1P4M_A9TH NAND4_X1P4A_A9TH NAND4_X1M_A9TH NAND4_X1A_A9TH NAND4_X0P7M_A9TH NAND4_X0P7A_A9TH NAND4_X0P5M_A9TH NAND4_X0P5A_A9TH NAND4XXXB_X4M_A9TH NAND4XXXB_X3M_A9TH NAND4XXXB_X2M_A9TH NAND4XXXB_X1P4M_A9TH NAND4XXXB_X1M_A9TH NAND4XXXB_X0P7M_A9TH NAND4XXXB_X0P5M_A9TH NAND4B_X4M_A9TH NAND4B_X3M_A9TH NAND4B_X2M_A9TH NAND4B_X1P4M_A9TH NAND4B_X1M_A9TH NAND4B_X0P7M_A9TH NAND4B_X0P5M_A9TH NAND3_X6M_A9TH NAND3_X6A_A9TH NAND3_X4M_A9TH NAND3_X4A_A9TH NAND3_X3M_A9TH NAND3_X3A_A9TH NAND3_X2M_A9TH NAND3_X2A_A9TH NAND3_X1P4M_A9TH NAND3_X1P4A_A9TH NAND3_X1M_A9TH NAND3_X1A_A9TH NAND3_X0P7M_A9TH NAND3_X0P7A_A9TH NAND3_X0P5M_A9TH NAND3_X0P5A_A9TH NAND3XXB_X6M_A9TH NAND3XXB_X4M_A9TH NAND3XXB_X3M_A9TH NAND3XXB_X2M_A9TH NAND3XXB_X1P4M_A9TH NAND3XXB_X1M_A9TH NAND3XXB_X0P7M_A9TH NAND3XXB_X0P5M_A9TH NAND3B_X6M_A9TH NAND3B_X4M_A9TH NAND3B_X3M_A9TH NAND3B_X2M_A9TH NAND3B_X1P4M_A9TH NAND3B_X1M_A9TH NAND3B_X0P7M_A9TH NAND3B_X0P5M_A9TH NAND2_X8M_A9TH NAND2_X8B_A9TH NAND2_X8A_A9TH NAND2_X6M_A9TH NAND2_X6B_A9TH NAND2_X6A_A9TH NAND2_X4M_A9TH NAND2_X4B_A9TH NAND2_X4A_A9TH NAND2_X3M_A9TH NAND2_X3B_A9TH NAND2_X3A_A9TH NAND2_X2M_A9TH NAND2_X2B_A9TH NAND2_X2A_A9TH NAND2_X1P4M_A9TH NAND2_X1P4B_A9TH NAND2_X1P4A_A9TH NAND2_X1M_A9TH NAND2_X1B_A9TH NAND2_X1A_A9TH NAND2_X0P7M_A9TH NAND2_X0P7B_A9TH NAND2_X0P7A_A9TH NAND2_X0P5M_A9TH NAND2_X0P5B_A9TH NAND2_X0P5A_A9TH NAND2XB_X8M_A9TH NAND2XB_X6M_A9TH NAND2XB_X4M_A9TH NAND2XB_X3M_A9TH NAND2XB_X2M_A9TH NAND2XB_X1P4M_A9TH NAND2XB_X1M_A9TH NAND2XB_X0P7M_A9TH NAND2XB_X0P5M_A9TH NAND2B_X8M_A9TH NAND2B_X6M_A9TH NAND2B_X4M_A9TH NAND2B_X3M_A9TH NAND2B_X2M_A9TH NAND2B_X1P4M_A9TH NAND2B_X1M_A9TH NAND2B_X0P7M_A9TH NAND2B_X0P5M_A9TH MXT4_X3M_A9TH MXT4_X2M_A9TH MXT4_X1P4M_A9TH MXT4_X1M_A9TH MXT4_X0P7M_A9TH MXT4_X0P5M_A9TH MXT2_X6M_A9TH MXT2_X4M_A9TH MXT2_X3M_A9TH MXT2_X2M_A9TH MXT2_X1P4M_A9TH MXT2_X1M_A9TH MXT2_X0P7M_A9TH MXT2_X0P5M_A9TH MXIT4_X3M_A9TH MXIT4_X2M_A9TH MXIT4_X1P4M_A9TH MXIT4_X1M_A9TH MXIT4_X0P7M_A9TH MXIT4_X0P5M_A9TH MXIT2_X4M_A9TH MXIT2_X3M_A9TH MXIT2_X2M_A9TH MXIT2_X1P4M_A9TH MXIT2_X1M_A9TH MXIT2_X0P7M_A9TH MXIT2_X0P5M_A9TH MX2_X8B_A9TH MX2_X6M_A9TH MX2_X6B_A9TH MX2_X4M_A9TH MX2_X4B_A9TH MX2_X3M_A9TH MX2_X3B_A9TH MX2_X2M_A9TH MX2_X2B_A9TH MX2_X1P4M_A9TH MX2_X1P4B_A9TH MX2_X1M_A9TH MX2_X1B_A9TH MX2_X0P7M_A9TH MX2_X0P7B_A9TH MX2_X0P5M_A9TH MX2_X0P5B_A9TH M2SDFFQ_X4M_A9TH M2SDFFQ_X3M_A9TH M2SDFFQ_X2M_A9TH M2SDFFQ_X1M_A9TH M2SDFFQ_X0P5M_A9TH M2SDFFQN_X3M_A9TH M2SDFFQN_X2M_A9TH M2SDFFQN_X1M_A9TH M2SDFFQN_X0P5M_A9TH M2DFFQ_X4M_A9TH M2DFFQ_X3M_A9TH M2DFFQ_X2M_A9TH M2DFFQ_X1M_A9TH M2DFFQ_X0P5M_A9TH M2DFFQN_X3M_A9TH M2DFFQN_X2M_A9TH M2DFFQN_X1M_A9TH M2DFFQN_X0P5M_A9TH LATSQN_X4M_A9TH LATSQN_X3M_A9TH LATSQN_X2M_A9TH LATSQN_X1M_A9TH LATSQN_X0P5M_A9TH LATSPQ_X3M_A9TH LATSPQ_X2M_A9TH LATSPQ_X1M_A9TH LATSPQ_X0P5M_A9TH LATRQ_X3M_A9TH LATRQ_X2M_A9TH LATRQ_X1M_A9TH LATRQ_X0P5M_A9TH LATRPQN_X4M_A9TH LATRPQN_X3M_A9TH LATRPQN_X2M_A9TH LATRPQN_X1M_A9TH LATRPQN_X0P5M_A9TH LATQ_X3M_A9TH LATQ_X2M_A9TH LATQ_X1M_A9TH LATQ_X0P5M_A9TH LATQN_X4M_A9TH LATQN_X3M_A9TH LATQN_X2M_A9TH LATQN_X1M_A9TH LATQN_X0P5M_A9TH LATNSQN_X4M_A9TH LATNSQN_X3M_A9TH LATNSQN_X2M_A9TH LATNSQN_X1M_A9TH LATNSQN_X0P5M_A9TH LATNSPQ_X3M_A9TH LATNSPQ_X2M_A9TH LATNSPQ_X1M_A9TH LATNSPQ_X0P5M_A9TH LATNRQ_X3M_A9TH LATNRQ_X2M_A9TH LATNRQ_X1M_A9TH LATNRQ_X0P5M_A9TH LATNRPQN_X4M_A9TH LATNRPQN_X3M_A9TH LATNRPQN_X2M_A9TH LATNRPQN_X1M_A9TH LATNRPQN_X0P5M_A9TH LATNQ_X3M_A9TH LATNQ_X2M_A9TH LATNQ_X1M_A9TH LATNQ_X0P5M_A9TH LATNQN_X4M_A9TH LATNQN_X3M_A9TH LATNQN_X2M_A9TH LATNQN_X1M_A9TH LATNQN_X0P5M_A9TH INV_X9M_A9TH INV_X9B_A9TH INV_X7P5M_A9TH INV_X7P5B_A9TH INV_X6M_A9TH INV_X6B_A9TH INV_X5M_A9TH INV_X5B_A9TH INV_X4M_A9TH INV_X4B_A9TH INV_X3P5M_A9TH INV_X3P5B_A9TH INV_X3M_A9TH INV_X3B_A9TH INV_X2P5M_A9TH INV_X2P5B_A9TH INV_X2M_A9TH INV_X2B_A9TH INV_X1P7M_A9TH INV_X1P7B_A9TH INV_X1P4M_A9TH INV_X1P4B_A9TH INV_X1P2M_A9TH INV_X1P2B_A9TH INV_X1M_A9TH INV_X1B_A9TH INV_X16M_A9TH INV_X16B_A9TH INV_X13M_A9TH INV_X13B_A9TH INV_X11M_A9TH INV_X11B_A9TH INV_X0P8M_A9TH INV_X0P8B_A9TH INV_X0P7M_A9TH INV_X0P7B_A9TH INV_X0P6M_A9TH INV_X0P6B_A9TH INV_X0P5M_A9TH INV_X0P5B_A9TH FRICG_X9B_A9TH FRICG_X7P5B_A9TH FRICG_X6B_A9TH FRICG_X5B_A9TH FRICG_X4B_A9TH FRICG_X3P5B_A9TH FRICG_X3B_A9TH FRICG_X2P5B_A9TH ... truncated to 10000 characters (use the tcl_return_display_length_limit attribute to control the length before truncation).
+[01/21 14:40:57     61s] @innovus 34> read_netlist $design(postsyn_netlist)
+read_netlist $design(postsyn_netlist)
+[01/21 14:43:38     65s] **ERROR: (IMPIMEX-7041):	Netlist files are not allowed to be read in after the design is in memory.
+
+[01/21 14:43:38     65s] **ERROR: (IMPIMEX-7041):	Netlist files are not allowed to be read in after the design is in memory.
+[01/21 14:43:38     65s] 
+[01/21 14:43:38     65s] @innovus 35> get_db [get_db insts -if {.is_macro == true}] .name
+
+[01/21 14:44:45     67s] @innovus 36> exit
+
+[01/21 14:57:44     85s] 
+[01/21 14:57:44     85s] *** Summary of all messages that are not suppressed in this session:
+[01/21 14:57:44     85s] Severity  ID               Count  Summary                                  
+[01/21 14:57:44     85s] WARNING   IMPLF-61             1  %d duplicated MACRO definitions have bee...
+[01/21 14:57:44     85s] ERROR     IMPDBTCL-248         1  '%s' is not a recognized object or attri...
+[01/21 14:57:44     85s] WARNING   IMPVL-346            1  Module '%s' is instantiated in the netli...
+[01/21 14:57:44     85s] WARNING   IMPDB-6501           1  "set_db design_process_node" will be obs...
+[01/21 14:57:44     85s] WARNING   IMPDB-2504           1  Unable to find netlist cell in the desig...
+[01/21 14:57:44     85s] ERROR     IMPIMEX-7041         1  Netlist files are not allowed to be read...
+[01/21 14:57:44     85s] *** Message Summary: 4 warning(s), 2 error(s)
+[01/21 14:57:44     85s] 
+[01/21 14:57:44     85s] 
+[01/21 14:57:44     85s] *** Memory Usage v#1 (Current mem = 2334.199M, initial mem = 908.512M) ***
+[01/21 14:57:44     85s] --- Ending "Innovus" (totcpu=0:01:26, real=0:26:52, mem=2334.2M) ---

@@ -1,0 +1,643 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+Options:	-stylus 
+Date:		Mon Jan 26 11:22:11 2026
+Host:		ip-10-70-160-95.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+OS:		Rocky Linux 8.10 (Green Obsidian)
+
+License:
+		[11:22:11.003905] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+
+		invs	Innovus Implementation System	25.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+
+
+Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/innovus_temp_110993_0337a694-4022-4f1f-aace-2b810d9318db_ip-10-70-160-95.il-central-1.compute.internal_schiffe_hchzJW.
+
+The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[INFO] Loading PVS 24.12 fill procedures
+Info: Process UID = 110993 / 0337a694-4022-4f1f-aace-2b810d9318db / h52JfxVeSl
+
+**INFO:  MMMC transition support version v31-84 
+
+@innovus 1> set design(TOPLEVEL) "lp_riscv_top"
+set design(TOPLEVEL) "lp_riscv_top"
+lp_riscv_top
+@innovus 2> set runtype "pset runtype "pnr"
+set debug_file "debug.txt"
+
+nr"
+pnr
+@innovus 3> set debug_file "debug.txt"
+debug.txt
+@innovus 4> 
+@innovus 4> # Load general pro# Load general procedures
+source ../scripts/procedures.tcl -quiet
+cedures
+@innovus 5> source ../scripts/procedures.tcl -quiet
+couldn't read file "../scripts/procedures.tcl": no such file or directory
+
+###############################################
+couldn't read file "../scripts/procedures.tcl": no such file or directory
+@innovus 6> 
+@innovus 6> ###############################################
+# Starting Stage - Load defines and technology
+@innovus 7> # Starting Stage - Load defines and technology
+@innovus 8> #####################################################
+
+
+#########################################
+@innovus 9> 
+@innovus 9> 
+@innovus 9> # Load# Load the specific definitions for this project
+ the specific definitions for this project
+@innovus 10> source source ../inputs/$design(TOPLEVEL).defines -quiet
+couldn't read file "../inputs/lp_riscv_top.defines": no such file or directory
+couldn't read file "../inputs/lp_riscv_top.defines": no such file or directory
+
+@innovus 11> 
+@innovus 11> # Load the library paths and definitions for this techno# Load the library paths and definitions for this technology
+logy
+@innovus 12> source $design(libraries_dir)/libraries.$TECHsource $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+NOLOGY.tcl -quiet
+can't read "design(libraries_dir)": no such element in array
+can't read "design(libraries_dir)": no such element in array
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+@innovus 13> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+can't read "design(libraries_dir)": no such element in array
+can't read "design(libraries_dir)": no such element in array
+@innovus 14> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiesource $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+t
+can't read "design(libraries_dir)": no such element in array
+can't read "design(libraries_dir)": no such element in array
+@innovus 15> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
++   if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+can't read "design(FULLCHIP_OR_MACRO)": no such element in array
+can't read "design(FULLCHIP_OR_MACRO)": no such element in array
+@innovus 16> set_library_unit -time 1ns -caset_library_unit -time 1ns -cap 1pf
+@innovus 17> 
+
+@innovus 17> ########################################################################################
+##
+@innovus 18> #       Print values to debug file
+#       Print values to debug file
+@innovus 19> #########################################################
+#################################
+@innovus 20> set var_list {runtype}
+set var_list {runtype}
+runtype
+@innovus 21> set dic_list {paths tech tech_files design}set dic_list {paths tech tech_files design}
+
+paths tech tech_files design
+@innovus 22> enics_print_debug_data w $debug_file "after everyenics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+thing was loaded" $var_list $dic_list
+invalid command name "enics_print_debug_data"
+
+
+############################################
+# Init Design
+############################################
+#enable_metrics -on
+enics_start_stage "init_design"
+invalid command name "enics_print_debug_data"
+@innovus 23> 
+@innovus 23> 
+@innovus 23> ############################################
+@innovus 24> # Init Design
+@innovus 25> ############################################
+@innovus 26> #enable_metrics -on
+@innovus 27> enics_start_stage "init_design"
+invalid command name "enics_start_stage"
+
+# Global Nets
+set_db init_ground_nets $design(all_ground_nets)
+invalid command name "enics_start_stage"
+@innovus 28> 
+@innovus 28> # Global Nets
+@innovus 29> set_db init_ground_nets $design(all_ground_nets)
+can't read "design(all_ground_nets)": no such element in array
+can't read "design(all_ground_nets)": no such element in array
+@innovus 30> set_db init_power_nets $design(all_power_nets)
+set_db init_power_nets $design(all_power_nets)
+can't read "design(all_power_nets)": no such element in array
+set design(TOPLEVEL) "lp_riscv_top"
+set runtype "pnr"
+set debug_file "debug.txt"
+
+# Load general procedures
+source ../scripts/procedures.tcl -quiet
+can't read "design(all_power_nets)": no such element in array
+@innovus 31> set design(TOPLEVEL) "lp_riscv_top"
+lp_riscv_top
+@innovus 32> set runtype "pnr"
+pnr
+@innovus 33> set debug_file "debug.txt"
+debug.txt
+@innovus 34> 
+@innovus 34> # Load general procedures
+@innovus 35> source ../scripts/procedures.tcl -quiet
+couldn't read file "../scripts/procedures.tcl": no such file or directory
+couldn't read file "../scripts/procedures.tcl": no such file or directory
+@innovus 36> 
+
+###############################################
+# Starting Stage - Load defines and technology
+###############################################
+
+
+# Load the specific definitions for this project
+source ../inputs/$design(TOPLEVEL).defines -quiet
+@innovus 36> ###############################################
+@innovus 37> # Starting Stage - Load defines and technology
+@innovus 38> ###############################################
+@innovus 39> 
+@innovus 39> 
+@innovus 39> # Load the specific definitions for this project
+@innovus 40> source ../inputs/$design(TOPLEVEL).defines -quiet
+couldn't read file "../inputs/lp_riscv_top.defines": no such file or directory
+couldn't read file "../inputs/lp_riscv_top.defines": no such file or directory
+@innovus 41> 
+
+# Load the library paths and definitions for this technology
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+@innovus 41> # Load the library paths and definitions for this technology
+@innovus 42> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+can't read "design(libraries_dir)": no such element in array
+can't read "design(libraries_dir)": no such element in array
+@innovus 43> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+can't read "design(libraries_dir)": no such element in array
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+can't read "design(libraries_dir)": no such element in array
+@innovus 44> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+can't read "design(libraries_dir)": no such element in array
+can't read "design(libraries_dir)": no such element in array
+@innovus 45> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
++     source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
++ }
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+can't read "design(FULLCHIP_OR_MACRO)": no such element in array
+set_library_unit -time 1ns -cap 1pf
+
+#############################################
+#       Print values to debug file
+#############################################
+set var_list {runtype}
+set dic_list {paths tech tech_files design}
+enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+can't read "design(FULLCHIP_OR_MACRO)": no such element in array
+@innovus 46> set_library_unit -time 1ns -cap 1pf
+@innovus 47> 
+@innovus 47> #############################################
+@innovus 48> #       Print values to debug file
+@innovus 49> #############################################
+@innovus 50> set var_list {runtype}
+runtype
+@innovus 51> set dic_list {paths tech tech_files design}
+paths tech tech_files design
+@innovus 52> enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+invalid command name "enics_print_debug_data"
+invalid command name "enics_print_debug_data"
+@innovus 53> 
+
+
+############################################
+# Init Design
+############################################
+#enable_metrics -on
+enics_start_stage "init_design"
+@innovus 53> 
+@innovus 53> ############################################
+@innovus 54> # Init Design
+@innovus 55> ############################################
+@innovus 56> #enable_metrics -on
+@innovus 57> enics_start_stage "init_design"
+invalid command name "enics_start_stage"
+invalid command name "enics_start_stage"
+
+@innovus 58> 
+# Global Nets
+@innovus 58> # Global Nets
+@innovus 59> set_db init_ground_nets $design(all_ground_nets)
+set_db init_ground_nets $design(all_ground_nets)
+can't read "design(all_ground_nets)": no such element in array
+can't read "design(all_ground_nets)": no such element in array
+@innovus 60> set_db init_power_nets $design(all_power_nets)set_db init_power_nets $design(all_power_nets)
+
+can't read "design(all_power_nets)": no such element in array
+can't read "design(all_power_nets)": no such element in array
+@innovus 
+61> 
+@innovus 61> # MMMC
+# MMMC
+@innovus 62> enics_message "Suppressing the following messages that are reported due to the LIB definitionenics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+ [1Gs:" 
+invalid command name "enics_message"
+invalid command name "enics_message"
+@innovus 63> enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+can't read "tech(LIB_SUPPRESS_MESSAGES_INNOVUS)": no such variable
+set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+can't read "tech(LIB_SUPPRESS_MESSAGES_INNOVUS)": no such variable
+@innovus 64> set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+can't read "tech(LIB_SUPPRESS_MESSAGES_INNOVUS)": no such variable
+can't read "tech(LIB_SUPPRESS_MESSAGES_INNOVUS)": no such variable
+@innovus 65> enics_message "Reading MMMC File"
+enics_message "Reading MMMC File"
+invalid command name "enics_message"
+read_mmmc $design(mmmc_view_file) 
+invalid command name "enics_message"
+@innovus 66> read_mmmc $design(mmmc_view_file) 
+can't read "design(mmmc_view_file)": no such element in array
+can't read "design(mmmc_view_file)": no such element in array
+@innovus 67> 
+
+# LEFs
+enics_message "Suppressing the following messages that are reported due to the LEF definitions:" 
+@innovus 67> # LEFs
+@innovus 68> enics_message "Suppressing the following messages that are reported due to the LEF definition [1Gs:" 
+invalid command name "enics_message"
+invalid command name "enics_message"
+@innovus 69> enics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+enics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+can't read "tech(LEF_SUPPRESS_MESSAGES_INNOVUS)": no such variable
+set_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS) 
+can't read "tech(LEF_SUPPRESS_MESSAGES_INNOVUS)": no such variable
+@innovus 70> set_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS) 
+can't read "tech(LEF_SUPPRESS_MESSAGES_INNOVUS)": no such variable
+can't read "tech(LEF_SUPPRESS_MESSAGES_INNOVUS)": no such variable
+@innovus 71> enics_message "Reading LEF abstracts"
+enics_message "Reading LEF abstracts"
+invalid command name "enics_message"
+read_physical -lef $tech_files(ALL_LEFS)
+invalid command name "enics_message"
+@innovus 72> read_physical -lef $tech_files(ALL_LEFS)
+can't read "tech_files(ALL_LEFS)": no such variable
+can't read "tech_files(ALL_LEFS)": no such variable
+@innovus 73> 
+
+# Post Synthesis Netlist
+read_netlist $design(postsyn_netlist)
+@innovus 73> # Post Synthesis Netlist
+@innovus 74> read_netlist $design(postsyn_netlist)
+can't read "design(postsyn_netlist)": no such element in array
+can't read "design(postsyn_netlist)": no such element in array
+@innovus 75> 
+
+# Import and initialize design
+init_design
+@innovus 75> # Import and initialize design
+@innovus 76> init_design
+**ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+The MMMC init sequence looks like this: 
+read_mmmc top.mmmc 
+read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+read_power_intent -1801 top.1801   #only for MSV designs 
+init_design 
+
+Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+read_libs all.lib 
+read_netlist top.v 
+read_sdc top.sdc 
+init_design 
+
+See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+Common UI User Guide for more details.
+
+
+@innovus 77> 
+
+# Create cost groups
+enics_default_cost_groups
+@innovus 77> # Create cost groups
+@innovus 78> enics_default_cost_groups
+invalid command name "enics_default_cost_groups"
+###########################################################
+invalid command name "enics_default_cost_groups"
+@innovus 79> ###########################################################
+@innovus 80> # Connect Global Nets (Updated Version)
+# Connect Global Nets (Updated Version)
+###########################################################
+
+# 1.    (Standard Cells)
+connect_global_net $design(digital_gnd) -pin $tech(STANDARD_CELL_GND) -all -verbose
+@innovus 81> ###########################################################
+@innovus 82> 
+@innovus 82> # 1.    (Standard Cells)
+@innovus 83> connect_global_net $design(digital_gnd) -pin $tech(STANDARD_CELL_GND) -all -verbose
+can't read "design(digital_gnd)": no such element in array
+can't read "design(digital_gnd)": no such element in array
+@innovus 84> connect_global_net $design(digital_vdd) -pin $tech(STANDARD_CELL_VDD) -all -verbose
+connect_global_net $design(digital_vdd) -pin $tech(STANDARD_CELL_VDD) -all -verbose
+can't read "design(digital_vdd)": no such element in array
+
+# 2.   (SRAM)
+connect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDCORE_PIN)      -all -verbose 
+can't read "design(digital_vdd)": no such element in array
+@innovus 85> 
+@innovus 85> # 2.   (SRAM)
+@innovus 86> connect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDCORE_PIN)      -all -verbose 
+can't read "design(digital_vdd)": no such element in array
+can't read "design(digital_vdd)": no such element in array
+@innovus 87> connect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDPERIPHERY_PIN) -all -verbose 
+connect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDPERIPHERY_PIN) -all -verbose 
+can't read "design(digital_vdd)": no such element in array
+connect_global_net $design(digital_gnd) -pin $tech(SRAM_GND_PIN)          -all -verbose 
+can't read "design(digital_vdd)": no such element in array
+@innovus 88> connect_global_net $design(digital_gnd) -pin $tech(SRAM_GND_PIN)          -all -verbose 
+can't read "design(digital_gnd)": no such element in array
+can't read "design(digital_gnd)": no such element in array
+@innovus 89> 
+
+# 3.   (IO Ring) -     
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    #   -IO (VDDPST)   '
+    connect_global_net $design(io_vdd) -pin $tech(IO_VDDIO) -all -netlist_override -verbose
+    
+    #   (VSS)  
+    #    -hinst      
+    connect_global_net $design(digital_gnd) -pin $tech(IO_GNDIO) -all -netlist_override -verbose
+    
+    #    (VDD)   
+    connect_global_net $design(digital_vdd) -pin $tech(IO_VDDCORE) -all -netlist_override -verbose
+}
+@innovus 89> # 3.   (IO Ring) -     
+@innovus 90> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
++     #   -IO (VDDPST)   '
++     connect_global_net $design(io_vdd) -pin $tech(IO_VDDIO) -all -netlist_override -verbose
++     
++     #   (VSS)  
++     #    -hinst      
++     connect_global_net $design(digital_gnd) -pin $tech(IO_GNDIO) -all -netlist_override -verbose
++     
++     #    (VDD)   
++     connect_global_net $design(digital_vdd) -pin $tech(IO_VDDCORE) -all -netlist_override -verbose
++ }
+can't read "design(FULLCHIP_OR_MACRO)": no such element in array
+can't read "design(FULLCHIP_OR_MACRO)": no such element in array
+@innovus 91> 
+
+# 4.  Tie Cells
+connect_global_net $design(digital_vdd) -type tiehi -all -verbose 
+@innovus 91> # 4.  Tie Cells
+@innovus 92> connect_global_net $design(digital_vdd) -type tiehi -all -verbose 
+can't read "design(digital_vdd)": no such element in array
+can't read "design(digital_vdd)": no such element in array
+@innovus 93> connect_global_net $design(digital_gnd) -type tielo -all -verbose# Connect SRAMconnect_global_net $design(digital_gnd) -type tielo -all -verbose# Connect SRAM PG Pins
+ PG Pins
+can't read "design(digital_gnd)": no such element in array
+can't read "design(digital_gnd)": no such element in array
+@innovus 94> connect_global_net $design(digital_vdd) -connect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDCORE_PIN)      -all -verbose 
+pin $tech(SRAM_VDDCORE_PIN)      -all -verbose 
+can't read "design(digital_vdd)": no such element in array
+can't read "design(digital_vdd)": no such element in array
+@innovus 95> coconnect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDPERIPHERY_PIN) -all -verbose 
+RAM_VDDPERIPHERY_PIN) -all -verbose 
+can't read "design(digital_vdd)": no such element in array
+can't read "design(digital_vdd)": no such element in array
+@innovus 96> connect_globaconnect_global_net $design(digital_gnd) -pin $tech(SRAM_GND_PIN)          -all -verbose 
+)          -all -verbose 
+can't read "design(digital_gnd)": no such element in array
+can't read "design(digital_gnd)": no such element in array
+@innovus 97> 
+
+@innovus 97> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
++     # Connect pads to IO anif {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    # Connect pads to IO and CORE voltages
+    #    -netlist_override is needed, since GENUS connects these pins to UNCONNECTED during synthesis
+    connect_global_net $design(io_vdd)      -pin $tech(IO_VDDIO)   -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(io_gnd)      -pin $tech(IO_GNDIO)   -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(digital_vdd) -pin $tech(IO_VDDCORE) -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(digital_gnd) -pin $tech(IO_GNDCORE) -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+}
+ride -verbose
++ }
+can't read "design(FULLCHIP_OR_MACRO)": no such element in array
+
+# Power Intent
+can't read "design(FULLCHIP_OR_MACRO)": no such element in array
+@innovus 98> 
+@innovus 98> # Power Intent
+@innovus 99> # read_power_inten# read_power_intent -1801 $design(UPF_file)
+t -1801 $design(UPF_file)
+@innovus 100> # read_power_intent $des# read_power_intent $design(CPF_file)
+# commit_power_intent -verbose
+
+ign(CPF_file)
+@innovus 101> # commit_power_intent -verbose
+@innovus 102> 
+@innovus 102> # Do# Don't Use and Size Only files
+n't Use and Size Only files
+@innovus 103> #    If Don't Use file#    If Don't Use file exists
+# source $design(dont_use_file)
+ exists
+@innovus 104> # source $design(dont_use_file)
+@innovus 105> #    If Si#    If Size Only file exists
+ze Only file exists
+# source $design(size_only_file)
+
+@innovus 106> # source $design(size_only_file)
+@innovus 107> 
+@innovus 107> enics_create_stage_reports -save_db no -reportenics_create_stage_reports -save_db no -report_timing no -pop_snapshot yes
+_timing no -pop_snapshot yes
+invalid command name "enics_create_stage_reports"
+
+############################################
+# Floorplan
+############################################
+enics_start_stage "floorplan"
+invalid command name "enics_create_stage_reports"
+@innovus 108> 
+@innovus 108> ############################################
+@innovus 109> # Floorplan
+@innovus 110> ############################################
+@innovus 111> enics_start_stage "floorplan"
+invalid command name "enics_start_stage"
+invalid command name "enics_start_stage"
+@innovus 112> source ../inputs/$design(TOPLEVEL).floorplan.defines -quiet
+source ../inputs/$design(TOPLEVEL).floorplan.defines -quiet
+couldn't read file "../inputs/lp_riscv_top.floorplan.defines": no such file or directory
+couldn't read file "../inputs/lp_riscv_top.floorplan.defines": no such file or directory
+@innovus 113> 
+
+@innovus 113> # If Floorplan DEF is available:
+# If Floorplan DEF is available:
+@innovus 114> # read_def $design(floorplan_def)
+# read_def $design(floorplan_def)
+
+# If SCAN DEF is available
+# read_def $design(scan_def)
+
+
+# Specify Floorpan
+@innovus 115> 
+@innovus 115> # If SCAN DEF is available
+@innovus 116> # read_def $design(scan_def)
+@innovus 117> 
+@innovus 117> 
+@innovus 117> # Specify Floorpan
+create_floorplan \
+    -core_size [list 2500.0 1500.0 150.0 150.0 150.0 150.0] \
+    -core_margins_by die \
+    -flip s \
+    -match_to_site
+@innovus 118> create_floorplan \
++     -core_size [list 2500.0 1500.0 150.0 150.0 150.0 150.0] \
++     -core_margins_by die \
++     -flip s \
++     -match_to_site
+**ERROR: Design must be in memory before running "create_floorplan"
+Design must be in memory before running "create_floorplan"
+
+# create_floorplan -site $tech(STANDARD_CELL_SITE) -match_to_site \
+#     -core_density_size $design(floorplan_ratio) $design(floorplan_utilization) {*}$design(floorplan_space_to_core)
+gui_fit
+
+# Set up pads (for fullchip) or pins (for macro)
+Design must be in memory before running "create_floorplan"
+@innovus 119> 
+@innovus 119> # create_floorplan -site $tech(STANDARD_CELL_SITE) -match_to_site \
++ #     -core_density_size $design(floorplan_ratio) $design(floorplan_utilization) {*}$design(floorplan_sp [1Gace_to_core)
+@innovus 120> gui_fit
+@innovus 121> 
+@innovus 121> # Set up pads (for fullchip) or pins (for macro)
+
+.                                                      CompStatus_RegisterPct
+Debug_RegisterChkStop                                  Debug_UnregisterChkStop
+_close.pre_expect                                      _debug_dsta_twcppr
+_debug_tw_cppr                                         _phdata_dskm_parameter
+_report_partition_info                                 _tixDeleteFlags
+_tixRecordFlags                                        add_analyzed_test_points
+add_area_io_fillers                                    add_area_io_rows
+add_clock_tree_exclusion_drivers                       add_clock_tree_source_group_roots
+add_connection_to_neighbor_partition                   add_core_wrapper_cell
+add_decap_cell_candidates                              add_decaps
+add_decomp_filler                                      add_dummy_boundary_wires
+add_endcaps                                            add_fences
+add_filler_gaps                                        add_fillers
+add_gate_array_filler                                  add_interposer_route_block
+add_io_buffers                                         add_io_fillers
+add_io_insts                                           add_io_row_fillers
+add_line_end_track                                     add_metal_fill_signoff
+add_mim_cap                                            add_notch_fill[69D[17A[69C[17B
+
+README.md
+apps/
+dbs/
+docs/
+export/
+innovus.cmd
+innovus.cmd2
+innovus.cmd3
+innovus.cmd4
+innovus.log
+innovus.log1
+innovus.log2
+innovus.log3
+innovus.log4
+innovus.logv
+innovus.logv1
+innovus.logv2
+innovus.logv3[13D[17A[13C[17B
+
+.                                                      CompStatus_RegisterPct
+Debug_RegisterChkStop                                  Debug_UnregisterChkStop
+_close.pre_expect                                      _debug_dsta_twcppr
+_debug_tw_cppr                                         _phdata_dskm_parameter
+_report_partition_info                                 _tixDeleteFlags
+_tixRecordFlags                                        add_analyzed_test_points
+add_area_io_fillers                                    add_area_io_rows
+add_clock_tree_exclusion_drivers                       add_clock_tree_source_group_roots
+add_connection_to_neighbor_partition                   add_core_wrapper_cell
+add_decap_cell_candidates                              add_decaps
+add_decomp_filler                                      add_dummy_boundary_wires
+add_endcaps                                            add_fences
+add_filler_gaps                                        add_fillers
+add_gate_array_filler                                  add_interposer_route_block
+add_io_buffers                                         add_io_fillers
+add_io_insts                                           add_io_row_fillers
+add_line_end_track                                     add_metal_fill_signoff
+add_mim_cap                                            add_notch_fill[69D[17A[69C[17B
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+# Reload the IO file after resizing the floorplan
+read_io_file $design(io_file)
+# Add IO Fillers
+add_io_fillers -cells $tech(IO_FILLERS) -prefix IOFILLER
+# Connect Pad Rings
+route_special -connect {padPin padRing} \
+        -nets "$design(digital_gnd) $design(digital_vdd) $design(io_vdd)" \
+        -detailed_log
+
+} elseif {$design(FULLCHIP_OR_MACRO)=="MACRO"} {
+# Spread pins
+set pins_to_spread  [get_db ports .name] ;#[get_object_name [get_ports]]
+#edit_pin -fix_overlap 1 -spread_direction clockwise -side Bottom -layer 4 -spread_type side 
+edit_pin -spread_type start -start {0 0} -spread_direction clockwise -layer {3 4}  \
+        -pin $pins_to_spread -fix_overlap 1 -spacing 6
+
+}
+
+README.md
+apps/
+dbs/
+docs/
+export/
+innovus.cmd
+innovus.cmd2
+innovus.cmd3
+innovus.cmd4
+innovus.log
+innovus.log1
+innovus.log2
+innovus.log3
+innovus.log4
+innovus.logv
+innovus.logv1
+innovus.logv2
+innovus.logv3[13D[17A[13C[17B
+@innovus 122> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
++ # Reload the IO file after resizing the floorplan
++ read_io_file $design(io_file)
++ # Add IO Fillers
++ add_io_fillers -cells $tech(IO_FILLERS) -prefix IOFILLER
++ # Connect Pad Rings
++ route_special -connect {padPin padRing} \
++         -nets "$design(digital_gnd) $design(digital_vdd) $design(io_vdd)" \
++         -detailed_log
++ 
++ } elseif {$design(FULLCHIP_OR_MACRO)=="MACRO"} {
++ # Spread pins
++ set pins_to_spread  [get_db ports .name] ;#[get_object_name [get_ports]]
++ #edit_pin -fix_overlap 1 -spread_direction clockwise -side Bottom -layer 4 -spread_type side 
++ edit_pin -spread_type start -start {0 0} -spread_direction clockwise -layer {3 4}  \
++         -pin $pins_to_spread -fix_overlap 1 -spacing 6
++ 
++ }
+can't read "design(FULLCHIP_OR_MACRO)": no such element in array
+can't read "design(FULLCHIP_OR_MACRO)": no such element in array
+@innovus 123> gui_redraw
+gui_redraw
+
+# Check the design 
+#    You can browse the HTML report with Firefox
+check_legacy_design -all -out_dir $design(reports_dir)/$this_run(stage)
+@innovus 124> 
+@innovus 124> # Check the design 
+@innovus 125> #    You can browse the HTML report with Firefox
+@innovus 126> check_legacy_design -all -out_dir $design(reports_dir)/$this_run(stage)
+can't read "design(reports_dir)": no such element in array
+can't read "design(reports_dir)": no such element in array
+@innovus 127> exit
+*** Message Summary: 0 warning(s), 1 error(s)
+
+
+*** Memory Usage v#1 (Current mem = 1947.867M, initial mem = 909.551M) ***
+--- Ending "Innovus" (totcpu=0:00:00.0, real=0:05:48, mem=1947.9M) ---

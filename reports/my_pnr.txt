@@ -1,0 +1,6 @@
+315207001
+Floorplan:  2000x1600
+Period:     7.5
+Hold Slack: 0.000
+Startpoint: lp_riscv/i_riscv_core_if_stage_i_prefetch_32.prefetch_buffer_i_fifo_i_rdata_Q_reg[0][12]
+Endpoint: lp_riscv/i_riscv_core_if_stage_i_instr_rdata_id_o_reg[12]

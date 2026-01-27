@@ -1,0 +1,43 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+Options:	-stylus 
+Date:		Wed Jan 21 09:16:02 2026
+Host:		ip-10-70-160-95.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+OS:		Rocky Linux 8.10 (Green Obsidian)
+
+License:
+		[09:16:02.003985] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+
+		invs	Innovus Implementation System	25.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+
+
+Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/innovus_temp_40453_79052308-ee43-482e-972e-1fba0824f101_ip-10-70-160-95.il-central-1.compute.internal_schiffe_nZEvFc.
+
+The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[INFO] Loading PVS 24.12 fill procedures
+Info: Process UID = 40453 / 79052308-ee43-482e-972e-1fba0824f101 / ut0gSKvntI
+
+**INFO:  MMMC transition support version v31-84 
+
+@innovus 1> set design(TOPLEVEL) "lp_riscv_top"
+
+lp_riscv_top
+@innovus 2> set runtype "pnr"
+set runtype "pnr"
+pnr
+@innovus 3> set debug_file "debug.txt"
+debug.txt
+@innovus 4> source ../scripts/procedures.tcl -quiet
+couldn't read file "../scripts/procedures.tcl": no such file or directory
+couldn't read file "../scripts/procedures.tcl": no such file or directory
+@innovus 5> exit
+
+*** Message Summary: 0 warning(s), 0 error(s)
+
+
+*** Memory Usage v#1 (Current mem = 1949.102M, initial mem = 909.574M) ***
+--- Ending "Innovus" (totcpu=0:00:30.6, real=0:02:58, mem=1949.1M) ---

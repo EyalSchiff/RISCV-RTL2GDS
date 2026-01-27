@@ -1,0 +1,640 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Tue Jan 27 12:46:25 2026                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v25.11-s102_1 (64bit) 08/27/2025 13:03 (Linux 4.18.0-305.el8.x86_64)
+#@(#)CDS: NanoRoute 25.11-s102_1 NR250730-0928/25_11-UB (database version 18.20.674) {superthreading v2.20}
+#@(#)CDS: AAE 25.11-s028 (64bit) 08/27/2025 (Linux 4.18.0-305.el8.x86_64)
+#@(#)CDS: CTE 25.11-s034_1 () Aug 18 2025 08:55:47 ( )
+#@(#)CDS: SYNTECH 25.11-s013_1 () Jul 30 2025 05:18:51 ( )
+#@(#)CDS: CPE v25.11-s029
+#@(#)CDS: IQuantus/TQuantus 24.1.0-s290 (64bit) Sun Jul 20 21:40:56 PDT 2025 (Linux 4.18.0-305.el8.x86_64)
+
+set design(TOPLEVEL) "lp_riscv_top"
+set runtype "pnr"
+set debug_file "debug.txt"
+source ../scripts/procedures.tcl -quiet
+enics_start_stage "start"
+source ../inputs/$design(TOPLEVEL).defines -quiet
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+set_library_unit -time 1ns -cap 1pf
+set var_list {runtype}
+set dic_list {paths tech tech_files design}
+enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+enable_metrics -on
+enics_start_stage "init_design"
+set_db init_ground_nets $design(all_ground_nets)
+set_db init_power_nets $design(all_power_nets)
+enics_message "Suppressing the following messages that are reported due to the LIB definitions:"
+enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS)
+enics_message "Reading MMMC File" medium
+read_mmmc $design(mmmc_view_file)
+#@ Begin verbose source (pre): 
+create_constraint_mode \
+	-name functional_mode \
+	-sdc_files $design(functional_sdc)
+if {$runtype=="synthesis"} {...
+} else {
+set_message -suppress -id ENCEXT-6202 ;
+}
+create_rc_corner \
+	-name bc_rc_corner \
+	-temperature $tech(TEMPERATURE_BC) \
+    -qrc_tech $tech_files(QRCTECH_FILE_BC)
+create_rc_corner \
+	-name tc_rc_corner \
+	-temperature $tech(TEMPERATURE_TC) \
+	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+create_rc_corner \
+	-name wc_rc_corner \
+	-temperature $tech(TEMPERATURE_WC) \
+    -qrc_tech $tech_files(QRCTECH_FILE_WC)
+create_library_set \
+	-name bc_libset \
+	-timing $tech_files(ALL_BC_LIBS)  
+create_library_set \
+	-name tc_libset \
+	-timing $tech_files(ALL_TC_LIBS)  
+create_library_set \
+	-name wc_libset \
+	-timing $tech_files(ALL_WC_LIBS)  
+create_timing_condition \
+   -name         bc_timing_condition \
+   -library_sets bc_libset
+create_timing_condition \
+   -name         tc_timing_condition \
+   -library_sets tc_libset
+create_timing_condition \
+   -name         wc_timing_condition \
+   -library_sets wc_libset
+create_delay_corner \
+	-name bc_dly_corner \
+	-timing_condition bc_timing_condition \
+	-rc_corner bc_rc_corner
+create_delay_corner \
+	-name tc_dly_corner \
+	-timing_condition tc_timing_condition \
+	-rc_corner tc_rc_corner
+create_delay_corner \
+	-name wc_dly_corner \
+	-timing_condition wc_timing_condition \
+	-rc_corner wc_rc_corner
+create_analysis_view \
+	-name bc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner bc_dly_corner
+create_analysis_view \
+    -name tc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner tc_dly_corner
+create_analysis_view \
+	-name wc_analysis_view \
+	-constraint_mode functional_mode \
+	-delay_corner wc_dly_corner
+set_analysis_view \
+	-setup $design(selected_setup_analysis_views) \
+	-hold  $design(selected_hold_analysis_views)
+#@ End verbose source: /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+enics_message "Suppressing the following messages that are reported due to the LEF definitions:"
+enics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+set_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS)
+enics_message "Reading LEF abstracts"
+read_physical -lef $tech_files(ALL_LEFS)
+enics_message "Reading the Post Synthesis netlist at $design(postsyn_netlist)" medium
+read_netlist $design(postsyn_netlist)
+enics_message "Running init_design command" medium
+init_design
+source ../scripts/settings.tcl -quiet
+enics_default_cost_groups
+enics_message "Connecting Global Nets" medium
+connect_global_net $design(digital_gnd) -pin $tech(STANDARD_CELL_GND) -all -verbose
+connect_global_net $design(digital_vdd) -pin $tech(STANDARD_CELL_VDD) -all -verbose
+connect_global_net $design(digital_vdd) -type tiehi -all -verbose
+connect_global_net $design(digital_gnd) -type tielo -all -verbose
+connect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDCORE_PIN)      -all -verbose
+connect_global_net $design(digital_vdd) -pin $tech(SRAM_VDDPERIPHERY_PIN) -all -verbose
+connect_global_net $design(digital_gnd) -pin $tech(SRAM_GND_PIN)          -all -verbose
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    # Connect pads to IO and CORE voltages
+    #    -netlist_override is needed, since GENUS connects these pins to UNCONNECTED during synthesis
+    connect_global_net $design(io_vdd)      -pin $tech(IO_VDDIO)   -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(io_gnd)      -pin $tech(IO_GNDIO)   -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(digital_vdd) -pin $tech(IO_VDDCORE) -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+    connect_global_net $design(digital_gnd) -pin $tech(IO_GNDCORE) -hinst i_${design(IO_MODULE)} -netlist_override -verbose
+}
+enics_create_stage_reports -save_db no -report_timing no -pop_snapshot yes
+enics_start_stage "floorplan"
+source ../inputs/$design(TOPLEVEL).floorplan.defines -quiet
+create_floorplan \
+    -core_size [list 2000.0 1600.0 150.0 150.0 150.0 150.0] \
+    -core_margins_by die \
+    -flip s \
+    -match_to_site
+gui_fit
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    enics_message "Defining IO Ring" medium
+    # Reload the IO file after resizing the floorplan
+    read_io_file $design(io_file)
+    # Add IO Fillers
+    add_io_fillers -cells $tech(IO_FILLERS) -prefix IOFILLER
+} elseif {$design(FULLCHIP_OR_MACRO)=="MACRO"} {
+    enics_message "Spreading Pins around Macro" medium
+    # Spread pins
+    set pins_to_spread  [get_db ports .name]
+    edit_pin -spread_type start -start {0 0} -spread_direction clockwise -layer {3 4} \
+        -pin $pins_to_spread -fix_overlap 1 -spacing 6
+}
+gui_redraw
+check_legacy_design -all -out_dir $design(reports_dir)/$this_run(stage)
+enics_message "Placing Hard Macros" medium
+delete_relative_floorplan -all
+set design(imem0) "lp_riscv/iccm_ram_wrapper_iccm_ram_0_sram_sp_16384x32"
+set design(imem1) "lp_riscv/iccm_ram_wrapper_iccm_ram_1_sram_sp_16384x32"
+set design(dmem0) "lp_riscv/dccm_ram_wrapper_dccm_ram_0_sram_sp_8192x32"
+set design(dmem1) "lp_riscv/dccm_ram_wrapper_dccm_ram_1_sram_sp_8192x32"
+set design(dmem2) "lp_riscv/dccm_ram_wrapper_dccm_ram_2_sram_sp_8192x32"
+set design(dmem3) "lp_riscv/dccm_ram_wrapper_dccm_ram_3_sram_sp_8192x32"
+set imem0_name [get_db [get_db insts $design(imem0)] .name]
+set imem1_name [get_db [get_db insts $design(imem1)] .name]  ;
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $imem0_name \
+    -horizontal_edge_separate {2 -80 2} \
+    -vertical_edge_separate {1 50 1} -orient R0
+create_relative_floorplan -ref_type object -ref $imem0_name -place $imem1_name \
+    -horizontal_edge_separate {0 -80 2} \
+    -vertical_edge_separate {0 0 0} -orient MX
+set dmem0_name "lp_riscv/dccm_ram_wrapper_dccm_ram_0/sram_sp_8192x32"
+set dmem1_name "lp_riscv/dccm_ram_wrapper_dccm_ram_1/sram_sp_8192x32"
+set dmem2_name "lp_riscv/dccm_ram_wrapper_dccm_ram_2/sram_sp_8192x32"
+set dmem3_name "lp_riscv/dccm_ram_wrapper_dccm_ram_3/sram_sp_8192x32"
+create_relative_floorplan -ref_type core_boundary -ref $design(TOPLEVEL) -place $dmem0_name \
+    -horizontal_edge_separate {2 -80 2} \
+    -vertical_edge_separate {3 -50 3} -orient R0
+create_relative_floorplan -ref_type object -ref $dmem0_name -place $dmem1_name \
+    -horizontal_edge_separate {0 -80 2} \
+    -vertical_edge_separate {0 0 0} -orient MX
+create_relative_floorplan -ref_type object -ref $dmem1_name -place $dmem2_name \
+    -horizontal_edge_separate {0 -80 2} \
+    -vertical_edge_separate {0 0 0} -orient R0
+create_relative_floorplan -ref_type object -ref $dmem2_name -place $dmem3_name \
+    -horizontal_edge_separate {0 -80 2} \
+    -vertical_edge_separate {0 0 0} -orient MX
+enics_message "Adding Rings Around Hard Macros and creating Halos"
+deselect_obj -all
+select_obj $imem0_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem0_name -snap_to_site
+deselect_obj -all
+select_obj $imem1_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $imem1_name -snap_to_site
+deselect_obj -all
+select_obj $dmem0_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $dmem0_name -snap_to_site
+deselect_obj -all
+select_obj $dmem1_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $dmem1_name -snap_to_site
+deselect_obj -all
+select_obj $dmem2_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $dmem2_name -snap_to_site
+deselect_obj -all
+select_obj $dmem3_name
+add_rings -around selected -type block_rings -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -layer {bottom M1 top M1 right M2 left M2} -width 3 -spacing 0.5
+create_place_halo -halo_deltas {10 10 10 10} -insts $dmem3_name -snap_to_site
+enics_message "Connecting Block Pins of hard macros to Power/Ground"
+route_special -connect {block_pin} -nets "$design(digital_gnd) $design(digital_vdd)" \
+    -block_pin_layer_range {1 4} \
+    -block_pin on_boundary \
+    -detailed_log
+enics_message "Creating Core Rings" medium
+add_rings -type core_rings -nets $design(core_ring_nets) -center 1 -follow core \
+    -layer $design(core_ring_layers) -width $design(core_ring_width) -spacing $design(core_ring_spacing)
+enics_message "Routing Follow Pins" medium
+route_special -connect { core_pin } -nets  "$design(digital_gnd) $design(digital_vdd)" -detailed_log
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    # Connect pads to the rings
+    enics_message "Connecting PG Pads to Core Ring" medium
+    route_special -connect {pad_pin} -nets $design(core_ring_nets) -pad_pin_port_connect all_geom -detailed_log
+}
+if {$tech(LIBRARY_HAS_ENDCAPS)=="YES"} {
+    enics_message "Adding End Caps" medium
+    add_endcaps
+}
+enics_message "Adding Well Taps" medium
+add_well_taps -cell $tech(WELLTAP)  -checker_board -prefix $design(well_tap_prefix) \
+    -cell_interval [expr 2 * $tech(WELLTAP_RULE)]
+check_well_taps -max_distance $tech(WELLTAP_RULE)
+enics_message "Creating Power Grid" high
+add_stripes -layer [lindex [get_db layers .name] 1] -direction vertical -nets $design(M2_stripe_nets) \
+    -width $design(M2_stripes_width) -spacing $design(M2_stripes_spacing) \
+    -start_from left -start_offset $design(M2_stripes_from_left) \
+    -set_to_set_distance $design(M2_stripes_interval) -create_pins true \
+    -max_same_layer_jog_length 10.0 \
+    -block_ring_bottom_layer_limit M2
+set route_halo_width 0.5
+foreach net_name $design(M2_stripe_nets) {
+    edit_net -net $net_name \
+        -route_halo_width $route_halo_width \
+        -route_halo_top_layer M2 \
+        -route_halo_bottom_layer M2
+}
+verify_drc  ;
+enics_create_stage_reports -pop_snapshot yes
+write_def -floorplan -no_std_cells "$design(floorplan_def)"
+enics_start_stage "placement"
+enics_message "Creating M2 blockage around stripes"
+deselect_obj -all
+deselect_routes
+select_routes -shapes stripe -layer M2 -nets $design(M2_stripe_nets)
+foreach stripe [get_db selected] {
+    create_route_blockage -name M2_pwr_stripe_route_blk \
+        -layers "M1 M2" \
+        -spacing 0.2 \
+        -area [get_db $stripe .rect]
+}
+deselect_routes
+enics_message "Starting place_opt_design" medium
+set_db place_global_cong_effort high                 ;
+set_db place_detail_legalization_inst_gap 1          ;
+place_opt_design -report_dir "$design(reports_dir)/placement/place_opt_design"
+refine_place -congestion                             ;
+enics_message "Finished place_opt_design"
+enics_message "Adding Tie Cells" medium
+add_tieoffs
+enics_message "Fixing DRVs before CTS" medium
+opt_design -pre_cts -drv
+enics_create_stage_reports -pop_snapshot yes
+enics_start_stage "cts"
+enics_message "Reading in clock spec from $design(clock_tree_spec)"
+reset_ccopt_config
+#@ source $design(clock_tree_spec)
+#@ Begin verbose source (pre): source $design(clock_tree_spec)
+foreach clk_name $design(clock_list) \
+        clk_port $design(clock_port_list) \
+        clk_period $design(clock_period_list) {
+            create_clock_tree -name $clk_name -source $clk_port -no_skew_group
+            create_skew_group -name $clk_name -sources $clk_port -auto_sinks
+            set_db clock_tree:$clk_name .cts_source_driver $tech(CCOPT_DRIVING_PIN)
+            set_db port:$clk_port .cts_clock_period $clk_period
+        }
+set_db cts_target_max_transition_time $design(CLOCK_MAX_TRANSITION)
+set_db cts_max_fanout  $design(CLOCK_MAX_FANOUT)
+set_db cts_target_max_capacitance $design(CLOCK_MAX_CAPACITANCE)
+set_db cts_buffer_cells $tech(CLOCK_BUFFERS)
+set_db cts_clock_gating_cells $tech(CLOCK_GATES)
+set_db cts_inverter_cells  $tech(CLOCK_INVERTERS)
+set_db cts_logic_cells $tech(CLOCK_LOGIC)
+set_db cts_delay_cells $tech(CLOCK_DELAYS)
+check_clock_tree_convergence
+#@ End verbose source: /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.ccopt
+enics_message "Starting ccopt_design" medium
+ccopt_design -report_dir "$design(reports_dir)/cts/ccopt_design"
+enics_message "Finished running ccopt_design"
+enics_create_stage_reports -pop_snapshot yes
+enics_start_stage "post_cts_hold"
+opt_design -post_cts -hold
+enics_message "Finished post CTS hold optimization"
+enics_create_stage_reports -pop_snapshot yes
+enics_start_stage "route"
+set_db route_design_with_timing_driven true
+set_db route_design_with_si_driven true
+set_db route_design_detail_use_multi_cut_via_effort medium
+enics_message "Starting Route Design" medium
+route_design
+enics_message "Finished running Route Design"
+enics_create_stage_reports -check_drc yes -check_connectivity yes -pop_snapshot yes
+enics_start_stage "post_route_opt"
+opt_design -post_route -setup -hold
+enics_message "Finished post Route hold optimization"
+enics_message "Running Post Route DFM Optimizations" medium
+set_db route_design_with_timing_driven false
+set_db route_design_with_si_driven false
+set_db route_design_detail_post_route_spread_wire true
+set_db route_design_detail_use_multi_cut_via_effort high
+route_design -wire_opt
+route_design -via_opt
+set_db route_design_detail_post_route_spread_wire false
+set_db route_design_with_timing_driven true
+set_db route_design_with_si_driven true
+enics_message "Finished Running Post Route DFM Optimizations"
+enics_create_stage_reports -check_drc yes -check_connectivity yes -pop_snapshot yes
+enics_start_stage "signoff"
+delete_route_blockages -name M2_pwr_stripe_route_blk
+enics_message "Adding Fillers" medium
+add_fillers -check_drc
+set_db route_design_with_si_driven false
+enics_message "Fixing DRCs after adding fillers" medium
+route_eco -fix_drc
+delete_assigns
+delete_empty_hinst
+enics_message "Exporting Design" medium
+write_netlist $design(postroute_netlist)
+write_sdf $design(postroute_sdf)
+set_db write_stream_text_size 0.02
+write_stream $design(export_dir)/signoff/$design(TOPLEVEL).gds
+enics_create_stage_reports -check_drc yes -check_connectivity yes -pop_snapshot yes
+check_drc
+set_layer_preference violation -is_visible 1
+gui_select -point {1487.17600 1361.64400}
+gui_select -point {1487.14150 1361.63350}
+gui_select -point {1487.17750 1361.59750}
+gui_select -rect {1487.25150 1361.61400 1487.21550 1361.65150}
+gui_select -point {1487.22300 1361.63500}
+gui_select -point {1487.32250 1361.24700}
+gui_select -rect {1487.32250 1361.33550 1487.34000 1361.04700}
+gui_select -point {1487.29900 1361.36500}
+gui_select -rect {1487.25200 1361.40600 1487.49900 1361.01750}
+edit_move_routes -dx 0.035 -dy -0.5885
+gui_deselect -all
+edit_move_routes -dx 0 -dy 0.73
+edit_resize_routes -direction x -offset 0.09 -side high -keep_center_line auto
+edit_move_routes y -0.02
+edit_move_routes y 0.105
+gui_deselect -all
+edit_move_routes -dx 0 -dy 0
+gui_deselect -all
+edit_resize_routes -direction y -offset -0.0185 -side low -no_connection 1 -keep_center_line 0
+edit_move_routes -dx 0.045 -dy 0.9
+edit_move_routes -dx 0.025 -dy 0
+gui_deselect -all
+edit_move_routes -dx -0.574 -dy 0.0705
+edit_move_routes -dx -0.015 -dy -0.0855
+gui_select -point {1486.70150 1361.43750}
+gui_select -point {1486.68150 1361.52300}
+gui_select -point {1486.69650 1361.50750}
+gui_select -point {1486.64100 1361.49250}
+gui_select -point {1486.72500 1362.27400}
+gui_select -rect {1486.49400 1362.34500 1486.42300 1361.77650}
+gui_select -point {1486.55350 1362.25050}
+gui_select -rect {1486.65400 1362.30350 1486.70750 1361.83000}
+gui_select -point {1486.63050 1362.32750}
+edit_move_routes -dx 0 -dy -0.37
+gui_deselect -all
+edit_move_routes -dx -2.0665 -dy -0.0355
+edit_move_routes -dx -0.063 -dy -0.0455
+edit_move_routes -dx -0.063 -dy -0.0455
+gui_deselect -all
+edit_move_routes -dx 0 -dy -0.45
+gui_deselect -all
+edit_move_routes -dx 2.8615 -dy -0.7425
+gui_deselect -all
+edit_move_routes -dx -0.07 -dy -0.08
+gui_deselect -all
+edit_move_routes -dx -0.286 -dy 0.7565
+edit_move_routes -dx 0.1195 -dy -0.0205
+edit_move_routes -dx 0.09 -dy -0.0205
+edit_move_routes -dx 0.1095 -dy -0.019
+edit_move_routes -dx 0.1325 -dy -0.514
+edit_move_routes -dx 0.096 -dy 0.065
+edit_resize_routes -direction x -offset 0.11 -side high -keep_center_line auto
+edit_move_routes y -0.495
+edit_move_routes y 0.5
+edit_move_routes y -0.005
+edit_move_routes y 0.055
+edit_trim_routes -nets "vdd gnd"
+check_drc
+check_drc
+enics_start_stage "signoff"
+delete_route_blockages -name M2_pwr_stripe_route_blk
+enics_message "Adding Fillers" medium
+add_fillers -check_drc
+set_db route_design_with_si_driven false
+enics_message "Fixing DRCs after adding fillers" medium
+route_eco -fix_drc
+delete_assigns
+delete_empty_hinst
+enics_message "Exporting Design" medium
+write_netlist $design(postroute_netlist)
+write_sdf $design(postroute_sdf)
+set_db write_stream_text_size 0.02
+write_stream $design(export_dir)/signoff/$design(TOPLEVEL).gds
+enics_create_stage_reports -check_drc yes -check_connectivity yes -pop_snapshot yes
+check_drc
+check_connectivity
+set_layer_preference violation -is_visible 1
+gui_select -point {1582.41200 977.14500}
+gui_select -rect {1582.19850 977.13500 1582.29000 976.51450}
+gui_select -point {1582.34050 977.14500}
+gui_select -rect {1582.39150 976.70800 1582.36100 976.25000}
+gui_select -rect {1582.57450 976.72800 1582.58450 976.48400}
+gui_select -point {1582.50350 976.74850}
+gui_select -rect {1582.42200 976.99250 1582.42200 976.43300}
+gui_select -point {1582.19850 977.17550}
+gui_select -point {1582.70650 976.61650}
+gui_select -point {1582.53400 976.91100}
+gui_select -point {1582.46250 976.79950}
+gui_select -point {1582.22900 976.78900}
+gui_select -point {1582.63550 976.27050}
+gui_select -rect {1582.30000 976.74850 1582.75750 976.83000}
+gui_select -point {1582.70650 976.81950}
+gui_select -rect {1582.40150 976.85000 1583.18450 976.97200}
+gui_select -point {1582.50350 976.77900}
+gui_select -point {1582.42200 977.16550}
+gui_select -point {1582.37100 976.75850}
+edit_resize_routes -direction y -offset -0.82 -side high -keep_center_line auto
+edit_move_routes -dx 0.005 -dy 6
+edit_move_routes -dx -0.035 -dy -5.945
+edit_move_routes -dx 0 -dy -0.085
+gui_deselect -all
+edit_resize_routes -direction y -offset 0.0305 -side low -no_connection 1 -keep_center_line 0
+gui_deselect -all
+edit_move_routes -dx 0 -dy 0.005
+edit_move_routes -dx -0.01 -dy -0.03
+gui_deselect -all
+edit_resize_routes -direction y -offset 3.57 -side high -keep_center_line auto
+gui_deselect -all
+edit_resize_routes -direction y -offset 5.155 -side high -keep_center_line auto
+edit_move_routes x -0.14
+edit_resize_routes -direction y -offset 4.94 -side high -keep_center_line auto
+edit_move_routes x -0.045
+edit_resize_routes -direction y -offset 5.93 -side high -keep_center_line auto
+edit_resize_routes -direction y -offset 3.065 -side high -keep_center_line auto
+edit_move_routes -dx -0.02 -dy 3.15
+edit_move_routes -dx 0.03 -dy 0.175
+edit_move_routes -dx -0.01 -dy 0.095
+edit_move_routes -dx 0 -dy 0.05
+edit_move_routes x 0.115
+edit_resize_routes -direction y -offset -0.46 -side high -keep_center_line auto
+edit_resize_routes -direction y -offset -6 -side low -keep_center_line auto
+edit_resize_routes -direction y -offset -4.28 -side low -keep_center_line auto
+edit_resize_routes -direction y -offset -3.185 -side low -keep_center_line auto
+edit_resize_routes -direction y -offset -3.255 -side low -keep_center_line auto
+edit_move_routes -dx -0.01 -dy -3.08
+gui_deselect -all
+edit_trim_routes
+edit_trim_routes
+gui_deselect -all
+edit_move_routes -dx 0.0185 -dy 0.046
+edit_move_routes -dx -0.001 -dy -0.0295
+edit_move_routes -dx 0.0075 -dy -0.0735
+edit_move_routes -dx 0.186 -dy -0.2535
+gui_deselect -all
+edit_move_routes -dx 0.07 -dy -0.705
+gui_deselect -all
+edit_move_routes -dx -0.285 -dy 0.72
+gui_deselect -all
+edit_move_routes -dx -0.7025 -dy -0.2035
+gui_deselect -all
+edit_move_routes -dx -0.98 -dy 0.705
+gui_deselect -all
+edit_move_routes -dx -0.552 -dy 0.668
+gui_deselect -all
+delete_selected_from_floorplan
+edit_move_routes -dx -0.245 -dy -0.855
+edit_move_routes -dx -0.4645 -dy -0.3605
+edit_move_routes -dx 0.1625 -dy -1.208
+edit_move_routes -dx 1.1095 -dy 1.075
+gui_deselect -all
+edit_move_routes -dx -0.1 -dy -0.69
+edit_move_routes -dx -1.88 -dy -0.435
+gui_deselect -all
+edit_move_routes -dx 0.366 -dy -0.924
+gui_deselect -all
+edit_move_routes -dx 0.405 -dy -1.065
+gui_deselect -all
+edit_move_routes -dx -0.755 -dy 0
+edit_resize_routes -direction x -offset 0.825 -side high -keep_center_line auto
+edit_move_routes y 2
+edit_move_routes y -0.01
+edit_move_routes -dx 2.2 -dy -0.03
+gui_deselect -all
+edit_move_routes -dx 0.401 -dy 2.277
+gui_deselect -all
+edit_move_routes -dx -0.445 -dy -0.52
+edit_move_routes -dx 0.15 -dy -0.26
+edit_trim_routes -nets {vdd gnd} -type special_route
+gui_deselect -all
+edit_move_routes -dx 0 -dy -0.05
+edit_resize_routes -direction y -offset -0.039 -side high -no_connection 1 -keep_center_line 0
+edit_move_routes -dx -0.3 -dy 0.405
+gui_deselect -all
+edit_move_routes -dx 0.0105 -dy 0.0445
+gui_deselect -all
+edit_move_routes -dx 0.3 -dy -0.365
+edit_move_routes -dx 0.075 -dy -0.0065
+edit_resize_routes -direction x -offset -0.0055 -side high -no_connection 1 -keep_center_line 0
+edit_move_routes -dx -0.075 -dy 0.005
+edit_resize_routes -direction x -offset 0.0565 -side high -no_connection 1 -keep_center_line 0
+edit_resize_routes -direction x -offset 0.026 -side high -no_connection 1 -keep_center_line 0
+edit_resize_routes -direction x -offset -1.072 -side high -no_connection 1 -keep_center_line 0
+gui_select -point {1486.24850 1361.44150}
+edit_cut_route -only_visible_wires -line { 1486.238 1361.53 1486.035 1361.327 }
+edit_cut_route -only_visible_wires -line { 1486.311 1361.4365 1486.311 1361.868 }
+edit_cut_route -only_visible_wires -line { 1485.9155 1361.374 1485.9155 1362.0815 }
+edit_cut_route -only_visible_wires -line { 1485.702 1361.4205 1485.2755 1360.994 }
+edit_cut_route -only_visible_wires -line { 1485.26 1361.3685 1485.26 1361.5455 }
+edit_cut_route -only_visible_wires -line { 1485.3225 1361.4105 1485.5305 1361.4105 }
+edit_cut_route -only_visible_wires -line { 1485.6035 1361.405 1485 1361.405 }
+edit_cut_route -only_visible_wires -line { 1485.0985 1361.5195 1485.0985 1361.202 }
+edit_cut_route -only_visible_wires -line { 1485.1765 1361.863 1485.1765 1360.916 }
+edit_cut_route -only_visible_wires -line { 1486.1755 1361.7955 1486.1755 1360.994 }
+edit_cut_route -only_visible_wires -line { 1485.8635 1361.868 1485.8635 1361.0355 }
+edit_move_routes -dx -0.05 -dy 0.74
+edit_move_routes -dx 0.05 -dy 0.015
+edit_resize_routes -direction x -offset 0.057 -side high -no_connection 1 -keep_center_line 0
+gui_deselect -all
+edit_move_routes -dx -0.0025 -dy -0.0015
+edit_move_routes -dx 0.337 -dy 0.138
+edit_resize_routes -direction x -offset 0.07 -side high -keep_center_line auto
+edit_move_routes -dx 0 -dy 0.755
+edit_resize_routes -direction y -offset -0.755 -side low -keep_center_line auto
+edit_resize_routes -direction y -offset -0.755 -side high -keep_center_line auto
+edit_resize_routes -direction x -offset 0.31 -side high -keep_center_line auto
+edit_resize_routes -direction y -offset -0.2 -side low -keep_center_line auto
+edit_move_routes -dx 0 -dy -0.255
+edit_resize_routes -direction y -offset 0.0555 -side high -no_connection 1 -keep_center_line 0
+gui_deselect -all
+edit_move_routes -dx 0 -dy 0.655
+gui_deselect -all
+edit_move_routes -dx 0 -dy 0.655
+gui_deselect -all
+edit_move_routes -dx 0.017 -dy 0.6985
+edit_move_routes -dx -0.0035 -dy -0.417
+edit_move_routes -dx 0.007 -dy 0.1355
+edit_move_routes -dx 1.3865 -dy 1.2985
+edit_move_routes -dx 0.0095 -dy 0.704
+edit_move_routes -dx -0.006 -dy 0.0545
+edit_move_routes -dx -0.0605 -dy 0.411
+edit_resize_routes -direction y -offset -5.965 -side low -keep_center_line auto
+edit_resize_routes -direction y -offset -4.995 -side low -keep_center_line auto
+edit_resize_routes -direction y -offset -2.015 -side low -keep_center_line auto
+edit_cut_route -only_visible_wires -line { 1583.188 1298.3425 1581.637 1298.3425 }
+edit_resize_routes -direction x -offset 2.295 -side high -keep_center_line auto
+edit_move_routes -dx 0.6 -dy 0
+edit_resize_routes -direction x -offset 4.952 -side high -no_connection 1 -keep_center_line 0
+edit_cut_route -only_visible_wires -line { 1587.98 1298.4095 1587.98 1296.7215 }
+edit_cut_route -only_visible_wires -line { 1587.806 1298.5685 1587.806 1296.9505 }
+edit_cut_route -only_visible_wires -line { 1587.658 1298.4475 1587.658 1297.074 }
+edit_cut_route -only_visible_wires -line { 1587.9635 1297.0645 1587.9635 1298.8195 }
+edit_cut_route -only_visible_wires -line { 1588.507 1298.1135 1588.507 1296.9595 }
+edit_cut_route -only_visible_wires -line { 1587.544 1297.0455 1587.544 1299.096 }
+edit_cut_route -only_visible_wires -line { 1586.325 1298.9245 1586.325 1296.1775 }
+edit_cut_route -only_visible_wires -line { 1587.764 1298.618 1587.764 1296.6775 }
+edit_cut_route -only_visible_wires -line { 1587.83 1297.958 1587.83 1298.156 }
+edit_cut_route -only_visible_wires -line { 1587.8035 1298.077 1587.8035 1296.9945 }
+edit_cut_route -only_visible_wires -line { 1587.8565 1298.499 1587.8565 1298.4465 }
+edit_cut_route -only_visible_wires -line { 1587.7505 1297.047 1587.7505 1298.763 }
+edit_cut_route -only_visible_wires -line { 1587.7905 1296.7565 1587.7905 1298.9615 }
+edit_cut_route -only_visible_wires -line { 1583.104 1299.991 1581.6385 1299.991 }
+edit_cut_route -only_visible_wires -line { 1583.302 1298.539 1583.302 1296.836 }
+edit_cut_route -only_visible_wires -line { 1583.6715 1298.539 1581.6515 1298.539 }
+gui_deselect -all
+edit_move_routes -dx 7.15 -dy -0.2
+gui_deselect -all
+edit_move_routes -dx 0 -dy -0.1
+edit_move_routes -dx 0 -dy -0.1
+edit_resize_routes -direction y -offset -0.199 -side low -no_connection 1 -keep_center_line 0
+edit_move_routes -dx 4.95 -dy -0.51
+gui_select -point {1582.52150 1299.36700}
+gui_select -point {1582.53650 1299.35150}
+edit_resize_routes -direction y -offset -5.97 -side low -keep_center_line auto
+edit_resize_routes -direction y -offset 5.26 -side high -keep_center_line auto
+gui_select -point {1487.27350 1361.60450}
+gui_select -point {1487.14450 1361.58850}
+gui_select -point {1487.14700 1361.60350}
+gui_select -point {1487.14300 1361.60050}
+gui_select -point {1487.14700 1361.60200}
+gui_select -point {1487.14300 1361.60200}
+gui_select -rect {1487.20900 1361.60050 1487.21600 1361.64650}
+gui_select -point {1487.33850 1361.63700}
+gui_select -rect {1487.33950 1361.64350 1487.34250 1361.60350}
+gui_select -point {1487.30600 1361.63950}
+edit_move_routes -dx 0 -dy -0.05
+edit_move_routes -dx 0 -dy 0
+edit_move_routes -dx 0 -dy 0
+edit_move_routes -dx 0 -dy 0
+gui_deselect -all
+edit_move_routes -dx 0.016 -dy 0.004
+set_layer_preference violation -is_visible 1
+gui_deselect -all
+edit_resize_routes -direction y -offset -5.995 -side low -keep_center_line auto
+edit_move_routes x -0.005
+gui_select -point {1582.30000 1680.49300}
+gui_deselect -all
+edit_move_routes -dx 0.085 -dy 5.99
+edit_move_routes -dx 0 -dy 0.01
+gui_deselect -all
+update_floorplan_obj -obj route_blockage:0x15179026e098 -rects {1581.792 134.9935 1582.792 220.8135}
+gui_deselect -all
+gui_deselect -all
+update_floorplan_obj -obj route_blockage:0x15179026e070 -rects {1581.7365 135.0015 1582.7365 220.8215}
+gui_deselect -all
+gui_deselect -all
+flip_or_rotate_obj -flip MX

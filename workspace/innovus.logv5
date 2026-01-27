@@ -1,0 +1,664 @@
+[01/21 14:26:27      0s] 
+[01/21 14:26:27      0s] Cadence Innovus(TM) Implementation System.
+[01/21 14:26:27      0s] Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+[01/21 14:26:27      0s] 
+[01/21 14:26:27      0s] Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+[01/21 14:26:27      0s] Options:	-stylus 
+[01/21 14:26:27      0s] Date:		Wed Jan 21 14:26:27 2026
+[01/21 14:26:27      0s] Host:		ip-10-70-160-95.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+[01/21 14:26:27      0s] OS:		Rocky Linux 8.10 (Green Obsidian)
+[01/21 14:26:27      0s] 
+[01/21 14:26:27      0s] License:
+[01/21 14:26:27      0s] 		[14:26:27.004017] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+[01/21 14:26:27      0s] 
+[01/21 14:26:27      0s] 		invs	Innovus Implementation System	25.1	checkout succeeded
+[01/21 14:26:27      0s] 		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[01/21 14:26:45     13s] Memory management switch to non-aggressive memory release mode.
+[01/21 14:26:45     13s] 
+[01/21 14:26:45     13s] OS Mmap count monitoring thread starts. Limit of OS Mmap count is 65530
+[01/21 14:26:45     13s] 
+[01/21 14:26:45     13s] 
+[01/21 14:26:45     13s] 
+[01/21 14:27:03     16s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v25.11-s102_1 (64bit) 08/27/2025 13:03 (Linux 4.18.0-305.el8.x86_64)
+[01/21 14:27:14     19s] @(#)CDS: NanoRoute 25.11-s102_1 NR250730-0928/25_11-UB (database version 18.20.674) {superthreading v2.20}
+[01/21 14:27:14     19s] @(#)CDS: AAE 25.11-s028 (64bit) 08/27/2025 (Linux 4.18.0-305.el8.x86_64)
+[01/21 14:27:14     19s] @(#)CDS: CTE 25.11-s034_1 () Aug 18 2025 08:55:47 ( )
+[01/21 14:27:14     19s] @(#)CDS: SYNTECH 25.11-s013_1 () Jul 30 2025 05:18:51 ( )
+[01/21 14:27:14     19s] @(#)CDS: CPE v25.11-s029
+[01/21 14:27:14     19s] @(#)CDS: IQuantus/TQuantus 24.1.0-s290 (64bit) Sun Jul 20 21:40:56 PDT 2025 (Linux 4.18.0-305.el8.x86_64)
+[01/21 14:27:14     19s] @(#)CDS: OA 22.62-p010 Tue Jun 10 08:32:29 2025
+[01/21 14:27:14     19s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[01/21 14:27:14     19s] @(#)CDS: RCDB 11.15.0
+[01/21 14:27:14     19s] @(#)CDS: STYLUS 25.10-b003_1 (03/20/2025 14:55 PDT)
+[01/21 14:27:14     19s] @(#)CDS: IntegrityPlanner-25.11-186 (25.11) (2025-07-16 18:29:01+0800)
+[01/21 14:27:14     19s] @(#)CDS: SYNTHESIS_ENGINE 25.11-s095
+[01/21 14:27:14     19s] @(#)CDS: TCDB v25.10-b001
+[01/21 14:27:14     19s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_58088_f7df4fc8-c0c8-4670-bcd6-21d2eeaf0697_ip-10-70-160-95.il-central-1.compute.internal_schiffe_m8eSKL.
+
+[01/21 14:27:14     19s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_58088_f7df4fc8-c0c8-4670-bcd6-21d2eeaf0697_ip-10-70-160-95.il-central-1.compute.internal_schiffe_m8eSKL.
+[01/21 14:27:14     19s] 
+[01/21 14:27:14     19s] The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[01/21 14:27:17     20s] [INFO] Loading PVS 24.12 fill procedures
+[01/21 14:27:20     22s] Info: Process UID = 58088 / f7df4fc8-c0c8-4670-bcd6-21d2eeaf0697 / LxSK83xUfJ
+[01/21 14:27:24     25s] 
+[01/21 14:27:24     25s] **INFO:  MMMC transition support version v31-84 
+[01/21 14:27:24     25s] 
+[01/21 14:27:28     28s] @innovus 1> set design(TOPLEVEL) "lp_riscv_top"
+set design(TOPLEVEL) "lp_riscv_top"
+[01/21 14:27:32     29s] lp_riscv_top
+[01/21 14:27:32     29s] @innovus 2> set runtype "pset runtype "pnr"
+set debug_file "debug.txt"
+
+nr"
+[01/21 14:27:32     29s] pnr
+[01/21 14:27:32     29s] @innovus 3> set debug_file "debug.txt"
+[01/21 14:27:32     29s] debug.txt
+[01/21 14:27:32     29s] @innovus 4> 
+[01/21 14:27:32     29s] @innovus 4> # Load general pro# Load general procedures
+source ../scripts/procedures.tcl -quiet
+cedures
+[01/21 14:27:32     29s] @innovus 5> source ../scripts/procedures.tcl -quiet
+
+###############################################
+# Starting Stage - Load defines and technology
+###############################################
+enics_start_stage "start"
+[01/21 14:27:32     29s] @innovus 6> 
+[01/21 14:27:32     29s] @innovus 6> ###############################################
+[01/21 14:27:32     29s] @innovus 7> # Starting Stage - Load defines and technology
+[01/21 14:27:32     29s] @innovus 8> ###############################################
+[01/21 14:27:32     29s] @innovus 9> enics_start_stage "start"
+[01/21 14:27:32     29s] *****************************************
+[01/21 14:27:32     29s] *****************************************
+[01/21 14:27:32     29s] **   ENICSINFO: Starting stage start   **
+[01/21 14:27:32     29s] *****************************************
+[01/21 14:27:32     29s] *****************************************
+[01/21 14:27:32     29s] ENICSINFO: Current time is: 21/01/2026 14:27
+[01/21 14:27:32     29s] ENICSINFO: This session is running on Hostname : ip-10-70-160-95.il-central-1.compute.internal
+[01/21 14:27:32     29s] ENICSINFO: The log file is innovus.log5 and the command file is innovus.cmd5
+[01/21 14:27:32     29s] ENICSINFO: ----------------------------------
+[01/21 14:27:32     29s] @innovus 10> 
+
+
+# Load the specific definitions for this project
+source ../inputs/$design(TOPLEVEL).defines -quiet
+[01/21 14:27:32     29s] @innovus 10> 
+[01/21 14:27:32     29s] @innovus 10> # Load the specific definitions for this project
+[01/21 14:27:32     29s] @innovus 11> source ../inputs/$design(TOPLEVEL).defines -quiet
+[01/21 14:27:32     29s] @innovus 12> 
+
+[01/21 14:27:32     29s] @innovus 12> # Load the library paths and definitions for this technology
+# Load the library paths and definitions for this technology
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/21 14:27:32     29s] @innovus 13> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/21 14:27:32     29s] **WARN: (IMPDB-6501):	"set_db design_process_node" will be obsoleted in future release. Remove it from the script to avoid the interruption of running the script in future.
+[01/21 14:27:32     29s] ##  Process: 65            (User Set)               
+[01/21 14:27:32     29s] ##     Node: (not set)                           
+[01/21 14:27:32     29s] 
+[01/21 14:27:32     29s] ##  Check design process and node:  
+[01/21 14:27:32     29s] ##  Design tech node is not set.
+[01/21 14:27:32     29s] 
+[01/21 14:27:32     29s] Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[01/21 14:27:32     29s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[01/21 14:27:32     29s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[01/21 14:27:32     29s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'high'.
+[01/21 14:27:32     29s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+[01/21 14:27:32     29s] @innovus 14> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+[01/21 14:27:33     29s] @innovus 15> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+[01/21 14:27:33     29s] @innovus 16> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+[01/21 14:27:33     29s] +     source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+[01/21 14:27:33     29s] + }
+set_library_unit -time 1ns -cap 1pf
+
+#############################################
+#       Print values to debug file
+#############################################
+set var_list {runtype}
+set dic_list {paths tech tech_files design}
+enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+[01/21 14:27:33     29s] @innovus 17> set_library_unit -time 1ns -cap 1pf
+[01/21 14:27:33     29s] @innovus 18> 
+[01/21 14:27:33     29s] @innovus 18> #############################################
+[01/21 14:27:33     29s] @innovus 19> #       Print values to debug file
+[01/21 14:27:33     29s] @innovus 20> #############################################
+[01/21 14:27:33     29s] @innovus 21> set var_list {runtype}
+[01/21 14:27:33     29s] runtype
+[01/21 14:27:33     29s] @innovus 22> set dic_list {paths tech tech_files design}
+[01/21 14:27:33     29s] paths tech tech_files design
+[01/21 14:27:33     29s] @innovus 23> enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+
+
+############################################
+# Init Design
+############################################
+#enable_metrics -on
+enics_start_stage "init_design"
+
+# Global Nets
+set_db init_ground_nets $design(all_ground_nets)
+set_db init_power_nets $design(all_power_nets)
+
+# MMMC
+enics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+enics_message "Reading MMMC File"
+read_mmmc $design(mmmc_view_file) 
+[01/21 14:27:33     29s] @innovus 24> 
+[01/21 14:27:33     29s] @innovus 24> 
+[01/21 14:27:33     29s] @innovus 24> ############################################
+[01/21 14:27:33     29s] @innovus 25> # Init Design
+[01/21 14:27:33     29s] @innovus 26> ############################################
+[01/21 14:27:33     29s] @innovus 27> #enable_metrics -on
+[01/21 14:27:33     29s] @innovus 28> enics_start_stage "init_design"
+[01/21 14:27:33     29s] ***********************************************
+[01/21 14:27:33     29s] ***********************************************
+[01/21 14:27:33     29s] **   ENICSINFO: Starting stage init_design   **
+[01/21 14:27:33     29s] ***********************************************
+[01/21 14:27:33     29s] ***********************************************
+[01/21 14:27:33     29s] ENICSINFO: Current time is: 21/01/2026 14:27
+[01/21 14:27:33     29s] ENICSINFO: ----------------------------------
+[01/21 14:27:33     29s] @innovus 29> 
+[01/21 14:27:33     29s] @innovus 29> # Global Nets
+[01/21 14:27:33     29s] @innovus 30> set_db init_ground_nets $design(all_ground_nets)
+[01/21 14:27:33     29s] 1 gnd
+[01/21 14:27:33     29s] @innovus 31> set_db init_power_nets $design(all_power_nets)
+[01/21 14:27:33     29s] 1 {vdd vddio}
+[01/21 14:27:33     29s] @innovus 32> 
+[01/21 14:27:33     29s] @innovus 32> # MMMC
+[01/21 14:27:33     29s] @innovus 33> enics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+[01/21 14:27:33     29s] ENICSINFO: Suppressing the following messages that are reported due to the LIB definitions:
+[01/21 14:27:33     29s] @innovus 34> enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+[01/21 14:27:33     29s] ENICSINFO: TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 IMPTS-282
+[01/21 14:27:33     29s] @innovus 35> set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+[01/21 14:27:33     29s] @innovus 36> enics_message "Reading MMMC File"
+[01/21 14:27:33     29s] ENICSINFO: Reading MMMC File
+[01/21 14:27:33     29s] @innovus 37> read_mmmc $design(mmmc_view_file) 
+[01/21 14:27:33     29s] #@ Begin verbose source (pre): 
+[01/21 14:27:33     29s] @file 1: #  Version:1.0 MMMC View Definition File
+[01/21 14:27:33     29s] @file 2: # Do Not Remove Above Line
+[01/21 14:27:33     29s] @file 3:
+[01/21 14:27:33     29s] @file 4: ############# MMMC Hierarchy ########################################################################################
+[01/21 14:27:33     29s] @file 5: #                                                                                                                   #
+[01/21 14:27:33     29s] @file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+[01/21 14:27:33     29s] @file 7: #                       |--> Analysis View  |                                                                       #
+[01/21 14:27:33     29s] @file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+[01/21 14:27:33     29s] @file 9: #                                           |--> Delay Corner |                                                     #
+[01/21 14:27:33     29s] @file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+[01/21 14:27:33     29s] @file 11: #####################################################################################################################
+[01/21 14:27:33     29s] @file 12:
+[01/21 14:27:33     29s] @file 13: # Constraint Modes #
+[01/21 14:27:33     29s] @file 14: # ---------------- #
+[01/21 14:27:33     29s] @@file 15: create_constraint_mode \
+[01/21 14:27:33     29s] 	-name functional_mode \
+[01/21 14:27:33     29s] 	-sdc_files $design(functional_sdc)
+[01/21 14:27:33     29s] @file 18:
+[01/21 14:27:33     29s] @file 19: # RC Corners #
+[01/21 14:27:33     29s] @file 20: # ---------- #
+[01/21 14:27:33     29s] @file 21: if {$runtype=="synthesis"} {...
+[01/21 14:27:33     29s] @file 24: } else {
+[01/21 14:27:33     29s] @@file 25: set_message -suppress -id ENCEXT-6202 ;
+[01/21 14:27:33     29s] @file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+[01/21 14:27:33     29s] @file 26: }
+[01/21 14:27:33     29s] @file 27:
+[01/21 14:27:33     29s] @@file 28: create_rc_corner \
+[01/21 14:27:33     29s] 	-name bc_rc_corner \
+[01/21 14:27:33     29s] 	-temperature $tech(TEMPERATURE_BC) \
+[01/21 14:27:33     29s]     -qrc_tech $tech_files(QRCTECH_FILE_BC)
+[01/21 14:27:33     29s] @file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+[01/21 14:27:33     29s] @file 33:
+[01/21 14:27:33     29s] @@file 34: create_rc_corner \
+[01/21 14:27:33     29s] 	-name tc_rc_corner \
+[01/21 14:27:33     29s] 	-temperature $tech(TEMPERATURE_TC) \
+[01/21 14:27:33     29s] 	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+[01/21 14:27:33     29s] @file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+[01/21 14:27:33     29s] @file 39:
+[01/21 14:27:33     29s] @@file 40: create_rc_corner \
+[01/21 14:27:33     29s] 	-name wc_rc_corner \
+[01/21 14:27:33     29s] 	-temperature $tech(TEMPERATURE_WC) \
+[01/21 14:27:33     29s]     -qrc_tech $tech_files(QRCTECH_FILE_WC)
+[01/21 14:27:33     29s] @file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+[01/21 14:27:33     29s] @file 45:
+[01/21 14:27:33     29s] @file 46: # Library Sets #
+[01/21 14:27:33     29s] @file 47: # ------------ #
+[01/21 14:27:33     29s] @@file 48: create_library_set \
+[01/21 14:27:33     29s] 	-name bc_libset \
+[01/21 14:27:33     29s] 	-timing $tech_files(ALL_BC_LIBS)  
+[01/21 14:27:33     29s] @file 51: # -aocv $tech_files(ALL_BC_AOCV_LIBS)
+[01/21 14:27:33     29s] @file 52:
+[01/21 14:27:33     29s] @@file 53: create_library_set \
+[01/21 14:27:33     29s] 	-name tc_libset \
+[01/21 14:27:33     29s] 	-timing $tech_files(ALL_TC_LIBS)  
+[01/21 14:27:33     29s] @file 56: # -aocv $tech_files(ALL_TC_AOCV_LIBS)
+[01/21 14:27:33     29s] @file 57:     
+[01/21 14:27:33     29s] @@file 58: create_library_set \
+[01/21 14:27:33     29s] 	-name wc_libset \
+[01/21 14:27:33     29s] 	-timing $tech_files(ALL_WC_LIBS)  
+[01/21 14:27:33     29s] @file 61: # -aocv $tech_files(ALL_WC_AOCV_LIBS)
+[01/21 14:27:33     29s] @file 62:
+[01/21 14:27:33     29s] @file 63: # Timing Conditions #
+[01/21 14:27:33     29s] @file 64: # ----------------- #
+[01/21 14:27:33     29s] @@file 65: create_timing_condition \
+[01/21 14:27:33     29s]    -name         bc_timing_condition \
+[01/21 14:27:33     29s]    -library_sets bc_libset
+[01/21 14:27:33     29s] @file 68:
+[01/21 14:27:33     29s] @@file 69: create_timing_condition \
+[01/21 14:27:33     29s]    -name         tc_timing_condition \
+[01/21 14:27:33     29s]    -library_sets tc_libset
+[01/21 14:27:33     29s] @file 72:
+[01/21 14:27:33     29s] @@file 73: create_timing_condition \
+[01/21 14:27:33     29s]    -name         wc_timing_condition \
+[01/21 14:27:33     29s]    -library_sets wc_libset
+[01/21 14:27:33     29s] @file 76:
+[01/21 14:27:33     29s] @file 77: # Delay Corners #
+[01/21 14:27:33     29s] @file 78: # ------------- #
+[01/21 14:27:33     29s] @@file 79: create_delay_corner \
+[01/21 14:27:33     29s] 	-name bc_dly_corner \
+[01/21 14:27:33     29s] 	-timing_condition bc_timing_condition \
+[01/21 14:27:33     29s] 	-rc_corner bc_rc_corner
+[01/21 14:27:33     29s] @file 83:
+[01/21 14:27:33     29s] @@file 84: create_delay_corner \
+[01/21 14:27:33     29s] 	-name tc_dly_corner \
+[01/21 14:27:33     29s] 	-timing_condition tc_timing_condition \
+[01/21 14:27:33     29s] 	-rc_corner tc_rc_corner
+[01/21 14:27:33     29s] @file 88:
+[01/21 14:27:33     29s] @@file 89: create_delay_corner \
+[01/21 14:27:33     29s] 	-name wc_dly_corner \
+[01/21 14:27:33     29s] 	-timing_condition wc_timing_condition \
+[01/21 14:27:33     29s] 	-rc_corner wc_rc_corner
+[01/21 14:27:33     29s] @file 93:
+[01/21 14:27:33     29s] @file 94: # Analysis Views #
+[01/21 14:27:33     29s] @file 95: # -------------- #
+[01/21 14:27:33     29s] @@file 96: create_analysis_view \
+[01/21 14:27:33     29s] 	-name bc_analysis_view \
+[01/21 14:27:33     29s] 	-constraint_mode functional_mode \
+[01/21 14:27:33     29s] 	-delay_corner bc_dly_corner
+[01/21 14:27:33     29s] @file 100:
+[01/21 14:27:33     29s] @@file 101: create_analysis_view \
+[01/21 14:27:33     29s]     -name tc_analysis_view \
+[01/21 14:27:33     29s] 	-constraint_mode functional_mode \
+[01/21 14:27:33     29s] 	-delay_corner tc_dly_corner
+[01/21 14:27:33     29s] @file 105:
+[01/21 14:27:33     29s] @@file 106: create_analysis_view \
+[01/21 14:27:33     29s] 	-name wc_analysis_view \
+[01/21 14:27:33     29s] 	-constraint_mode functional_mode \
+[01/21 14:27:33     29s] 	-delay_corner wc_dly_corner
+[01/21 14:27:33     29s] @file 110:
+[01/21 14:27:33     29s] @file 111: # Selected Analysis Views #
+[01/21 14:27:33     29s] @file 112: # ----------------------- #
+[01/21 14:27:33     29s] @@file 113: set_analysis_view \
+[01/21 14:27:33     29s] 	-setup $design(selected_setup_analysis_views) \
+[01/21 14:27:33     29s] 	-hold  $design(selected_hold_analysis_views)
+[01/21 14:27:33     29s] @file 116: # -leakage $design(selected_leakage_analysis_views)
+[01/21 14:27:33     29s] @file 117:     # -dynamic $design(selected_dynamic_power_analysis_views)
+[01/21 14:27:33     29s] @file 118:
+[01/21 14:27:33     29s] @file 119:
+[01/21 14:27:33     29s] #@ End verbose source: /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+[01/21 14:27:33     29s] Reading wc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_rvt/r0p0/lib/sc9_cln65lp_base_rvt_ss_typical_max_0p90v_125c.lib' ...
+[01/21 14:27:36     32s] Read 949 cells in library 'sc9_cln65lp_base_rvt_ss_typical_max_0p90v_125c' 
+[01/21 14:27:36     32s] Reading wc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_lvt/r0p0/lib/sc9_cln65lp_base_lvt_ss_typical_max_0p90v_125c.lib' ...
+[01/21 14:27:39     35s] Read 949 cells in library 'sc9_cln65lp_base_lvt_ss_typical_max_0p90v_125c' 
+[01/21 14:27:39     35s] Reading wc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_hvt/r0p0/lib/sc9_cln65lp_base_hvt_ss_typical_max_0p90v_125c.lib' ...
+[01/21 14:27:42     38s] Read 949 cells in library 'sc9_cln65lp_base_hvt_ss_typical_max_0p90v_125c' 
+[01/21 14:27:42     38s] Reading wc_libset timing library '/project/tsmc65/users/schiffe/ws/DVD/hw6/mem_gen/SP_16384X32/M16/sp_hde_16384_m16_ss_1p08v_1p08v_125c.lib' ...
+[01/21 14:27:43     38s] Read 1 cells in library 'USERLIB_ss_1p08v_1p08v_125c' 
+[01/21 14:27:43     38s] Reading wc_libset timing library '/project/tsmc65/users/schiffe/ws/DVD/hw6/mem_gen/SP_8192X32/M16/sp_hse_8192_m16_ss_1p08v_1p08v_125c.lib' ...
+[01/21 14:27:43     38s] Read 1 cells in library 'USERLIB_ss_1p08v_1p08v_125c' 
+[01/21 14:27:43     38s] Reading wc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/TSMCHOME_fe/digital/Front_End/timing_power_noise/NLDM/tpdn65lpnv2od3_200a/tpdn65lpnv2od3wc.lib' ...
+[01/21 14:27:43     38s] Read 47 cells in library 'tpdn65lpnv2od3wc' 
+[01/21 14:27:43     38s] Reading bc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_rvt/r0p0/lib/sc9_cln65lp_base_rvt_ff_typical_min_1p32v_m40c.lib' ...
+[01/21 14:27:46     41s] Read 949 cells in library 'sc9_cln65lp_base_rvt_ff_typical_min_1p32v_m40c' 
+[01/21 14:27:46     41s] Reading bc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_lvt/r0p0/lib/sc9_cln65lp_base_lvt_ff_typical_min_1p32v_m40c.lib' ...
+[01/21 14:27:48     43s] Read 949 cells in library 'sc9_cln65lp_base_lvt_ff_typical_min_1p32v_m40c' 
+[01/21 14:27:48     43s] Reading bc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/arm/tsmc/cln65lp/sc9_base_hvt/r0p0/lib/sc9_cln65lp_base_hvt_ff_typical_min_1p32v_m40c.lib' ...
+[01/21 14:27:51     46s] Read 949 cells in library 'sc9_cln65lp_base_hvt_ff_typical_min_1p32v_m40c' 
+[01/21 14:27:51     46s] Reading bc_libset timing library '/project/tsmc65/users/schiffe/ws/DVD/hw6/mem_gen/SP_16384X32/M16/sp_hde_16384_m16_ff_1p32v_1p32v_m40c.lib' ...
+[01/21 14:27:51     46s] Read 1 cells in library 'USERLIB_ff_1p32v_1p32v_m40c' 
+[01/21 14:27:51     46s] Reading bc_libset timing library '/project/tsmc65/users/schiffe/ws/DVD/hw6/mem_gen/SP_8192X32/M16/sp_hse_8192_m16_ff_1p32v_1p32v_m40c.lib' ...
+[01/21 14:27:52     46s] Read 1 cells in library 'USERLIB_ff_1p32v_1p32v_m40c' 
+[01/21 14:27:52     46s] Reading bc_libset timing library '/tech/tsmc/65LP/dig_libs/ARM_FEONLY/TSMCHOME_fe/digital/Front_End/timing_power_noise/NLDM/tpdn65lpnv2od3_200a/tpdn65lpnv2od3bc.lib' ...
+[01/21 14:27:52     46s] Read 47 cells in library 'tpdn65lpnv2od3bc' 
+[01/21 14:27:53     46s] Ending "PreSetAnalysisView" (total cpu=0:00:17.5, real=0:00:20.0, peak res=2274.6M, current mem=1972.3M)
+[01/21 14:27:53     46s] 1
+[01/21 14:27:53     46s] @innovus 38> 
+
+[01/21 14:27:53     46s] @innovus 38> set design(TOPLEVEL) "lp_riscv_top"
+set design(TOPLEVEL) "lp_riscv_top"
+[01/21 14:28:04     47s] lp_riscv_top
+[01/21 14:28:04     47s] @innovus 39> set runtype "pset runtype "pnr"
+set debug_file "debug.txt"
+
+nr"
+[01/21 14:28:04     47s] pnr
+[01/21 14:28:04     47s] @innovus 40> set debug_file "debug.txt"
+[01/21 14:28:04     47s] debug.txt
+[01/21 14:28:04     47s] @innovus 41> 
+[01/21 14:28:04     47s] @innovus 41> # Load general pro# Load general procedures
+source ../scripts/procedures.tcl -quiet
+cedures
+[01/21 14:28:04     47s] @innovus 42> source ../scripts/procedures.tcl -quiet
+[01/21 14:28:04     47s] @innovus 43> 
+
+[01/21 14:28:04     47s] @innovus 43> ###############################################
+###############################################
+[01/21 14:28:04     47s] @innovus 44> # Starting Stage - Load defines and technology
+# Starting Stage - Load defines and technology
+[01/21 14:28:04     47s] @innovus 45> ###############################################
+###############################################
+[01/21 14:28:04     47s] @innovus 46> enics_start_stage "start"
+enics_start_stage "start"
+[01/21 14:28:04     47s] *****************************************
+[01/21 14:28:04     47s] *****************************************
+[01/21 14:28:04     47s] **   ENICSINFO: Starting stage start   **
+[01/21 14:28:04     47s] *****************************************
+[01/21 14:28:04     47s] *****************************************
+[01/21 14:28:04     47s] ENICSINFO: Current time is: 21/01/2026 14:28
+[01/21 14:28:04     47s] ENICSINFO: This session is running on Hostname : ip-10-70-160-95.il-central-1.compute.internal
+[01/21 14:28:04     47s] ENICSINFO: The log file is innovus.log5 and the command file is innovus.cmd5
+[01/21 14:28:04     47s] ENICSINFO: ----------------------------------
+[01/21 14:28:04     47s] @innovus 47> 
+
+
+[01/21 14:28:04     47s] @innovus 47> 
+[01/21 14:28:04     47s] @innovus 47> # Load the specific definitions for this project
+# Load the specific definitions for this project
+[01/21 14:28:04     47s] @innovus 48> source ../inputs/$design(TOPLEVsource ../inputs/$design(TOPLEVEL).defines -quiet
+EL).defines -quiet
+
+# Load the library paths and definitions for this technology
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/21 14:28:04     47s] @innovus 49> 
+[01/21 14:28:04     47s] @innovus 49> # Load the library paths and definitions for this technology
+[01/21 14:28:04     47s] @innovus 50> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/21 14:28:04     47s] **WARN: (IMPDB-6501):	"set_db design_process_node" will be obsoleted in future release. Remove it from the script to avoid the interruption of running the script in future.
+[01/21 14:28:04     47s] ##  Process: 65            (User Set)               
+[01/21 14:28:04     47s] ##     Node: (not set)                           
+[01/21 14:28:04     47s] 
+[01/21 14:28:04     47s] ##  Check design process and node:  
+[01/21 14:28:04     47s] ##  Design tech node is not set.
+[01/21 14:28:04     47s] 
+[01/21 14:28:04     47s] Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[01/21 14:28:04     47s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[01/21 14:28:04     47s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[01/21 14:28:04     47s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'high'.
+[01/21 14:28:04     47s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+[01/21 14:28:04     47s] @innovus 51> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+[01/21 14:28:04     47s] @innovus 52> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+[01/21 14:28:04     47s] @innovus 53> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+[01/21 14:28:04     47s] +     source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+[01/21 14:28:04     47s] + }
+set_library_unit -time 1ns -cap 1pf
+
+#############################################
+#       Print values to debug file
+#############################################
+set var_list {runtype}
+set dic_list {paths tech tech_files design}
+enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+[01/21 14:28:04     47s] @innovus 54> set_library_unit -time 1ns -cap 1pf
+[01/21 14:28:04     47s] **ERROR: (IMPTS-432):	Units must be set the before the design is read and constraints are loaded. This command is ignored.
+[01/21 14:28:04     47s] @innovus 55> 
+[01/21 14:28:04     47s] @innovus 55> #############################################
+[01/21 14:28:04     47s] @innovus 56> #       Print values to debug file
+[01/21 14:28:04     47s] @innovus 57> #############################################
+[01/21 14:28:04     47s] @innovus 58> set var_list {runtype}
+[01/21 14:28:04     47s] runtype
+[01/21 14:28:04     47s] @innovus 59> set dic_list {paths tech tech_files design}
+[01/21 14:28:04     47s] paths tech tech_files design
+[01/21 14:28:04     47s] @innovus 60> enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+
+
+############################################
+# Init Design
+############################################
+#enable_metrics -on
+enics_start_stage "init_design"
+
+# Global Nets
+set_db init_ground_nets $design(all_ground_nets)
+set_db init_power_nets $design(all_power_nets)
+
+# MMMC
+enics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+[01/21 14:28:04     47s] @innovus 61> 
+[01/21 14:28:04     47s] @innovus 61> 
+[01/21 14:28:04     47s] @innovus 61> ############################################
+[01/21 14:28:04     47s] @innovus 62> # Init Design
+[01/21 14:28:04     47s] @innovus 63> ############################################
+[01/21 14:28:04     47s] @innovus 64> #enable_metrics -on
+[01/21 14:28:04     47s] @innovus 65> enics_start_stage "init_design"
+[01/21 14:28:04     47s] ***********************************************
+[01/21 14:28:04     47s] ***********************************************
+[01/21 14:28:04     47s] **   ENICSINFO: Starting stage init_design   **
+[01/21 14:28:04     47s] ***********************************************
+[01/21 14:28:04     47s] ***********************************************
+[01/21 14:28:04     47s] ENICSINFO: Current time is: 21/01/2026 14:28
+[01/21 14:28:04     47s] ENICSINFO: ----------------------------------
+[01/21 14:28:04     47s] @innovus 66> 
+[01/21 14:28:04     47s] @innovus 66> # Global Nets
+[01/21 14:28:04     47s] @innovus 67> set_db init_ground_nets $design(all_ground_nets)
+[01/21 14:28:04     47s] 1 gnd
+[01/21 14:28:04     47s] @innovus 68> set_db init_power_nets $design(all_power_nets)
+[01/21 14:28:04     47s] 1 {vdd vddio}
+[01/21 14:28:04     47s] @innovus 69> 
+[01/21 14:28:04     47s] @innovus 69> # MMMC
+[01/21 14:28:04     47s] @innovus 70> enics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+[01/21 14:28:04     47s] ENICSINFO: Suppressing the following messages that are reported due to the LIB definitions:
+[01/21 14:28:04     47s] @innovus 71> enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+[01/21 14:28:04     47s] ENICSINFO: TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 IMPTS-282
+[01/21 14:28:04     47s] @innovus 72> set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOset_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+enics_message "Reading MMMC File"
+VUS) 
+[01/21 14:28:04     47s] @innovus 73> enics_message "Reading MMMC File"
+[01/21 14:28:04     47s] ENICSINFO: Reading MMMC File
+[01/21 14:28:04     47s] @innovus 74> read_mmmc read_mmmc $design(mmmc_view_file) 
+$design(mmmc_view_file) 
+[01/21 14:28:04     47s] **WARN: (TCLCMD-1306):	read_mmmc command should be called once before init_design.
+[01/21 14:28:04     47s] 1
+[01/21 14:28:04     47s] 1
+[01/21 14:28:04     47s] @innovus 75> read_netlist $design(postsyn_netlist)
+read_netlist $design(postsyn_netlist)
+[01/21 14:28:15     47s] #% Begin Load netlist data ... (date=01/21 14:28:15, mem=1972.5M)
+[01/21 14:28:15     47s] *** Begin netlist parsing (mem=1972.5M) ***
+[01/21 14:28:15     47s] Created 2896 new cells from 12 timing libraries.
+[01/21 14:28:15     47s] Reading netlist ...
+[01/21 14:28:15     47s] Backslashed names will retain backslash and a trailing blank character.
+[01/21 14:28:15     47s] Reading verilog netlist '/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v'
+[01/21 14:28:15     47s] Undeclared bus Q in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:28:15     47s] Undeclared bus WEN in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:28:15     47s] Undeclared bus A in module sp_hde_8192_m16 ... created as [12:0].
+[01/21 14:28:15     47s] Undeclared bus D in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:28:15     47s] Undeclared bus WENY in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:28:15     47s] Undeclared bus AY in module sp_hde_8192_m16 ... created as [12:0].
+[01/21 14:28:15     47s] Undeclared bus SO in module sp_hde_8192_m16 ... created as [1:0].
+[01/21 14:28:15     47s] Undeclared bus EMA in module sp_hde_8192_m16 ... created as [2:0].
+[01/21 14:28:15     47s] Undeclared bus EMAW in module sp_hde_8192_m16 ... created as [1:0].
+[01/21 14:28:15     47s] Undeclared bus TWEN in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:28:15     47s] Undeclared bus TA in module sp_hde_8192_m16 ... created as [12:0].
+[01/21 14:28:15     47s] Undeclared bus TD in module sp_hde_8192_m16 ... created as [31:0].
+[01/21 14:28:15     47s] Undeclared bus SI in module sp_hde_8192_m16 ... created as [1:0].
+[01/21 14:28:15     47s] Module sp_hde_8192_m16 is not defined and will be treated as an empty module.
+[01/21 14:28:15     47s] 
+[01/21 14:28:15     47s] *** Memory Usage v#1 (Current mem = 2122.082M, initial mem = 906.473M) ***
+[01/21 14:28:15     47s] *** End netlist parsing (cpu=0:00:00.3, real=0:00:00.0, mem=2122.1M) ***
+[01/21 14:28:15     47s] #% End Load netlist data ... (date=01/21 14:28:15, total cpu=0:00:00.4, real=0:00:00.0, peak res=2122.1M, current mem=2122.1M)
+[01/21 14:28:15     47s] Top level cell is lp_riscv_top.
+[01/21 14:28:16     48s] Hooked 5792 DB cells to tlib cells.
+[01/21 14:28:16     48s] Ending "BindLib:" (total cpu=0:00:00.4, real=0:00:00.0, peak res=2263.5M, current mem=2263.5M)
+[01/21 14:28:16     48s] **WARN: (IMPDB-2504):	Unable to find netlist cell in the design data of the library or LEF. The 'sp_hde_8192_m16' cell is instantiated in the Verilog netlist, but not defined in the library or design data.  Its pin directions might be derived incorrectly. Include the cell definition or its pin information in the library or design data and reload the design to avoid potential issues.
+[01/21 14:28:16     48s] Type 'man IMPDB-2504' for more detail.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[31]' of cell 'sp_hde_8192_m16' as output for net 'Q[31]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[30]' of cell 'sp_hde_8192_m16' as output for net 'Q[30]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[29]' of cell 'sp_hde_8192_m16' as output for net 'Q[29]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[28]' of cell 'sp_hde_8192_m16' as output for net 'Q[28]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[27]' of cell 'sp_hde_8192_m16' as output for net 'Q[27]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[26]' of cell 'sp_hde_8192_m16' as output for net 'Q[26]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[25]' of cell 'sp_hde_8192_m16' as output for net 'Q[25]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[24]' of cell 'sp_hde_8192_m16' as output for net 'Q[24]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[23]' of cell 'sp_hde_8192_m16' as output for net 'Q[23]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[22]' of cell 'sp_hde_8192_m16' as output for net 'Q[22]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[21]' of cell 'sp_hde_8192_m16' as output for net 'Q[21]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[20]' of cell 'sp_hde_8192_m16' as output for net 'Q[20]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[19]' of cell 'sp_hde_8192_m16' as output for net 'Q[19]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[18]' of cell 'sp_hde_8192_m16' as output for net 'Q[18]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[17]' of cell 'sp_hde_8192_m16' as output for net 'Q[17]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[16]' of cell 'sp_hde_8192_m16' as output for net 'Q[16]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[15]' of cell 'sp_hde_8192_m16' as output for net 'Q[15]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[14]' of cell 'sp_hde_8192_m16' as output for net 'Q[14]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[13]' of cell 'sp_hde_8192_m16' as output for net 'Q[13]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[12]' of cell 'sp_hde_8192_m16' as output for net 'Q[12]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[11]' of cell 'sp_hde_8192_m16' as output for net 'Q[11]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[10]' of cell 'sp_hde_8192_m16' as output for net 'Q[10]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[9]' of cell 'sp_hde_8192_m16' as output for net 'Q[9]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[8]' of cell 'sp_hde_8192_m16' as output for net 'Q[8]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[7]' of cell 'sp_hde_8192_m16' as output for net 'Q[7]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[6]' of cell 'sp_hde_8192_m16' as output for net 'Q[6]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[5]' of cell 'sp_hde_8192_m16' as output for net 'Q[5]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[4]' of cell 'sp_hde_8192_m16' as output for net 'Q[4]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[3]' of cell 'sp_hde_8192_m16' as output for net 'Q[3]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[2]' of cell 'sp_hde_8192_m16' as output for net 'Q[2]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[1]' of cell 'sp_hde_8192_m16' as output for net 'Q[1]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] Cell 'sp_hde_8192_m16' is referenced in the netlist but not defined in netlist, lef or timing library. Using the net connection data to mark the pin 'Q[0]' of cell 'sp_hde_8192_m16' as output for net 'Q[0]' in module 'sram_sp_8192x32_m16_be_wrap'.
+[01/21 14:28:16     48s] 2 empty module found.
+[01/21 14:28:16     48s] Starting recursive module instantiation check.
+[01/21 14:28:16     48s] No recursion found.
+[01/21 14:28:16     48s] Term dir updated for 0 vinsts of 1 cells.
+[01/21 14:28:16     48s] Building hierarchical netlist for Cell lp_riscv_top ...
+[01/21 14:28:16     48s] ***** UseNewTieNetMode *****.
+[01/21 14:28:16     48s] **WARN: (IMPECO-560):	The netlist is not unique, because the module 'PCORNER' is instantiated multiple times. Make the netlist unique by running 'set_db init_design_uniquify true' before loading the design to avoid the problem.
+[01/21 14:28:16     48s] Type 'man IMPECO-560' for more detail.
+[01/21 14:28:16     48s] *** Netlist is NOT unique.
+[01/21 14:28:16     48s] **WARN: (IMPTRN-1100):	Cannot determine standard cell height.  Assume it 10 IGU.
+[01/21 14:28:16     48s] **WARN: (IMPTRN-1101):	Could not determine power-rail locations in cells. Use default value GNDOnBtm.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_CLK of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_CLOCK_EN of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_DONE_FLAG of the cell PDUW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_0 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_1 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_2 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_3 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_4 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_5 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_6 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_7 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_8 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_9 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_10 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_11 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_12 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_13 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_14 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_EXT_PERF_COUNTERS_15 of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-102):	Instance i_ioring/i_FETCH_EN of the cell PDDW1216SCDG has no physical library or has wrong dimen-
+[01/21 14:28:16     48s] sion values (<=0). Check your design setup to make sure the physical
+[01/21 14:28:16     48s]  library is loaded in and the attributes specified in physical library are correct.
+[01/21 14:28:16     48s] Type 'man IMPREPO-102' for more detail.
+[01/21 14:28:16     48s] **WARN: (EMS-27):	Message (IMPREPO-102) has exceeded the current message display limit of 20.
+[01/21 14:28:16     48s] To increase the message display limit, refer to the product command reference manual.
+[01/21 14:28:16     48s] ** info: there are 5868 modules.
+[01/21 14:28:16     48s] ** info: there are 22018 stdCell insts.
+[01/21 14:28:16     48s] ** info: there are 0 stdCell insts with at least one signal pin.
+[01/21 14:28:16     48s] **ERROR: (IMPREPO-103):	There are 22018 instances (288 cells) with no dimension defined.
+[01/21 14:28:17     49s] 
+[01/21 14:28:17     49s] *** Memory Usage v#1 (Current mem = 2304.996M, initial mem = 906.473M) ***
+[01/21 14:28:17     49s] 0
+[01/21 14:28:17     49s] @innovus 76> read_physical -lef $tech_files(ALL_LEFS)
+read_physical -lef $tech_files(ALL_LEFS)
+[01/21 14:28:57     50s] **ERROR: (IMPIMEX-7030):	LEF files are not allowed to be read in after the design is in memory. If you want to modify the current list of LEF files, please refer to read_physical -add_lefs[01/21 14:28:57     50s] 
+
+[01/21 14:28:57     50s] @innovus 77> 
+
+[01/21 14:28:59     50s] @innovus 77> read_netlist $design(postsyn_netlist)
+read_netlist $design(postsyn_netlist)
+[01/21 14:29:15     50s] **ERROR: (IMPIMEX-7041):	Netlist files are not allowed to be read in after the design is in memory.
+
+[01/21 14:29:15     50s] **ERROR: (IMPIMEX-7041):	Netlist files are not allowed to be read in after the design is in memory.
+[01/21 14:29:15     50s] 
+[01/21 14:29:15     50s] @innovus 78> exit
+[01/21 14:30:15     51s] 
+[01/21 14:30:15     51s] *** Summary of all messages that are not suppressed in this session:
+[01/21 14:30:15     51s] Severity  ID               Count  Summary                                  
+[01/21 14:30:15     51s] WARNING   IMPTRN-1101          1  Could not determine power-rail locations...
+[01/21 14:30:15     51s] WARNING   IMPTRN-1100          1  Cannot determine standard cell height.  ...
+[01/21 14:30:15     51s] ERROR     IMPTS-432            1  Units must be set the before the design ...
+[01/21 14:30:15     51s] WARNING   IMPDB-6501           2  "set_db design_process_node" will be obs...
+[01/21 14:30:15     51s] WARNING   IMPDB-2504           1  Unable to find netlist cell in the desig...
+[01/21 14:30:15     51s] WARNING   IMPECO-560           1  The netlist is not unique, because the m...
+[01/21 14:30:15     51s] ERROR     IMPREPO-102      22018  Instance %s of the cell %s has no physic...
+[01/21 14:30:15     51s] ERROR     IMPREPO-103          1  There are %d instances (%d cells) with n...
+[01/21 14:30:15     51s] ERROR     IMPIMEX-7041         1  Netlist files are not allowed to be read...
+[01/21 14:30:15     51s] ERROR     IMPIMEX-7030         1  LEF files are not allowed to be read in ...
+[01/21 14:30:15     51s] WARNING   TCLCMD-1306          1  read_mmmc command should be called once ...
+*** Message Summary: 7 warning(s), 22022 error(s)
+[01/21 14:30:15     51s] 
+[01/21 14:30:15     51s] 
+[01/21 14:30:15     51s] *** Memory Usage v#1 (Current mem = 2304.988M, initial mem = 906.473M) ***
+[01/21 14:30:15     51s] --- Ending "Innovus" (totcpu=0:00:51.9, real=0:03:48, mem=2305.0M) ---

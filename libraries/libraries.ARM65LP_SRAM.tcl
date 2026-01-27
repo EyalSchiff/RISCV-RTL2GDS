@@ -3,9 +3,9 @@
 #
 
 # Library/LEF setting for ARM memories
-set tech(SRAM_MUX)     [ list "M32"     "M16" ];		 # Used to differentiate various memory macro MUX-ing options
-set tech(SRAM_SIZE)    [ list "16384"   "16384" ] ;		 # Used to differentiate various memory macro MUX-ing options
-set tech(SRAM_FLAVOR)  [ list "hde"     "hde" ] ;		 # Used to differentiate various memory macro MUX-ing options
+set tech(SRAM_MUX)     [ list "M16"     "M16" ];		 # Used to differentiate various memory macro MUX-ing options
+set tech(SRAM_SIZE)    [ list "16384"   "8192" ] ;		 # Used to differentiate various memory macro MUX-ing options
+set tech(SRAM_FLAVOR)  [ list "hde"     "hse" ] ;		 # Used to differentiate various memory macro MUX-ing options
 foreach M $tech(SRAM_MUX) S $tech(SRAM_SIZE) F $tech(SRAM_FLAVOR) {
     set m [string tolower $M]
     set path_name "../mem_gen/SP_${S}X32/${M}/"

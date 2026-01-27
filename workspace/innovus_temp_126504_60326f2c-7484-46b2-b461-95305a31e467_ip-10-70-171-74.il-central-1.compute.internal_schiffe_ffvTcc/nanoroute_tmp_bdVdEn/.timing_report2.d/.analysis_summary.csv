@@ -1,0 +1,2 @@
+view,grouptype,setupOrhold,allwns,alltns,allvp,in2regwns,in2regtns,in2regvp,in2outwns,in2outtns,in2outvp,reg2regwns,reg2regtns,reg2regvp,reg2outwns,reg2outtns,reg2outvp,fromClk,toClk
+wc_analysis_view,*,Setup,-1.002,-806.275,1481,0.000,0.000,0,0.000,0.000,0,-1.002,-806.275,1481,0.000,0.000,0,*,*

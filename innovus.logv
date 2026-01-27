@@ -1,0 +1,63 @@
+[01/21 09:16:02      0s] 
+[01/21 09:16:02      0s] Cadence Innovus(TM) Implementation System.
+[01/21 09:16:02      0s] Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+[01/21 09:16:02      0s] 
+[01/21 09:16:02      0s] Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+[01/21 09:16:02      0s] Options:	-stylus 
+[01/21 09:16:02      0s] Date:		Wed Jan 21 09:16:02 2026
+[01/21 09:16:02      0s] Host:		ip-10-70-160-95.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+[01/21 09:16:02      0s] OS:		Rocky Linux 8.10 (Green Obsidian)
+[01/21 09:16:02      0s] 
+[01/21 09:16:02      0s] License:
+[01/21 09:16:02      0s] 		[09:16:02.003985] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+[01/21 09:16:02      0s] 
+[01/21 09:16:02      0s] 		invs	Innovus Implementation System	25.1	checkout succeeded
+[01/21 09:16:02      0s] 		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[01/21 09:16:20     13s] Memory management switch to non-aggressive memory release mode.
+[01/21 09:16:20     13s] 
+[01/21 09:16:20     13s] OS Mmap count monitoring thread starts. Limit of OS Mmap count is 65530
+[01/21 09:16:20     13s] 
+[01/21 09:16:20     13s] 
+[01/21 09:16:20     13s] 
+[01/21 09:16:26     15s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v25.11-s102_1 (64bit) 08/27/2025 13:03 (Linux 4.18.0-305.el8.x86_64)
+[01/21 09:16:33     18s] @(#)CDS: NanoRoute 25.11-s102_1 NR250730-0928/25_11-UB (database version 18.20.674) {superthreading v2.20}
+[01/21 09:16:33     18s] @(#)CDS: AAE 25.11-s028 (64bit) 08/27/2025 (Linux 4.18.0-305.el8.x86_64)
+[01/21 09:16:33     18s] @(#)CDS: CTE 25.11-s034_1 () Aug 18 2025 08:55:47 ( )
+[01/21 09:16:33     18s] @(#)CDS: SYNTECH 25.11-s013_1 () Jul 30 2025 05:18:51 ( )
+[01/21 09:16:33     18s] @(#)CDS: CPE v25.11-s029
+[01/21 09:16:33     18s] @(#)CDS: IQuantus/TQuantus 24.1.0-s290 (64bit) Sun Jul 20 21:40:56 PDT 2025 (Linux 4.18.0-305.el8.x86_64)
+[01/21 09:16:33     18s] @(#)CDS: OA 22.62-p010 Tue Jun 10 08:32:29 2025
+[01/21 09:16:33     18s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[01/21 09:16:33     18s] @(#)CDS: RCDB 11.15.0
+[01/21 09:16:33     18s] @(#)CDS: STYLUS 25.10-b003_1 (03/20/2025 14:55 PDT)
+[01/21 09:16:33     18s] @(#)CDS: IntegrityPlanner-25.11-186 (25.11) (2025-07-16 18:29:01+0800)
+[01/21 09:16:33     18s] @(#)CDS: SYNTHESIS_ENGINE 25.11-s095
+[01/21 09:16:33     18s] @(#)CDS: TCDB v25.10-b001
+[01/21 09:16:33     18s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/innovus_temp_40453_79052308-ee43-482e-972e-1fba0824f101_ip-10-70-160-95.il-central-1.compute.internal_schiffe_nZEvFc.
+
+[01/21 09:16:33     18s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/innovus_temp_40453_79052308-ee43-482e-972e-1fba0824f101_ip-10-70-160-95.il-central-1.compute.internal_schiffe_nZEvFc.
+[01/21 09:16:33     18s] 
+[01/21 09:16:33     18s] The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[01/21 09:16:36     19s] [INFO] Loading PVS 24.12 fill procedures
+[01/21 09:16:38     20s] Info: Process UID = 40453 / 79052308-ee43-482e-972e-1fba0824f101 / ut0gSKvntI
+[01/21 09:16:41     23s] 
+[01/21 09:16:41     23s] **INFO:  MMMC transition support version v31-84 
+[01/21 09:16:41     23s] 
+[01/21 09:16:45     27s] @innovus 1> set design(TOPLEVEL) "lp_riscv_top"
+
+[01/21 09:18:09     29s] lp_riscv_top
+[01/21 09:18:09     29s] @innovus 2> set runtype "pnr"
+set runtype "pnr"
+[01/21 09:18:18     29s] pnr
+[01/21 09:18:18     29s] @innovus 3> set debug_file "debug.txt"
+debug.txt
+[01/21 09:18:26     29s] @innovus 4> source ../scripts/procedures.tcl -quiet
+[01/21 09:18:38     30s] couldn't read file "../scripts/procedures.tcl": no such file or directory
+couldn't read file "../scripts/procedures.tcl": no such file or directory
+[01/21 09:18:38     30s] @innovus 5> exit
+
+[01/21 09:19:00     30s] *** Message Summary: 0 warning(s), 0 error(s)
+[01/21 09:19:00     30s] 
+[01/21 09:19:00     30s] 
+[01/21 09:19:00     30s] *** Memory Usage v#1 (Current mem = 1949.102M, initial mem = 909.574M) ***
+[01/21 09:19:00     30s] --- Ending "Innovus" (totcpu=0:00:30.6, real=0:02:58, mem=1949.1M) ---

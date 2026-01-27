@@ -1,0 +1,296 @@
+[01/20 17:46:39      0s] 
+[01/20 17:46:39      0s] Cadence Innovus(TM) Implementation System.
+[01/20 17:46:39      0s] Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+[01/20 17:46:39      0s] 
+[01/20 17:46:39      0s] Version:	v25.11-s102_1, built Wed Aug 27 13:03:08 PDT 2025
+[01/20 17:46:39      0s] Options:	-stylus 
+[01/20 17:46:39      0s] Date:		Tue Jan 20 17:46:39 2026
+[01/20 17:46:39      0s] Host:		ip-10-70-142-243.il-central-1.compute.internal (x86_64 w/Linux 4.18.0-553.77.1.el8_10.x86_64) (1core*2cpus*Intel(R) Xeon(R) Platinum 8375C CPU @ 2.90GHz 55296KB)
+[01/20 17:46:39      0s] OS:		Rocky Linux 8.10 (Green Obsidian)
+[01/20 17:46:39      0s] 
+[01/20 17:46:39      0s] License:
+[01/20 17:46:39      0s] 		[17:46:39.004081] Configured Lic search path (25.01-s002): 5280@ip-10-70-133-150.il-central-1.compute.internal
+[01/20 17:46:39      0s] 
+[01/20 17:46:39      0s] 		invs	Innovus Implementation System	25.1	checkout succeeded
+[01/20 17:46:39      0s] 		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[01/20 17:46:57      0s] Memory management switch to non-aggressive memory release mode.
+[01/20 17:46:57      0s] 
+[01/20 17:46:57      0s] OS Mmap count monitoring thread starts. Limit of OS Mmap count is 65530
+[01/20 17:46:57      0s] 
+[01/20 17:46:57      0s] 
+[01/20 17:46:57      0s] 
+[01/20 17:47:00      0s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Innovus v25.11-s102_1 (64bit) 08/27/2025 13:03 (Linux 4.18.0-305.el8.x86_64)
+[01/20 17:47:05      0s] @(#)CDS: NanoRoute 25.11-s102_1 NR250730-0928/25_11-UB (database version 18.20.674) {superthreading v2.20}
+[01/20 17:47:05      0s] @(#)CDS: AAE 25.11-s028 (64bit) 08/27/2025 (Linux 4.18.0-305.el8.x86_64)
+[01/20 17:47:05      0s] @(#)CDS: CTE 25.11-s034_1 () Aug 18 2025 08:55:47 ( )
+[01/20 17:47:05      0s] @(#)CDS: SYNTECH 25.11-s013_1 () Jul 30 2025 05:18:51 ( )
+[01/20 17:47:05      0s] @(#)CDS: CPE v25.11-s029
+[01/20 17:47:05      0s] @(#)CDS: IQuantus/TQuantus 24.1.0-s290 (64bit) Sun Jul 20 21:40:56 PDT 2025 (Linux 4.18.0-305.el8.x86_64)
+[01/20 17:47:05      0s] @(#)CDS: OA 22.62-p010 Tue Jun 10 08:32:29 2025
+[01/20 17:47:05      0s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[01/20 17:47:05      0s] @(#)CDS: RCDB 11.15.0
+[01/20 17:47:05      0s] @(#)CDS: STYLUS 25.10-b003_1 (03/20/2025 14:55 PDT)
+[01/20 17:47:05      0s] @(#)CDS: IntegrityPlanner-25.11-186 (25.11) (2025-07-16 18:29:01+0800)
+[01/20 17:47:05      0s] @(#)CDS: SYNTHESIS_ENGINE 25.11-s095
+[01/20 17:47:05      0s] @(#)CDS: TCDB v25.10-b001
+[01/20 17:47:05      0s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_83880_4941e8fd-82a5-41b0-8239-a29c9f7e4e71_ip-10-70-142-243.il-central-1.compute.internal_schiffe_jvTAbu.
+
+[01/20 17:47:05      0s] Create and set the environment variable TMPDIR to /project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/innovus_temp_83880_4941e8fd-82a5-41b0-8239-a29c9f7e4e71_ip-10-70-142-243.il-central-1.compute.internal_schiffe_jvTAbu.
+[01/20 17:47:05      0s] 
+[01/20 17:47:05      0s] The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+[01/20 17:47:07      0s] [INFO] Loading PVS 24.12 fill procedures
+[01/20 17:47:09      0s] Info: Process UID = 83880 / 4941e8fd-82a5-41b0-8239-a29c9f7e4e71 / XRau9zAOXg
+[01/20 17:47:13      0s] 
+[01/20 17:47:13      0s] **INFO:  MMMC transition support version v31-84 
+[01/20 17:47:13      0s] 
+[01/20 17:47:18      0s] @innovus 1> set design(TOPLEVEL) "lp_riscv_top"
+lp_riscv_top
+[01/20 17:47:33      0s] @innovus 2> set runtype "pnr"
+
+[01/20 17:47:41      0s] pnr
+[01/20 17:47:41      0s] @innovus 3> set debug_file "debug.txt"
+debug.txt
+[01/20 17:47:49      0s] @innovus 4> source ../scripts/procedures.tcl -quiet
+@innovus 5> enics_start_stage "start"
+enics_start_stage "start"
+[01/20 17:48:09      0s] *****************************************
+[01/20 17:48:09      0s] *****************************************
+[01/20 17:48:09      0s] **   ENICSINFO: Starting stage start   **
+[01/20 17:48:09      0s] *****************************************
+[01/20 17:48:09      0s] *****************************************
+[01/20 17:48:09      0s] ENICSINFO: Current time is: 20/01/2026 17:48
+[01/20 17:48:09      0s] ENICSINFO: This session is running on Hostname : ip-10-70-142-243.il-central-1.compute.internal
+[01/20 17:48:09      0s] ENICSINFO: The log file is innovus.log and the command file is innovus.cmd
+[01/20 17:48:09      0s] ENICSINFO: ----------------------------------
+[01/20 17:48:09      0s] @innovus 6> source ../inputs/$design(TOPLEVEL).defines -quiet
+source ../inputs/$design(TOPLEVEL).defines -quiet
+[01/20 17:48:44      0s] @innovus 7> source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$TECHNOLOGY.tcl -quiet
+[01/20 17:48:58      0s] **WARN: (IMPDB-6501):	"set_db design_process_node" will be obsoleted in future release. Remove it from the script to avoid the interruption of running the script in future.
+[01/20 17:48:58      0s] ##  Process: 65            (User Set)               
+[01/20 17:48:58      0s] ##     Node: (not set)                           
+[01/20 17:48:58      0s] 
+[01/20 17:48:58      0s] ##  Check design process and node:  
+[01/20 17:48:58      0s] ##  Design tech node is not set.
+[01/20 17:48:58      0s] 
+[01/20 17:48:58      0s] Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[01/20 17:48:58      0s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[01/20 17:48:58      0s] 	Capacitance filtering mode(extract_rc_cap_filter_mode option of the set_db) is 'relative_and_coupling' for all engines.
+[01/20 17:48:58      0s] 	The accuracy mode for post_route extract_rc_effort_level low extraction will be set to 'high'.
+[01/20 17:48:58      0s] 	Default value for EffortLevel(extract_rc_effort_level option of the set_db) in post_route extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+[01/20 17:48:58      0s] @innovus 8> source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SC_TECHNOLOGY.tcl -quiet
+[01/20 17:49:14      0s] @innovus 9> source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+source $design(libraries_dir)/libraries.$SRAM_TECHNOLOGY.tcl -quiet
+[01/20 17:49:26      0s] @innovus 10> if {$design(FULLCHIP_OR_MACRO)=="FULLCHIP"} {
+    source $design(libraries_dir)/libraries.$IO_TECHNOLOGY.tcl -quiet
+}
+
+[01/20 17:49:54      0s] @innovus 11> set_library_unit -time 1ns -cap 1pf
+@innovus 12> set var_list {runtype}
+runtype
+[01/20 17:50:08      0s] @innovus 13> set dic_list {paths tech tech_files design}
+set dic_list {paths tech tech_files design}
+enics_print_debug_data w $debug_file "after everything was loaded" $var_list $dic_list
+[01/20 17:50:08      0s] paths tech tech_files design
+[01/20 17:50:08      0s] @innovus 14> enics_print_debug_data w $debug_file "after everything was loaded"  [1G$var_list $dic_list
+[01/20 17:50:08      0s] @innovus 15> enics_start_stage "init_design"
+enics_start_stage "init_design"
+[01/20 17:50:22      0s] ***********************************************
+[01/20 17:50:22      0s] ***********************************************
+[01/20 17:50:22      0s] **   ENICSINFO: Starting stage init_design   **
+[01/20 17:50:22      0s] ***********************************************
+[01/20 17:50:22      0s] ***********************************************
+[01/20 17:50:22      0s] ENICSINFO: Current time is: 20/01/2026 17:50
+[01/20 17:50:22      0s] ENICSINFO: ----------------------------------
+[01/20 17:50:22      0s] @innovus 16> set_db init_ground_nets $design(all_ground_nets)
+set_db init_ground_nets $design(all_ground_nets)
+[01/20 17:50:43      0s] 1 gnd
+[01/20 17:50:43      0s] @innovus 17> set_db init_power_nets $design(all_power_nets)set_db init_power_nets $design(all_power_nets)
+
+[01/20 17:50:45      0s] 1 {vdd vddio}
+[01/20 17:50:45      0s] @innovus 18> enics_message "Suppressing the following messages that are reported due to the LIB definitions:" 
+enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+enics_message "Reading MMMC File" medium
+read_mmmc $design(mmmc_view_file) 
+enics_message "Suppressing the following messages that are reported [1G due to the LIB definitions:" 
+[01/20 17:50:55      0s] ENICSINFO: Suppressing the following messages that are reported due to the LIB definitions:
+[01/20 17:50:55      0s] @innovus 19> enics_message "$tech(LIB_SUPPRESS_MESSAGES_INNOVUS)"
+[01/20 17:50:55      0s] ENICSINFO: TECHLIB-436 TECHLIB-1318 TECHLIB-302 IMPCTE-337 IMPTS-282
+[01/20 17:50:55      0s] @innovus 20> set_message -suppress -id $tech(LIB_SUPPRESS_MESSAGES_INNOVUS) 
+[01/20 17:50:55      0s] @innovus 21> enics_message "Reading MMMC File" medium
+[01/20 17:50:55      0s] 
+[01/20 17:50:55      0s] ENICSINFO: Reading MMMC File
+[01/20 17:50:55      0s] ----------------------------
+[01/20 17:50:55      0s] @innovus 22> read_mmmc $design(mmmc_view_file) 
+[01/20 17:50:55      0s] #@ Begin verbose source (pre): 
+[01/20 17:50:55      0s] @file 1: #  Version:1.0 MMMC View Definition File
+[01/20 17:50:55      0s] @file 2: # Do Not Remove Above Line
+[01/20 17:50:55      0s] @file 3:
+[01/20 17:50:55      0s] @file 4: ############# MMMC Hierarchy ########################################################################################
+[01/20 17:50:55      0s] @file 5: #                                                                                                                   #
+[01/20 17:50:55      0s] @file 6: #   Setup Analysis View |                   |--> Constraint Corner --> SDC File                                     #
+[01/20 17:50:55      0s] @file 7: #                       |--> Analysis View  |                                                                       #
+[01/20 17:50:55      0s] @file 8: #    Hold Analysis View |                   |                 |--> Timing Condition --> Library Set --> LIB File    #
+[01/20 17:50:55      0s] @file 9: #                                           |--> Delay Corner |                                                     #
+[01/20 17:50:55      0s] @file 10: #                                                             |--> RC Corner --> QRCTech File                       #
+[01/20 17:50:55      0s] @file 11: #####################################################################################################################
+[01/20 17:50:55      0s] @file 12:
+[01/20 17:50:55      0s] @file 13: # Constraint Modes #
+[01/20 17:50:55      0s] @file 14: # ---------------- #
+[01/20 17:50:55      0s] @@file 15: create_constraint_mode \
+[01/20 17:50:55      0s] 	-name functional_mode \
+[01/20 17:50:55      0s] 	-sdc_files $design(functional_sdc)
+[01/20 17:50:55      0s] @file 18:
+[01/20 17:50:55      0s] @file 19: # RC Corners #
+[01/20 17:50:55      0s] @file 20: # ---------- #
+[01/20 17:50:55      0s] @file 21: if {$runtype=="synthesis"} {...
+[01/20 17:50:55      0s] @file 24: } else {
+[01/20 17:50:55      0s] @@file 25: set_message -suppress -id ENCEXT-6202 ;
+[01/20 17:50:55      0s] @file 25: # In addition to the technology file, capacitance table file is specified for all RC corners.
+[01/20 17:50:55      0s] @file 26: }
+[01/20 17:50:55      0s] @file 27:
+[01/20 17:50:55      0s] @@file 28: create_rc_corner \
+[01/20 17:50:55      0s] 	-name bc_rc_corner \
+[01/20 17:50:55      0s] 	-temperature $tech(TEMPERATURE_BC) \
+[01/20 17:50:55      0s]     -qrc_tech $tech_files(QRCTECH_FILE_BC)
+[01/20 17:50:55      0s] @file 32: #	-cap_table $tech_files(CAPTABLE_BC) \
+[01/20 17:50:55      0s] @file 33:
+[01/20 17:50:55      0s] @@file 34: create_rc_corner \
+[01/20 17:50:55      0s] 	-name tc_rc_corner \
+[01/20 17:50:55      0s] 	-temperature $tech(TEMPERATURE_TC) \
+[01/20 17:50:55      0s] 	-qrc_tech $tech_files(QRCTECH_FILE_TC)
+[01/20 17:50:55      0s] @file 38: #	-cap_table $tech_files(CAPTABLE_TC) \
+[01/20 17:50:55      0s] @file 39:
+[01/20 17:50:55      0s] @@file 40: create_rc_corner \
+[01/20 17:50:55      0s] 	-name wc_rc_corner \
+[01/20 17:50:55      0s] 	-temperature $tech(TEMPERATURE_WC) \
+[01/20 17:50:55      0s]     -qrc_tech $tech_files(QRCTECH_FILE_WC)
+[01/20 17:50:55      0s] @file 44: #	-cap_table $tech_files(CAPTABLE_WC) \
+[01/20 17:50:55      0s] @file 45:
+[01/20 17:50:55      0s] @file 46: # Library Sets #
+[01/20 17:50:55      0s] @file 47: # ------------ #
+[01/20 17:50:55      0s] @@file 48: create_library_set \
+[01/20 17:50:55      0s] 	-name bc_libset \
+[01/20 17:50:55      0s] 	-timing $tech_files(ALL_BC_LIBS)  
+[01/20 17:50:55      0s] **ERROR: (TCLCMD-995):	Can not open file '../mem_gen/SP_16384X32/M32/sp_hde_16384_m32_ff_1p32v_1p32v_m40c.lib' for library set
+[01/20 17:50:56      0s] **ERROR: (IMPSE-110):	File '/data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc' line 48: errors out.
+[01/20 17:50:56      0s] #@ End verbose source /data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc
+[01/20 17:50:56      0s] 
+[01/20 17:50:56      0s]     while executing
+[01/20 17:50:56      0s] "create_library_set \
+[01/20 17:50:56      0s] 	-name bc_libset \
+[01/20 17:50:56      0s] 	-timing $tech_files(ALL_BC_LIBS)  "
+[01/20 17:50:56      0s]     (file "/data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc" line 48)
+[01/20 17:50:56      0s]     invoked from within
+[01/20 17:50:56      0s] "::se_source_orig /data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/20 17:50:56      0s]     ("uplevel" body line 1)
+[01/20 17:50:56      0s]     invoked from within
+[01/20 17:50:56      0s] "uplevel [concat ::se_source_orig $args]"
+[01/20 17:50:56      0s]     invoked from within
+[01/20 17:50:56      0s] "if { !$encrypted && !$no_encoding && $encodingName != ""  } {
+[01/20 17:50:56      0s]                   set st [uplevel [concat ::se_source_orig " -encoding " $encodingName "..."
+[01/20 17:50:56      0s]     invoked from within
+[01/20 17:50:56      0s] "if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/20 17:50:56      0s]               ::SE::source_verbose_start $file_name
+[01/20 17:50:56      0s]               if { !$encrypted && !$no_en..."
+[01/20 17:50:56      0s]     invoked from within
+[01/20 17:50:56      0s] "if {$useTclVerbose} {
+[01/20 17:50:56      0s]           # use tcl internal method
+[01/20 17:50:56      0s]           set st ""
+[01/20 17:50:56      0s]           if {[::SE::source_verbose_file_state $file_name] == 1} {
+[01/20 17:50:56      0s]      ..."
+[01/20 17:50:56      0s]     invoked from within
+[01/20 17:50:56      0s] "if {$largeFile == 1} {
+[01/20 17:50:56      0s]     if {$enableVerbose == 0 && [::SE::isEchoFile] == 1} {
+[01/20 17:50:56      0s]       $putCmd "Sourcing $file_name"
+[01/20 17:50:56      0s]     }
+[01/20 17:50:56      0s]     set st [uplevel [concat..."
+[01/20 17:50:56      0s]     (procedure "source" line 197)
+[01/20 17:50:56      0s]     invoked from within
+[01/20 17:50:56      0s] "source /data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc"
+[01/20 17:50:56      0s]     ("uplevel" body line 1)
+[01/20 17:50:56      0s]     invoked from within
+[01/20 17:50:56      0s] "uplevel #0 {source /data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../inputs/lp_riscv_top.mmmc}"
+[01/20 17:50:56      0s] 
+[01/20 17:50:56      0s] 
+[01/20 17:50:56      0s] @innovus 23> enics_message "Suppressing the following messages that are reported due to the LEF definitions:" 
+enics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+set_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS) 
+enics_message "Suppressing the following messages that are reported [1G due to the LEF definitions:" 
+[01/20 17:51:13      0s] ENICSINFO: Suppressing the following messages that are reported due to the LEF definitions:
+[01/20 17:51:13      0s] @innovus 24> enics_message "$tech(LEF_SUPPRESS_MESSAGES_INNOVUS)"
+[01/20 17:51:13      0s] ENICSINFO: ENCEXT-6202 IMPLF-200 LEFPARS-2001 LEFPARS-2065 LEFPARS-2076 IMPLF-58 IMPFP-3961 IMPSR-4302
+[01/20 17:51:13      0s] @innovus 25> set_message -suppress -id $tech(LEF_SUPPRESS_MESSAGES_INNOVUS) 
+[01/20 17:51:13      0s] @innovus 26> enics_message "Reading LEF abstracts"
+enics_message "Reading LEF abstracts"
+read_physical -lef $tech_files(ALL_LEFS)
+[01/20 17:51:13      0s] ENICSINFO: Reading LEF abstracts
+[01/20 17:51:13      0s] @innovus 27> read_physical -lef $tech_files(ALL_LEFS)
+[01/20 17:51:13      0s] **ERROR: (IMPIMEX-10):	Specified file cannot be found: ../mem_gen/SP_16384X32/M32/sp_hde_16384_m32.lef.
+[01/20 17:51:13      0s] 0
+[01/20 17:51:13      0s] @innovus 28> enics_message "Reading the Post Synthesis netlist at $design(postsyn_netlist)" medium
+
+[01/20 17:52:03      0s] ENICSINFO: Reading the Post Synthesis netlist at /data/project/tsmc65/users/schiffe/ws/DVD/hw6/workspace/../export/lp_riscv_top.postsyn.v
+[01/20 17:52:03      0s] -----------------------------------------------------------------------------------------------------------------------------------------
+[01/20 17:52:03      0s] @innovus 29> read_netlist $design(postsyn_netlist)
+read_netlist $design(postsyn_netlist)
+[01/20 17:52:03      0s] **ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+[01/20 17:52:03      0s] The MMMC init sequence looks like this: 
+[01/20 17:52:03      0s] read_mmmc top.mmmc 
+[01/20 17:52:03      0s] read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+[01/20 17:52:03      0s] read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+[01/20 17:52:03      0s] read_power_intent -1801 top.1801   #only for MSV designs 
+[01/20 17:52:03      0s] init_design 
+[01/20 17:52:03      0s] 
+[01/20 17:52:03      0s] Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+[01/20 17:52:03      0s] read_libs all.lib 
+[01/20 17:52:03      0s] read_netlist top.v 
+[01/20 17:52:03      0s] read_sdc top.sdc 
+[01/20 17:52:03      0s] init_design 
+[01/20 17:52:03      0s] 
+[01/20 17:52:03      0s] See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+[01/20 17:52:03      0s] Common UI User Guide for more details.
+[01/20 17:52:03      0s] 
+[01/20 17:52:03      0s] 
+[01/20 17:52:03      0s] @innovus 30> 
+
+[01/20 17:52:05      0s] @innovus 30> nics_message 
+nics_message 
+[01/20 17:53:47      0s] invalid command name "nics_message"
+[01/20 17:53:47      0s] invalid command name "nics_message"
+[01/20 17:53:47      0s] @innovus 31> # Import and initialize design
+# Import and initialize design
+[01/20 17:53:47      0s] @innovus 32> enics_message "Running init_design command" mediumenics_message "Running init_design command" medium
+
+[01/20 17:53:56      0s] ENICSINFO: Running init_design command
+[01/20 17:53:56      0s] --------------------------------------
+[01/20 17:53:56      0s] @innovus 33> init_design
+[01/20 17:54:04      0s] 
+init_design
+[01/20 17:54:04      0s] **ERROR: (IMPIMEX-12):	'init_design' failed. You are missing one or more of the required commands before running init_design.
+[01/20 17:54:04      0s] The MMMC init sequence looks like this: 
+[01/20 17:54:04      0s] read_mmmc top.mmmc 
+[01/20 17:54:04      0s] read_physical -lef {tech.lef stdcell.lef}   #optional in Tempus, required for Innovus 
+[01/20 17:54:04      0s] read_netlist top.v OR 'elaborate_design -script hdl.tcl' for Synthesis flow 
+[01/20 17:54:04      0s] read_power_intent -1801 top.1801   #only for MSV designs 
+[01/20 17:54:04      0s] init_design 
+[01/20 17:54:04      0s] 
+[01/20 17:54:04      0s] Tempus also supports a single-mode timing init sequence with no MMMC file like this: 
+[01/20 17:54:04      0s] read_libs all.lib 
+[01/20 17:54:04      0s] read_netlist top.v 
+[01/20 17:54:04      0s] read_sdc top.sdc 
+[01/20 17:54:04      0s] init_design 
+[01/20 17:54:04      0s] 
+[01/20 17:54:04      0s] See the 'Stylus Common UI Initialization' section in the 'Design Import and Export Capabilities' chapter of the Innovus Stylus 
+[01/20 17:54:04      0s] Common UI User Guide for more details.
+[01/20 17:54:04      0s] 
+[01/20 17:54:04      0s] @innovus 34> [01/20 17:54:40      0s] 
+[01/20 17:54:40      0s] *** Summary of all messages that are not suppressed in this session:
+[01/20 17:54:40      0s] Severity  ID               Count  Summary                                  
+[01/20 17:54:40      0s] ERROR     IMPSE-110            1  File '%s' line %s: %s.                   
+[01/20 17:54:40      0s] WARNING   IMPDB-6501           1  "set_db design_process_node" will be obs...
+[01/20 17:54:40      0s] ERROR     IMPIMEX-10           1  Specified file cannot be found: %s.      
+[01/20 17:54:40      0s] ERROR     IMPIMEX-12           2  'init_design' failed. You are missing on...
+[01/20 17:54:40      0s] ERROR     TCLCMD-995           1  Can not open file '%s' for %s            

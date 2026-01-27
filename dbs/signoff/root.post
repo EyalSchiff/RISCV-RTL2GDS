@@ -1,0 +1,75 @@
+::db::check_and_set_root_attr extract_rc_engine post_route
+::db::check_and_set_root_attr add_endcaps_boundary_tap true
+::db::check_and_set_root_attr add_endcaps_left_edge ENDCAPTIE2_A9TR
+::db::check_and_set_root_attr add_endcaps_prefix ENDCAP
+::db::check_and_set_root_attr add_endcaps_right_edge ENDCAPTIE2_A9TR
+::db::check_and_set_root_attr add_fillers_cells {FILLCAP128_A9TR FILLCAP65_A9TR FILLCAP32_A9TR FILLCAP17_A9TR FILLCAP8_A9TR FILLCAP6_A9TR FILL128_A9TR FILL64_A9TR FILL32_A9TR FILL16_A9TR FILL8_A9TR FILL4_A9TR FILL2_A9TR FILL1_A9TR}
+::db::check_and_set_root_attr add_fillers_prefix FILLDECAP
+::db::check_and_set_root_attr add_tieoffs_cells {{TIEHI_X1M_A9TR TIELO_X1M_A9TR}}
+::db::check_and_set_root_attr add_tieoffs_max_distance 19.0
+::db::check_and_set_root_attr add_tieoffs_max_fanout 19
+::db::check_and_set_root_attr add_tieoffs_prefix TIE
+::db::check_and_set_root_attr add_well_taps_cell FILLTIE2_A9TR
+::db::check_and_set_root_attr add_well_taps_rule 20.0
+::db::check_and_set_root_attr delaycal_enable_high_fanout true
+::db::check_and_set_root_attr delaycal_enable_ideal_seq_async_pins false
+::db::check_and_set_root_attr delaycal_eng_enablepreplacedflow false
+::db::check_and_set_root_attr delaycal_equivalent_waveform_model propagation
+::db::check_and_set_root_attr delaycal_ignore_net_load false
+::db::check_and_set_root_attr extract_design_signature 47234035
+::db::check_and_set_root_attr extract_rc_coupled true
+::db::check_and_set_root_attr extract_rc_coupling_cap_threshold 3.0
+::db::check_and_set_root_attr extract_rc_model_file ${::IMEX::libVar}/misc/rc_model.bin
+::db::check_and_set_root_attr extract_rc_net_count_in_memory 100000
+::db::check_and_set_root_attr extract_rc_post_route_no_clean_rcdb true
+::db::check_and_set_root_attr extract_rc_relative_cap_threshold 0.03
+::db::check_and_set_root_attr extract_rc_total_cap_threshold 5.0
+::db::check_and_set_root_attr floorplan_default_tech_site sc9_cln65lp
+::db::check_and_set_root_attr floorplan_first_row_site_index 0
+::db::check_and_set_root_attr floorplan_last_row_site_index -1
+::db::check_and_set_root_attr floorplan_max_io_height false
+::db::check_and_set_root_attr ilm_keep_high_fanout_critical_insts false
+::db::check_and_set_root_attr opt_delete_insts true
+::db::check_and_set_root_attr opt_drv true
+::db::check_and_set_root_attr opt_drv_margin 0.0
+::db::check_and_set_root_attr opt_fix_fanout_load true
+::db::check_and_set_root_attr opt_hier_trial_route_honor_read_only false
+::db::check_and_set_root_attr opt_new_inst_prefix signoff_opt_inst_
+::db::check_and_set_root_attr opt_new_net_prefix signoff_opt_inst_
+::db::check_and_set_root_attr opt_resize_flip_flops true
+::db::check_and_set_root_attr opt_setup_target_slack 0.0
+::db::check_and_set_root_attr opt_skew_eco_route false
+::db::check_and_set_root_attr opt_time_design_compress_reports false
+::db::check_and_set_root_attr opt_time_design_expanded_view true
+::db::check_and_set_root_attr opt_time_design_num_paths 10
+::db::check_and_set_root_attr opt_time_design_report_net false
+::db::check_and_set_root_attr opt_verbose true
+::db::check_and_set_root_attr opt_view_pruning_hold_target_slack_auto_flow 0
+::db::check_and_set_root_attr opt_view_pruning_hold_views_active_list { bc_analysis_view }
+::db::check_and_set_root_attr opt_view_pruning_hold_views_persistent_list { bc_analysis_view}
+::db::check_and_set_root_attr opt_view_pruning_setup_views_active_list { wc_analysis_view }
+::db::check_and_set_root_attr opt_view_pruning_setup_views_persistent_list { wc_analysis_view}
+::db::check_and_set_root_attr opt_view_pruning_tdgr_setup_views_persistent_list { wc_analysis_view}
+::db::check_and_set_root_attr place_detail_legalization_inst_gap 1
+::db::check_and_set_root_attr place_global_cong_effort high
+::db::check_and_set_root_attr reorder_scan_allow_swapping false
+::db::check_and_set_root_attr route_detail_antenna_factor 1.0
+::db::check_and_set_root_attr route_detail_post_route_spread_wire false
+::db::check_and_set_root_attr route_detail_use_lef_pin_taper_rule true
+::db::check_and_set_root_attr route_detail_use_min_spacing_for_blockage auto
+::db::check_and_set_root_attr route_detail_use_multi_cut_via_effort high
+::db::check_and_set_root_attr route_early_global_secondary_pg false
+::db::check_and_set_root_attr route_extract_third_party_compatible false
+::db::check_and_set_root_attr route_filler_inst_prefix FILLDECAP
+::db::check_and_set_root_attr route_global_exp_timing_driven_std_delay 29.0
+::db::check_and_set_root_attr route_global_exp_timing_driven_use_tif_timing_engine_for_import_design true
+::db::check_and_set_root_attr route_re_insert_filler_cell_list {FILLCAP128_A9TR FILLCAP65_A9TR FILLCAP32_A9TR FILLCAP17_A9TR FILLCAP8_A9TR FILLCAP6_A9TR FILL128_A9TR FILL64_A9TR FILL32_A9TR FILL16_A9TR FILL8_A9TR FILL4_A9TR FILL2_A9TR FILL1_A9TR}
+::db::check_and_set_root_attr route_re_insert_filler_cell_list_from_file false
+::db::check_and_set_root_attr route_si_effort high
+::db::check_and_set_root_attr route_strict_honor_route_rule false
+::db::check_and_set_root_attr route_with_si_driven false
+::db::check_and_set_root_attr route_with_si_post_route_fix false
+::db::check_and_set_root_attr route_with_timing_driven true
+::db::check_and_set_root_attr route_with_via_in_pin true
+::db::check_and_set_root_attr write_def_stream_check_uncolored false
+::db::check_and_set_root_attr write_stream_text_size 0.02

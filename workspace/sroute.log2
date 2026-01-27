@@ -1,0 +1,38 @@
+Total Ports:  16 pad ports
+  phase2 maze routing failed: 15 connections remain to try
+  phase2 maze routing failed: 14 connections remain to try
+  phase2 maze routing failed: 13 connections remain to try
+  phase2 maze routing failed: 12 connections remain to try
+  phase2 maze routing failed: 11 connections remain to try
+  phase2 maze routing failed: 10 connections remain to try
+  phase2 maze routing failed: 9 connections remain to try
+  phase2 maze routing failed: 8 connections remain to try
+  phase2 maze routing failed: 7 connections remain to try
+  phase2 maze routing failed: 6 connections remain to try
+  phase2 maze routing failed: 5 connections remain to try
+  phase2 maze routing failed: 4 connections remain to try
+  phase2 maze routing failed: 3 connections remain to try
+  phase2 maze routing failed: 2 connections remain to try
+  phase2 maze routing failed: 1 connection remains to try
+  phase2 maze routing failed: 0 connection remains to try
+Total CPU time for maze routing 0 seconds
+Port at (2363.850 1681.037) : Not routed because of unknown reason.
+Port at (2681.038 1540.340) : Not routed because of unknown reason.
+Port at (2681.038 1445.965) : Not routed because of unknown reason.
+Port at (2681.038 1351.590) : Not routed because of unknown reason.
+Port at (2681.038 1257.215) : Not routed because of unknown reason.
+Port at (1946.080 1681.037) : Not routed because of unknown reason.
+Port at (2681.038 1068.465) : Not routed because of unknown reason.
+Port at (2681.038 974.090) : Not routed because of unknown reason.
+Port at (2681.038 125.680) : Not routed because of unknown reason.
+Port at (2635.680 118.963) : Not routed because of unknown reason.
+Port at (2485.090 118.963) : Not routed because of unknown reason.
+Port at (2334.500 118.963) : Not routed because of unknown reason.
+Port at (2183.910 118.963) : Not routed because of unknown reason.
+Port at (2033.320 118.963) : Not routed because of unknown reason.
+Port at (1882.730 118.963) : Not routed because of unknown reason.
+Port at (1732.145 118.963) : Not routed because of unknown reason.
+  Number of IO ports routed: 0  open: 16
+  Number of Pad ports routed: 0
+End power routing: cpu: 0:00:00, real: 0:00:00, peak: 1356.00 megs.
+
